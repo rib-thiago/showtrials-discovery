@@ -1,0 +1,32 @@
+# Source/exported corpus payloads
+export-md/
+export-txt/
+export-test/
+pages-json/
+posts-json/
+posts-json-embed/
+showtrials.ru/
+structural_samples_d2_1/
+
+# Large text corpus / crawl artifacts
+showtrials_search_corpus.tsv
+crawl-spider.log
+
+# Runtime/cache
+__pycache__/
+*.pyc
+.agents/
+.codex/
+
+# Backups/packages
+*.tar
+*.tar.gz
+*.zip
+*.bak
+
+# Local env/editor
+.env
+.venv/
+venv/
+.DS_Store
+*.swp
