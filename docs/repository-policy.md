@@ -2,442 +2,155 @@
 
 ## Purpose
 
-This document defines the operational rules of the ShowTrials Discovery repository.
+This document defines operational rules for the ShowTrials Discovery repository. It is normative rather than historical.
 
-The repository is not merely a collection of scripts and outputs.
+The repository is an evidence-producing system for the ShowTrials corpus. It should preserve reproducibility, traceability, and methodological consistency across the A/B/C/E/G/T/D/R workflow described in [methodological-timeline.md](methodological-timeline.md).
 
-It is an evidence-producing system whose purpose is to transform a large historical corpus into a documented, measurable, searchable, and structurally understood knowledge source.
+## Core Principles
 
-The primary goal of this policy is to preserve reproducibility, traceability, and architectural consistency as the repository continues to evolve.
+### Evidence Before Implementation
 
----
+Architectural decisions should be driven by measurements, reports, validations, sample reviews, and documented discoveries.
 
-# Core Principles
+Do not implement chunk builders, translation execution, embeddings, RAG, or database migrations before the relevant design and policy work exists.
 
-## Evidence Before Implementation
+### Discovery Before Automation
 
-The repository follows a strict evidence-first approach.
+When a new documentary structure, corpus characteristic, or processing workflow appears, discovery should precede automation.
 
-Architectural decisions should be driven by:
+This principle applies to:
 
-* measurements;
-* reports;
-* validations;
-* sample reviews;
-* documented discoveries.
+- source extraction;
+- JSON and text export;
+- search;
+- catalog and document taxonomy;
+- semantic layers;
+- glossary;
+- translation cost planning;
+- structural chunking;
+- package and attachment analysis.
 
-Implementation should follow evidence.
+### Explicit Policies Over Implicit Assumptions
 
-Evidence should not be created to justify implementation decisions that have already been made.
+Important behavior should be represented by reports, validation artifacts, blueprints, policy documents, or Markdown documentation.
 
----
+Future contributors should not need to reverse-engineer project policy from scripts alone.
 
-## Discovery Before Automation
-
-The project prioritizes understanding before automation.
-
-Whenever a new documentary structure, corpus characteristic, or processing workflow is encountered, discovery should occur before large-scale automation.
-
-This principle guided:
-
-* document classification;
-* semantic layer creation;
-* glossary development;
-* structural chunking;
-* package analysis.
-
----
-
-## Explicit Policies Over Implicit Assumptions
-
-Important repository behavior should be documented.
-
-When a workflow becomes important enough to influence multiple phases, it should be represented by:
-
-* a report;
-* a validation;
-* a blueprint;
-* a policy document.
-
-Future contributors should not be required to reverse-engineer repository behavior from scripts alone.
-
----
-
-# Artifact Lifecycle
-
-Most repository work follows a common lifecycle.
-
-1. Discovery
-2. Planning
-3. Validation
-4. Policy
-5. Implementation
-
-Examples:
-
-* structural discovery → chunking blueprint → blueprint validation → chunking policy;
-* glossary discovery → glossary review → glossary validation → glossary freeze readiness;
-* package discovery → taxonomy refinement → taxonomy validation → package policy.
-
-The repository should preserve this progression.
-
----
-
-# Source Data Policy
-
-## Raw Corpus Material
+## Source Data Policy
 
 Raw corpus material includes:
 
-* exported pages;
-* exported posts;
-* exported text collections;
-* crawl outputs;
-* local export directories.
+- exported pages;
+- exported posts;
+- exported text and Markdown collections;
+- crawl outputs;
+- JSON exports;
+- local export directories.
 
-Examples include:
+Raw/exported corpus material should not be versioned in the primary repository for now.
 
-* export-md;
-* export-txt;
-* pages-json;
-* posts-json;
-* posts-json-embed;
-* showtrials.ru.
+Reasons:
 
-These artifacts are considered source material.
+- repository size;
+- duplication;
+- regeneration capability;
+- unresolved long-term storage policy.
 
----
+Future storage options may include Git LFS, object storage, release artifacts, or a dedicated private corpus repository.
 
-## Current Versioning Policy
+TODO: Define final raw corpus storage policy.
 
-Raw corpus exports should not be versioned in the primary repository at the current stage.
+## Derived Artifact Policy
 
-Reasons include:
+Derived artifacts may be versioned:
 
-* repository size;
-* duplication;
-* regeneration capability;
-* future storage-policy uncertainty.
+- Python scripts;
+- derived TSVs;
+- validation files;
+- reports;
+- matrices;
+- profiles;
+- blueprints;
+- inventories;
+- Markdown documentation.
 
-Future storage strategies may include:
+Derived artifacts are the primary evidence base of this repository.
 
-* Git LFS;
-* object storage;
-* release artifacts;
-* dedicated corpus repositories.
+## Script Policy
 
-This decision remains open.
+Scripts are first-class artifacts. They represent documented processing logic and should be readable, deterministic when practical, and reviewable.
 
----
+Historical scripts should not be deleted merely because newer versions exist. Older versions document how taxonomy, glossary, search, and blueprint decisions evolved.
 
-# Derived Artifact Policy
+Descriptive prefixes such as `diagnose-`, `plan-`, `validate-`, `build-`, `review-`, `compare-`, and `canonicalize-` should be preserved.
 
-Derived artifacts are the primary products of the repository.
-
-Examples include:
-
-* TSV outputs;
-* validation files;
-* reports;
-* matrices;
-* profiles;
-* blueprints;
-* inventories.
-
-Derived artifacts may be versioned.
-
-They are generally preferred over versioning large raw exports.
-
----
-
-# Script Policy
-
-## Scripts Are First-Class Artifacts
-
-Scripts are not disposable utilities.
-
-Scripts represent documented processing logic.
-
-They should be:
-
-* readable;
-* reproducible;
-* deterministic when practical;
-* reviewable.
-
----
-
-## Preserve Historical Scripts
-
-Historical scripts should not be deleted simply because newer versions exist.
-
-Older scripts often explain how discoveries evolved.
-
-Examples include:
-
-* document type version progression;
-* glossary generations;
-* blueprint revisions.
-
-Deprecation is preferable to silent removal.
-
----
-
-## Script Naming
-
-Repository naming conventions should remain descriptive.
-
-Common prefixes include:
-
-* diagnose-
-* plan-
-* validate-
-
-These prefixes communicate intent and should be preserved.
-
----
-
-# Validation Policy
-
-## Validation Is Mandatory
+## Validation Policy
 
 Major generated artifacts should have validation outputs whenever practical.
 
-Validation files serve two purposes:
+Validation artifacts:
 
-1. detect structural errors;
-2. provide confidence in downstream work.
+- detect structural errors;
+- record artifact state at a point in time;
+- support future comparison;
+- distinguish failures from expected warnings.
 
-Examples include:
+## Search Policy
 
-* taxonomy validation;
-* glossary validation;
-* blueprint validation;
-* search validation.
+Search is strategic infrastructure. It was created early as a corpus exploration tool and later evolved to search v2.
 
----
+Search should be treated as a bridge between:
 
-## Validation Artifacts Are Permanent Evidence
+- corpus discovery;
+- metadata analysis;
+- semantic layers;
+- future retrieval;
+- future RAG.
 
-Validation outputs should generally be retained.
+Future retrieval should respect document types, semantic relationships, and chunk boundaries.
 
-They document the state of an artifact at a specific point in time.
+## Translation Policy
 
-Future changes can then be compared against historical baselines.
+Translation should remain a controlled workflow.
 
----
+Future translation implementation should support:
 
-# Search Policy
+- Google Cloud Translation configuration;
+- glossary use;
+- batching;
+- cache by hash;
+- deduplication;
+- pending/running/done/failed statuses;
+- resumability;
+- cost limits per batch;
+- validation before and after translation.
 
-## Search Is Strategic Infrastructure
+Do not run large-scale translation before storage policy, chunk builder design, and pilot criteria are defined.
 
-Search is not considered a convenience feature.
+## Structural Policy
 
-The repository already contains a second-generation search implementation.
+D1 through D4 are subphases of D — Structural Discovery And Chunking Policy.
 
-Search serves as an intermediate layer between:
+Blueprint v1.1 is the current policy baseline:
 
-* corpus discovery;
-* semantic analysis;
-* future retrieval;
-* future RAG systems.
+- `interrogation_protocol`: `question_answer_block`;
+- `confrontation_protocol`: `confrontation_exchange`;
+- `session_transcript`: `speaker_turn`;
+- `conversation_recording`: `conversation_segment`;
+- `special_report`: `document_package`.
 
-Search artifacts should therefore be treated as architectural components.
+`special_report` requires package detection and attachment-first strategy before chunking.
 
----
+## Governance Policy
 
-## Retrieval Should Respect Documentary Structure
+The repository already has local Git commits for inventory and documentation milestones.
 
-Future retrieval should not operate solely on arbitrary text fragments.
+Do not manually reorganize files. Physical restructuring should happen only after:
 
-Retrieval quality improves when it incorporates:
+- documentation is committed;
+- `gh` or another GitHub workflow is installed and configured;
+- a private repository exists;
+- the current baseline is pushed;
+- a scripted migration plan is written and reviewed.
 
-* document types;
-* entities;
-* organizations;
-* processes;
-* semantic chunk boundaries.
-
-Search evolution should remain aligned with documentary structure.
-
----
-
-# Translation Policy
-
-## Translation Is Not Yet An Active Processing Stage
-
-The repository currently prepares for translation.
-
-It does not yet perform large-scale translation.
-
-Preparation includes:
-
-* glossary development;
-* cost estimation;
-* structural discovery;
-* chunking policy development.
-
----
-
-## Translation Must Be Cost-Aware
-
-D1 demonstrated that translation has measurable cost.
-
-Future translation work should therefore include:
-
-* budgeting;
-* batching;
-* resumability;
-* validation;
-* glossary integration.
-
-Translation should never be treated as an unlimited resource.
-
----
-
-## Translation Must Respect Documentary Structure
-
-Translation should occur after documentary structure is understood.
-
-The repository explicitly rejects size-only translation chunking.
-
-Translation units should be informed by chunking policy.
-
----
-
-# Chunking Policy Governance
-
-## Blueprint Before Builder
-
-The repository deliberately produced a blueprint before implementing a chunk builder.
-
-This ordering should be preserved.
-
-Policy should define behavior before implementation exists.
-
----
-
-## Semantic Units Are Canonical
-
-Current blueprint v1.1 defines the canonical semantic units for future chunking.
-
-Examples include:
-
-* question_answer_block;
-* confrontation_exchange;
-* speaker_turn;
-* conversation_segment;
-* document_package.
-
-Future chunk builders should implement these concepts rather than redefining them.
-
----
-
-# Package Processing Policy
-
-## Special Reports Are Documentary Packages
-
-The repository treats special reports as documentary containers.
-
-This is a documented discovery rather than an implementation preference.
-
-Future processing must assume:
-
-* attachment detection occurs first;
-* package structure is preserved;
-* attached documentary units remain identifiable.
-
----
-
-## Package Boundaries Are Evidence Boundaries
-
-A package may contain multiple documentary forms.
-
-These forms should remain distinguishable.
-
-Package boundaries should not be destroyed by chunking or translation.
-
----
-
-# Documentation Policy
-
-## Documentation Is Part Of The System
-
-Documentation is not supplementary.
-
-Documentation is one of the repository outputs.
-
-Important discoveries should appear in:
-
-* reports;
-* policies;
-* project history;
-* discovery summaries.
-
----
-
-## Historical Context Must Be Preserved
-
-Future contributors should be able to understand:
-
-* what was discovered;
-* why it mattered;
-* which decision it changed.
-
-The repository should document reasoning, not merely results.
-
----
-
-# Reorganization Policy
-
-## No Manual Reorganization
-
-Large-scale file moves should not be performed manually.
-
-Repository restructuring should be:
-
-* planned;
-* scripted;
-* reviewed;
-* validated;
-* committed separately.
-
----
-
-## Preserve Traceability
-
-Historical file locations and artifact relationships should remain traceable.
-
-The repository should avoid disruptive reorganizations that obscure project history.
-
----
-
-# Future Architecture Policy
-
-The repository currently stops at the discovery baseline.
-
-The following systems remain future work:
-
-* chunk builder;
-* translation execution;
-* SQLite persistence;
-* retrieval layer;
-* RAG layer.
-
-These systems should build upon existing discoveries rather than bypassing them.
-
----
-
-# Decision Framework
-
-When uncertainty exists, the preferred decision order is:
-
-1. preserve evidence;
-2. preserve reproducibility;
-3. preserve traceability;
-4. validate assumptions;
-5. automate only after understanding.
-
-This hierarchy reflects the philosophy that guided the repository from its earliest discovery work through the current blueprint baseline.
-
-The repository exists to understand the corpus before attempting to transform it.
+Do not run `git add` or commit as part of documentation review unless explicitly requested.

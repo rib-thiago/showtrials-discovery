@@ -2,400 +2,108 @@
 
 ## Purpose
 
-This document describes the expected evolution of the ShowTrials Discovery project after completion of the initial discovery baseline.
+This roadmap describes the expected sequence after the current discovery baseline. It does not replace [methodological-timeline.md](methodological-timeline.md); it builds on it.
 
-The roadmap is not a task list.
+The repository has completed broad discovery across A/B/C/E/G/T/D and is now in R — Repository Governance, Git, Documentation, And GitHub Preparation.
 
-It is a strategic view of the major engineering stages that are expected to follow the discovery work already completed.
+## Immediate Governance Steps
 
-Future priorities may change as new evidence emerges.
+1. Commit the documentation updates.
+2. Install and configure `gh` or an equivalent approved GitHub workflow.
+3. Create a private GitHub repository.
+4. Push the current baseline.
+5. Define raw/exported corpus storage policy.
+6. Plan physical repository restructuring by script, not manually.
 
-However, the general direction described here reflects the current architectural understanding of the project.
+Do not reorganize the repository by hand.
 
----
+## Next Technical Step: C1 Chunk Builder Design
 
-# Current Milestone
+C1 is the next technical design phase.
 
-The repository has completed its first major discovery cycle.
+Objective:
 
-Completed areas include:
+- design a chunk builder that implements blueprint v1.1;
+- define inputs, outputs, processing stages, validation rules, and metadata;
+- preserve semantic units and package boundaries;
+- support resumable processing;
+- support future translation workflows.
 
-* corpus collection and export;
-* inventory and catalog generation;
-* documentary taxonomy development;
-* semantic layer construction;
-* search evolution;
-* translation glossary development;
-* corpus sizing and cost analysis;
-* structural discovery;
-* documentary package analysis;
-* attachment taxonomy refinement;
-* chunking blueprint consolidation.
+C1 is design first. It should not begin by writing a size-only chunker.
 
-The repository now possesses sufficient evidence to move from discovery into engineering design.
+## After C1
 
-The primary question is no longer:
+After chunk builder design and storage policy are clear, later phases can be planned.
 
-"What exists in the corpus?"
+Recommended order:
 
-The primary question is now:
+1. C1 Chunk Builder Design.
+2. Raw/exported corpus storage policy.
+3. Chunk builder implementation plan.
+4. Translation pilot design.
+5. Persistence strategy.
+6. SQLite design.
+7. Search/retrieval evolution.
+8. Future RAG layer design.
 
-"How should these discoveries be operationalized?"
+Translation, SQLite, and RAG should not jump ahead of C1 and storage policy.
 
----
+## Translation Pilot Planning
 
-# Phase C1 — Chunk Builder Design
+The future translation pilot should use:
 
-## Objective
+- blueprint v1.1;
+- glossary artifacts;
+- Google Translate glossary preparation;
+- batching;
+- cache by hash;
+- deduplication;
+- pending/running/done/failed queues;
+- resumability;
+- cost limits per batch;
+- validation before and after translation.
 
-Design a chunk builder that implements the policies established by blueprint v1.1.
+The pilot should validate assumptions rather than maximize throughput.
 
-This phase focuses on architecture rather than implementation.
+## Persistence And SQLite
 
-The goal is to define:
+SQLite remains a future design topic. It should not be implemented before the document/chunk/package model is stable.
 
-* inputs;
-* outputs;
-* processing stages;
-* validation rules;
-* storage assumptions.
+Likely future entities include:
 
----
+- documents;
+- document types;
+- packages;
+- attachments;
+- chunks;
+- people;
+- organizations;
+- processes;
+- glossary terms;
+- translations.
 
-## Key Requirements
+TODO: Define persistence requirements after C1.
 
-The future chunk builder must:
+## Search And Future RAG
 
-* preserve semantic units;
-* preserve package boundaries;
-* support resumable processing;
-* support validation;
-* support future translation workflows.
+Search already exists as a local exploration layer and search v2 exists as an evolution of that layer.
 
-It should not begin as a size-only chunker.
+Future retrieval should return meaningful documentary units such as:
 
-Document structure must remain the primary driver.
+- Q/A blocks;
+- confrontation exchanges;
+- speaker turns;
+- conversation segments;
+- package attachments;
+- list items.
 
----
+RAG should remain a future layer until chunking, storage, and retrieval design are stable.
 
-## Expected Deliverables
+## Explicit Non-Goals For Now
 
-* chunk builder architecture document;
-* chunk builder workflow specification;
-* chunk validation strategy;
-* chunk metadata schema;
-* implementation blueprint.
-
----
-
-# Phase C2 — Translation Architecture
-
-## Objective
-
-Design the translation workflow that will operate on chunked documentary units.
-
-The project has already demonstrated that translation has measurable cost.
-
-Translation therefore requires engineering controls.
-
----
-
-## Key Requirements
-
-Future translation workflows should support:
-
-* glossary integration;
-* batching;
-* resumability;
-* cost controls;
-* validation;
-* translation provenance.
-
-Translation should preserve relationships between:
-
-* documents;
-* packages;
-* chunks;
-* translated outputs.
-
----
-
-## Translation Pilot
-
-A controlled pilot should be performed before large-scale translation.
-
-Recommended scope:
-
-* document types marked translation_ready=yes;
-* small budget;
-* glossary-enabled workflow;
-* full validation.
-
-The pilot should exist to validate assumptions rather than maximize throughput.
-
----
-
-# Phase C3 — Corpus Persistence Strategy
-
-## Objective
-
-Define how corpus artifacts should be stored long term.
-
-The repository currently contains:
-
-* source exports;
-* derived TSVs;
-* reports;
-* validation artifacts;
-* planning artifacts.
-
-Future systems will require stronger persistence guarantees.
-
----
-
-## Open Questions
-
-Topics that remain unresolved include:
-
-* raw corpus storage;
-* versioning strategy;
-* archival strategy;
-* backup strategy;
-* reproducibility guarantees.
-
-Potential solutions may include:
-
-* Git repositories;
-* Git LFS;
-* SQLite;
-* object storage;
-* release artifacts.
-
-No final decision has been made.
-
----
-
-# Phase C4 — SQLite Design
-
-## Objective
-
-Design a structured persistence model for documentary data.
-
-SQLite is currently considered the most likely initial persistence layer.
-
----
-
-## Candidate Entities
-
-Likely entities include:
-
-* documents;
-* document types;
-* people;
-* organizations;
-* processes;
-* glossary terms;
-* packages;
-* attachments;
-* chunks;
-* translations.
-
----
-
-## Design Principle
-
-The database should reflect documentary structure rather than merely storing text blobs.
-
-Relationships discovered during repository analysis should become explicit database relationships.
-
----
-
-# Phase C5 — Search Evolution
-
-## Objective
-
-Expand the current search capabilities into a more mature retrieval system.
-
-The repository already contains second-generation search work.
-
-Future efforts should build upon that foundation.
-
----
-
-## Desired Capabilities
-
-Future retrieval should support:
-
-* metadata-aware search;
-* document-type filtering;
-* process filtering;
-* organization filtering;
-* people filtering;
-* glossary-aware search;
-* package-aware retrieval;
-* chunk-aware retrieval.
-
-The goal is evidence retrieval rather than simple text matching.
-
----
-
-# Phase C6 — Retrieval Architecture
-
-## Objective
-
-Design retrieval mechanisms that operate on documentary evidence units.
-
-This phase represents the transition from discovery artifacts toward knowledge-system architecture.
-
----
-
-## Guiding Principle
-
-Retrieval should return meaningful documentary structures.
-
-Examples include:
-
-* question-answer exchanges;
-* speaker turns;
-* confrontation exchanges;
-* documentary sections;
-* package attachments.
-
-Retrieval quality should improve as documentary structure becomes more explicit.
-
----
-
-# Phase C7 — Evidence-Oriented RAG
-
-## Objective
-
-Create a retrieval-augmented workflow grounded in documentary evidence.
-
-The repository has never treated RAG as an immediate goal.
-
-Instead, RAG is viewed as a downstream consequence of successful discovery work.
-
----
-
-## Why Discovery Came First
-
-The project deliberately avoided beginning with embeddings and vector databases.
-
-Several prerequisite questions had to be answered first:
-
-* What is a document?
-* What is a package?
-* What is a chunk?
-* What is a valid evidence unit?
-* Which entities matter?
-* Which relationships matter?
-
-The discovery process produced answers to those questions.
-
----
-
-## Desired Characteristics
-
-Future RAG should:
-
-* retrieve documentary units;
-* preserve provenance;
-* preserve package context;
-* support citations;
-* expose evidence boundaries clearly.
-
-The goal is not conversational convenience.
-
-The goal is evidence-oriented retrieval.
-
----
-
-# Repository Consolidation
-
-## Objective
-
-Improve repository organization while preserving traceability.
-
-The current repository evolved through active discovery work and therefore reflects historical development rather than final structure.
-
----
-
-## Requirements
-
-Future reorganization should:
-
-* be scripted;
-* be documented;
-* be validated;
-* preserve history;
-* preserve discoverability.
-
-Manual large-scale file movement should be avoided.
-
----
-
-## Expected Future Structure
-
-A likely future organization may separate:
-
-* scripts;
-* reports;
-* TSV artifacts;
-* documentation;
-* policies;
-* validation outputs.
-
-This work should occur only after current documentation and version-control goals are completed.
-
----
-
-# Git And Collaboration
-
-## Objective
-
-Improve governance and reproducibility.
-
-Near-term priorities include:
-
-* GitHub integration;
-* private repository hosting;
-* commit discipline;
-* release checkpoints;
-* repository documentation.
-
-The goal is to ensure that discoveries remain reproducible and auditable.
-
----
-
-# Long-Term Vision
-
-The long-term vision is not merely to translate documents.
-
-The long-term vision is to create a documentary knowledge platform built on explicit evidence.
-
-Such a platform would combine:
-
-* documentary structure;
-* semantic relationships;
-* glossary control;
-* translation workflows;
-* retrieval systems;
-* evidence-oriented RAG.
-
-The discovery repository is the foundation upon which that platform can eventually be constructed.
-
----
-
-# Guiding Principle
-
-The roadmap follows a simple progression:
-
-Discovery → Policy → Design → Implementation → Retrieval → Knowledge Systems
-
-Every completed phase of the repository has reinforced the same lesson:
-
-understanding the corpus before transforming the corpus produces better architectural decisions.
-
-The roadmap therefore preserves the project's original philosophy:
-
-evidence before implementation.
+- No chunk builder implementation yet.
+- No large-scale translation execution yet.
+- No embeddings yet.
+- No RAG layer yet.
+- No SQLite migration yet.
+- No manual physical reorganization.

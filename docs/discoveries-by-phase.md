@@ -2,400 +2,213 @@
 
 ## Purpose
 
-This document records the major discoveries produced during the ShowTrials Discovery project.
+This document organizes discoveries by the canonical A/B/C/E/G/T/D/R sequence from [methodological-timeline.md](methodological-timeline.md).
 
-It is not a chronological narrative and it is not an execution guide.
+It separates discoveries from outputs. Discoveries are conclusions that changed assumptions, architecture, or future implementation plans. Outputs are the scripts, TSVs, reports, and validations that record those conclusions.
 
-Its purpose is to capture the findings that changed assumptions, influenced architecture, or altered future implementation plans.
+## A — Site Reconnaissance And Extraction Strategy
 
-The repository contains many scripts, reports, validations, and TSV artifacts. This document focuses only on the conclusions that emerged from that work.
+### Discoveries
 
----
+- The corpus should not be built by blindly scraping rendered HTML pages.
+- Multiple HTML samples showed that documentary content had to be separated from navigation, layout, headers, footers, and surrounding page material.
+- Curl tests and source inspection helped distinguish page structure from documentary content.
+- WordPress/JSON structured data was a better acquisition layer than fragile HTML parsing.
 
-# Phase 1 — Inventory And Catalog
+### Outputs
 
-## Discovery: The corpus required a canonical catalog
+- URL and sitemap/crawl artifacts.
+- Source inspection notes and local samples.
+- TODO: Identify the exact surviving HTML/curl sample filenames if they are retained in the repository inventory.
 
-Early exports produced a large quantity of material, but the project lacked a stable documentary reference layer.
+### Architectural Impact
 
-The creation of inventory artifacts and the master catalog established:
+The project adopted structured extraction first and HTML as validation/fallback evidence.
 
-* unique document identities;
-* metadata consistency;
-* collection boundaries;
-* process associations;
-* document counts suitable for measurement.
+## B — JSON Corpus, Text Export, And Local Search
 
-### Impact
+### Discoveries
 
-All later phases depend on the catalog.
+- JSON fields provided usable titles, slugs, dates, links, metadata, and content.
+- Local text and Markdown export became the human-readable inspection layer.
+- Search was needed early to explore the corpus, not late as RAG.
+- Search v2 became an intermediate step toward evidence-oriented retrieval.
 
-Without a catalog there can be no reliable:
+### Outputs
 
-* sizing;
-* taxonomy;
-* entity analysis;
-* search;
-* translation planning;
-* chunking policy.
+- JSON/page/post artifacts.
+- Text and Markdown export directories and export scripts.
+- `showtrials_search_corpus.tsv` and search corpus reports.
+- Search scripts and search v2 validation artifacts.
 
----
+### Architectural Impact
 
-# Phase 2 — Documentary Taxonomy
+The corpus became a local searchable workspace before taxonomy, glossary, or chunking policy was complete.
 
-## Discovery: Document type classification is foundational
+## C — Catalog, Metadata, And Documentary Taxonomy
 
-Initially the corpus was treated primarily as a collection of texts.
+### Discoveries
 
-Analysis demonstrated that future processing depends heavily on documentary form.
+- The corpus required a stable master catalog.
+- Document indexes and metadata audits were necessary before reliable analysis.
+- Document type classification is foundational.
+- Document types evolved through v1, v2, v3, and v4, with comparisons and validations between versions.
+- `document_type` became a core property for search, sizing, translation planning, special report analysis, and chunking.
 
-Multiple taxonomy revisions eventually produced the current classification baseline.
+### Outputs
 
-### Impact
+- Master catalog artifacts.
+- Document indexes.
+- Collection, date, taxonomy, page, and post metadata reports.
+- Document type v1 to v4 TSVs.
+- Version comparison artifacts and validation outputs.
 
-Document type became a first-class property used by:
+### Architectural Impact
 
-* search;
-* sizing;
-* glossary work;
-* translation planning;
-* chunking policy;
-* package analysis.
+The corpus shifted from “many texts” to a set of documentary forms with distinct processing requirements.
 
----
+## E — Entity, People, Organization, Process, And Semantic Layers
 
-## Discovery: Not all document types are equally important
+### Discoveries
 
-Although the blueprint currently tracks 35 document types, later analysis showed that only a subset dominates corpus volume and future engineering effort.
+- Metadata alone is insufficient for future retrieval.
+- Canonical people and literal people both matter.
+- Aliases, truncated persons, and merge candidates require review.
+- Organizations, organization families, hierarchy, roles, positions, processes, and process profiles add documentary context.
+- Matrices make relationships inspectable.
+- Frequency and centrality are not automatically historical or causal centrality.
 
-### Impact
+### Outputs
 
-The project does not require equally sophisticated handling for every type before progress can be made.
+- Canonical people artifacts.
+- Literal people artifacts.
+- Alias and truncated-person review artifacts.
+- Organization, organization-family, and hierarchy artifacts.
+- Role and position artifacts.
+- Process layer and process profile artifacts.
+- Person-organization-process matrices and validation reports.
 
-Engineering effort should prioritize dominant structures first.
+### Architectural Impact
 
----
+Future retrieval should combine text, metadata, and semantic relationships while preserving historical caution.
 
-# Phase 3 — Semantic Layer
+## G — Glossary And Translation Terminology
 
-## Discovery: Metadata alone is insufficient
+### Discoveries
 
-Document metadata describes documents.
+- Translation quality begins before translation.
+- Glossary work can reduce ambiguity before paid translation.
+- Legal, political, institutional, and historical terminology require canonicalization.
+- The glossary should be advanced substantially before incurring monetary translation costs.
 
-It does not explain relationships between:
+### Outputs
 
-* people;
-* organizations;
-* institutions;
-* processes;
-* roles;
-* positions.
+- Glossary seeds.
+- Initial canonicalization outputs.
+- G3 enrichment outputs.
+- G4 expansion outputs.
+- G4.1 refinement outputs.
+- Review files.
+- Validation files.
+- Freeze-readiness reports.
+- Google Translate glossary preparation artifacts.
 
-The semantic layer emerged because these relationships are central to understanding the corpus.
+### Architectural Impact
 
-### Impact
+Glossary work became part of translation architecture, not a post-processing convenience.
 
-Future retrieval should combine:
+## T — Translation Cost And Operational Planning
 
-* textual evidence;
-* document metadata;
-* semantic relationships.
+### Discoveries
 
----
+- Google Cloud Translation costs make translation operationally serious.
+- Model and pricing choices matter.
+- Translation must be batched, budgeted, cached, deduplicated, resumable, and validated.
+- Status queues such as pending, running, done, and failed are required for safe operation.
+- Cost limits per batch are required.
+- Future implementation should relate to Toolbox-style `run-jobs` and pipeline workflows.
 
-## Discovery: Entities create retrieval opportunities
+### Outputs
 
-The corpus naturally forms networks.
+- Translation cost reports.
+- Translation profile artifacts.
+- D1 sizing and chunking diagnostics later quantified the operational baseline.
 
-People participate in organizations.
+### Architectural Impact
 
-Organizations participate in processes.
+Translation became an engineering workflow rather than a one-shot API call.
 
-Documents reference both.
+## D — Structural Discovery And Chunking Policy
 
-### Impact
+### Discoveries
 
-Future retrieval can move beyond keyword search and support evidence-oriented navigation through documentary relationships.
+- D1 measured 2179 documents, 27379787 characters, about 10023 estimated chunks, and about USD 547.60 estimated NMT cost.
+- D2 showed that chunking cannot be size-only.
+- D2 also showed that lexical markers can create false positives.
+- D2.1 structural samples enabled manual inspection by document type.
+- D2.2 organized review evidence and drafted a preliminary blueprint.
+- Manual sample review confirmed core structures.
+- D3 showed that `special_report` is a `document_package`.
+- D3.1A normalized special-report attachment relations.
+- D3.1B refined attachment taxonomy.
+- D4 consolidated chunking blueprint v1.1.
 
----
+### Outputs
 
-# Phase 4 — Search
+- D1 sizing TSVs and reports.
+- D2 structural chunking TSVs and reports.
+- D2.1 structural sample index and samples.
+- D2.2 review index and blueprint draft.
+- D3 special report package artifacts.
+- D3.1A attachment matrix, taxonomy, crosswalk, and validation.
+- D3.1B refined attachment taxonomy and validation.
+- D4 blueprint v1.1, policy document, report, and validation.
 
-## Discovery: Search became its own domain
+### Architectural Impact
 
-Search began as a convenience feature.
+Future chunking must preserve document-native semantic units:
 
-As the repository accumulated metadata, taxonomies, semantic layers, and validation artifacts, search evolved into a major architectural concern.
+- `interrogation_protocol`: `question_answer_block`.
+- `confrontation_protocol`: `confrontation_exchange`.
+- `session_transcript`: `speaker_turn`.
+- `conversation_recording`: `conversation_segment`.
+- `special_report`: `document_package`.
 
-The project now includes a second-generation search implementation.
+Attachment detection must occur before chunking for `special_report`.
 
-### Impact
+## R — Repository Governance, Git, Documentation, And GitHub Preparation
 
-Search is no longer simply a utility.
+### Discoveries
 
-It is a bridge between corpus discovery and future retrieval systems.
+- The repository had become a substantial workspace rather than a temporary directory.
+- Inventory files were required before any physical restructuring.
+- `.gitignore` policy matters because raw/exported corpus material should not be versioned yet.
+- Existing commits already record inventory and documentation milestones.
+- Documentation should precede private GitHub setup and physical reorganization.
+- Physical restructuring should happen only later and by script.
 
----
+### Outputs
 
-## Discovery: Retrieval quality depends on documentary structure
+- `repo-current-filelist.txt`.
+- `repo-current-scripts.txt`.
+- `repo-current-tsvs.txt`.
+- `repo-current-reports-txt.txt`.
+- Markdown documentation.
+- Git commits already present in the local repository.
 
-Better search results require more than text matching.
+### Architectural Impact
 
-Document type, semantic relationships, glossary normalization, and future chunk boundaries all influence retrieval quality.
+The immediate governance path is: commit documentation, configure `gh`, create a private repository, push the baseline, and only then plan scripted restructuring.
 
-### Impact
-
-Search architecture and chunking architecture became closely connected.
-
----
-
-# Phase 5 — Translation Glossary
-
-## Discovery: Translation quality begins before translation
-
-The repository originally considered translation as a future activity.
-
-Glossary work revealed that terminology control must occur before large-scale translation begins.
-
-### Impact
-
-Glossary development became part of the translation architecture rather than a post-processing step.
-
----
-
-## Discovery: Consistency is a scalability problem
-
-Large corpora naturally generate inconsistent translations when terminology is not controlled.
-
-### Impact
-
-Glossary artifacts became a strategic asset rather than a convenience.
-
----
-
-# Phase 6 — Sizing And Cost Analysis (D1)
-
-## Discovery: Translation is measurable
-
-Before D1, translation effort was discussed in abstract terms.
-
-D1 produced the first quantitative baseline:
-
-* 2,179 documents;
-* 27.4 million characters;
-* approximately 10,023 estimated chunks;
-* approximately USD 547.60 estimated NMT cost.
-
-### Impact
-
-Translation became an engineering problem rather than a hypothetical future task.
-
----
-
-## Discovery: Cost control requires structure
-
-The measured translation cost immediately raised questions about:
-
-* batching;
-* prioritization;
-* chunking;
-* glossary usage;
-* resumability;
-* caching.
-
-### Impact
-
-Future translation architecture must optimize cost rather than simply maximize throughput.
-
----
-
-# Phase 7 — Structural Discovery (D2)
-
-## Discovery: Size-only chunking is insufficient
-
-A naïve strategy would divide text using character limits.
-
-Document inspection showed that this would destroy meaningful structure.
-
-### Impact
-
-Chunking policy must preserve documentary units.
-
----
-
-## Discovery: Lexical cues create false positives
-
-Words equivalent to "question" and "answer" may appear in many documents.
-
-Their presence alone does not prove a genuine question-and-answer structure.
-
-### Impact
-
-Chunking decisions must be based on documentary form rather than isolated vocabulary.
-
----
-
-## Discovery: Different document families require different chunk units
-
-Structural analysis revealed recurring patterns across major document families.
-
-### Impact
-
-Future chunking must become document-aware.
-
-One chunking strategy is insufficient for the corpus.
-
----
-
-# Phase 8 — Special Report Discovery (D3)
-
-## Discovery: Special reports are not ordinary documents
-
-This was one of the most important discoveries in the project.
-
-The original assumption treated special reports as a document type.
-
-Evidence showed that most special reports behave as documentary containers.
-
-### Impact
-
-Future processing must treat special reports as packages.
-
----
-
-## Discovery: Attachment analysis is required before chunking
-
-A package can contain multiple documentary units with different structures.
-
-Chunking the entire package as a single document would mix evidence types.
-
-### Impact
-
-Attachment detection became a required preprocessing step.
-
----
-
-## Discovery: Interrogation protocols dominate special-report attachments
-
-D3.1B showed:
-
-* 448 interrogation protocol attachments;
-* approximately 85.17% prevalence among analyzed special reports.
-
-Other attachment types exist, but interrogation protocols overwhelmingly dominate.
-
-### Impact
-
-A future chunk builder that handles interrogation protocols well will immediately cover a large portion of package content.
-
----
-
-# Phase 9 — Attachment Taxonomy Refinement
-
-## Discovery: Corpus complexity is lower than expected
-
-Before attachment refinement, the project appeared to contain a very large number of unrelated documentary forms.
-
-Taxonomy work revealed that many package attachments belong to a relatively small number of recurring structures.
-
-### Impact
-
-The future implementation burden is significantly lower than initially feared.
-
----
-
-## Discovery: Dominant attachment types emerged
-
-The refined taxonomy identified recurring attachment families:
-
-* interrogation_protocol;
-* memo_note;
-* theses;
-* list;
-* reference_note;
-* statement;
-* confrontation_protocol;
-* letter;
-* diary.
-
-### Impact
-
-Future engineering effort can focus on a small number of high-value document structures.
-
----
-
-# Phase 10 — Blueprint Consolidation (D4)
-
-## Discovery: Semantic chunk units can be defined explicitly
-
-Structural work produced enough evidence to formalize chunking policy.
-
-The blueprint records document-native units such as:
-
-* question_answer_block;
-* confrontation_exchange;
-* speaker_turn;
-* conversation_segment;
-* document_package.
-
-### Impact
-
-Future chunk builders can be implemented against a documented policy rather than relying on ad hoc heuristics.
-
----
-
-## Discovery: The corpus is ready for design work
-
-D4 validation completed without structural failures.
-
-The project now possesses:
-
-* a catalog;
-* taxonomy;
-* semantic layers;
-* search infrastructure;
-* glossary artifacts;
-* sizing baselines;
-* package analysis;
-* attachment taxonomy;
-* chunking policy.
-
-### Impact
-
-The repository can move from discovery into engineering design.
-
-The next major question is no longer:
-
-"What exists in the corpus?"
-
-The next major question is:
-
-"How should these discoveries be operationalized?"
-
----
-
-# Consolidated Discoveries
-
-The most important findings across the entire project are:
+## Consolidated Discoveries
 
 1. The corpus must be understood before it can be translated.
-
-2. Search quality depends on documentary structure.
-
-3. Translation quality begins with terminology control.
-
-4. Translation cost requires measurement and budgeting.
-
-5. Chunking must preserve semantic units.
-
-6. Special reports are documentary packages.
-
-7. Interrogation protocols dominate package attachments.
-
-8. A small number of document structures account for much of the corpus.
-
-9. Blueprint v1.1 provides a defensible policy baseline.
-
-10. The discovery phase has produced enough evidence to begin engineering design.
-
-These discoveries collectively define the current architectural direction of the project.
+2. Search and text export were early discovery tools, not late RAG work.
+3. Document type is a core architectural property.
+4. Entity and centrality outputs require historical interpretation.
+5. Translation quality starts with glossary control.
+6. Translation cost requires batching, caching, status queues, and validation.
+7. Chunking must preserve semantic units.
+8. Special reports are documentary packages.
+9. Interrogation protocols dominate package attachments.
+10. Blueprint v1.1 provides the current policy baseline for future chunk builder design.

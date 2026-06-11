@@ -1,350 +1,265 @@
 # Project History
 
-## Introduction
+## Purpose
 
-ShowTrials Discovery did not begin as a chunking project, a translation project, or a RAG project.
+This document is the main historical narrative for ShowTrials Discovery. It follows the canonical sequence from [methodological-timeline.md](methodological-timeline.md).
 
-It began as a corpus-discovery effort.
+D1 to D4 are not the whole project. They are subphases of D — Structural Discovery And Chunking Policy.
 
-The original challenge was simple: understand what existed inside the ShowTrials corpus before making architectural decisions about translation, indexing, storage, retrieval, or semantic search.
+## A — Site Reconnaissance And Extraction Strategy
 
-Over time, the project evolved into a documentary engineering workflow whose primary objective is to replace assumptions with evidence.
+The project began by investigating how the ShowTrials website exposed documentary content.
 
-The repository therefore records not only outputs, but also the reasoning process that produced them.
+The first work was not classification, translation, chunking, or RAG. It was source reconnaissance:
 
----
+- analysis of multiple HTML samples;
+- tests with curl;
+- identification of real documentary content inside page structure;
+- separation of document content from navigation, layout, headers, footers, and other page noise;
+- comparison of direct HTML scraping with structured extraction;
+- investigation of WordPress-style structured data.
 
-## Phase 0 — Collection and Export
+The key decision was to prefer JSON/WordPress structured data over fragile rendered-HTML scraping. HTML remained useful as evidence and fallback, but not as the primary acquisition layer.
 
-The first phase focused on obtaining a workable local corpus.
+This decision shaped every later artifact.
 
-This work included:
+## B — JSON Corpus, Text Export, And Local Search
 
-* URL collection and inspection;
-* page and post exports;
-* local corpus generation;
-* export validation;
-* corpus cleanliness checks.
+After the JSON path became clear, the project inspected JSON fields and converted structured data into local working artifacts.
 
-The objective was not yet classification or analysis.
+This phase included:
 
-The objective was simply to create a stable local corpus that could be inspected repeatedly without depending on a live website.
+- inspection of JSON fields;
+- extraction of posts and pages;
+- identification of titles, slugs, dates, links, metadata, and content fields;
+- creation of local JSON/page/post artifacts;
+- creation of text and Markdown export mechanisms;
+- scripts and script families for textual export;
+- generation of exported text suitable for inspection;
+- creation of early local search tooling;
+- later evolution to search v2 and validation artifacts.
 
-This phase produced the raw material used by all later stages.
+Search was created early as a corpus exploration tool. It was not a late RAG phase. It made the local corpus navigable while the documentary model was still being discovered.
 
-A deliberate decision was made to keep exported corpus material outside the version-controlled discovery baseline until a long-term storage policy is defined.
+## C — Catalog, Metadata, And Documentary Taxonomy
 
----
-
-## Phase 1 — Inventory and Catalog
-
-Once corpus material was available locally, the next challenge was understanding what actually existed.
+Once the corpus was locally navigable, the next task was to create a stable documentary reference layer.
 
 This phase produced:
 
-* document inventories;
-* document indexes;
-* metadata reports;
-* date audits;
-* collection summaries;
-* corpus statistics;
-* master catalog artifacts.
+- corpus inventories;
+- page and post metadata inspections;
+- document indexes;
+- document collection artifacts;
+- date audits;
+- taxonomy reports;
+- master catalog artifacts.
 
-The master catalog became the central reference layer for later analysis.
+The master catalog became the reference layer for later analysis.
 
-The repository moved from a collection of exported files to a documented corpus with identifiable records.
+Document type classification then evolved through:
 
-This phase established the universe of documents that would later be classified, measured, and analyzed.
+- document types v1;
+- document types v2;
+- document types v3;
+- document types v4;
+- comparison artifacts between versions;
+- validation outputs for taxonomy revisions.
 
----
+The major discovery was that the corpus is not merely a set of texts. It is a set of documentary forms. `document_type` became a core property used by search, sizing, translation planning, special report analysis, and chunking policy.
 
-## Phase 2 — Documentary Taxonomy
+## E — Entity, People, Organization, Process, And Semantic Layers
 
-The next step was determining what kinds of documents existed.
+After catalog and taxonomy work, the project expanded into semantic structure.
 
-Document classification evolved through multiple iterations.
+This phase built artifacts around:
 
-Several generations of document-type artifacts were produced and validated before arriving at the current taxonomy baseline.
+- canonical people;
+- literal people;
+- aliases;
+- truncated persons;
+- merge candidates;
+- person normalization;
+- organizations;
+- organization families;
+- organization hierarchy;
+- roles;
+- positions;
+- processes;
+- process layers;
+- process profiles;
+- person-organization matrices;
+- person-process matrices;
+- organization-process matrices.
 
-This work transformed the corpus from:
+The goal was not entity extraction for its own sake. The goal was to build a documentary intelligence layer capable of supporting future search, interpretation, translation, and retrieval.
 
-"many documents"
+A methodological caution emerged here: frequency and centrality metrics require historical interpretation. They must not be automatically interpreted as historical centrality, causal importance, guilt, influence, or evidentiary weight.
 
-into:
+## G — Glossary And Translation Terminology
 
-"a set of document families with identifiable structural characteristics."
+Translation terminology became a major project front before large-scale translation was attempted.
 
-Document type classification later became one of the foundations of:
+Glossary work included:
 
-* translation planning;
-* chunking policy;
-* package analysis;
-* retrieval design.
+- glossary seeds;
+- initial canonicalization;
+- G3 enrichment;
+- G4 expansion;
+- G4.1 refinement;
+- review files;
+- validation outputs;
+- freeze-readiness checks;
+- Google Translate glossary preparation.
 
----
+The glossary was treated as a strategic artifact. Its purpose is to improve Russian-to-English consistency, preserve legal and historical terminology, reduce ambiguity, and lower downstream waste.
 
-## Phase 3 — Semantic Layer
+The project deliberately advanced glossary work substantially before incurring monetary translation costs.
 
-After document types became stable enough, attention shifted toward semantic structure.
+## T — Translation Cost And Operational Planning
 
-The repository accumulated artifacts describing:
+Translation planning began with practical questions about Google Cloud Translation, model choices, prices, billing, quotas, and alternatives.
 
-* people;
-* aliases;
-* organizations;
-* organization families;
-* hierarchy relationships;
-* roles;
-* positions;
-* processes;
-* process profiles;
-* entity matrices.
+This phase covered:
 
-The goal was not named-entity extraction for its own sake.
+- Google Cloud Translation;
+- model and pricing distinctions;
+- NMT cost estimation;
+- character counting;
+- batching;
+- cache by hash;
+- deduplication;
+- pending, running, done, and failed queues;
+- resumability by status;
+- cost limits per batch;
+- validation before and after translation;
+- backups of TSVs;
+- future relation to Toolbox-style `run-jobs` and pipeline workflows.
 
-The goal was to understand how documentary evidence connects across the corpus.
+D1 later quantified the corpus, but the operational concerns were already clear: translation could not be a one-shot process.
 
-This phase laid the groundwork for future retrieval systems that can reason about relationships rather than relying exclusively on text matching.
+## D — Structural Discovery And Chunking Policy
 
----
+The D-series work is the later structural-discovery cycle. It was motivated by translation planning and the need to preserve documentary meaning.
 
-## Phase 4 — Search Evolution
+### D1 — Corpus Sizing And Translation Cost Diagnostics
 
-As metadata and semantic layers matured, search became a natural next step.
+D1 measured:
 
-Early search capabilities focused primarily on text lookup.
+- 2179 documents;
+- 27379787 characters;
+- about 27.4M characters;
+- about 10023 estimated chunks by profile target;
+- about USD 547.60 estimated NMT translation cost.
 
-Over time, the project moved toward richer retrieval models that could incorporate:
+This showed that translation had to be staged, budgeted, resumable, and structurally aware.
 
-* metadata;
-* document type information;
-* people;
-* organizations;
-* process relationships;
-* taxonomy artifacts.
+### D2 — Structural Chunking Discovery
 
-The repository now contains a second-generation search implementation and validation artifacts.
+D2 investigated markers such as question/answer patterns, speaker turns, date headers, numbered points, signatures, attachments, salutations, and list density.
 
-Search became an important bridge between corpus discovery and future retrieval.
+It also produced a methodological correction: lexical markers can create false positives. A document can contain words equivalent to question or answer without being structurally organized as a Q/A protocol.
 
-The long-term objective is not keyword search alone.
+### D2.1 — Structural Sample Audit
 
-The objective is evidence-oriented retrieval capable of supporting historical research, translation workflows, and future RAG systems.
+D2.1 generated structural samples by document type for manual inspection. The goal was to inspect real document form, not only regex output.
 
----
+### D2.2 — Structural Review And Blueprint Draft
 
-## Phase 5 — Translation Glossary Development
+D2.2 produced review-oriented artifacts and a preliminary chunking blueprint. It organized evidence for human review rather than deciding final policy alone.
 
-Translation was identified as one of the major future costs of the project.
+### Manual Sample Review
 
-Rather than immediately translating documents, the repository first focused on terminology.
+Manual review confirmed:
 
-Several glossary generations were produced.
+- interrogation protocols use real question-and-answer blocks;
+- session transcripts are organized by speaker turns;
+- conversation recordings combine timestamps, speakers, and event notes;
+- special reports behave as documentary packages.
 
-This work included:
+### D3 — Special Report Package Analysis
 
-* glossary seeds;
-* glossary review cycles;
-* canonicalization;
-* freeze-readiness analysis;
-* translation profiles.
+D3 showed that `special_report` should not be treated as a simple document type. Most special reports are packages containing a cover communication plus attached documentary units.
 
-The glossary effort had two purposes.
+### D3.1A — Attachment Taxonomy Normalization
 
-First, improve future translation consistency.
+D3.1A normalized attachment detections into document-to-attachment relations and showed that attachments were dominated by recurring types.
 
-Second, reduce ambiguity in historically and politically sensitive terminology.
+### D3.1B — Attachment Taxonomy Refinement
 
-The glossary became one of the foundational control mechanisms for future translation work.
+D3.1B refined attachment classification using Russian document markers.
 
----
+Key refined results:
 
-## Phase 6 — Corpus Sizing and Cost Analysis (D1)
+- `interrogation_protocol`: 448, 85.17%;
+- `memo_note`: 51, 9.70%;
+- `theses`: 42, 7.98%;
+- `list`: 40, 7.60%;
+- `reference_note`: 37, 7.03%;
+- `statement`: 30, 5.70%;
+- `confrontation_protocol`: 17, 3.23%;
+- `letter`: 10, 1.90%;
+- `diary`: 8, 1.52%;
+- `memo`: 4, 0.76%;
+- `draft_project`: 1, 0.19%;
+- `unknown_attachment`: 1, 0.19%.
 
-Once the corpus structure became sufficiently understood, the project moved from assumptions to measurement.
+### D4 — Chunking Blueprint v1.1 Consolidation
 
-D1 established the first quantitative baseline.
+D4 consolidated the structural discoveries into blueprint v1.1.
 
-Key results:
+The policy includes:
 
-* 2,179 documents;
-* 27,379,787 characters;
-* approximately 10,023 estimated chunks;
-* approximately USD 547.60 estimated NMT translation cost.
+- `interrogation_protocol` uses `question_answer_block`;
+- `confrontation_protocol` uses `confrontation_exchange`;
+- `session_transcript` uses `speaker_turn`;
+- `conversation_recording` uses `conversation_segment`;
+- `special_report` uses `document_package`;
+- `special_report` requires package detection and attachment-first strategy.
 
-This phase changed the discussion dramatically.
+D4 validated 35 document types with `FAIL=0` and 24 expected warnings for residual types requiring future review.
 
-Translation was no longer an abstract future task.
+## R — Repository Governance, Git, Documentation, And GitHub Preparation
 
-It became a measurable engineering problem.
+After the D-series consolidation, the repository required stronger governance.
 
-The results demonstrated that translation would require:
+This phase includes:
 
-* budgeting;
-* batching;
-* resumability;
-* cost controls;
-* structure-aware processing.
+- `repo-current-*` inventory files;
+- `.gitignore` policy;
+- existing documentation and inventory commits;
+- documentation baseline;
+- decision to avoid manual file reorganization;
+- decision to postpone physical restructuring until it can be scripted;
+- preparation for `gh` and a private GitHub repository.
 
----
+The current inventory records:
 
-## Phase 7 — Structural Discovery (D2)
+- 4780 files;
+- 101 Python scripts;
+- 162 TSV artifacts;
+- 101 TXT reports.
 
-The next challenge was understanding how documents should be divided.
-
-Initial assumptions suggested chunking could be driven primarily by size limits.
-
-Investigation showed that approach would be inadequate.
-
-Documents contain meaningful internal structure that must be preserved.
-
-Examples include:
-
-* question-and-answer exchanges;
-* speaker turns;
-* documentary sections;
-* lists;
-* procedural records.
-
-An important outcome of D2 was the rejection of lexical false positives.
-
-Words such as "question" and "answer" inside a document do not necessarily imply a genuine question-and-answer structure.
-
-Structural evidence must come from documentary form, not isolated vocabulary.
-
-This phase established the principle that chunking must preserve semantic units.
-
----
-
-## Phase 8 — Special Report Discovery (D3)
-
-D3 produced one of the most important discoveries in the project.
-
-Originally, `special_report` was treated as a document type.
-
-Investigation demonstrated that this model was incomplete.
-
-Most special reports behave as documentary containers.
-
-They frequently contain:
-
-* a forwarding document;
-* a cover note;
-* attached documentary evidence;
-* interrogation protocols;
-* statements;
-* memoranda;
-* lists;
-* reference materials.
-
-This discovery changed the architecture of the future pipeline.
-
-Instead of treating special reports as ordinary documents, the repository now treats them as documentary packages.
-
-Subsequent attachment analysis revealed that interrogation protocols appear inside special reports in approximately 85% of observed cases.
-
-This result fundamentally altered future chunking strategy.
-
----
-
-## Phase 9 — Attachment Taxonomy Refinement
-
-After identifying special reports as packages, attention shifted toward the attached documentary units.
-
-Several rounds of normalization and refinement produced a much clearer attachment taxonomy.
-
-The analysis showed that a relatively small number of attachment types dominate the corpus.
-
-The most common attachment type is:
-
-* interrogation_protocol.
-
-Other recurring attachment types include:
-
-* memo_note;
-* theses;
-* list;
-* reference_note;
-* statement;
-* confrontation_protocol;
-* letter;
-* diary.
-
-This phase significantly reduced perceived complexity.
-
-The project no longer needed to assume that every document type would require unique handling.
-
-Instead, it became clear that a smaller number of dominant structures account for much of the corpus.
-
----
-
-## Phase 10 — Chunking Blueprint Consolidation (D4)
-
-D4 consolidated discoveries from all previous structural phases.
-
-The result was chunking blueprint v1.1.
-
-This blueprint records document-native semantic units.
-
-Examples include:
-
-* interrogation_protocol → question_answer_block;
-* confrontation_protocol → confrontation_exchange;
-* session_transcript → speaker_turn;
-* conversation_recording → conversation_segment;
-* special_report → document_package.
-
-The blueprint represents policy rather than implementation.
-
-Its purpose is to define how future chunk builders should behave.
-
-Validation completed with:
-
-* 35 document types reviewed;
-* zero structural failures;
-* expected warnings for document types requiring future review.
-
-This phase marks the end of the initial discovery cycle.
-
----
+The repository is now a substantial discovery and engineering workspace, not a temporary working directory.
 
 ## Current State
 
-At the current milestone, the repository contains:
+The project now has:
 
-* a documented corpus baseline;
-* document taxonomy;
-* semantic layers;
-* search infrastructure;
-* glossary artifacts;
-* sizing and cost analysis;
-* structural chunking discoveries;
-* package analysis;
-* attachment taxonomy;
-* chunking blueprint policy.
+- a site extraction strategy;
+- JSON-based corpus acquisition;
+- local text and Markdown export;
+- local search and search v2;
+- corpus inventories;
+- master catalog;
+- document taxonomy v1 to v4;
+- semantic layers for people, organizations, roles, positions, and processes;
+- translation glossary generations;
+- translation cost baseline;
+- structural chunking diagnostics;
+- special report package analysis;
+- refined attachment taxonomy;
+- chunking blueprint v1.1;
+- initial Git governance and documentation.
 
-The project now possesses enough evidence to move from discovery into engineering design.
-
-The next major stage is not additional classification.
-
-The next major stage is designing the systems that will operationalize these discoveries.
-
----
-
-## Planned Future Stages
-
-The expected sequence after the discovery baseline is:
-
-1. repository consolidation and governance;
-2. chunk builder design;
-3. translation pilot design;
-4. corpus persistence strategy;
-5. SQLite data model design;
-6. retrieval architecture design;
-7. evidence-oriented RAG design.
-
-These stages will build upon the documentary knowledge accumulated throughout the discovery process.
-
-The guiding principle remains unchanged:
-
-evidence before implementation.
+Future work should build on this sequence rather than flattening it into D1 to D4.
