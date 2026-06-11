@@ -30,3 +30,6 @@ __pycache__/
 venv/
 .DS_Store
 *.swp
+
+# Local-only corpus payload staging
+local/
