@@ -1,0 +1,945 @@
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:8:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:9:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:10:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:11:FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:12:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:13:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:15:OUT = BASE / "showtrials_person_centrality.tsv"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:16:OUT_REPORT = BASE / "showtrials_person_centrality_report.txt"
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:21:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-centrality.py:133:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-organization-families.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-organization-families.py:7:FILE = BASE / "showtrials_organization_families.tsv"
+scripts/e-semantic-layer/validate-showtrials-organization-families.py:9:REPORT = BASE / "showtrials_organization_families_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-organization-families.py:13:with FILE.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py:7:PEOPLE = BASE / "showtrials_people.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py:9:OUT_MAP = BASE / "showtrials_person_normalization_candidates.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py:10:OUT_REPORT = BASE / "showtrials_person_normalization_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py:61:with PEOPLE.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py:78:with OUT_MAP.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:5:INVENTORY="$BASE/showtrials_semantic_baseline_inventory.tsv"
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:6:REPORT="$BASE/showtrials_semantic_baseline_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:7:TSV="$BASE/showtrials_semantic_baseline_validation.tsv"
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:39:  if [ -f "$BASE/showtrials_semantic_layer_validation.tsv" ]; then
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:40:    bad_semantic="$(awk -F '\t' 'NR>1 && $1!="OK" {c++} END {print c+0}' "$BASE/showtrials_semantic_layer_validation.tsv")"
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:46:    echo -e "FAIL\tmissing_semantic_layer_validation\tsemantic_layer\tshowtrials_semantic_layer_validation.tsv"
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:50:  if [ -f "$BASE/showtrials_search_v2_validation.tsv" ]; then
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:51:    failed_search="$(awk -F '\t' 'NR>1 && $2!="PASS" {c++} END {print c+0}' "$BASE/showtrials_search_v2_validation.tsv")"
+scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh:57:    echo -e "FAIL\tmissing_search_v2_validation\tsearch_v2\tshowtrials_search_v2_validation.tsv"
+scripts/e-semantic-layer/validate-showtrials-person-centrality.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-person-centrality.py:6:FILE = BASE / "showtrials_person_centrality.tsv"
+scripts/e-semantic-layer/validate-showtrials-person-centrality.py:7:REPORT = BASE / "showtrials_person_centrality_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-person-centrality.py:9:rows = list(csv.DictReader(FILE.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:9:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:10:FAMILIES = BASE / "showtrials_organization_families.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:12:OUT_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:13:OUT_SUMMARY = BASE / "showtrials_organization_family_document_summary.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:14:OUT_CROSS = BASE / "showtrials_organization_family_crosspairs.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:15:OUT_REPORT = BASE / "showtrials_organization_family_document_matrix_report.txt"
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:18:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:66:with OUT_MATRIX.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:101:with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py:114:with OUT_CROSS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-roles-v2.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-roles-v2.py:6:ROLES = BASE / "showtrials_roles_v2.tsv"
+scripts/e-semantic-layer/validate-showtrials-roles-v2.py:7:REPORT = BASE / "showtrials_roles_v2_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-roles-v2.py:9:rows = list(csv.DictReader(ROLES.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/e-semantic-layer/validate-showtrials-process-profiles.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-process-profiles.py:8:    ("person", BASE / "showtrials_person_process_profiles.tsv"),
+scripts/e-semantic-layer/validate-showtrials-process-profiles.py:9:    ("organization", BASE / "showtrials_organization_process_profiles.tsv"),
+scripts/e-semantic-layer/validate-showtrials-process-profiles.py:10:    ("organization_family", BASE / "showtrials_family_process_profiles.tsv"),
+scripts/e-semantic-layer/validate-showtrials-process-profiles.py:13:REPORT = BASE / "showtrials_process_profiles_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-process-profiles.py:19:    rows = list(csv.DictReader(path.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/e-semantic-layer/build-showtrials-organization-index.py:9:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-organization-index.py:10:POSTS_DIR = BASE / "posts-json"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:11:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:12:PEOPLE_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:14:OUT_ORGS = BASE / "showtrials_organizations.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:15:OUT_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:16:OUT_PERSON_ORGS = BASE / "showtrials_person_organization_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:17:OUT_REPORT = BASE / "showtrials_organizations_report.txt"
+scripts/e-semantic-layer/build-showtrials-organization-index.py:84:    with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-index.py:96:    with PEOPLE_DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-index.py:164:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-index.py:175:with OUT_ORGS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-index.py:206:with OUT_PERSON_ORGS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py:8:PEOPLE = BASE / "showtrials_people.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py:10:OUT_ALIASES = BASE / "showtrials_person_aliases.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py:11:OUT_REPORT = BASE / "showtrials_person_aliases_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py:55:with PEOPLE.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py:84:with OUT_ALIASES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:8:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:9:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:10:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:11:FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:12:ROLE_DOCS = BASE / "showtrials_role_documents_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:13:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:14:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:16:OUT_PROFILES = BASE / "showtrials_person_institution_profiles_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:17:OUT_PERSON_FAMILY = BASE / "showtrials_person_family_pairs_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:18:OUT_PERSON_ORG = BASE / "showtrials_person_organization_pairs_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:19:OUT_PERSON_ROLE = BASE / "showtrials_person_role_pairs_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:20:OUT_REPORT = BASE / "showtrials_person_institution_profiles_v2_report.txt"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:30:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:186:with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:199:with OUT_PERSON_FAMILY.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:208:with OUT_PERSON_ORG.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py:217:with OUT_PERSON_ROLE.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:9:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:10:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:11:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:13:OUT_TSV = BASE / "showtrials_truncated_person_candidates.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:14:OUT_REPORT = BASE / "showtrials_truncated_person_candidates_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:33:with PEOPLE.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:39:with PERSON_DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py:129:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/review-showtrials-truncated-persons.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/review-showtrials-truncated-persons.py:8:CANDIDATES = BASE / "showtrials_truncated_person_candidates.tsv"
+scripts/e-semantic-layer/review-showtrials-truncated-persons.py:9:OUT_MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
+scripts/e-semantic-layer/review-showtrials-truncated-persons.py:15:    with path.open("a", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/review-showtrials-truncated-persons.py:28:    with Path(args.candidates).open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/showtrials-family-stats.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/showtrials-family-stats.py:8:FAMILIES = BASE / "showtrials_organization_families.tsv"
+scripts/e-semantic-layer/showtrials-family-stats.py:13:with FAMILIES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:8:PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:9:ORG_PROCESS = BASE / "showtrials_organization_process_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:10:FAMILY_PROCESS = BASE / "showtrials_family_process_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:12:OUT_PERSON = BASE / "showtrials_person_process_profiles.tsv"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:13:OUT_ORG = BASE / "showtrials_organization_process_profiles.tsv"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:14:OUT_FAMILY = BASE / "showtrials_family_process_profiles.tsv"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:15:OUT_REPORT = BASE / "showtrials_process_profiles_report.txt"
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:18:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-profiles.py:67:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:8:POSITIONS = BASE / "showtrials_positions.tsv"
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:9:POSITION_DOCS = BASE / "showtrials_position_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:11:OUT_ROLES = BASE / "showtrials_roles_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:12:OUT_DOCS = BASE / "showtrials_role_documents_v2.tsv"
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:13:OUT_REPORT = BASE / "showtrials_roles_v2_report.txt"
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:52:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:92:with OUT_ROLES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-roles-v2.py:102:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:8:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:9:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:10:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:11:FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:12:POSITION_DOCS = BASE / "showtrials_position_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:13:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:14:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:16:OUT_PROFILES = BASE / "showtrials_person_institution_profiles.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:17:OUT_PERSON_FAMILY = BASE / "showtrials_person_family_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:18:OUT_PERSON_ORG = BASE / "showtrials_person_organization_profile_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:19:OUT_PERSON_POSITION = BASE / "showtrials_person_position_profile_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:20:OUT_REPORT = BASE / "showtrials_person_institution_profiles_report.txt"
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:39:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:169:with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:179:with OUT_PERSON_FAMILY.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:188:with OUT_PERSON_ORG.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py:197:with OUT_PERSON_POSITION.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:8:MAP = BASE / "showtrials_person_normalization_candidates.tsv"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:9:PERSON_DOCS = BASE / "showtrials_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:10:PERSON_PAIRS = BASE / "showtrials_person_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:12:OUT_PEOPLE = BASE / "showtrials_canonical_people.tsv"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:13:OUT_DOCS = BASE / "showtrials_canonical_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:14:OUT_PAIRS = BASE / "showtrials_canonical_person_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:15:OUT_REPORT = BASE / "showtrials_canonical_people_report.txt"
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:18:with MAP.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:29:with PERSON_DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:49:with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:73:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:82:    with PERSON_DOCS.open("r", encoding="utf-8", newline="") as f_in:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:99:with PERSON_PAIRS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-canonical-people.py:108:with OUT_PAIRS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:8:ORGS = BASE / "showtrials_organizations.tsv"
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:9:HIER = BASE / "showtrials_organization_hierarchy.tsv"
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:11:REPORT = BASE / "showtrials_organization_hierarchy_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:12:TSV = BASE / "showtrials_organization_hierarchy_validation.tsv"
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:15:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py:81:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:8:PROCESSES = BASE / "showtrials_processes.tsv"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:9:PROCESS_DOCS = BASE / "showtrials_process_document_matrix.tsv"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:10:PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:11:ORG_PROCESS = BASE / "showtrials_organization_process_matrix.tsv"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:12:FAMILY_PROCESS = BASE / "showtrials_family_process_matrix.tsv"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:14:REPORT = BASE / "showtrials_process_layer_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-process-layer.py:17:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:7:ALIASES = BASE / "showtrials_person_aliases.tsv"
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:8:MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:9:OUT = BASE / "showtrials_person_aliases_reviewed.tsv"
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:10:REPORT = BASE / "showtrials_person_aliases_reviewed_report.txt"
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:13:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:23:    with MANUAL.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py:61:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py:6:MATRIX = BASE / "showtrials_person_organization_matrix.tsv"
+scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py:7:REPORT = BASE / "showtrials_person_organization_matrix_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py:9:rows = list(csv.DictReader(MATRIX.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py:6:MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
+scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py:7:REPORT = BASE / "showtrials_known_truncated_aliases_report.txt"
+scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py:30:    with MANUAL.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py:37:with MANUAL.open("a", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-layer.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-process-layer.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:9:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:10:FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:11:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:12:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:14:OUT_PROCESSES = BASE / "showtrials_processes.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:15:OUT_PROCESS_DOCS = BASE / "showtrials_process_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:16:OUT_PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:17:OUT_ORG_PROCESS = BASE / "showtrials_organization_process_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:18:OUT_FAMILY_PROCESS = BASE / "showtrials_family_process_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:19:OUT_REPORT = BASE / "showtrials_process_layer_report.txt"
+scripts/e-semantic-layer/build-showtrials-process-layer.py:46:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-layer.py:154:with OUT_PROCESSES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-layer.py:166:with OUT_PROCESS_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-layer.py:177:with OUT_PERSON_PROCESS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-layer.py:190:with OUT_ORG_PROCESS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-process-layer.py:203:with OUT_FAMILY_PROCESS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-positions.py:9:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-positions.py:10:POSTS_DIR = BASE / "posts-json"
+scripts/e-semantic-layer/build-showtrials-positions.py:11:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:12:PEOPLE_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:13:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:14:FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:16:OUT_POSITIONS = BASE / "showtrials_positions.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:17:OUT_DOCS = BASE / "showtrials_position_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:18:OUT_PERSON_POSITIONS = BASE / "showtrials_person_position_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:19:OUT_POSITION_ORGS = BASE / "showtrials_position_organization_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-positions.py:20:OUT_REPORT = BASE / "showtrials_positions_report.txt"
+scripts/e-semantic-layer/build-showtrials-positions.py:102:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-positions.py:184:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-positions.py:195:with OUT_POSITIONS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-positions.py:234:with OUT_PERSON_POSITIONS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-positions.py:246:with OUT_POSITION_ORGS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/review-showtrials-person-aliases.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/review-showtrials-person-aliases.py:7:CANDIDATES = BASE / "showtrials_person_merge_candidates.tsv"
+scripts/e-semantic-layer/review-showtrials-person-aliases.py:8:OUT_MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
+scripts/e-semantic-layer/review-showtrials-person-aliases.py:23:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/review-showtrials-person-aliases.py:30:    with path.open("a", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/review-showtrials-person-aliases.py:46:    with Path(args.candidates).open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:10:OUT_DOC_ENTITIES = BASE / "showtrials_title_document_entities.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:11:OUT_ENTITIES = BASE / "showtrials_title_entities.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:12:OUT_PAIRS = BASE / "showtrials_title_entity_pairs.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:13:OUT_REPORT = BASE / "showtrials_title_entities_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:104:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:144:with OUT_DOC_ENTITIES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:154:with OUT_ENTITIES.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-title-entities.py:172:with OUT_PAIRS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:8:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:9:ALIASES = BASE / "showtrials_person_aliases.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:11:OUT_TSV = BASE / "showtrials_person_merge_candidates.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:12:OUT_REPORT = BASE / "showtrials_person_merge_candidates_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:49:with ALIASES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:57:with PEOPLE.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py:145:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py:8:ENTITIES = BASE / "showtrials_title_entities.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py:10:OUT_TSV = BASE / "showtrials_entity_candidates.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py:11:OUT_REPORT = BASE / "showtrials_entity_cleanup_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py:80:with ENTITIES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py:98:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py:6:PROFILES = BASE / "showtrials_person_institution_profiles_v2.tsv"
+scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py:7:REPORT = BASE / "showtrials_person_institution_profiles_v2_validation_report.txt"
+scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py:9:rows = list(csv.DictReader(PROFILES.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:8:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:10:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:11:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:13:OUT_PEOPLE = BASE / "showtrials_person_anomalies.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:14:OUT_TERMS = BASE / "showtrials_taxonomy_anomalies.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:15:OUT_REPORT = BASE / "showtrials_entity_anomalies_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:33:with PEOPLE.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:37:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:77:with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py:141:with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:8:    "catalog": BASE / "showtrials_master_catalog.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:9:    "people": BASE / "showtrials_literal_people.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:10:    "person_documents": BASE / "showtrials_literal_person_documents.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:11:    "person_aliases": BASE / "showtrials_person_aliases.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:12:    "document_types": BASE / "showtrials_document_types_v4.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:13:    "organizations": BASE / "showtrials_organizations.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:14:    "organization_documents": BASE / "showtrials_organization_documents.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:15:    "organization_hierarchy": BASE / "showtrials_organization_hierarchy.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:16:    "organization_families": BASE / "showtrials_organization_families.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:17:    "organization_family_document_matrix": BASE / "showtrials_organization_family_document_matrix.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:18:    "roles_v2": BASE / "showtrials_roles_v2.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:19:    "role_documents_v2": BASE / "showtrials_role_documents_v2.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:20:    "person_organization_matrix": BASE / "showtrials_person_organization_matrix.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:21:    "person_organization_summary": BASE / "showtrials_person_organization_summary.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:22:    "organization_person_summary": BASE / "showtrials_organization_person_summary.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:23:    "person_context_profiles_v2": BASE / "showtrials_person_institution_profiles_v2.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:24:    "person_process_matrix": BASE / "showtrials_person_process_matrix.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:25:    "organization_process_matrix": BASE / "showtrials_organization_process_matrix.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:26:    "family_process_matrix": BASE / "showtrials_family_process_matrix.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:27:    "processes": BASE / "showtrials_processes.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:28:    "process_document_matrix": BASE / "showtrials_process_document_matrix.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:29:    "person_process_profiles": BASE / "showtrials_person_process_profiles.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:30:    "organization_process_profiles": BASE / "showtrials_organization_process_profiles.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:31:    "family_process_profiles": BASE / "showtrials_family_process_profiles.tsv",
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:34:REPORT = BASE / "showtrials_semantic_layer_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:35:TSV = BASE / "showtrials_semantic_layer_inventory.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:36:VALIDATION = BASE / "showtrials_semantic_layer_validation.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:41:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:47:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:157:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py:163:with VALIDATION.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:7:ORGS = BASE / "showtrials_organizations.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:9:OUT = BASE / "showtrials_organization_hierarchy.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:10:REVIEW = BASE / "showtrials_organization_hierarchy_review.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:11:REPORT = BASE / "showtrials_organization_hierarchy_report.txt"
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:87:    with ORGS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:125:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py:136:with REVIEW.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:8:ALIASES = BASE / "showtrials_person_aliases.tsv"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:9:PERSON_DOCS = BASE / "showtrials_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:10:PERSON_PAIRS = BASE / "showtrials_person_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:12:OUT_PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:13:OUT_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:14:OUT_PAIRS = BASE / "showtrials_literal_person_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:15:OUT_REPORT = BASE / "showtrials_literal_people_report.txt"
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:18:with ALIASES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:29:with PERSON_DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:48:with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:72:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:81:    with PERSON_DOCS.open("r", encoding="utf-8", newline="") as f_in:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:97:with PERSON_PAIRS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-literal-people-index.py:105:with OUT_PAIRS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:8:TERMS = BASE / "showtrials_taxonomy_terms.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:10:OUT_PROCESSES = BASE / "showtrials_entities_processes.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:11:OUT_COLLECTIONS = BASE / "showtrials_entities_collections.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:12:OUT_CATEGORIES = BASE / "showtrials_entities_categories.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:13:OUT_TAGS = BASE / "showtrials_entities_tags.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:14:OUT_REPORT = BASE / "showtrials_entity_inventory_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:19:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:27:with TERMS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py:57:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:8:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:9:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:10:FAMILIES = BASE / "showtrials_organization_families.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:11:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:12:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:14:OUT_MATRIX = BASE / "showtrials_person_organization_matrix.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:15:OUT_PERSON_SUMMARY = BASE / "showtrials_person_organization_summary.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:16:OUT_ORG_SUMMARY = BASE / "showtrials_organization_person_summary.tsv"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:17:OUT_REPORT = BASE / "showtrials_person_organization_matrix_report.txt"
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:20:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:102:with OUT_MATRIX.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:122:with OUT_PERSON_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py:148:with OUT_ORG_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:9:OUT_MATRIX = BASE / "showtrials_tag_process_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:10:OUT_EXCLUSIVE = BASE / "showtrials_tag_process_exclusive.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:11:OUT_REPORT = BASE / "showtrials_tag_process_audit_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:22:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:45:with OUT_MATRIX.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py:51:with OUT_EXCLUSIVE.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-families.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-organization-families.py:8:ORGS = BASE / "showtrials_organizations.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-families.py:10:OUT = BASE / "showtrials_organization_families.tsv"
+scripts/e-semantic-layer/build-showtrials-organization-families.py:11:REPORT = BASE / "showtrials_organization_families_report.txt"
+scripts/e-semantic-layer/build-showtrials-organization-families.py:52:with ORGS.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-organization-families.py:74:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-people-index.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/build-showtrials-people-index.py:7:CANDIDATES = BASE / "showtrials_entity_candidates.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:8:DOC_ENTITIES = BASE / "showtrials_title_document_entities.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:10:PAIRS = BASE / "showtrials_title_entity_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:12:OUT_PEOPLE = BASE / "showtrials_people.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:13:OUT_PERSON_DOCS = BASE / "showtrials_person_documents.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:14:OUT_PERSON_PAIRS = BASE / "showtrials_person_pairs.tsv"
+scripts/e-semantic-layer/build-showtrials-people-index.py:15:OUT_REPORT = BASE / "showtrials_people_index_report.txt"
+scripts/e-semantic-layer/build-showtrials-people-index.py:21:with CANDIDATES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-people-index.py:27:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-people-index.py:37:with DOC_ENTITIES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-people-index.py:57:with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-people-index.py:79:with OUT_PERSON_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/build-showtrials-people-index.py:101:with OUT_PERSON_PAIRS.open("w", encoding="utf-8", newline="") as f_out, PAIRS.open("r", encoding="utf-8", newline="") as f_in:
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:5:REPORT="$BASE/showtrials_semantic_baseline_report.txt"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:6:TSV="$BASE/showtrials_semantic_baseline_inventory.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:7:DEPS="$BASE/showtrials_semantic_baseline_dependencies.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:40:write_layer "catalog" "$BASE/showtrials_master_catalog.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:41:write_layer "search_corpus" "$BASE/showtrials_search_corpus.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:42:write_layer "people" "$BASE/showtrials_literal_people.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:43:write_layer "person_documents" "$BASE/showtrials_literal_person_documents.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:44:write_layer "person_aliases" "$BASE/showtrials_person_aliases.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:45:write_layer "document_types_v4" "$BASE/showtrials_document_types_v4.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:46:write_layer "organizations" "$BASE/showtrials_organizations.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:47:write_layer "organization_documents" "$BASE/showtrials_organization_documents.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:48:write_layer "organization_hierarchy" "$BASE/showtrials_organization_hierarchy.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:49:write_layer "organization_families" "$BASE/showtrials_organization_families.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:50:write_layer "organization_family_document_matrix" "$BASE/showtrials_organization_family_document_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:51:write_layer "roles_v2" "$BASE/showtrials_roles_v2.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:52:write_layer "role_documents_v2" "$BASE/showtrials_role_documents_v2.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:53:write_layer "person_organization_matrix" "$BASE/showtrials_person_organization_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:54:write_layer "person_organization_summary" "$BASE/showtrials_person_organization_summary.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:55:write_layer "organization_person_summary" "$BASE/showtrials_organization_person_summary.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:56:write_layer "person_context_profiles_v2" "$BASE/showtrials_person_institution_profiles_v2.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:57:write_layer "processes" "$BASE/showtrials_processes.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:58:write_layer "process_document_matrix" "$BASE/showtrials_process_document_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:59:write_layer "person_process_matrix" "$BASE/showtrials_person_process_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:60:write_layer "organization_process_matrix" "$BASE/showtrials_organization_process_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:61:write_layer "family_process_matrix" "$BASE/showtrials_family_process_matrix.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:62:write_layer "person_process_profiles" "$BASE/showtrials_person_process_profiles.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:63:write_layer "organization_process_profiles" "$BASE/showtrials_organization_process_profiles.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:64:write_layer "family_process_profiles" "$BASE/showtrials_family_process_profiles.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:66:write_layer "search_v2_validation" "$BASE/showtrials_search_v2_validation.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:67:write_layer "semantic_layer_inventory" "$BASE/showtrials_semantic_layer_inventory.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:68:write_layer "semantic_layer_validation" "$BASE/showtrials_semantic_layer_validation.tsv"
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:72:showtrials_literal_people.tsv	showtrials_master_catalog.tsv	person entity inventory
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:73:showtrials_literal_person_documents.tsv	showtrials_literal_people.tsv	person-document links
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:74:showtrials_person_aliases.tsv	showtrials_literal_people.tsv	manual/automatic alias normalization
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:75:showtrials_document_types_v4.tsv	showtrials_master_catalog.tsv	document type classification
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:76:showtrials_organizations.tsv	showtrials_master_catalog.tsv	organization entity inventory
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:77:showtrials_organization_documents.tsv	showtrials_organizations.tsv	organization-document links
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:78:showtrials_organization_hierarchy.tsv	showtrials_organizations.tsv	organization hierarchy
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:79:showtrials_organization_families.tsv	showtrials_organizations.tsv	institutional family mapping
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:80:showtrials_organization_family_document_matrix.tsv	showtrials_organization_documents.tsv	document-family matrix
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:81:showtrials_roles_v2.tsv	showtrials_positions.tsv	role taxonomy
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:82:showtrials_role_documents_v2.tsv	showtrials_roles_v2.tsv	role-document links
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:83:showtrials_person_organization_matrix.tsv	person_documents + organization_documents	person-organization cooccurrence matrix
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:84:showtrials_processes.tsv	showtrials_master_catalog.tsv	process entity layer
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:85:showtrials_process_document_matrix.tsv	showtrials_processes.tsv	process-document matrix
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:86:showtrials_person_process_matrix.tsv	person_documents + processes	person-process matrix
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:87:showtrials_organization_process_matrix.tsv	organization_documents + processes	organization-process matrix
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:88:showtrials_family_process_matrix.tsv	organization_family_document_matrix + processes	family-process matrix
+scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh:89:showtrials_process_profiles.tsv	process matrices	entity process profiles
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:7:CANDIDATES = BASE / "showtrials_person_merge_candidates.tsv"
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:8:MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:9:OUT_REPORT = BASE / "showtrials_person_auto_alias_report.txt"
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:46:    with MANUAL.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:54:with CANDIDATES.open("r", encoding="utf-8", newline="") as f:
+scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py:84:with MANUAL.open("a", encoding="utf-8", newline="") as f:
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:8:G3 = BASE / "showtrials_translation_glossary_g3.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:9:REVIEW = BASE / "showtrials_translation_glossary_g3_review.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:10:REPORT = BASE / "showtrials_translation_glossary_g3_validation_report.txt"
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:11:TSV = BASE / "showtrials_translation_glossary_g3_validation.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:13:rows = list(csv.DictReader(G3.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:14:review_rows = list(csv.DictReader(REVIEW.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/validate-showtrials-translation-glossary-g3.py:55:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py:6:FILE = BASE / "showtrials_translation_glossary_seeds_v1.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py:7:REPORT = BASE / "showtrials_translation_glossary_seeds_v1_validation_report.txt"
+scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py:9:rows = list(csv.DictReader(FILE.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:8:G4 = BASE / "showtrials_translation_glossary_g4.tsv"
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:9:REVIEW = BASE / "showtrials_translation_glossary_g4_review.tsv"
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:11:REPORT = BASE / "showtrials_translation_glossary_freeze_readiness_report.txt"
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:12:TSV = BASE / "showtrials_translation_glossary_freeze_readiness.tsv"
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:14:rows = list(csv.DictReader(G4.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:15:review_rows = list(csv.DictReader(REVIEW.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py:99:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:9:GLOSSARY = BASE / "showtrials_translation_glossary_v1.tsv"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:10:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:11:PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:12:PERSON_ORG = BASE / "showtrials_person_organization_summary.tsv"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:14:OUT = BASE / "showtrials_translation_glossary_g3.tsv"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:15:REVIEW = BASE / "showtrials_translation_glossary_g3_review.tsv"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:16:REPORT = BASE / "showtrials_translation_glossary_g3_report.txt"
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:71:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:211:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py:216:with REVIEW.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:8:G4 = BASE / "showtrials_translation_glossary_g4.tsv"
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:10:OUT = BASE / "showtrials_translation_glossary_g4_1.tsv"
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:11:REVIEW = BASE / "showtrials_translation_glossary_g4_1_review.tsv"
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:12:GOOGLE_GLOSSARY = BASE / "showtrials_google_translate_glossary_ru_en_v1.tsv"
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:13:REPORT = BASE / "showtrials_translation_glossary_g4_1_report.txt"
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:52:rows = list(csv.DictReader(G4.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:89:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:94:with REVIEW.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py:117:with GOOGLE_GLOSSARY.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:8:PEOPLE = BASE / "showtrials_literal_people.tsv"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:9:ORGS = BASE / "showtrials_organizations.tsv"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:10:ROLES = BASE / "showtrials_roles_v2.tsv"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:11:PROCESSES = BASE / "showtrials_processes.tsv"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:12:DOC_TYPES = BASE / "showtrials_translation_profiles_v1.tsv"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:14:OUT = BASE / "showtrials_translation_glossary_seeds_v1.tsv"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:15:REPORT = BASE / "showtrials_translation_glossary_seeds_v1_report.txt"
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:123:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py:235:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/validate-showtrials-translation-glossary-v1.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/validate-showtrials-translation-glossary-v1.py:6:GLOSSARY = BASE / "showtrials_translation_glossary_v1.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-v1.py:7:REVIEW = BASE / "showtrials_translation_glossary_v1_review.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-v1.py:8:REPORT = BASE / "showtrials_translation_glossary_v1_validation_report.txt"
+scripts/g-glossary/validate-showtrials-translation-glossary-v1.py:10:rows = list(csv.DictReader(GLOSSARY.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/validate-showtrials-translation-glossary-v1.py:11:review_rows = list(csv.DictReader(REVIEW.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:7:SEEDS = BASE / "showtrials_translation_glossary_seeds_v1.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:9:OUT = BASE / "showtrials_translation_glossary_v1.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:10:REVIEW = BASE / "showtrials_translation_glossary_v1_review.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:11:REPORT = BASE / "showtrials_translation_glossary_v1_report.txt"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:86:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:171:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py:176:with REVIEW.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:9:G3 = BASE / "showtrials_translation_glossary_g3.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:10:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:11:ALIASES = BASE / "showtrials_person_aliases.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:12:PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:13:PERSON_ORG = BASE / "showtrials_person_organization_summary.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:15:OUT = BASE / "showtrials_translation_glossary_g4.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:16:REVIEW = BASE / "showtrials_translation_glossary_g4_review.tsv"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:17:REPORT = BASE / "showtrials_translation_glossary_g4_report.txt"
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:98:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:267:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py:272:with REVIEW.open("w", encoding="utf-8", newline="") as f:
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:8:G = BASE / "showtrials_translation_glossary_g4_1.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:9:GG = BASE / "showtrials_google_translate_glossary_ru_en_v1.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:11:REPORT = BASE / "showtrials_translation_glossary_g4_1_validation_report.txt"
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:12:TSV = BASE / "showtrials_translation_glossary_g4_1_validation.tsv"
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:14:rows = list(csv.DictReader(G.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:15:google_rows = list(csv.DictReader(GG.open("r", encoding="utf-8", newline=""), delimiter="\t"))
+scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py:71:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py:14:INPUT_BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py:15:OUTPUT_VALIDATION = ROOT / "showtrials_chunking_blueprint_v1_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py:16:OUTPUT_REPORT = ROOT / "showtrials_chunking_blueprint_v1_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py:22:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py:27:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:15:REVIEW_INDEX = ROOT / "showtrials_structural_samples_d2_2_review_index.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:16:D1_POLICY = ROOT / "showtrials_chunking_policy_recommendations_d1.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:17:D2_BY_TYPE = ROOT / "showtrials_structural_chunking_d2_by_type.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:18:OUTPUT_BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:19:OUTPUT_REPORT = ROOT / "showtrials_chunking_blueprint_v1_report.txt"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:148:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py:153:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:16:MASTER = ROOT / "showtrials_master_catalog.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:17:DOC_TYPES = ROOT / "showtrials_document_types_v4.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:18:CORPUS = ROOT / "showtrials_search_corpus.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:19:SIZING = ROOT / "showtrials_corpus_sizing_by_document_d1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:20:BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:22:OUTPUT_PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:23:OUTPUT_SUMMARY = ROOT / "showtrials_special_report_package_summary_d3_1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:24:OUTPUT_EXAMPLES = ROOT / "showtrials_special_report_package_examples_d3_1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:25:OUTPUT_REPORT = ROOT / "showtrials_special_report_packages_d3_1_report.txt"
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:77:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py:82:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:14:PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:15:DOC_TYPES = ROOT / "showtrials_document_types_v4.tsv"
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:16:BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:17:VALIDATION = ROOT / "showtrials_special_report_packages_d3_1_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:18:REPORT = ROOT / "showtrials_special_report_packages_d3_1_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:27:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py:32:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py:15:INPUT_INDEX = ROOT / "showtrials_structural_samples_d2_1_index.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py:16:OUTPUT_INDEX = ROOT / "showtrials_structural_samples_d2_2_review_index.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py:17:OUTPUT_REPORT = ROOT / "showtrials_structural_samples_d2_2_report.txt"
+scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py:112:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py:117:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py:14:BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1_1.tsv"
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py:15:VALIDATION = ROOT / "showtrials_chunking_blueprint_v1_1_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py:16:REPORT = ROOT / "showtrials_chunking_blueprint_v1_1_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py:26:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py:31:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:16:PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:17:MATRIX = ROOT / "showtrials_special_report_attachment_matrix.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:18:OLD_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1a.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:20:OUTPUT_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1b.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:21:OUTPUT_REFINEMENT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:22:OUTPUT_REPORT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b_report.txt"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:81:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py:86:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py:14:TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1b.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py:15:REFINEMENT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py:16:VALIDATION = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py:17:REPORT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py:40:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py:45:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:10:BASE = Path("/srv/projects/showtrials-discovery")
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:12:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:13:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:14:CORPUS = BASE / "showtrials_search_corpus.tsv"
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:15:D1_DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:18:OUT_INDEX = BASE / "showtrials_structural_samples_d2_1_index.tsv"
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:19:OUT_REPORT = BASE / "showtrials_structural_samples_d2_1_report.txt"
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:43:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py:187:with OUT_INDEX.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:10:BASE = Path("/srv/projects/showtrials-discovery")
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:12:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:13:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:14:CORPUS = BASE / "showtrials_search_corpus.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:15:D1_DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:17:OUT_DOCS = BASE / "showtrials_structural_chunking_d2_by_document.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:18:OUT_TYPES = BASE / "showtrials_structural_chunking_d2_by_type.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:19:OUT_EXAMPLES = BASE / "showtrials_structural_chunking_d2_examples.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:20:REPORT = BASE / "showtrials_structural_chunking_d2_report.txt"
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:34:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:143:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:172:with OUT_TYPES.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py:184:with OUT_EXAMPLES.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:8:DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:9:TYPES = BASE / "showtrials_corpus_sizing_by_document_type_d1.tsv"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:10:PROCESSES = BASE / "showtrials_corpus_sizing_by_process_d1.tsv"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:11:POLICY = BASE / "showtrials_chunking_policy_recommendations_d1.tsv"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:13:REPORT = BASE / "showtrials_corpus_sizing_chunking_d1_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:14:TSV = BASE / "showtrials_corpus_sizing_chunking_d1_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:17:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py:67:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:14:INPUT_PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:15:MATRIX = ROOT / "showtrials_special_report_attachment_matrix.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:16:TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1a.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:17:VALIDATION = ROOT / "showtrials_attachment_taxonomy_d3_1a_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:18:REPORT = ROOT / "showtrials_attachment_taxonomy_d3_1a_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:40:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py:45:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:15:BLUEPRINT_V1 = ROOT / "showtrials_chunking_blueprint_v1.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:16:D2_BY_TYPE = ROOT / "showtrials_structural_chunking_d2_by_type.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:17:ATTACHMENT_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1b.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:18:ATTACHMENT_REFINEMENT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:19:BLUEPRINT_V1_REPORT = ROOT / "showtrials_chunking_blueprint_v1_report.txt"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:21:OUTPUT_BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1_1.tsv"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:22:OUTPUT_POLICY = ROOT / "showtrials_chunking_policy_v1_1.txt"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:23:OUTPUT_REPORT = ROOT / "showtrials_chunking_blueprint_v1_1_report.txt"
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:155:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py:160:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:10:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:11:PROFILES = BASE / "showtrials_translation_profiles_v1_1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:13:    PROFILES = BASE / "showtrials_translation_profiles_v1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:15:OUT_DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:16:OUT_TYPES = BASE / "showtrials_corpus_sizing_by_document_type_d1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:17:OUT_PROCESSES = BASE / "showtrials_corpus_sizing_by_process_d1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:18:OUT_POLICY = BASE / "showtrials_chunking_policy_recommendations_d1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:19:REPORT = BASE / "showtrials_corpus_sizing_chunking_d1_report.txt"
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:24:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:103:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:117:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py:195:with OUT_POLICY.open("w", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:15:INPUT_PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:17:OUTPUT_MATRIX = ROOT / "showtrials_special_report_attachment_matrix.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:18:OUTPUT_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1a.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:19:OUTPUT_CROSSWALK = ROOT / "showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:20:OUTPUT_REPORT = ROOT / "showtrials_attachment_taxonomy_d3_1a_report.txt"
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:75:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py:80:    with path.open("w", encoding="utf-8", newline="") as handle:
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:5:BASE = Path("/srv/projects/showtrials-discovery")
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:8:DOCS = BASE / "showtrials_structural_chunking_d2_by_document.tsv"
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:9:TYPES = BASE / "showtrials_structural_chunking_d2_by_type.tsv"
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:11:REPORT = BASE / "showtrials_structural_chunking_d2_validation_report.txt"
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:12:TSV = BASE / "showtrials_structural_chunking_d2_validation.tsv"
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:15:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py:47:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/a-extraction/showtrials-audit.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/a-extraction/showtrials-audit.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/a-extraction/showtrials-audit.py:8:TEXT_CLEAN = BASE / "showtrials_text_cleanliness.tsv"
+scripts/a-extraction/showtrials-audit.py:10:OUT_DOCS = BASE / "showtrials_corpus_audit_documents.tsv"
+scripts/a-extraction/showtrials-audit.py:11:OUT_SUMMARY = BASE / "showtrials_corpus_audit_summary.tsv"
+scripts/a-extraction/showtrials-audit.py:12:OUT_REPORT = BASE / "showtrials_corpus_audit_report.txt"
+scripts/a-extraction/showtrials-audit.py:23:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/a-extraction/showtrials-audit.py:28:    with TEXT_CLEAN.open("r", encoding="utf-8", newline="") as f:
+scripts/a-extraction/showtrials-audit.py:105:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/a-extraction/showtrials-audit.py:116:with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/a-extraction/showtrials-stats.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/a-extraction/showtrials-stats.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/a-extraction/showtrials-stats.py:17:    with Path(path).open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/showtrials-search.py:9:BASE = Path("/tmp/showtrials-discovery")
+scripts/b-json-export-search/showtrials-search.py:10:SEARCH_CORPUS = BASE / "showtrials_search_corpus.tsv"
+scripts/b-json-export-search/showtrials-search.py:32:    with Path(path).open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/showtrials-search.py:46:    p.add_argument("--export-tsv")
+scripts/b-json-export-search/showtrials-search.py:78:        with out.open("w", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/showtrials-search-v2.py:8:BASE = Path("/tmp/showtrials-discovery")
+scripts/b-json-export-search/showtrials-search-v2.py:10:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:11:CORPUS = BASE / "showtrials_search_corpus.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:12:PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:13:ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:14:FAMILY_DOCS = BASE / "showtrials_organization_family_document_matrix.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:15:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:16:ROLE_DOCS = BASE / "showtrials_role_documents_v2.tsv"
+scripts/b-json-export-search/showtrials-search-v2.py:31:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/search-showtrials.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/b-json-export-search/search-showtrials.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/b-json-export-search/search-showtrials.py:11:    "processes": BASE / "showtrials_entities_processes.tsv",
+scripts/b-json-export-search/search-showtrials.py:12:    "collections": BASE / "showtrials_entities_collections.tsv",
+scripts/b-json-export-search/search-showtrials.py:13:    "categories": BASE / "showtrials_entities_categories.tsv",
+scripts/b-json-export-search/search-showtrials.py:14:    "tags": BASE / "showtrials_entities_tags.tsv",
+scripts/b-json-export-search/search-showtrials.py:35:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/search-showtrials.py:45:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/search-showtrials.py:121:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/search-showtrials.py:146:    p.add_argument("--catalog", default=str(CATALOG), help="Path to showtrials_master_catalog.tsv")
+scripts/b-json-export-search/search-showtrials.py:167:    p.add_argument("--export-tsv", help="Export matching rows to TSV")
+scripts/b-json-export-search/showtrials-export-texts.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/b-json-export-search/showtrials-export-texts.py:6:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/b-json-export-search/showtrials-export-texts.py:7:INDEX = BASE / "showtrials_document_index.tsv"
+scripts/b-json-export-search/showtrials-export-texts.py:26:    with Path(path).open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/showtrials-export-texts.py:49:    p.add_argument("--out-dir", default=str(BASE / "export-texts"))
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:8:TXT_DIR = BASE / "export-txt"
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:10:OUT_TSV = BASE / "showtrials_search_corpus.tsv"
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:11:OUT_REPORT = BASE / "showtrials_search_corpus_report.txt"
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:22:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/diagnose-showtrials-search-corpus.py:54:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/b-json-export-search/showtrials-doc.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/b-json-export-search/showtrials-doc.py:6:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/b-json-export-search/showtrials-doc.py:7:INDEX = BASE / "showtrials_document_index.tsv"
+scripts/b-json-export-search/showtrials-doc.py:21:    with Path(path).open("r", encoding="utf-8", newline="") as f:
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:8:DOCTYPE_COST = BASE / "showtrials_translation_cost_by_document_type.tsv"
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:10:OUT_PROFILES = BASE / "showtrials_translation_profiles_v1.tsv"
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:11:OUT_GLOSSARY_SEEDS = BASE / "showtrials_translation_glossary_seed_plan_v1.tsv"
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:12:OUT_REPORT = BASE / "showtrials_translation_profiles_v1_report.txt"
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:326:        "source_file": "showtrials_literal_people.tsv",
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:335:        "source_file": "showtrials_organizations.tsv",
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:344:        "source_file": "showtrials_processes.tsv",
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:353:        "source_file": "showtrials_roles_v2.tsv",
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:362:        "source_file": "showtrials_document_types_v4.tsv",
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:372:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:410:with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py:422:with OUT_GLOSSARY_SEEDS.open("w", encoding="utf-8", newline="") as f:
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:10:DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:12:OUT_DOCS = BASE / "showtrials_translation_cost_by_document.tsv"
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:13:OUT_PROCESS = BASE / "showtrials_translation_cost_by_process.tsv"
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:14:OUT_DOCTYPE = BASE / "showtrials_translation_cost_by_document_type.tsv"
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:15:OUT_REPORT = BASE / "showtrials_translation_cost_report.txt"
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:21:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:76:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/t-translation-planning/diagnose-showtrials-translation-cost.py:89:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/r-governance/diagnose-repo-file-metadata.py:6:OUT = Path("repo-file-metadata.tsv")
+scripts/r-governance/diagnose-repo-file-metadata.py:11:for p in sorted(Path(".").rglob("*")):
+scripts/r-governance/diagnose-repo-file-metadata.py:28:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/r-governance/validate-repo-reorganization-from-map.py:2:"""Validate completed repository reorganization from repo-reorganization-map.tsv."""
+scripts/r-governance/validate-repo-reorganization-from-map.py:15:MAP_PATH = ROOT / "repo-reorganization-map.tsv"
+scripts/r-governance/validate-repo-reorganization-from-map.py:16:VALIDATION_TSV = ROOT / "repo-reorganization-validation.tsv"
+scripts/r-governance/validate-repo-reorganization-from-map.py:17:VALIDATION_REPORT = ROOT / "repo-reorganization-validation-report.txt"
+scripts/r-governance/validate-repo-reorganization-from-map.py:35:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/r-governance/validate-repo-reorganization-from-map.py:119:    with VALIDATION_TSV.open("w", encoding="utf-8", newline="") as handle:
+scripts/r-governance/apply-repo-reorganization-from-map.py:2:"""Apply repository reorganization from repo-reorganization-map.tsv."""
+scripts/r-governance/apply-repo-reorganization-from-map.py:16:MAP_PATH = ROOT / "repo-reorganization-map.tsv"
+scripts/r-governance/apply-repo-reorganization-from-map.py:17:APPLY_TSV = ROOT / "repo-reorganization-apply.tsv"
+scripts/r-governance/apply-repo-reorganization-from-map.py:18:APPLY_REPORT = ROOT / "repo-reorganization-apply-report.txt"
+scripts/r-governance/apply-repo-reorganization-from-map.py:37:    with path.open("r", encoding="utf-8", newline="") as handle:
+scripts/r-governance/apply-repo-reorganization-from-map.py:46:    with APPLY_TSV.open("w", encoding="utf-8", newline="") as handle:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:7:POSTS_DIR = BASE / "posts-json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:8:PAGES = BASE / "pages-json/pages-page-1.json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:9:LINKS = BASE / "showtrials_page_links.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:11:OUT_TSV = BASE / "showtrials_document_collections.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:12:OUT_REPORT = BASE / "showtrials_document_collections_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:61:with LINKS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py:87:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:8:OLD = BASE / "showtrials_document_types_v3.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:9:NEW = BASE / "showtrials_document_types_v4.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:11:OUT = BASE / "showtrials_document_type_v3_v4_changes.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:12:REPORT = BASE / "showtrials_document_type_v3_v4_compare_report.txt"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:15:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py:44:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:8:DOCS = BASE / "showtrials_document_types_v2.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:11:REPORT = BASE / "showtrials_document_types_v2_validation_report.txt"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:12:TSV = BASE / "showtrials_document_types_v2_validation.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:17:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:20:with DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py:45:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py:8:TXT_DIR = BASE / "export-txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py:10:OUT_TSV = BASE / "showtrials_text_cleanliness.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py:11:OUT_REPORT = BASE / "showtrials_text_cleanliness_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py:49:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:10:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:11:POSTS_DIR = BASE / "posts-json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:12:TERMS = BASE / "showtrials_taxonomy_terms.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:13:COLLECTIONS = BASE / "showtrials_document_collections.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:15:OUT_TSV = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:16:OUT_REPORT = BASE / "showtrials_master_catalog_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:34:with TERMS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:40:with COLLECTIONS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py:109:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py:8:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py:9:OUT_CATEGORIES_JSON = BASE / "showtrials_categories.json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py:10:OUT_TAGS_JSON = BASE / "showtrials_tags.json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py:11:OUT_TSV = BASE / "showtrials_taxonomy_terms.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py:12:OUT_REPORT = BASE / "showtrials_taxonomy_terms_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py:46:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-search-v2.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/validate-showtrials-search-v2.py:9:REPORT = BASE / "showtrials_search_v2_validation_report.txt"
+scripts/c-catalog-taxonomy/validate-showtrials-search-v2.py:10:TSV = BASE / "showtrials_search_v2_validation.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-search-v2.py:98:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:7:SRC = BASE / "showtrials_document_collections.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:9:OUT_PROCESS = BASE / "showtrials_process_inventory.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:10:OUT_COLLECTION = BASE / "showtrials_collection_inventory.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:11:OUT_TIMELINE = BASE / "showtrials_timeline.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:12:OUT_LARGEST = BASE / "showtrials_largest_documents.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:13:OUT_REPORT = BASE / "showtrials_corpus_inventory_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:16:with SRC.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:56:with OUT_PROCESS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:72:with OUT_COLLECTION.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:86:with OUT_TIMELINE.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py:95:with OUT_LARGEST.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:10:OUT_DOCS = BASE / "showtrials_document_types_v3.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:11:OUT_SUMMARY = BASE / "showtrials_document_type_summary_v3.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:12:OUT_UNKNOWN_PREFIXES = BASE / "showtrials_document_type_unknown_prefixes_v3.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:13:OUT_REPORT = BASE / "showtrials_document_types_v3_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:63:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:97:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:109:with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py:115:with OUT_UNKNOWN_PREFIXES.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:10:OUT_YEAR = BASE / "showtrials_dates_by_year.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:11:OUT_MONTH = BASE / "showtrials_dates_by_month.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:12:OUT_OUTLIERS = BASE / "showtrials_date_outliers.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:13:OUT_REPORT = BASE / "showtrials_date_audit_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:21:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:52:with OUT_YEAR.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:59:with OUT_MONTH.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py:66:with OUT_OUTLIERS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:9:OUT_TERMS = BASE / "showtrials_taxonomy_terms.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:10:OUT_DOCS = BASE / "showtrials_taxonomy_document_matrix.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:11:OUT_REPORT = BASE / "showtrials_taxonomy_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:16:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:55:with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py:68:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py:7:PAGES = BASE / "pages-json/pages-page-1.json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py:8:OUT_TSV = BASE / "showtrials_page_links.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py:9:OUT_REPORT = BASE / "showtrials_page_links_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py:61:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py:5:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py:6:POSTS_DIR = BASE / "posts-json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py:7:OUT_TSV = BASE / "showtrials_document_index.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py:8:OUT_REPORT = BASE / "showtrials_document_index_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py:34:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:8:V1 = BASE / "showtrials_document_types.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:9:V2 = BASE / "showtrials_document_types_v2.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:11:OUT = BASE / "showtrials_document_type_v1_v2_changes.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:12:REPORT = BASE / "showtrials_document_type_v1_v2_compare_report.txt"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:15:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py:44:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:10:OUT_DOCS = BASE / "showtrials_document_types.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:11:OUT_SUMMARY = BASE / "showtrials_document_type_summary.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:12:OUT_REPORT = BASE / "showtrials_document_types_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:41:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:72:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py:84:with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:8:OLD = BASE / "showtrials_document_types_v2.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:9:NEW = BASE / "showtrials_document_types_v3.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:11:OUT = BASE / "showtrials_document_type_v2_v3_changes.tsv"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:12:REPORT = BASE / "showtrials_document_type_v2_v3_compare_report.txt"
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:15:    with path.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py:44:with OUT.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/showtrials-timeline.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/showtrials-timeline.py:7:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/showtrials-timeline.py:17:    with Path(path).open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:8:DOCS = BASE / "showtrials_document_types_v4.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:11:REPORT = BASE / "showtrials_document_types_v4_validation_report.txt"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:12:TSV = BASE / "showtrials_document_types_v4_validation.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:17:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:20:with DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py:43:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:8:DOCS = BASE / "showtrials_document_types_v3.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:11:REPORT = BASE / "showtrials_document_types_v3_validation_report.txt"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:12:TSV = BASE / "showtrials_document_types_v3_validation.tsv"
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:17:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:20:with DOCS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py:45:with TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:8:POSTS_DIR = BASE / "posts-json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:10:OUT_FIELDS = BASE / "showtrials_post_metadata_fields.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:11:OUT_TERMS = BASE / "showtrials_post_metadata_terms.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:12:OUT_SAMPLE = BASE / "showtrials_post_metadata_sample.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:13:OUT_REPORT = BASE / "showtrials_post_metadata_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:81:with OUT_FIELDS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:87:with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py:101:with OUT_SAMPLE.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:10:OUT_DOCS = BASE / "showtrials_document_types_v4.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:11:OUT_SUMMARY = BASE / "showtrials_document_type_summary_v4.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:12:OUT_UNKNOWN_PREFIXES = BASE / "showtrials_document_type_unknown_prefixes_v4.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:13:OUT_REPORT = BASE / "showtrials_document_types_v4_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:67:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:101:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:113:with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py:119:with OUT_UNKNOWN_PREFIXES.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py:7:TERMS = BASE / "showtrials_taxonomy_terms.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py:9:OUT_TSV = BASE / "showtrials_category_tree.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py:10:OUT_REPORT = BASE / "showtrials_category_tree_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py:13:with TERMS.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py:62:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:8:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:10:OUT_DOCS = BASE / "showtrials_document_types_v2.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:11:OUT_SUMMARY = BASE / "showtrials_document_type_summary_v2.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:12:OUT_UNKNOWN_PREFIXES = BASE / "showtrials_document_type_unknown_prefixes_v2.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:13:OUT_REPORT = BASE / "showtrials_document_types_v2_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:61:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:95:with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:107:with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py:113:with OUT_UNKNOWN_PREFIXES.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py:6:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py:7:PAGES = BASE / "pages-json/pages-page-1.json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py:8:OUT_TSV = BASE / "showtrials_page_hierarchy.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py:9:OUT_REPORT = BASE / "showtrials_page_hierarchy_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py:43:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:7:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:8:SRC = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:10:OUT_OVERVIEW = BASE / "showtrials_corpus_statistics_overview.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:11:OUT_PROCESS = BASE / "showtrials_corpus_statistics_by_process.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:12:OUT_COLLECTION = BASE / "showtrials_corpus_statistics_by_collection.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:13:OUT_TAG = BASE / "showtrials_corpus_statistics_by_tag.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:14:OUT_LARGEST = BASE / "showtrials_corpus_largest_documents.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:15:OUT_SMALLEST = BASE / "showtrials_corpus_smallest_documents.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:16:OUT_REPORT = BASE / "showtrials_corpus_statistics_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:24:with SRC.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:48:with OUT_OVERVIEW.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:82:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py:102:    with path.open("w", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:8:BASE = Path("/tmp/showtrials-discovery")
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:9:CATALOG = BASE / "showtrials_master_catalog.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:11:OUT_USERS_JSON = BASE / "showtrials_users.json"
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:12:OUT_TSV = BASE / "showtrials_author_audit.tsv"
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:13:OUT_REPORT = BASE / "showtrials_author_audit_report.txt"
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:21:with CATALOG.open("r", encoding="utf-8", newline="") as f:
+scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py:51:with OUT_TSV.open("w", encoding="utf-8", newline="") as f:

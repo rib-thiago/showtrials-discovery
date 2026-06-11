@@ -1,0 +1,18 @@
+ShowTrials Path Dependency Audit Report
+scripts_scanned	106
+total_references	651
+absolute_paths	92
+broken_references	549
+critical_references	536
+output_dependencies	data/r-governance/path-audit/showtrials_path_dependencies.tsv
+output_runtime_breakage	data/r-governance/path-audit/showtrials_runtime_breakage.tsv
+by_reference_type
+absolute_path	92
+artifact_reference	509
+directory_reference	13
+root_relative	37
+by_severity
+critical	536
+high	106
+low	2
+medium	7
