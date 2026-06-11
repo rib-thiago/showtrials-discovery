@@ -1,0 +1,24 @@
+commit_group	phase	artifact_type	file_count	commit_order	notes
+r-governance-inventory	R governance	governance/inventory	2	1	Scripted move group; review before applying
+r-governance-docs	R governance	docs	2	2	Scripted move group; review before applying
+a-extraction-docs	A extraction	docs	1	3	Scripted move group; review before applying
+a-extraction-scripts	A extraction	scripts	2	4	Scripted move group; review before applying
+a-extraction-reports	A extraction	reports	3	5	Scripted move group; review before applying
+b-json-export-search-scripts	B json-export-search	scripts	6	6	Scripted move group; review before applying
+b-json-export-search-data	B json-export-search	data	5	7	Scripted move group; review before applying
+b-json-export-search-reports	B json-export-search	reports	2	8	Scripted move group; review before applying
+c-catalog-taxonomy-scripts	C catalog-taxonomy	scripts	26	9	Scripted move group; review before applying
+c-catalog-taxonomy-data	C catalog-taxonomy	data	48	10	Scripted move group; review before applying
+c-catalog-taxonomy-reports	C catalog-taxonomy	reports	25	11	Scripted move group; review before applying
+e-semantic-layer-scripts	E semantic-layer	scripts	41	12	Scripted move group; review before applying
+e-semantic-layer-data	E semantic-layer	data	69	13	Scripted move group; review before applying
+e-semantic-layer-reports	E semantic-layer	reports	38	14	Scripted move group; review before applying
+g-glossary-scripts	G glossary	scripts	10	15	Scripted move group; review before applying
+g-glossary-data	G glossary	data	14	16	Scripted move group; review before applying
+g-glossary-reports	G glossary	reports	10	17	Scripted move group; review before applying
+t-translation-planning-scripts	T translation-planning	scripts	2	18	Scripted move group; review before applying
+t-translation-planning-data	T translation-planning	data	7	19	Scripted move group; review before applying
+t-translation-planning-reports	T translation-planning	reports	2	20	Scripted move group; review before applying
+d-structural-chunking-scripts	D structural-chunking	scripts	16	21	Scripted move group; review before applying
+d-structural-chunking-data	D structural-chunking	data	23	22	Scripted move group; review before applying
+d-structural-chunking-reports	D structural-chunking	reports	17	23	Scripted move group; review before applying
