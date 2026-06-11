@@ -1,0 +1,125 @@
+scope	name	organization_family	document_count	total_words
+global	ALL	security_apparatus	1473	3156961
+global	ALL	party_apparatus	1430	3355968
+global	ALL	press_media	380	1787092
+global	ALL	international	320	1297983
+global	ALL	state_apparatus	224	1070691
+global	ALL	judicial_apparatus	41	361239
+global	ALL	political_organizations	1	4354
+process	КРЕМЛЕВСКОЕ ДЕЛО	security_apparatus	243	
+process	КРЕМЛЕВСКОЕ ДЕЛО	party_apparatus	203	
+process	КРЕМЛЕВСКОЕ ДЕЛО	state_apparatus	58	
+process	КРЕМЛЕВСКОЕ ДЕЛО	press_media	35	
+process	КРЕМЛЕВСКОЕ ДЕЛО	international	28	
+process	КРЕМЛЕВСКОЕ ДЕЛО	judicial_apparatus	1	
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	party_apparatus	323	
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	security_apparatus	320	
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	international	100	
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	press_media	83	
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	state_apparatus	31	
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	judicial_apparatus	22	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	party_apparatus	193	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	security_apparatus	150	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	press_media	82	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	state_apparatus	47	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	international	43	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	judicial_apparatus	2	
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	political_organizations	1	
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	party_apparatus	405	
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	security_apparatus	396	
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	press_media	125	
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	state_apparatus	62	
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	international	44	
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	judicial_apparatus	9	
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	security_apparatus	142	
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	party_apparatus	73	
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	international	7	
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	press_media	6	
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	state_apparatus	3	
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	judicial_apparatus	1	
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	party_apparatus	227	
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	security_apparatus	217	
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	international	93	
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	press_media	43	
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	state_apparatus	20	
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	judicial_apparatus	4	
+process	РАЗНЫЕ ДОКУМЕНТЫ	party_apparatus	4	
+process	РАЗНЫЕ ДОКУМЕНТЫ	security_apparatus	3	
+process	РАЗНЫЕ ДОКУМЕНТЫ	international	2	
+process	РАЗНЫЕ ДОКУМЕНТЫ	press_media	2	
+process	РАЗНЫЕ ДОКУМЕНТЫ	state_apparatus	1	
+process	СТАТЬИ	international	2	
+process	СТАТЬИ	judicial_apparatus	2	
+process	СТАТЬИ	party_apparatus	2	
+process	СТАТЬИ	press_media	2	
+process	СТАТЬИ	security_apparatus	2	
+process	СТАТЬИ	state_apparatus	2	
+process	ТРОЦКИЙ	press_media	2	
+process	ТРОЦКИЙ	international	1	
+collection	БУХАРИН	security_apparatus	48	
+collection	БУХАРИН	press_media	38	
+collection	БУХАРИН	party_apparatus	37	
+collection	БУХАРИН	international	10	
+collection	БУХАРИН	state_apparatus	8	
+collection	Г.Б. СИНАНИ-СКАЛОВ	international	11	
+collection	Г.Б. СИНАНИ-СКАЛОВ	party_apparatus	5	
+collection	Г.Б. СИНАНИ-СКАЛОВ	press_media	2	
+collection	Г.Б. СИНАНИ-СКАЛОВ	state_apparatus	2	
+collection	Г.Б. СИНАНИ-СКАЛОВ	security_apparatus	1	
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	security_apparatus	9	
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	party_apparatus	4	
+collection	ДРУГИЕ ДОКУМЕНТЫ	party_apparatus	129	
+collection	ДРУГИЕ ДОКУМЕНТЫ	security_apparatus	73	
+collection	ДРУГИЕ ДОКУМЕНТЫ	press_media	58	
+collection	ДРУГИЕ ДОКУМЕНТЫ	international	30	
+collection	ДРУГИЕ ДОКУМЕНТЫ	state_apparatus	28	
+collection	ДРУГИЕ ДОКУМЕНТЫ	judicial_apparatus	2	
+collection	ДРУГИЕ ДОКУМЕНТЫ	political_organizations	1	
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	party_apparatus	23	
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	state_apparatus	20	
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	press_media	6	
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	security_apparatus	6	
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	security_apparatus	1292	
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	party_apparatus	1128	
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	international	220	
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	press_media	217	
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	state_apparatus	124	
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	judicial_apparatus	25	
+collection	ОЛЬБЕРГ	press_media	10	
+collection	ОЛЬБЕРГ	international	8	
+collection	ОЛЬБЕРГ	party_apparatus	3	
+collection	ПРЕДЫСТОРИЯ	party_apparatus	55	
+collection	ПРЕДЫСТОРИЯ	international	16	
+collection	ПРЕДЫСТОРИЯ	state_apparatus	13	
+collection	ПРЕДЫСТОРИЯ	press_media	6	
+collection	ПРЕДЫСТОРИЯ	security_apparatus	6	
+collection	РАЗНЫЕ ДОКУМЕНТЫ	party_apparatus	4	
+collection	РАЗНЫЕ ДОКУМЕНТЫ	security_apparatus	3	
+collection	РАЗНЫЕ ДОКУМЕНТЫ	international	2	
+collection	РАЗНЫЕ ДОКУМЕНТЫ	press_media	2	
+collection	РАЗНЫЕ ДОКУМЕНТЫ	state_apparatus	1	
+collection	СПРАВКА	party_apparatus	10	
+collection	СПРАВКА	security_apparatus	7	
+collection	СПРАВКА	international	3	
+collection	СПРАВКА	judicial_apparatus	2	
+collection	СПРАВКА	press_media	2	
+collection	СПРАВКА	state_apparatus	1	
+collection	СТАТЬИ	international	2	
+collection	СТАТЬИ	judicial_apparatus	2	
+collection	СТАТЬИ	party_apparatus	2	
+collection	СТАТЬИ	press_media	2	
+collection	СТАТЬИ	security_apparatus	2	
+collection	СТАТЬИ	state_apparatus	2	
+collection	ТРОЦКИЙ	press_media	2	
+collection	ТРОЦКИЙ	international	1	
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	party_apparatus	6	
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	press_media	5	
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	state_apparatus	5	
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	security_apparatus	4	
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	international	2	
+collection	ХОД ПРОЦЕССА	press_media	30	
+collection	ХОД ПРОЦЕССА	party_apparatus	24	
+collection	ХОД ПРОЦЕССА	security_apparatus	22	
+collection	ХОД ПРОЦЕССА	state_apparatus	20	
+collection	ХОД ПРОЦЕССА	international	15	
+collection	ХОД ПРОЦЕССА	judicial_apparatus	10	

@@ -1,0 +1,26 @@
+organization	organization_kind	organization_family	document_count	first_date	last_date
+ВКП(б)	party	party_apparatus	1397	1927-12-18T07:56:18	2022-12-08T15:06:30
+ГУГБ	security_police	security_apparatus	1296	1934-07-19T17:42:03	2022-12-08T15:06:30
+НКВД	security_police	security_apparatus	915	1929-01-07T12:28:46	2022-12-08T15:06:30
+ЦК ВКП(б)	party_body	party_apparatus	869	1928-02-28T12:46:32	2022-12-08T15:06:30
+Правда	newspaper	press_media	328	1927-12-18T07:56:18	2022-12-08T15:06:30
+Коминтерн	international_communist_body	international	290	1927-12-18T07:56:18	2022-12-08T15:06:30
+Политбюро	party_body	party_apparatus	278	1928-04-08T15:09:15	2022-12-08T15:06:30
+Совнарком	state_body	state_apparatus	126	1933-01-03T16:17:55	1937-07-19T13:17:20
+Известия	newspaper	press_media	103	1930-05-02T20:55:39	2022-12-08T15:06:30
+ЦИК СССР	state_body	state_apparatus	82	1933-01-03T16:17:55	2022-12-08T15:06:30
+ИККИ	international_communist_body	international	76	1929-01-07T12:28:46	2022-12-08T15:06:30
+КПК	party_control_body	party_apparatus	54	1933-10-27T12:22:23	2022-12-08T15:06:30
+ИНО ГУГБ	security_police_department	security_apparatus	53	1935-02-19T10:39:33	2022-10-26T13:25:08
+ОО ГУГБ НКВД	security_police_department	security_apparatus	40	1934-12-03T02:48:43	1936-09-21T01:36:00
+Верховный Суд СССР	judicial_body	judicial_apparatus	33	1934-12-24T00:00:00	2022-12-08T15:06:30
+НКИД	state_body	state_apparatus	28	1934-12-15T07:00:00	1937-06-28T17:32:10
+Секретариат ЦИК СССР	state_body	state_apparatus	20	1935-02-12T15:38:23	1935-07-31T12:12:44
+КПК при ЦК ВКП(б)	party_control_body	party_apparatus	15	1935-01-18T00:00:00	1937-01-30T13:02:35
+Прокуратура СССР	prosecutorial_body	judicial_apparatus	10	1935-01-14T10:36:00	2022-10-26T13:25:08
+Горьковский крайком ВКП(б)	party_body	party_apparatus	9	1936-01-21T17:18:00	2022-10-26T13:25:08
+Лига Наций	international_body	international	5	1929-01-01T19:48:38	2022-10-26T13:25:08
+The New York Times	newspaper	press_media	1	1936-08-24T04:00:00	1936-08-24T04:00:00
+United Press International	news_agency	press_media	1	1936-08-24T05:01:00	1936-08-24T05:01:00
+Верховный Совет СССР	state_body	state_apparatus	1	1938-03-13T08:08:24	1938-03-13T08:08:24
+Народная Трудовая Демократическая партия России	political_organization	political_organizations	1	1936-01-01T19:26:44	1936-01-01T19:26:44

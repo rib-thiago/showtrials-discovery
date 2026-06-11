@@ -1,0 +1,57 @@
+raw_person	canonical_person	decision	confidence	reason	notes
+В.В. Румянцеву	В.В. Румянцева	approve	high	same_initials_same_stem	
+И.И. Рейнгольдом	И.И. Рейнгольда	approve	high	same_initials_same_stem	
+Г.Ф. Поповым	Г.Ф. Попова	approve	high	same_initials_same_stem	
+А.М. Гертиком	А.М. Гертика	approve	high	same_initials_same_stem	
+Б.Н. Саховым	Б.Н. Сахова	approve	high	same_initials_same_stem	
+В.С. Левиным	В.С. Левина	approve	high	same_initials_same_stem	
+М.А. Нырчуком	М.А. Нырчука	approve	high	same_initials_same_stem	
+И.Г. Юскиным	И.Г. Юскина	approve	high	same_initials_same_stem	
+С.М. Гессеном	С.М. Гессена	approve	high	same_initials_same_stem	
+Г.А. Молчанову	Г.А. Молчанова	approve	high	same_initials_same_stem	
+Л.Я. Файвиловичу	Л.Я. Файвиловича	approve	high	same_initials_same_stem	
+Г.М. Аркусом	Г.М. Аркуса	approve	high	auto_same_initials_same_stem	auto-approved: Г.М. Аркуса <-> Г.М. Аркусом
+Л.З. Мехлису	Л.З. Мехлиса	approve	high	auto_same_initials_same_stem	auto-approved: Л.З. Мехлиса <-> Л.З. Мехлису
+М.Ф. Шкирятова	М.Ф. Шкирятову	approve	high	auto_same_initials_same_stem	auto-approved: М.Ф. Шкирятову <-> М.Ф. Шкирятова
+Б.Н. Розенфельдом	Б.Н. Розенфельда	approve	high	auto_same_initials_same_stem	auto-approved: Б.Н. Розенфельда <-> Б.Н. Розенфельдом
+Л.С. Сосновским	Л.С. Сосновского	approve	high	auto_same_initials_same_stem	auto-approved: Л.С. Сосновского <-> Л.С. Сосновским
+А.А. Трояновскому	А.А. Трояновского	approve	high	auto_same_initials_same_stem	auto-approved: А.А. Трояновского <-> А.А. Трояновскому
+А.И. Биркенгофом	А.И. Биркенгофа	approve	high	auto_same_initials_same_stem	auto-approved: А.И. Биркенгофа <-> А.И. Биркенгофом
+А.Ю. Айхенвальдом	А.Ю. Айхенвальда	approve	high	auto_same_initials_same_stem	auto-approved: А.Ю. Айхенвальда <-> А.Ю. Айхенвальдом
+В.В. Шмидтом	В.В. Шмидта	approve	high	auto_same_initials_same_stem	auto-approved: В.В. Шмидта <-> В.В. Шмидтом
+Е.К. Коршунову	Е.К. Коршунова	approve	high	auto_same_initials_same_stem	auto-approved: Е.К. Коршунова <-> Е.К. Коршунову
+Я.В. Шаровым	Я.В. Шарова	approve	high	auto_same_initials_same_stem	auto-approved: Я.В. Шарова <-> Я.В. Шаровым
+А.В. Герцбергом	А.В. Герцберга	approve	high	auto_same_initials_same_stem	auto-approved: А.В. Герцберга <-> А.В. Герцбергом
+В.П. Потемкину	В.П. Потемкина	approve	high	auto_same_initials_same_stem	auto-approved: В.П. Потемкина <-> В.П. Потемкину
+И.Н. Маевском	И.Н. Маевского	approve	high	auto_same_initials_same_stem	auto-approved: И.Н. Маевского <-> И.Н. Маевском
+К.Е. Ворошилову	К.Е. Ворошилова	approve	high	auto_same_initials_same_stem	auto-approved: К.Е. Ворошилова <-> К.Е. Ворошилову
+М.В. Бурштейна	М.В. Бурштейном	approve	high	auto_same_initials_same_stem	auto-approved: М.В. Бурштейном <-> М.В. Бурштейна
+Н.А. Каревым	Н.А. Карева	approve	high	auto_same_initials_same_stem	auto-approved: Н.А. Карева <-> Н.А. Каревым
+С.А. Ратайчака	С.А. Ратайчаком	approve	high	auto_same_initials_same_stem	auto-approved: С.А. Ратайчаком <-> С.А. Ратайчака
+С.Х. Варданианом	С.Х. Варданиана	approve	high	auto_same_initials_same_stem	auto-approved: С.Х. Варданиана <-> С.Х. Варданианом
+Х.Г. Раковском	Х.Г. Раковского	approve	high	auto_same_initials_same_stem	auto-approved: Х.Г. Раковского <-> Х.Г. Раковском
+Я.Н. Дробнисом	Я.Н. Дробниса	approve	high	auto_same_initials_same_stem	auto-approved: Я.Н. Дробниса <-> Я.Н. Дробнисом
+Г.Б. Синани-Скалов		reject	reviewed	truncated_name_review_reject	left unresolved
+В.Я. Головского-	В.Я. Головский-Голощапов	approve	reviewed	truncated_name_review	approved truncated name alias
+В.А. Тер-	В.А. Тер-Ваганян	approve	reviewed	truncated_name_review	approved truncated name alias
+Н.М. Лукиной-	Н.М. Лукина-Бухарина	approve	reviewed	truncated_name_review	approved truncated name alias
+Н.П. Глебова-	Н.П. Глебов-Авилов	approve	reviewed	truncated_name_review	approved truncated name alias
+А.В. Лугового-	А.В. Луговой-Левенштейн	approve	reviewed	truncated_name_review	approved truncated name alias
+В.Н. Цатуровой-	В.Н. Цатурова-Большакова	approve	reviewed	truncated_name_review	approved truncated name alias
+Е.М. Манюрина-	Е.М. Манюрин-Броварский	approve	reviewed	truncated_name_review	approved truncated name alias
+И.М. Бык-	И.М. Бык-Бек	approve	reviewed	truncated_name_review	approved truncated name alias
+К.Б. Бермана-	К.Б. Берман-Юрин	approve	reviewed	truncated_name_review	approved truncated name alias
+Л.С. Мамишвили-	Л.С. Мамишвили-Мишкевич	approve	reviewed	known_truncated_compound_name	derived from document title
+Л.С. Тер-	Л.С. Тер-Минасов	approve	reviewed	known_truncated_compound_name	derived from document title
+С.М. Закса-	С.М. Закс-Гладнев	approve	reviewed	known_truncated_compound_name	derived from document title
+Я.Я. Упмал-	Я.Я. Упмал-Ангарский	approve	reviewed	known_truncated_compound_name	derived from document title
+А.А. Гардина-	А.А. Гардин-Гейер	approve	reviewed	known_truncated_compound_name	derived from document title
+А.И. Рамм-	А.И. Рамм-Пфемферт	approve	reviewed	known_truncated_compound_name	derived from document title
+В.А. Антонова-	В.А. Антонов-Овсеенко	approve	reviewed	known_truncated_compound_name	derived from document title
+В.П. Шевелева-	В.П. Шевелев-Лубков	approve	reviewed	known_truncated_compound_name	derived from document title
+В.Я. Головским-	В.Я. Головский-Голощапов	approve	reviewed	known_truncated_compound_name	derived from document title
+Е.Ф. Тойво-	Е.Ф. Тойво-Пешина	approve	reviewed	known_truncated_compound_name	derived from document title
+И.В. Вардина-	И.В. Вардин-Мгеладзе	approve	reviewed	known_truncated_compound_name	derived from document title
+И.М. Орловской-	И.М. Орловская-Мрачковская	approve	reviewed	known_truncated_compound_name	derived from document title
+М.М. Оскольского-	М.М. Оскольский-Финкельштейн	approve	reviewed	known_truncated_compound_name	derived from document title
+М.С. Жалыбиной-	М.С. Жалыбина-Быкова	approve	reviewed	known_truncated_compound_name	derived from document title

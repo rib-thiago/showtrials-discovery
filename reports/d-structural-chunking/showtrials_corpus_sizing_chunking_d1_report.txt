@@ -1,0 +1,46 @@
+ShowTrials D1 corpus sizing + chunking diagnostic
+
+Documents: 2179
+Total chars: 27379787
+Estimated NMT RU->EN cost: $547.60
+Estimated chunks by profile target: 10023
+
+Size classes:
+medium_maybe_whole_or_light_chunk	860
+large_needs_chunking	797
+small_whole_document	373
+very_large_needs_structural_chunking	149
+
+Chunk need:
+whole_document_likely_ok	806
+chunking_required	797
+light_chunking_or_two_chunks	427
+structural_chunking_required	149
+
+Top document types by chars:
+9604474	docs=526	$192.09	special_report
+7301792	docs=982	$146.04	interrogation_protocol
+4934530	docs=51	$98.69	session_transcript
+1481811	docs=256	$29.64	letter
+977750	docs=78	$19.55	statement
+438269	docs=2	$8.77	biographical_article
+412107	docs=40	$8.24	memo_note
+360525	docs=34	$7.21	conversation_recording
+336308	docs=48	$6.73	testimony
+318436	docs=57	$6.37	confrontation_protocol
+250232	docs=16	$5.00	list
+170448	docs=5	$3.41	indictment
+159278	docs=4	$3.19	press_summary
+97861	docs=16	$1.96	administrative_report
+91263	docs=6	$1.83	reference_note
+69908	docs=4	$1.40	draft_project
+43399	docs=4	$0.87	explanation
+41779	docs=2	$0.84	speech
+32779	docs=1	$0.66	program
+30263	docs=3	$0.61	verdict_or_sentence
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_corpus_sizing_by_document_d1.tsv
+/tmp/showtrials-discovery/showtrials_corpus_sizing_by_document_type_d1.tsv
+/tmp/showtrials-discovery/showtrials_corpus_sizing_by_process_d1.tsv
+/tmp/showtrials-discovery/showtrials_chunking_policy_recommendations_d1.tsv

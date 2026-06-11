@@ -1,0 +1,70 @@
+ShowTrials translation glossary seeds v1
+
+Glossary rows: 892
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	95
+auto_transliterated_needs_review	794
+pending	3
+
+High-priority review queue:
+1397	approved	organizations	ВКП(б)	→	All-Union Communist Party (Bolsheviks)
+1296	approved	organizations	ГУГБ	→	GUGB
+915	approved	organizations	НКВД	→	NKVD
+869	approved	organizations	ЦК ВКП(б)	→	Central Committee of the All-Union Communist Party (Bolsheviks)
+486	approved	processes	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	→	August 1936 Trial
+481	approved	processes	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	→	January 1937 Trial
+424	approved	processes	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	→	Moscow Center Trial
+328	approved	organizations	Правда	→	Pravda
+292	approved	processes	КРЕМЛЕВСКОЕ ДЕЛО	→	Kremlin Case
+290	approved	organizations	Коминтерн	→	Comintern
+284	approved	processes	ПРОЦЕСС 2-12 МАРТА 1938 г.	→	March 1938 Trial
+278	approved	organizations	Политбюро	→	Politburo
+175	approved	processes	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	→	Leningrad Center Trial
+126	approved	organizations	Совнарком	→	Council of People's Commissars
+103	approved	organizations	Известия	→	Izvestia
+82	approved	organizations	ЦИК СССР	→	Central Executive Committee of the USSR
+76	approved	organizations	ИККИ	→	Executive Committee of the Communist International
+54	approved	organizations	КПК	→	Party Control Commission
+53	approved	organizations	ИНО ГУГБ	→	Foreign Department of the GUGB
+40	approved	organizations	ОО ГУГБ НКВД	→	Special Department of the GUGB NKVD
+33	approved	organizations	Верховный Суд СССР	→	Supreme Court of the USSR
+31	approved	processes	ТРОЦКИЙ	→	Trotsky Dossier
+28	approved	organizations	НКИД	→	People's Commissariat for Foreign Affairs
+20	approved	organizations	Секретариат ЦИК СССР	→	Secretariat of the Central Executive Committee of the USSR
+15	approved	organizations	КПК при ЦК ВКП(б)	→	Party Control Commission under the Central Committee of the All-Union Communist Party (Bolsheviks)
+10	approved	organizations	Прокуратура СССР	→	Prosecutor's Office of the USSR
+9	approved	organizations	Горьковский крайком ВКП(б)	→	Gorky Regional Committee of the All-Union Communist Party (Bolsheviks)
+5	approved	organizations	Лига Наций	→	League of Nations
+4	approved	processes	РАЗНЫЕ ДОКУМЕНТЫ	→	Miscellaneous Documents
+2	approved	processes	СТАТЬИ	→	Articles
+1	approved	organizations	Верховный Совет СССР	→	Supreme Soviet of the USSR
+520	auto_transliterated_needs_review	people	Сталин	→	Stalin
+466	auto_transliterated_needs_review	people	Ежов	→	Ezhov
+158	auto_transliterated_needs_review	people	Г.Г. Ягода	→	G.G. Yagoda
+94	auto_transliterated_needs_review	people	Ольберг	→	Olberg
+78	auto_transliterated_needs_review	people	Седов	→	Sedov
+74	auto_transliterated_needs_review	people	Агранов	→	Agranov
+73	auto_transliterated_needs_review	people	Бухарин	→	Bukharin
+50	auto_transliterated_needs_review	people	Зиновьев	→	Zinovev
+43	auto_transliterated_needs_review	people	Л.В. Николаева	→	L.V. Nikolaeva
+33	auto_transliterated_needs_review	people	Г.Е. Прокофьева	→	G.E. Prokofeva
+32	auto_transliterated_needs_review	people	Г.И. Сафарова	→	G.I. Safarova
+28	auto_transliterated_needs_review	people	Л.Д. Троцкий	→	L.D. Trotskii
+26	auto_transliterated_needs_review	people	Каменев	→	Kamenev
+25	auto_transliterated_needs_review	people	Радек	→	Radek
+22	auto_transliterated_needs_review	people	Пятаков	→	Pyatakov
+20	auto_transliterated_needs_review	people	Е.В. Цетлина	→	E.V. Tsetlina
+1	pending	organizations	The New York Times	→	
+1	pending	organizations	United Press International	→	
+1	pending	organizations	Народная Трудовая Демократическая партия России	→	
+
+Output:
+/tmp/showtrials-discovery/showtrials_translation_glossary_seeds_v1.tsv

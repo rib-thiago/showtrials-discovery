@@ -1,0 +1,15 @@
+Chunking Blueprint v1.1 Consolidation Report
+blueprint_v1	/srv/projects/showtrials-discovery/showtrials_chunking_blueprint_v1.tsv
+d2_by_type	/srv/projects/showtrials-discovery/showtrials_structural_chunking_d2_by_type.tsv
+attachment_taxonomy_d3_1b	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1b.tsv
+attachment_refinement_d3_1b	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_refinement_d3_1b.tsv
+blueprint_v1_1	/srv/projects/showtrials-discovery/showtrials_chunking_blueprint_v1_1.tsv
+policy_doc	/srv/projects/showtrials-discovery/showtrials_chunking_policy_v1_1.txt
+document_types_total	35
+document_types_revised	11
+translation_ready_yes	10
+translation_ready_conditional	1
+translation_ready_review_required	24
+chunking_confidence_high	5
+future_review_dependent	30
+policy_version	v1.1

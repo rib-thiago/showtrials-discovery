@@ -1,0 +1,14 @@
+ShowTrials search v2 validation
+
+Tests: 9
+Failures: 0
+
+PASS	text_radek_yagoda	rows=5
+PASS	person_stalin	rows=5
+PASS	organization_nkvd	rows=5
+PASS	family_security	rows=5
+PASS	process_march_1938	rows=5
+PASS	doctype_interrogation	rows=5
+PASS	role_prosecutor	rows=5
+PASS	combined_bukharin_march	rows=5
+PASS	combined_security_special_report	rows=5

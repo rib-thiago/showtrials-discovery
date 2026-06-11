@@ -1,0 +1,55 @@
+ShowTrials person centrality
+
+People: 794
+
+Top by centrality_score:
+816	docs=520	orgs=21	families=6	processes=7	collections=9	doctypes=12	Сталин
+748	docs=466	orgs=21	families=6	processes=7	collections=7	doctypes=10	Ежов
+410	docs=158	orgs=21	families=6	processes=6	collections=5	doctypes=6	Г.Г. Ягода
+285	docs=74	orgs=14	families=5	processes=7	collections=5	doctypes=5	Агранов
+282	docs=94	orgs=15	families=6	processes=2	collections=3	doctypes=7	Ольберг
+260	docs=50	orgs=12	families=5	processes=5	collections=4	doctypes=12	Зиновьев
+256	docs=73	orgs=12	families=5	processes=2	collections=3	doctypes=12	Бухарин
+197	docs=22	orgs=10	families=6	processes=3	collections=3	doctypes=8	Пятаков
+196	docs=25	orgs=12	families=5	processes=3	collections=3	doctypes=7	Радек
+191	docs=12	orgs=13	families=6	processes=2	collections=2	doctypes=8	Г.Б. Синани-Скалов
+188	docs=26	orgs=11	families=5	processes=3	collections=3	doctypes=6	Каменев
+186	docs=78	orgs=4	families=4	processes=3	collections=4	doctypes=3	Седов
+183	docs=17	orgs=12	families=6	processes=3	collections=2	doctypes=4	Дмитриев
+180	docs=32	orgs=10	families=6	processes=2	collections=2	doctypes=4	Г.И. Сафарова
+176	docs=33	orgs=13	families=6	processes=1	collections=2	doctypes=1	Г.Е. Прокофьева
+174	docs=18	orgs=9	families=5	processes=3	collections=3	doctypes=7	Рыков
+174	docs=14	orgs=9	families=5	processes=4	collections=3	doctypes=6	Членов
+169	docs=18	orgs=11	families=5	processes=3	collections=2	doctypes=4	Сокольников
+159	docs=13	orgs=11	families=6	processes=2	collections=1	doctypes=3	И.П. Бакаева
+158	docs=20	orgs=10	families=5	processes=2	collections=2	doctypes=4	Е.В. Цетлина
+158	docs=10	orgs=8	families=4	processes=4	collections=4	doctypes=6	А.Я. Вышинский
+155	docs=11	orgs=10	families=4	processes=4	collections=2	doctypes=4	Л.М. Каганович
+154	docs=10	orgs=12	families=5	processes=1	collections=2	doctypes=5	Смирнов
+154	docs=5	orgs=10	families=5	processes=3	collections=3	doctypes=4	Л.С. Сосновского
+153	docs=8	orgs=10	families=5	processes=2	collections=3	doctypes=5	Астров
+151	docs=9	orgs=10	families=5	processes=3	collections=2	doctypes=3	Т.И. Глебовой
+148	docs=11	orgs=10	families=6	processes=2	collections=1	doctypes=2	И.И. Рейнгольда
+143	docs=43	orgs=6	families=4	processes=2	collections=2	doctypes=2	Л.В. Николаева
+141	docs=8	orgs=11	families=4	processes=2	collections=2	doctypes=4	М.Ф. Шкирятову
+138	docs=13	orgs=9	families=5	processes=1	collections=2	doctypes=4	Е.К. Мухановой
+137	docs=8	orgs=8	families=4	processes=3	collections=3	doctypes=4	Г.А. Молчанова
+131	docs=6	orgs=9	families=5	processes=2	collections=2	doctypes=2	Молотов
+130	docs=2	orgs=9	families=6	processes=2	collections=1	doctypes=1	Л.Д. Гогоберидзе
+127	docs=7	orgs=9	families=5	processes=1	collections=3	doctypes=2	В.В. Кузьмина
+127	docs=4	orgs=6	families=4	processes=4	collections=3	doctypes=3	К.Е. Ворошилова
+126	docs=16	orgs=8	families=4	processes=1	collections=2	doctypes=4	Н.А. Розенфельд
+126	docs=7	orgs=10	families=5	processes=1	collections=1	doctypes=2	Е.А. Дрейцера
+124	docs=3	orgs=9	families=5	processes=1	collections=2	doctypes=3	Д.П. Марецкого
+123	docs=8	orgs=8	families=5	processes=1	collections=3	doctypes=2	А.С. Енукидзе
+122	docs=2	orgs=8	families=5	processes=2	collections=2	doctypes=2	С.М. Закс-Гладнев
+120	docs=2	orgs=9	families=5	processes=2	collections=1	doctypes=1	А.Д. Зайцева
+119	docs=9	orgs=7	families=4	processes=3	collections=1	doctypes=2	М.Н. Яковлева
+117	docs=4	orgs=10	families=4	processes=1	collections=1	doctypes=3	Б.А. Кушнера
+117	docs=3	orgs=9	families=5	processes=1	collections=1	doctypes=2	П.Ф. Сапожникова
+116	docs=12	orgs=7	families=5	processes=1	collections=1	doctypes=2	А.И. Анишева
+116	docs=2	orgs=9	families=5	processes=1	collections=1	doctypes=2	В.И. Шипихина
+114	docs=9	orgs=8	families=5	processes=1	collections=1	doctypes=1	Б.Л. Браво
+114	docs=2	orgs=10	families=4	processes=1	collections=2	doctypes=2	Е.Д. Соколовой
+113	docs=4	orgs=7	families=4	processes=2	collections=2	doctypes=3	М.С. Богуславского
+113	docs=4	orgs=7	families=4	processes=2	collections=2	doctypes=3	Н.А. Карева

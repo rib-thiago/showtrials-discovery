@@ -1,0 +1,24 @@
+D2.2 Structural Sample Packaging Report
+input_index	/srv/projects/showtrials-discovery/showtrials_structural_samples_d2_1_index.tsv
+review_index	/srv/projects/showtrials-discovery/showtrials_structural_samples_d2_2_review_index.tsv
+samples	97
+document_types	14
+priority_high	32
+priority_medium	59
+priority_low	6
+policy	human review aid only; no automatic structural decision
+samples_by_type
+biographical_article	2	low
+confrontation_protocol	8	medium
+conversation_recording	8	high
+indictment	5	medium
+interrogation_protocol	8	high
+letter	8	medium
+list	8	medium
+memo_note	8	medium
+press_summary	4	low
+reference_note	6	medium
+session_transcript	8	high
+special_report	8	high
+statement	8	medium
+testimony	8	medium

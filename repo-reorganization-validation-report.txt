@@ -1,0 +1,7 @@
+Repository Reorganization Validation Report
+map	/srv/projects/showtrials-discovery/repo-reorganization-map.tsv
+validation_tsv	/srv/projects/showtrials-discovery/repo-reorganization-validation.tsv
+rows_checked	371
+passes	371
+warnings	0
+failures	0

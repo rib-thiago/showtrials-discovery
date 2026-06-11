@@ -1,0 +1,32 @@
+ShowTrials D2 structural chunking discovery
+
+Documents: 2179
+Document types: 35
+Examples captured: 1000
+
+Top document types:
+special_report	docs=526	chars=9604474	unit=question_answer_blocks	high=486	medium=13	low=27
+interrogation_protocol	docs=982	chars=7301792	unit=question_answer_blocks	high=916	medium=0	low=66
+session_transcript	docs=51	chars=4934530	unit=question_answer_blocks	high=46	medium=1	low=4
+letter	docs=256	chars=1481811	unit=whole_or_light_paragraph_chunks	high=75	medium=4	low=177
+statement	docs=78	chars=977750	unit=whole_or_light_paragraph_chunks	high=31	medium=3	low=44
+biographical_article	docs=2	chars=438269	unit=question_answer_blocks	high=2	medium=0	low=0
+memo_note	docs=40	chars=412107	unit=whole_or_light_paragraph_chunks	high=17	medium=1	low=22
+conversation_recording	docs=34	chars=360525	unit=whole_or_light_paragraph_chunks	high=10	medium=1	low=23
+testimony	docs=48	chars=336308	unit=question_answer_blocks	high=33	medium=0	low=15
+confrontation_protocol	docs=57	chars=318436	unit=question_answer_blocks	high=57	medium=0	low=0
+list	docs=16	chars=250232	unit=question_answer_blocks	high=9	medium=6	low=1
+indictment	docs=5	chars=170448	unit=question_answer_blocks	high=4	medium=0	low=1
+press_summary	docs=4	chars=159278	unit=whole_or_light_paragraph_chunks	high=2	medium=0	low=2
+administrative_report	docs=16	chars=97861	unit=whole_or_light_paragraph_chunks	high=2	medium=2	low=12
+reference_note	docs=6	chars=91263	unit=header_body_attachments	high=3	medium=3	low=0
+draft_project	docs=4	chars=69908	unit=question_answer_blocks	high=2	medium=1	low=1
+explanation	docs=4	chars=43399	unit=whole_or_light_paragraph_chunks	high=1	medium=0	low=3
+speech	docs=2	chars=41779	unit=whole_or_light_paragraph_chunks	high=1	medium=0	low=1
+program	docs=1	chars=32779	unit=question_answer_blocks	high=1	medium=0	low=0
+verdict_or_sentence	docs=3	chars=30263	unit=question_answer_blocks	high=2	medium=0	low=1
+
+Outputs:
+/srv/projects/showtrials-discovery/showtrials_structural_chunking_d2_by_document.tsv
+/srv/projects/showtrials-discovery/showtrials_structural_chunking_d2_by_type.tsv
+/srv/projects/showtrials-discovery/showtrials_structural_chunking_d2_examples.tsv

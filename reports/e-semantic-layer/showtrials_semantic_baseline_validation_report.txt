@@ -1,0 +1,7 @@
+ShowTrials semantic baseline validation
+
+Failures: 0
+Warnings: 0
+
+level	check	layer	detail
+OK	all_checks	semantic_baseline	passed

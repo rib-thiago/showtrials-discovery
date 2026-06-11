@@ -1,0 +1,772 @@
+person	organization_count	top_organizations	top_families	total_pair_document_sum
+Ежов	21	ВКП(б):451 | ЦК ВКП(б):444 | ГУГБ:378 | НКВД:255 | Правда:92 | Политбюро:79 | Коминтерн:57 | Совнарком:42 | Известия:39 | КПК:21	party_apparatus:1005 | security_apparatus:640 | press_media:131 | international:74 | state_apparatus:70 | judicial_apparatus:8	1928
+Сталин	21	ВКП(б):445 | ЦК ВКП(б):430 | ГУГБ:328 | НКВД:240 | Правда:109 | Политбюро:96 | Коминтерн:70 | Совнарком:59 | Известия:42 | ИККИ:23	party_apparatus:994 | security_apparatus:582 | press_media:151 | international:95 | state_apparatus:82 | judicial_apparatus:15	1919
+Г.Г. Ягода	21	ВКП(б):156 | ЦК ВКП(б):151 | ГУГБ:116 | НКВД:85 | Коминтерн:36 | Политбюро:33 | Правда:31 | Известия:14 | ИККИ:13 | ИНО ГУГБ:12	party_apparatus:350 | security_apparatus:214 | international:50 | press_media:45 | state_apparatus:19 | judicial_apparatus:4	682
+Агранов	14	ВКП(б):69 | ЦК ВКП(б):68 | ГУГБ:51 | НКВД:34 | Совнарком:11 | Коминтерн:10 | Политбюро:9 | Правда:7 | ЦИК СССР:4 | ИККИ:2	party_apparatus:149 | security_apparatus:87 | state_apparatus:16 | international:12 | press_media:7	271
+Бухарин	12	ВКП(б):38 | ЦК ВКП(б):35 | Политбюро:32 | Правда:25 | Известия:21 | НКВД:15 | Коминтерн:9 | Совнарком:7 | ГУГБ:3 | КПК:3	party_apparatus:108 | press_media:46 | security_apparatus:18 | state_apparatus:10 | international:9	191
+Зиновьев	12	ВКП(б):35 | ЦК ВКП(б):28 | Коминтерн:20 | Политбюро:16 | НКВД:15 | ГУГБ:13 | Правда:6 | ИККИ:5 | Известия:3 | ЦИК СССР:2	party_apparatus:79 | security_apparatus:28 | international:25 | press_media:9 | state_apparatus:4	145
+Г.Е. Прокофьева	13	ВКП(б):33 | ГУГБ:31 | ЦК ВКП(б):31 | НКВД:9 | Коминтерн:8 | Правда:3 | ИККИ:2 | КПК:2 | Верховный Суд СССР:1 | КПК при ЦК ВКП(б):1	party_apparatus:67 | security_apparatus:40 | international:10 | press_media:3 | judicial_apparatus:2 | state_apparatus:2	124
+Л.В. Николаева	6	ГУГБ:42 | НКВД:37 | ВКП(б):15 | Правда:2 | Коминтерн:1 | ЦК ВКП(б):1	security_apparatus:79 | party_apparatus:16 | press_media:2 | international:1	98
+Радек	12	ВКП(б):17 | ЦК ВКП(б):17 | Известия:15 | ГУГБ:11 | Правда:9 | Коминтерн:6 | НКВД:6 | Политбюро:5 | ИККИ:3 | Совнарком:3	party_apparatus:39 | press_media:24 | security_apparatus:17 | international:9 | state_apparatus:6	95
+Ольберг	15	ГУГБ:17 | ВКП(б):14 | Правда:13 | Коминтерн:10 | ИНО ГУГБ:8 | НКВД:8 | ЦК ВКП(б):6 | Известия:4 | Верховный Суд СССР:2 | Горьковский крайком ВКП(б):2	security_apparatus:33 | party_apparatus:23 | press_media:17 | international:14 | judicial_apparatus:3 | state_apparatus:1	91
+Г.И. Сафарова	10	ГУГБ:27 | НКВД:26 | Коминтерн:15 | ВКП(б):8 | ЦК ВКП(б):4 | Правда:3 | Совнарком:3 | ИККИ:2 | Верховный Суд СССР:1 | Политбюро:1	security_apparatus:53 | international:17 | party_apparatus:13 | state_apparatus:3 | press_media:3 | judicial_apparatus:1	90
+Каменев	11	ВКП(б):16 | ГУГБ:13 | НКВД:13 | ЦК ВКП(б):11 | Правда:7 | Коминтерн:5 | Политбюро:5 | Известия:3 | КПК:3 | Совнарком:1	party_apparatus:35 | security_apparatus:26 | press_media:10 | international:5 | state_apparatus:2	78
+Пятаков	10	ВКП(б):20 | ЦК ВКП(б):19 | ГУГБ:14 | Правда:6 | Известия:5 | НКВД:4 | Политбюро:3 | Коминтерн:2 | Совнарком:2 | Верховный Суд СССР:1	party_apparatus:42 | security_apparatus:18 | press_media:11 | state_apparatus:2 | international:2 | judicial_apparatus:1	76
+Сокольников	11	ВКП(б):16 | ЦК ВКП(б):16 | ГУГБ:12 | НКВД:12 | Известия:8 | Политбюро:4 | НКИД:2 | КПК:1 | Коминтерн:1 | Правда:1	party_apparatus:37 | security_apparatus:24 | press_media:9 | state_apparatus:3 | international:1	74
+Рыков	9	ВКП(б):16 | ЦК ВКП(б):12 | Политбюро:9 | Совнарком:9 | Правда:8 | Известия:6 | НКВД:4 | Коминтерн:2 | ГУГБ:1	party_apparatus:37 | press_media:14 | state_apparatus:9 | security_apparatus:5 | international:2	67
+И.И. Рейнгольда	10	ГУГБ:11 | ВКП(б):10 | НКВД:9 | ЦК ВКП(б):9 | Коминтерн:8 | Политбюро:7 | Совнарком:2 | Верховный Суд СССР:1 | Известия:1 | Правда:1	party_apparatus:26 | security_apparatus:20 | international:8 | state_apparatus:2 | press_media:2 | judicial_apparatus:1	59
+И.П. Бакаева	11	ВКП(б):10 | ГУГБ:10 | НКВД:8 | ЦК ВКП(б):7 | Правда:5 | Коминтерн:4 | ИККИ:3 | Политбюро:2 | ЦИК СССР:2 | Верховный Суд СССР:1	party_apparatus:19 | security_apparatus:18 | international:7 | press_media:5 | state_apparatus:3 | judicial_apparatus:1	53
+Е.В. Цетлина	10	ВКП(б):15 | ЦК ВКП(б):14 | Совнарком:5 | ИККИ:3 | КПК:2 | Коминтерн:2 | ГУГБ:1 | НКВД:1 | Политбюро:1 | Правда:1	party_apparatus:32 | state_apparatus:5 | international:5 | security_apparatus:2 | press_media:1	45
+Н.А. Розенфельд	8	ГУГБ:15 | НКВД:11 | ВКП(б):8 | ЦК ВКП(б):5 | Известия:1 | КПК:1 | Политбюро:1 | ЦИК СССР:1	security_apparatus:26 | party_apparatus:15 | state_apparatus:1 | press_media:1	43
+Дмитриев	12	ВКП(б):11 | ГУГБ:9 | ЦК ВКП(б):7 | Правда:3 | Коминтерн:2 | НКИД:2 | Верховный Суд СССР:1 | ИНО ГУГБ:1 | Известия:1 | Политбюро:1	party_apparatus:19 | security_apparatus:10 | press_media:4 | state_apparatus:3 | international:2 | judicial_apparatus:2	40
+В.А. Балицкого	5	ВКП(б):11 | НКВД:11 | ЦК ВКП(б):11 | ГУГБ:4 | Совнарком:1	party_apparatus:22 | security_apparatus:15 | state_apparatus:1	38
+Г.Б. Синани-Скалов	13	ИККИ:9 | Коминтерн:7 | ВКП(б):6 | ГУГБ:4 | ЦК ВКП(б):3 | Верховный Суд СССР:1 | КПК:1 | НКВД:1 | НКИД:1 | ОО ГУГБ НКВД:1	international:16 | party_apparatus:11 | security_apparatus:6 | state_apparatus:2 | judicial_apparatus:1 | press_media:1	37
+М.К. Чернявского	4	ВКП(б):11 | ГУГБ:11 | НКВД:11 | ЦК ВКП(б):4	security_apparatus:22 | party_apparatus:15	37
+Б.Л. Браво	8	ГУГБ:9 | НКВД:9 | ОО ГУГБ НКВД:9 | ВКП(б):3 | Правда:3 | Коминтерн:1 | НКИД:1 | ЦК ВКП(б):1	security_apparatus:27 | party_apparatus:4 | press_media:3 | state_apparatus:1 | international:1	36
+Е.К. Мухановой	9	ГУГБ:12 | ВКП(б):10 | НКВД:3 | Политбюро:3 | ЦК ВКП(б):3 | Правда:2 | КПК:1 | Коминтерн:1 | ЦИК СССР:1	party_apparatus:17 | security_apparatus:15 | press_media:2 | state_apparatus:1 | international:1	36
+Членов	9	ВКП(б):12 | НКВД:10 | ГУГБ:4 | ЦК ВКП(б):4 | Правда:2 | ИНО ГУГБ:1 | Известия:1 | Коминтерн:1 | НКИД:1	party_apparatus:16 | security_apparatus:15 | press_media:3 | state_apparatus:1 | international:1	36
+И.С. Горшенина	6	ВКП(б):12 | ЦК ВКП(б):11 | Коминтерн:5 | Политбюро:5 | ИККИ:1 | ЦИК СССР:1	party_apparatus:28 | international:6 | state_apparatus:1	35
+Л.М. Каганович	10	ВКП(б):11 | ЦК ВКП(б):10 | Коминтерн:3 | ГУГБ:2 | НКВД:2 | Политбюро:2 | Правда:2 | ИККИ:1 | КПК:1 | КПК при ЦК ВКП(б):1	party_apparatus:25 | international:4 | security_apparatus:4 | press_media:2	35
+Е.А. Дрейцера	10	ВКП(б):7 | НКВД:7 | ГУГБ:6 | Правда:4 | ЦК ВКП(б):4 | Коминтерн:2 | Известия:1 | КПК:1 | Политбюро:1 | Прокуратура СССР:1	security_apparatus:13 | party_apparatus:13 | press_media:5 | international:2 | judicial_apparatus:1	34
+Смирнов	12	ВКП(б):8 | ЦК ВКП(б):6 | ГУГБ:4 | Правда:4 | Коминтерн:3 | НКВД:3 | ИККИ:1 | ИНО ГУГБ:1 | Известия:1 | Политбюро:1	party_apparatus:15 | security_apparatus:8 | press_media:5 | international:4 | state_apparatus:2	34
+С.В. Мрачковский	7	ВКП(б):8 | ЦК ВКП(б):7 | ГУГБ:6 | ИНО ГУГБ:4 | НКВД:4 | Политбюро:2 | Правда:2	party_apparatus:17 | security_apparatus:14 | press_media:2	33
+М.Ф. Шкирятову	11	ВКП(б):7 | ЦК ВКП(б):6 | ЦИК СССР:5 | КПК:3 | КПК при ЦК ВКП(б):3 | Политбюро:2 | Секретариат ЦИК СССР:2 | НКВД:1 | НКИД:1 | Правда:1	party_apparatus:21 | state_apparatus:9 | press_media:1 | security_apparatus:1	32
+А.Я. Вышинский	8	ВКП(б):9 | ЦК ВКП(б):8 | НКВД:5 | Правда:4 | ГУГБ:2 | КПК:1 | Политбюро:1 | Прокуратура СССР:1	party_apparatus:19 | security_apparatus:7 | press_media:4 | judicial_apparatus:1	31
+А.С. Енукидзе	8	ВКП(б):6 | ЦК ВКП(б):6 | НКВД:5 | Правда:5 | ЦИК СССР:4 | Секретариат ЦИК СССР:2 | Коминтерн:1 | Политбюро:1	party_apparatus:13 | state_apparatus:6 | press_media:5 | security_apparatus:5 | international:1	30
+И.А. Мусульбаса	6	ВКП(б):7 | ГУГБ:7 | НКВД:7 | ЦК ВКП(б):7 | Политбюро:1 | Совнарком:1	party_apparatus:15 | security_apparatus:14 | state_apparatus:1	30
+Н.В. Голубенко	6	ВКП(б):9 | ГУГБ:6 | НКВД:6 | ЦК ВКП(б):5 | Правда:3 | Совнарком:1	party_apparatus:14 | security_apparatus:12 | press_media:3 | state_apparatus:1	30
+Г.А. Молчанова	8	ВКП(б):7 | ГУГБ:6 | ЦК ВКП(б):6 | НКВД:4 | Политбюро:2 | Правда:2 | ИНО ГУГБ:1 | Коминтерн:1	party_apparatus:15 | security_apparatus:11 | press_media:2 | international:1	29
+В.В. Кузьмина	9	ВКП(б):7 | ЦК ВКП(б):6 | Коминтерн:5 | Правда:3 | ИККИ:2 | Совнарком:2 | ГУГБ:1 | Известия:1 | Политбюро:1	party_apparatus:14 | international:7 | press_media:4 | state_apparatus:2 | security_apparatus:1	28
+Г.Е. Евдокимова	6	ГУГБ:7 | НКВД:6 | Коминтерн:5 | ВКП(б):4 | Политбюро:3 | ЦК ВКП(б):3	security_apparatus:13 | party_apparatus:10 | international:5	28
+А.Ю. Тивеля	9	ВКП(б):5 | ГУГБ:5 | ЦК ВКП(б):5 | Коминтерн:3 | НКВД:3 | Политбюро:2 | Правда:2 | Известия:1 | ОО ГУГБ НКВД:1	party_apparatus:12 | security_apparatus:9 | international:3 | press_media:3	27
+Е.Ф. Куликова	7	ВКП(б):6 | ГУГБ:6 | ЦК ВКП(б):6 | КПК:5 | Совнарком:2 | НКВД:1 | ЦИК СССР:1	party_apparatus:17 | security_apparatus:7 | state_apparatus:3	27
+М.Н. Яковлева	7	ГУГБ:9 | ВКП(б):6 | НКВД:4 | Коминтерн:3 | ЦК ВКП(б):3 | ИНО ГУГБ:1 | ЦИК СССР:1	security_apparatus:14 | party_apparatus:9 | international:3 | state_apparatus:1	27
+Астров	10	ВКП(б):7 | ЦК ВКП(б):4 | Политбюро:3 | ГУГБ:2 | Коминтерн:2 | НКВД:2 | Правда:2 | Совнарком:2 | ИККИ:1 | Известия:1	party_apparatus:14 | security_apparatus:4 | international:3 | press_media:3 | state_apparatus:2	26
+П.А. Николаева	5	ГУГБ:9 | НКВД:8 | ВКП(б):4 | ОО ГУГБ НКВД:4 | ЦК ВКП(б):1	security_apparatus:21 | party_apparatus:5	26
+В.В. Румянцева	6	ГУГБ:9 | ВКП(б):6 | НКВД:4 | Коминтерн:2 | Политбюро:2 | ЦК ВКП(б):2	security_apparatus:13 | party_apparatus:10 | international:2	25
+М.М. Харитонова	7	ВКП(б):8 | ЦК ВКП(б):6 | ГУГБ:4 | НКВД:3 | Коминтерн:2 | КПК:1 | КПК при ЦК ВКП(б):1	party_apparatus:16 | security_apparatus:7 | international:2	25
+Б.Н. Сахова	7	Коминтерн:6 | ВКП(б):5 | ЦК ВКП(б):5 | ГУГБ:4 | НКВД:2 | КПК:1 | Политбюро:1	party_apparatus:12 | international:6 | security_apparatus:6	24
+В.Ф. Логинова	6	ВКП(б):6 | ЦК ВКП(б):6 | ГУГБ:5 | НКВД:5 | Правда:1 | Совнарком:1	party_apparatus:12 | security_apparatus:10 | state_apparatus:1 | press_media:1	24
+Г.Ф. Федорова	6	ГУГБ:8 | НКВД:8 | ВКП(б):3 | Коминтерн:2 | Политбюро:2 | ОО ГУГБ НКВД:1	security_apparatus:17 | party_apparatus:5 | international:2	24
+Л.С. Сосновского	10	ВКП(б):4 | ЦК ВКП(б):4 | Известия:3 | Политбюро:3 | Правда:3 | КПК:2 | НКВД:2 | ГУГБ:1 | Коминтерн:1 | Совнарком:1	party_apparatus:13 | press_media:6 | security_apparatus:3 | state_apparatus:1 | international:1	24
+Т.И. Глебовой	10	Правда:5 | ВКП(б):4 | НКВД:4 | ЦК ВКП(б):3 | ГУГБ:2 | Политбюро:2 | ИККИ:1 | КПК:1 | Коминтерн:1 | НКИД:1	party_apparatus:10 | security_apparatus:6 | press_media:5 | international:2 | state_apparatus:1	24
+Б.А. Кушнера	10	ВКП(б):4 | ГУГБ:4 | НКВД:4 | ЦК ВКП(б):4 | ИНО ГУГБ:2 | КПК:1 | Коминтерн:1 | ОО ГУГБ НКВД:1 | Политбюро:1 | Правда:1	security_apparatus:11 | party_apparatus:10 | international:1 | press_media:1	23
+Д.А. Шмидта	6	ВКП(б):5 | ГУГБ:5 | НКВД:5 | ОО ГУГБ НКВД:3 | ЦК ВКП(б):3 | Совнарком:1	security_apparatus:13 | party_apparatus:8 | state_apparatus:1	22
+Л.З. Мехлиса	5	Правда:6 | ВКП(б):5 | ЦК ВКП(б):5 | НКВД:3 | Совнарком:2	party_apparatus:10 | press_media:6 | security_apparatus:3 | state_apparatus:2	21
+А.М. Гертика	7	ГУГБ:8 | НКВД:4 | ВКП(б):3 | ЦК ВКП(б):2 | ИНО ГУГБ:1 | Коминтерн:1 | Политбюро:1	security_apparatus:13 | party_apparatus:6 | international:1	20
+В.М. Попова	6	ВКП(б):6 | ГУГБ:6 | НКВД:3 | Коминтерн:2 | ЦК ВКП(б):2 | Политбюро:1	security_apparatus:9 | party_apparatus:9 | international:2	20
+М.М. Киллерога	6	ВКП(б):6 | ГУГБ:6 | ЦК ВКП(б):4 | НКВД:2 | Правда:1 | Совнарком:1	party_apparatus:10 | security_apparatus:8 | state_apparatus:1 | press_media:1	20
+А.А. Шестова	6	ВКП(б):5 | ГУГБ:5 | ЦК ВКП(б):3 | НКВД:2 | Политбюро:2 | Правда:2	party_apparatus:10 | security_apparatus:7 | press_media:2	19
+В.В. Шмидта	8	ВКП(б):4 | Политбюро:3 | Правда:3 | ЦК ВКП(б):3 | Известия:2 | Совнарком:2 | ГУГБ:1 | НКВД:1	party_apparatus:10 | press_media:5 | state_apparatus:2 | security_apparatus:2	19
+В.И. Звездова	4	ВКП(б):8 | ЦК ВКП(б):6 | Политбюро:4 | НКВД:1	party_apparatus:18 | security_apparatus:1	19
+И.И. Котолынова	3	ГУГБ:10 | ВКП(б):5 | НКВД:4	security_apparatus:14 | party_apparatus:5	19
+М.В. Королькова	5	ГУГБ:7 | ИНО ГУГБ:7 | НКВД:3 | ВКП(б):1 | Совнарком:1	security_apparatus:17 | state_apparatus:1 | party_apparatus:1	19
+Молотов	9	ВКП(б):5 | ЦК ВКП(б):4 | ГУГБ:3 | НКВД:2 | ИНО ГУГБ:1 | Известия:1 | Коминтерн:1 | Правда:1 | Совнарком:1	party_apparatus:9 | security_apparatus:6 | press_media:2 | state_apparatus:1 | international:1	19
+В.Д. Миронова	6	ВКП(б):4 | ГУГБ:4 | НКВД:4 | ЦК ВКП(б):4 | КПК:1 | КПК при ЦК ВКП(б):1	party_apparatus:10 | security_apparatus:8	18
+Г.М. Аркуса	5	ВКП(б):6 | ЦК ВКП(б):6 | ГУГБ:3 | НКВД:2 | Коминтерн:1	party_apparatus:12 | security_apparatus:5 | international:1	18
+Д.Н. Ширяева	6	ГУГБ:6 | НКВД:4 | ВКП(б):3 | ЦК ВКП(б):3 | Коминтерн:1 | НКИД:1	security_apparatus:10 | party_apparatus:6 | state_apparatus:1 | international:1	18
+Л.Ф. Дитятевой	5	ВКП(б):5 | ГУГБ:4 | ЦК ВКП(б):4 | НКВД:3 | Правда:2	party_apparatus:9 | security_apparatus:7 | press_media:2	18
+В.А. Яковлева	4	ВКП(б):5 | ГУГБ:5 | ЦК ВКП(б):5 | НКВД:2	party_apparatus:10 | security_apparatus:7	17
+Н.П. Мясникова	6	ГУГБ:7 | ВКП(б):4 | НКВД:3 | ИККИ:1 | Коминтерн:1 | ЦК ВКП(б):1	security_apparatus:10 | party_apparatus:5 | international:2	17
+Н.С. Антонова	3	ГУГБ:10 | ВКП(б):4 | НКВД:3	security_apparatus:13 | party_apparatus:4	17
+П.Ф. Сапожникова	9	ВКП(б):3 | Коминтерн:3 | ГУГБ:2 | Политбюро:2 | Правда:2 | ЦК ВКП(б):2 | КПК:1 | НКВД:1 | Совнарком:1	party_apparatus:8 | international:3 | security_apparatus:3 | press_media:2 | state_apparatus:1	17
+В.А. Тер-Ваганян	10	ВКП(б):3 | ЦК ВКП(б):3 | ГУГБ:2 | НКВД:2 | ИНО ГУГБ:1 | КПК:1 | Коминтерн:1 | ОО ГУГБ НКВД:1 | Политбюро:1 | Прокуратура СССР:1	party_apparatus:8 | security_apparatus:6 | judicial_apparatus:1 | international:1	16
+В.Г. Яковенко	7	ВКП(б):3 | ГУГБ:3 | НКВД:3 | ЦК ВКП(б):3 | Политбюро:2 | КПК:1 | ЦИК СССР:1	party_apparatus:9 | security_apparatus:6 | state_apparatus:1	16
+В.И. Козырева	4	ВКП(б):5 | ГУГБ:5 | НКВД:4 | Правда:2	security_apparatus:9 | party_apparatus:5 | press_media:2	16
+З.А. Ашрафяна	6	ВКП(б):4 | ГУГБ:4 | НКВД:4 | ЦК ВКП(б):2 | Коминтерн:1 | Совнарком:1	security_apparatus:8 | party_apparatus:6 | state_apparatus:1 | international:1	16
+И.Г. Юскина	4	ГУГБ:8 | НКВД:6 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:14 | party_apparatus:2	16
+И.К. Федотова	8	ВКП(б):3 | ГУГБ:3 | НКВД:3 | ЦК ВКП(б):3 | ИККИ:1 | Коминтерн:1 | Правда:1 | Совнарком:1	party_apparatus:6 | security_apparatus:6 | international:2 | state_apparatus:1 | press_media:1	16
+Н.А. Угланова	6	ВКП(б):5 | ЦК ВКП(б):4 | Политбюро:3 | Правда:2 | ГУГБ:1 | КПК:1	party_apparatus:13 | press_media:2 | security_apparatus:1	16
+С.Х. Варданиана	6	ВКП(б):4 | ГУГБ:4 | НКВД:3 | ЦК ВКП(б):3 | Правда:1 | Совнарком:1	security_apparatus:7 | party_apparatus:7 | state_apparatus:1 | press_media:1	16
+Я.А. Лившица	7	ВКП(б):4 | ЦК ВКП(б):4 | ГУГБ:2 | НКВД:2 | Политбюро:2 | Коминтерн:1 | Правда:1	party_apparatus:10 | security_apparatus:4 | international:1 | press_media:1	16
+В.И. Шипихина	9	ВКП(б):2 | Коминтерн:2 | НКВД:2 | Правда:2 | ЦИК СССР:2 | ЦК ВКП(б):2 | ГУГБ:1 | Известия:1 | Политбюро:1	party_apparatus:5 | press_media:3 | security_apparatus:3 | state_apparatus:2 | international:2	15
+И.И. Тарасова	5	ГУГБ:6 | ВКП(б):3 | НКВД:3 | Правда:2 | ЦК ВКП(б):1	security_apparatus:9 | party_apparatus:4 | press_media:2	15
+И.К. Наумова	6	ВКП(б):4 | ГУГБ:4 | НКВД:4 | ИККИ:1 | Совнарком:1 | ЦК ВКП(б):1	security_apparatus:8 | party_apparatus:5 | international:1 | state_apparatus:1	15
+И.С. Горшениным	4	ГУГБ:5 | НКВД:4 | ВКП(б):3 | ЦК ВКП(б):3	security_apparatus:9 | party_apparatus:6	15
+К.Е. Ворошилова	6	ВКП(б):4 | ЦК ВКП(б):4 | Правда:3 | Политбюро:2 | ГУГБ:1 | Коминтерн:1	party_apparatus:10 | press_media:3 | international:1 | security_apparatus:1	15
+Л.Д. Гогоберидзе	9	ВКП(б):2 | ГУГБ:2 | Коминтерн:2 | НКВД:2 | Совнарком:2 | ЦК ВКП(б):2 | Верховный Суд СССР:1 | Политбюро:1 | Правда:1	party_apparatus:5 | security_apparatus:4 | state_apparatus:2 | international:2 | judicial_apparatus:1 | press_media:1	15
+М.И. Лурье	7	ВКП(б):3 | ЦК ВКП(б):3 | ИККИ:2 | Коминтерн:2 | НКВД:2 | Политбюро:2 | ГУГБ:1	party_apparatus:8 | international:4 | security_apparatus:3	15
+Н.Б. Розенфельда	5	ГУГБ:5 | ВКП(б):4 | ЦК ВКП(б):3 | Правда:2 | НКВД:1	party_apparatus:7 | security_apparatus:6 | press_media:2	15
+Р.В. Пикеля	7	ВКП(б):4 | Коминтерн:4 | ГУГБ:2 | НКВД:2 | Верховный Суд СССР:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:5 | international:4 | security_apparatus:4 | judicial_apparatus:1 | press_media:1	15
+Я.В. Шарова	4	ГУГБ:5 | НКВД:5 | ВКП(б):4 | ЦК ВКП(б):1	security_apparatus:10 | party_apparatus:5	15
+А.А. Мусатова	7	ВКП(б):4 | ГУГБ:4 | НКВД:2 | Горьковский крайком ВКП(б):1 | Коминтерн:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:6 | international:1 | press_media:1	14
+А.П. Костиной	5	ГУГБ:5 | НКВД:4 | ВКП(б):2 | ЦК ВКП(б):2 | Коминтерн:1	security_apparatus:9 | party_apparatus:4 | international:1	14
+А.Ф. Шараповой	3	ВКП(б):6 | ГУГБ:6 | ЦК ВКП(б):2	party_apparatus:8 | security_apparatus:6	14
+Б.Н. Розенфельда	5	ГУГБ:5 | ВКП(б):4 | Политбюро:3 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:8 | security_apparatus:6	14
+В.С. Левина	4	ГУГБ:9 | ВКП(б):2 | НКВД:2 | Политбюро:1	security_apparatus:11 | party_apparatus:3	14
+Г.Ф. Попова	3	ГУГБ:8 | НКВД:4 | ВКП(б):2	security_apparatus:12 | party_apparatus:2	14
+И.М. Гуревича	4	ГУГБ:5 | ВКП(б):3 | НКВД:3 | ЦК ВКП(б):3	security_apparatus:8 | party_apparatus:6	14
+К.К. Муханова	4	ГУГБ:9 | ВКП(б):2 | ЦК ВКП(б):2 | НКВД:1	security_apparatus:10 | party_apparatus:4	14
+М.С. Богуславского	7	ВКП(б):4 | ГУГБ:3 | ЦК ВКП(б):3 | Коминтерн:1 | НКВД:1 | Политбюро:1 | Правда:1	party_apparatus:8 | security_apparatus:4 | international:1 | press_media:1	14
+Пригожин	8	ВКП(б):2 | ГУГБ:2 | Известия:2 | Коминтерн:2 | НКВД:2 | ЦК ВКП(б):2 | Политбюро:1 | Правда:1	party_apparatus:5 | security_apparatus:4 | press_media:3 | international:2	14
+Р.М. Кулишера	5	ГУГБ:4 | НКВД:4 | ОО ГУГБ НКВД:4 | ВКП(б):1 | Совнарком:1	security_apparatus:12 | state_apparatus:1 | party_apparatus:1	14
+С.М. Гессена	6	ВКП(б):3 | Политбюро:3 | ГУГБ:2 | Коминтерн:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:8 | security_apparatus:4 | international:2	14
+Шемелев	4	ВКП(б):5 | ГУГБ:5 | ЦК ВКП(б):3 | НКВД:1	party_apparatus:8 | security_apparatus:6	14
+Ю.М. Коцюбинского	7	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | НКВД:2 | Верховный Суд СССР:1 | Правда:1 | Совнарком:1	party_apparatus:6 | security_apparatus:5 | judicial_apparatus:1 | state_apparatus:1 | press_media:1	14
+А.Г. Колодина	6	ВКП(б):4 | ГУГБ:3 | ЦК ВКП(б):3 | КПК:1 | КПК при ЦК ВКП(б):1 | Коминтерн:1	party_apparatus:9 | security_apparatus:3 | international:1	13
+А.Д. Зайцева	9	ВКП(б):2 | ГУГБ:2 | Правда:2 | ЦК ВКП(б):2 | ИККИ:1 | Коминтерн:1 | НКВД:1 | Политбюро:1 | Совнарком:1	party_apparatus:5 | security_apparatus:3 | press_media:2 | international:2 | state_apparatus:1	13
+А.Н. Слепкова	8	ВКП(б):4 | ГУГБ:2 | ЦК ВКП(б):2 | ИККИ:1 | КПК:1 | Коминтерн:1 | НКВД:1 | Политбюро:1	party_apparatus:8 | security_apparatus:3 | international:2	13
+В.Г. Дорошина	5	ВКП(б):4 | ГУГБ:4 | Политбюро:3 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:8 | security_apparatus:5	13
+Д.П. Марецкого	9	ВКП(б):3 | ГУГБ:2 | Коминтерн:2 | ИККИ:1 | КПК:1 | Политбюро:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:6 | international:3 | security_apparatus:2 | state_apparatus:1 | press_media:1	13
+И.И. Бурлакова	6	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | Политбюро:2 | Верховный Суд СССР:1 | НКВД:1	party_apparatus:8 | security_apparatus:4 | judicial_apparatus:1	13
+К.Б. Берман-Юрин	8	ВКП(б):2 | Коминтерн:2 | НКВД:2 | Политбюро:2 | ЦК ВКП(б):2 | ГУГБ:1 | ИККИ:1 | ИНО ГУГБ:1	party_apparatus:6 | security_apparatus:4 | international:3	13
+Л.М. Марьясина	5	ВКП(б):3 | ГУГБ:3 | НКВД:3 | ЦК ВКП(б):3 | Совнарком:1	party_apparatus:6 | security_apparatus:6 | state_apparatus:1	13
+Л.П. Серебрякова	7	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | ИНО ГУГБ:1 | Известия:1 | Правда:1 | Совнарком:1	party_apparatus:6 | security_apparatus:4 | press_media:2 | state_apparatus:1	13
+Н.А. Карева	7	ВКП(б):4 | ГУГБ:2 | Коминтерн:2 | ЦК ВКП(б):2 | Верховный Суд СССР:1 | НКВД:1 | Политбюро:1	party_apparatus:7 | security_apparatus:3 | international:2 | judicial_apparatus:1	13
+Н.П. Глебов-Авилов	6	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | Верховный Суд СССР:2 | НКВД:1 | Совнарком:1	party_apparatus:6 | security_apparatus:4 | judicial_apparatus:2 | state_apparatus:1	13
+А.И. Синелобова	6	ВКП(б):3 | ГУГБ:3 | НКВД:3 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:5 | press_media:1	12
+А.С. Соколова	8	ВКП(б):2 | ГУГБ:2 | ИНО ГУГБ:2 | НКВД:2 | Горьковский крайком ВКП(б):1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:5 | press_media:1	12
+Г.Е. Евдокимовым	5	ГУГБ:4 | НКВД:4 | Коминтерн:2 | ВКП(б):1 | Правда:1	security_apparatus:8 | international:2 | press_media:1 | party_apparatus:1	12
+Г.Ф. Овчинникова	5	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | НКВД:2 | Политбюро:1	party_apparatus:7 | security_apparatus:5	12
+Е.Д. Соколовой	10	ВКП(б):2 | ЦИК СССР:2 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1 | Политбюро:1 | Правда:1 | Секретариат ЦИК СССР:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:6 | state_apparatus:4 | press_media:1 | security_apparatus:1	12
+Е.К. Коршунова	6	ГУГБ:3 | НКВД:3 | ВКП(б):2 | ЦК ВКП(б):2 | Политбюро:1 | Правда:1	security_apparatus:6 | party_apparatus:5 | press_media:1	12
+З.М. Беленького	5	ЦИК СССР:4 | ВКП(б):3 | Политбюро:2 | ЦК ВКП(б):2 | Секретариат ЦИК СССР:1	party_apparatus:7 | state_apparatus:5	12
+И.А. Князева	4	НКВД:4 | ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):2	security_apparatus:7 | party_apparatus:5	12
+К.Н. Лукницкого	5	ВКП(б):3 | Известия:3 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:5 | security_apparatus:4 | press_media:3	12
+М.О. Зюка	5	ВКП(б):3 | НКВД:3 | ГУГБ:2 | Правда:2 | ЦК ВКП(б):2	security_apparatus:5 | party_apparatus:5 | press_media:2	12
+Н.И. Бураго	4	ГУГБ:6 | ВКП(б):3 | ЦК ВКП(б):2 | Правда:1	security_apparatus:6 | party_apparatus:5 | press_media:1	12
+Н.И. Гордона	4	ВКП(б):3 | ГУГБ:3 | НКВД:3 | ЦК ВКП(б):3	party_apparatus:6 | security_apparatus:6	12
+Н.С. Антоновым	5	ВКП(б):3 | ГУГБ:3 | НКВД:2 | Политбюро:2 | ЦК ВКП(б):2	party_apparatus:7 | security_apparatus:5	12
+С.И. Лукашика	6	ВКП(б):3 | ГУГБ:3 | НКВД:3 | КПК:1 | Правда:1 | ЦИК СССР:1	security_apparatus:6 | party_apparatus:4 | state_apparatus:1 | press_media:1	12
+А.И. Анишева	7	Коминтерн:4 | ВКП(б):2 | Известия:1 | НКВД:1 | Правда:1 | ЦИК СССР:1 | ЦК ВКП(б):1	international:4 | party_apparatus:3 | press_media:2 | state_apparatus:1 | security_apparatus:1	11
+А.И. Кармалитова	6	ВКП(б):3 | ГУГБ:2 | Правда:2 | ЦК ВКП(б):2 | НКВД:1 | Политбюро:1	party_apparatus:6 | security_apparatus:3 | press_media:2	11
+А.Н. Сафоновой	4	ВКП(б):4 | ГУГБ:4 | Правда:2 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:4 | press_media:2	11
+Б.Г. Козелева	5	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | Коминтерн:1 | НКВД:1	party_apparatus:6 | security_apparatus:4 | international:1	11
+Д.Т. Шермергорна	6	ВКП(б):2 | ГУГБ:2 | Коминтерн:2 | НКВД:2 | ЦК ВКП(б):2 | Совнарком:1	party_apparatus:4 | security_apparatus:4 | international:2 | state_apparatus:1	11
+Е.Н. Васильева	6	ВКП(б):2 | КПК:2 | КПК при ЦК ВКП(б):2 | ЦИК СССР:2 | ЦК ВКП(б):2 | Секретариат ЦИК СССР:1	party_apparatus:8 | state_apparatus:3	11
+И.Д. Турока	6	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):2 | Известия:1 | НКВД:1 | Совнарком:1	party_apparatus:5 | security_apparatus:4 | press_media:1 | state_apparatus:1	11
+И.И. Горовича	5	ГУГБ:4 | ВКП(б):3 | ЦК ВКП(б):2 | Коминтерн:1 | НКВД:1	security_apparatus:5 | party_apparatus:5 | international:1	11
+И.Н. Маевского	6	ВКП(б):3 | ЦК ВКП(б):3 | ГУГБ:2 | КПК:1 | КПК при ЦК ВКП(б):1 | НКВД:1	party_apparatus:8 | security_apparatus:3	11
+И.Т. Смилги	5	ВКП(б):4 | ЦК ВКП(б):3 | Правда:2 | ГУГБ:1 | Коминтерн:1	party_apparatus:7 | press_media:2 | international:1 | security_apparatus:1	11
+П.А. Коваленко	3	ВКП(б):5 | ГУГБ:5 | ЦК ВКП(б):1	party_apparatus:6 | security_apparatus:5	11
+П.Ф. Зайцева	5	ВКП(б):3 | ЦИК СССР:3 | ЦК ВКП(б):3 | Правда:1 | Секретариат ЦИК СССР:1	party_apparatus:6 | state_apparatus:4 | press_media:1	11
+П.Э. Роцкана	5	ВКП(б):3 | ГУГБ:3 | НКВД:3 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:5	11
+Р.С. Беннет	6	ВКП(б):2 | ГУГБ:2 | НКВД:2 | Политбюро:2 | ЦК ВКП(б):2 | Коминтерн:1	party_apparatus:6 | security_apparatus:4 | international:1	11
+С.Я. Шаева	5	ГУГБ:3 | НКВД:3 | ВКП(б):2 | ЦК ВКП(б):2 | Политбюро:1	security_apparatus:6 | party_apparatus:5	11
+Х.Г. Гуревича	6	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):2 | НКВД:1 | НКИД:1 | Прокуратура СССР:1	party_apparatus:5 | security_apparatus:4 | judicial_apparatus:1 | state_apparatus:1	11
+Я.Н. Дробниса	5	ВКП(б):3 | ГУГБ:3 | НКВД:2 | ЦК ВКП(б):2 | Политбюро:1	party_apparatus:6 | security_apparatus:5	11
+А.И. Биркенгофа	5	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):2 | ИНО ГУГБ:1 | Правда:1	party_apparatus:5 | security_apparatus:4 | press_media:1	10
+А.М. Гусева	7	ВКП(б):2 | ГУГБ:2 | НКВД:2 | КПК:1 | КПК при ЦК ВКП(б):1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:4 | state_apparatus:1	10
+А.М. Зорина	6	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2 | Политбюро:1 | Совнарком:1	party_apparatus:5 | security_apparatus:4 | state_apparatus:1	10
+Б.И. Кузьмичева	4	ВКП(б):3 | ЦК ВКП(б):3 | ГУГБ:2 | НКВД:2	party_apparatus:6 | security_apparatus:4	10
+Б.М. Оберталлера	5	ВКП(б):3 | ЦК ВКП(б):3 | НКВД:2 | ГУГБ:1 | Политбюро:1	party_apparatus:7 | security_apparatus:3	10
+В.А. Барута	2	ГУГБ:9 | ВКП(б):1	security_apparatus:9 | party_apparatus:1	10
+В.А. Котова	6	ВКП(б):2 | ГУГБ:2 | Совнарком:2 | ЦК ВКП(б):2 | Коминтерн:1 | НКВД:1	party_apparatus:4 | security_apparatus:3 | state_apparatus:2 | international:1	10
+В.Д. Каспаровой	4	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | НКВД:1	party_apparatus:6 | security_apparatus:4	10
+Г.И. Сафаровым	5	ГУГБ:3 | Коминтерн:3 | НКВД:2 | ВКП(б):1 | Политбюро:1	security_apparatus:5 | international:3 | party_apparatus:2	10
+Г.Л. Хасина	4	ВКП(б):4 | ГУГБ:4 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:5 | party_apparatus:5	10
+Г.М. Артеменко	4	ВКП(б):3 | ГУГБ:3 | Коминтерн:2 | НКВД:2	security_apparatus:5 | party_apparatus:3 | international:2	10
+И.П. Бакаевым	5	ГУГБ:3 | ВКП(б):2 | Коминтерн:2 | НКВД:2 | Верховный Суд СССР:1	security_apparatus:5 | international:2 | party_apparatus:2 | judicial_apparatus:1	10
+Л.В. Николаевым	4	ГУГБ:4 | НКВД:4 | ВКП(б):1 | Коминтерн:1	security_apparatus:8 | international:1 | party_apparatus:1	10
+Л.И. Сосицкого	4	ВКП(б):4 | ГУГБ:3 | НКВД:2 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:5	10
+Л.П. Серебряковым	4	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3 | НКВД:1	party_apparatus:6 | security_apparatus:4	10
+Л.С. Мамишвили-Мишкевич	6	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2 | Коминтерн:1 | Политбюро:1	party_apparatus:5 | security_apparatus:4 | international:1	10
+Л.С. Тер-Минасов	6	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2 | Правда:1 | Совнарком:1	party_apparatus:4 | security_apparatus:4 | state_apparatus:1 | press_media:1	10
+П.А. Липшица	7	ВКП(б):2 | Коминтерн:2 | НКВД:2 | ГУГБ:1 | ИККИ:1 | КПК:1 | Политбюро:1	party_apparatus:4 | international:3 | security_apparatus:3	10
+П.Г. Петровского	6	ВКП(б):2 | Политбюро:2 | Правда:2 | ЦК ВКП(б):2 | ИККИ:1 | Совнарком:1	party_apparatus:6 | press_media:2 | international:1 | state_apparatus:1	10
+Радин	7	ВКП(б):2 | Совнарком:2 | ЦК ВКП(б):2 | ГУГБ:1 | ИККИ:1 | Политбюро:1 | Правда:1	party_apparatus:5 | state_apparatus:2 | international:1 | press_media:1 | security_apparatus:1	10
+С.Г. Радомысльского	8	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1 | НКВД:1 | Политбюро:1 | Правда:1	party_apparatus:7 | security_apparatus:2 | press_media:1	10
+Э.С. Гольцмана	5	ВКП(б):4 | ГУГБ:3 | НКВД:1 | НКИД:1 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:4 | state_apparatus:1	10
+Я.Н. Вечерковского	5	ГУГБ:3 | НКВД:3 | ВКП(б):2 | Правда:1 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:3 | press_media:1	10
+А.А. Андрееву	4	ВКП(б):3 | ЦК ВКП(б):3 | НКВД:2 | Правда:1	party_apparatus:6 | security_apparatus:2 | press_media:1	9
+А.А. Докучаева	3	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):3	party_apparatus:6 | security_apparatus:3	9
+А.А. Хвыли	7	Политбюро:2 | Правда:2 | ВКП(б):1 | Коминтерн:1 | НКВД:1 | ЦИК СССР:1 | ЦК ВКП(б):1	party_apparatus:4 | press_media:2 | state_apparatus:1 | international:1 | security_apparatus:1	9
+А.В. Галкина	7	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1 | Политбюро:1 | Совнарком:1	party_apparatus:5 | security_apparatus:3 | state_apparatus:1	9
+А.И. Коновой	5	ВКП(б):3 | ГУГБ:3 | Политбюро:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:3 | state_apparatus:1	9
+А.И. Юлина	6	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | НКВД:1 | Политбюро:1 | Правда:1	party_apparatus:5 | security_apparatus:3 | press_media:1	9
+А.С. Куклина	5	ГУГБ:3 | ВКП(б):2 | НКВД:2 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:5 | party_apparatus:4	9
+А.Х. Кантора	4	ВКП(б):3 | ГУГБ:3 | Правда:2 | ИНО ГУГБ:1	security_apparatus:4 | party_apparatus:3 | press_media:2	9
+В.И. Невского	5	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2 | Совнарком:1	party_apparatus:4 | security_apparatus:4 | state_apparatus:1	9
+В.И. Пучкова	5	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2 | Коминтерн:1	party_apparatus:4 | security_apparatus:4 | international:1	9
+Г.С. Фридлянда	7	ВКП(б):2 | ГУГБ:2 | Известия:1 | Коминтерн:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3 | press_media:2 | international:1	9
+Гавен	7	ВКП(б):2 | ГУГБ:2 | Коминтерн:1 | НКВД:1 | НКИД:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3 | state_apparatus:1 | international:1 | press_media:1	9
+Д.П. Бухарцева	6	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | Известия:1 | НКВД:1 | Правда:1	party_apparatus:4 | security_apparatus:3 | press_media:2	9
+Л.Е. Хосроева	5	ВКП(б):2 | ГУГБ:2 | ИНО ГУГБ:2 | НКВД:2 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:3	9
+Л.Н. Минервиной	5	ГУГБ:2 | ИНО ГУГБ:2 | НКВД:2 | ЦИК СССР:2 | ВКП(б):1	security_apparatus:6 | state_apparatus:2 | party_apparatus:1	9
+Л.Я. Файвиловича	4	ВКП(б):4 | ГУГБ:2 | ЦК ВКП(б):2 | Политбюро:1	party_apparatus:7 | security_apparatus:2	9
+М.И. Новожилова	6	ВКП(б):2 | ГУГБ:2 | НКВД:2 | Политбюро:1 | Секретариат ЦИК СССР:1 | ЦИК СССР:1	security_apparatus:4 | party_apparatus:3 | state_apparatus:2	9
+М.Л. Быховского	4	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):2 | НКВД:1	party_apparatus:5 | security_apparatus:4	9
+М.Н. Рябинина	5	ВКП(б):2 | ГУГБ:2 | ИНО ГУГБ:2 | НКВД:2 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:3	9
+М.П. Томского	5	Политбюро:3 | ВКП(б):2 | ЦК ВКП(б):2 | Известия:1 | Правда:1	party_apparatus:7 | press_media:2	9
+М.Ф. Постоловского	6	ВКП(б):2 | НКВД:2 | ЦК ВКП(б):2 | ГУГБ:1 | Правда:1 | Совнарком:1	party_apparatus:4 | security_apparatus:3 | state_apparatus:1 | press_media:1	9
+Н.В. Комогорова	9	ВКП(б):1 | ГУГБ:1 | Известия:1 | Коминтерн:1 | Лига Наций:1 | НКВД:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	international:2 | press_media:2 | party_apparatus:2 | security_apparatus:2 | state_apparatus:1	9
+Н.И. Муралова	6	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | НКВД:1 | Политбюро:1 | Совнарком:1	party_apparatus:5 | security_apparatus:3 | state_apparatus:1	9
+Н.П. Михетко	5	ВКП(б):3 | ГУГБ:3 | НКВД:1 | Политбюро:1 | ЦИК СССР:1	security_apparatus:4 | party_apparatus:4 | state_apparatus:1	9
+С.М. Закс-Гладнев	8	Коминтерн:2 | ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Политбюро:1 | Правда:1 | ЦИК СССР:1 | ЦК ВКП(б):1	international:3 | party_apparatus:3 | state_apparatus:1 | press_media:1 | security_apparatus:1	9
+Седов	4	Правда:4 | ВКП(б):3 | ГУГБ:1 | Коминтерн:1	press_media:4 | party_apparatus:3 | international:1 | security_apparatus:1	9
+Я.А. Фуртичева	6	ВКП(б):2 | ГУГБ:2 | Коминтерн:2 | Горьковский крайком ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:4 | security_apparatus:3 | international:2	9
+Я.Р. Ельковича	4	ВКП(б):3 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:5 | security_apparatus:4	9
+Я.Я. Упмал-Ангарский	6	ВКП(б):2 | ГУГБ:2 | Коминтерн:2 | Известия:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | international:2 | security_apparatus:2 | press_media:2	9
+А.Е. Кожуро	6	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Правда:1	party_apparatus:4 | security_apparatus:2 | international:1 | press_media:1	8
+А.К. Середохина	4	ВКП(б):3 | ЦК ВКП(б):3 | Коминтерн:1 | НКВД:1	party_apparatus:6 | international:1 | security_apparatus:1	8
+А.Л. Леонтьева	8	ВКП(б):1 | ГУГБ:1 | Горьковский крайком ВКП(б):1 | КПК:1 | КПК при ЦК ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:2 | press_media:1	8
+Б.М. Таля	6	ВКП(б):2 | ЦК ВКП(б):2 | Известия:1 | Коминтерн:1 | НКВД:1 | Политбюро:1	party_apparatus:5 | press_media:1 | international:1 | security_apparatus:1	8
+В.А. Ельчаниновой	5	ВКП(б):2 | ГУГБ:2 | ЦИК СССР:2 | НКВД:1 | Секретариат ЦИК СССР:1	state_apparatus:3 | security_apparatus:3 | party_apparatus:2	8
+В.Г. Белова	3	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):2	party_apparatus:5 | security_apparatus:3	8
+В.М. Рохинсона	5	ВКП(б):2 | ГУГБ:2 | НКВД:2 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:4	8
+В.П. Второва	8	ВКП(б):1 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1 | НКВД:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:2 | press_media:1	8
+Г.Е. Пушина	4	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:4 | security_apparatus:4	8
+З.И. Давыдовой	4	ГУГБ:5 | ВКП(б):1 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:5 | party_apparatus:3	8
+И.И. Котолыновым	5	ГУГБ:3 | НКВД:2 | ВКП(б):1 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:5 | party_apparatus:3	8
+И.И. Трусова	3	ГУГБ:4 | ВКП(б):3 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:4	8
+К.И. Синелобовой	4	НКВД:3 | ВКП(б):2 | ГУГБ:2 | Политбюро:1	security_apparatus:5 | party_apparatus:3	8
+К.С. Дорофеева	4	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:4 | security_apparatus:4	8
+Киров	4	ГУГБ:4 | ВКП(б):2 | НКВД:1 | Политбюро:1	security_apparatus:5 | party_apparatus:3	8
+Л.Д. Троцкий	4	Коминтерн:4 | Правда:2 | ВКП(б):1 | Известия:1	international:4 | press_media:3 | party_apparatus:1	8
+Л.Е. Тамма	4	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:4 | security_apparatus:4	8
+Л.И. Пономарева	5	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | НКВД:1 | Политбюро:1	party_apparatus:5 | security_apparatus:3	8
+М.В. Бурштейном	4	ГУГБ:3 | НКВД:3 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:6 | party_apparatus:2	8
+М.В. Поздеевой	4	ВКП(б):4 | Коминтерн:2 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:5 | international:2 | security_apparatus:1	8
+М.И. Сумецкого	4	ВКП(б):2 | ГУГБ:2 | Политбюро:2 | ЦК ВКП(б):2	party_apparatus:6 | security_apparatus:2	8
+М.П. Жакова	5	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | Коминтерн:1 | Правда:1	party_apparatus:4 | security_apparatus:2 | international:1 | press_media:1	8
+М.С. Рэма	3	ВКП(б):3 | ЦК ВКП(б):3 | ГУГБ:2	party_apparatus:6 | security_apparatus:2	8
+М.С. Строилова	5	ГУГБ:4 | ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:5 | party_apparatus:2 | press_media:1	8
+Н.И. Москалева	4	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):2	party_apparatus:4 | security_apparatus:4	8
+Н.Л. Лурье	6	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | ЦИК СССР:1	party_apparatus:4 | security_apparatus:2 | state_apparatus:1 | international:1	8
+Н.Н. Шатским	4	ГУГБ:3 | НКВД:3 | ВКП(б):1 | Коминтерн:1	security_apparatus:6 | international:1 | party_apparatus:1	8
+С.А. Чихладзе	6	ВКП(б):2 | Совнарком:2 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | state_apparatus:2 | security_apparatus:2 | press_media:1	8
+С.Я. Бабахана	5	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | Коминтерн:1 | Политбюро:1	party_apparatus:5 | security_apparatus:2 | international:1	8
+Ф.Г. Иванова	5	ВКП(б):2 | ГУГБ:2 | НКВД:2 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:4	8
+Ф.Ф. Фадеева	3	ГУГБ:3 | НКВД:3 | ВКП(б):2	security_apparatus:6 | party_apparatus:2	8
+А.А. Бусыгина	4	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:3	7
+А.О. Альского	7	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2 | international:1 | press_media:1	7
+Б.П. Нестерова	7	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Политбюро:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:3 | international:1 | state_apparatus:1 | press_media:1 | security_apparatus:1	7
+В.Д. Вуйовича	7	ВКП(б):1 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1 | Коминтерн:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:5 | international:1 | security_apparatus:1	7
+Г.А. Колоскова	5	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1	party_apparatus:6 | security_apparatus:1	7
+Г.Е. Горбачева	4	ВКП(б):3 | ЦК ВКП(б):2 | Коминтерн:1 | Политбюро:1	party_apparatus:6 | international:1	7
+Д.И. Матвеева	4	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | Совнарком:1	party_apparatus:4 | security_apparatus:2 | state_apparatus:1	7
+Д.С. Азбеля	4	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | НКВД:1	party_apparatus:4 | security_apparatus:3	7
+Е.А. Афанасьева	4	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | НКВД:1	party_apparatus:4 | security_apparatus:3	7
+Е.Ю. Раевской	4	ГУГБ:4 | ВКП(б):1 | Правда:1 | Совнарком:1	security_apparatus:4 | state_apparatus:1 | press_media:1 | party_apparatus:1	7
+И.И. Койген	7	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Коминтерн:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | international:2 | security_apparatus:2	7
+И.М. Бык-Бек	6	ВКП(б):2 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:4 | security_apparatus:2 | international:1	7
+И.О. Гольденберга	4	ВКП(б):2 | НКВД:2 | ЦК ВКП(б):2 | ГУГБ:1	party_apparatus:4 | security_apparatus:3	7
+К.С. Модебадзе	6	ВКП(б):2 | ГУГБ:1 | НКВД:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2 | state_apparatus:1 | press_media:1	7
+Л.Е. Бурковой	5	ВКП(б):2 | ЦИК СССР:2 | ГУГБ:1 | Политбюро:1 | Правда:1	party_apparatus:3 | state_apparatus:2 | press_media:1 | security_apparatus:1	7
+Л.И. Гасвиани	5	ВКП(б):2 | НКВД:2 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3 | press_media:1	7
+Л.И. Перельштейн	4	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | Коминтерн:1	party_apparatus:4 | security_apparatus:2 | international:1	7
+Л.П. Берии	4	ВКП(б):2 | НКВД:2 | ЦК ВКП(б):2 | Совнарком:1	party_apparatus:4 | security_apparatus:2 | state_apparatus:1	7
+Л.Х. Розенблюма	5	ВКП(б):2 | ГУГБ:2 | Верховный Суд СССР:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2 | judicial_apparatus:1 | press_media:1	7
+М.М. Кудряшева	5	ВКП(б):2 | ГУГБ:2 | НКВД:1 | Совнарком:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3 | state_apparatus:1	7
+М.М. Чередниченко	5	ГУГБ:2 | НКВД:2 | ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:2 | press_media:1	7
+М.Т. Антонова	4	ВКП(б):2 | Правда:2 | ЦК ВКП(б):2 | НКВД:1	party_apparatus:4 | press_media:2 | security_apparatus:1	7
+Н.Б. Скаловой	5	ГУГБ:2 | Коминтерн:2 | ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	international:2 | security_apparatus:2 | party_apparatus:2 | press_media:1	7
+Н.М. Насонова	4	ГУГБ:2 | Коминтерн:2 | НКВД:2 | ВКП(б):1	security_apparatus:4 | international:2 | party_apparatus:1	7
+О.П. Дзениса	4	ВКП(б):2 | НКВД:2 | ЦК ВКП(б):2 | ГУГБ:1	party_apparatus:4 | security_apparatus:3	7
+П.А. Залуцкого	4	ВКП(б):2 | ГУГБ:2 | НКВД:2 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:3	7
+П.К. Александрова	6	ВКП(б):2 | ГУГБ:1 | ИККИ:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:4 | international:1 | press_media:1 | security_apparatus:1	7
+С.А. Ратайчаком	4	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2 | НКВД:1	party_apparatus:4 | security_apparatus:3	7
+С.С. Зорина	5	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | НКВД:1 | Правда:1	party_apparatus:4 | security_apparatus:2 | press_media:1	7
+Т.Р. Левиной	6	ВКП(б):2 | ГУГБ:1 | Коминтерн:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:4 | international:1 | press_media:1 | security_apparatus:1	7
+Ф.А. Горбуновой	3	ВКП(б):3 | ГУГБ:3 | ЦК ВКП(б):1	party_apparatus:4 | security_apparatus:3	7
+Х.Г. Раковского	5	ВКП(б):2 | ЦК ВКП(б):2 | ГУГБ:1 | Известия:1 | НКВД:1	party_apparatus:4 | security_apparatus:2 | press_media:1	7
+А.А. Трояновского	2	НКИД:3 | Политбюро:3	state_apparatus:3 | party_apparatus:3	6
+А.В. Герцберга	4	ГУГБ:2 | Коминтерн:2 | ВКП(б):1 | НКВД:1	security_apparatus:3 | international:2 | party_apparatus:1	6
+А.В. Луговой-Левенштейн	5	ВКП(б):2 | ГУГБ:1 | Известия:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:4 | press_media:1 | security_apparatus:1	6
+А.В. Румянцева	5	ВКП(б):2 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:4 | security_apparatus:2	6
+А.В. Травиной	6	ВКП(б):1 | Известия:1 | НКВД:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	press_media:2 | party_apparatus:2 | state_apparatus:1 | security_apparatus:1	6
+А.И. Гальперина	6	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2 | press_media:1	6
+А.И. Потяева	3	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2	party_apparatus:4 | security_apparatus:2	6
+А.Я. Свердлова	5	ВКП(б):2 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:5 | security_apparatus:1	6
+В.В. Осинского	5	ГУГБ:2 | ВКП(б):1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+В.В. Румянцевым	3	ГУГБ:3 | НКВД:2 | ВКП(б):1	security_apparatus:5 | party_apparatus:1	6
+В.И. Звездовым	5	ГУГБ:2 | ВКП(б):1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+В.Н. Слепкова	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | international:1 | press_media:1 | security_apparatus:1	6
+В.Н. Яковлевой	4	ВКП(б):2 | ЦК ВКП(б):2 | НКВД:1 | Совнарком:1	party_apparatus:4 | state_apparatus:1 | security_apparatus:1	6
+В.Ф. Головина	3	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):2	party_apparatus:4 | security_apparatus:2	6
+В.Я. Головский-Голощапов	2	ГУГБ:5 | ВКП(б):1	security_apparatus:5 | party_apparatus:1	6
+Г.Б. Либермана	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | international:1 | press_media:1	6
+Г.Л. Шкловского	5	ВКП(б):2 | ГУГБ:1 | Коминтерн:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:3 | state_apparatus:1 | international:1 | security_apparatus:1	6
+Д.З. Мануильскому	5	ИККИ:2 | ВКП(б):1 | Коминтерн:1 | НКВД:1 | Правда:1	international:3 | press_media:1 | security_apparatus:1 | party_apparatus:1	6
+Д.И. Антипаса	4	ВКП(б):2 | ЦК ВКП(б):2 | НКВД:1 | Политбюро:1	party_apparatus:5 | security_apparatus:1	6
+Д.П. Розита	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | international:1 | press_media:1 | security_apparatus:1	6
+Е.В. Рогачевой	3	ГУГБ:2 | НКВД:2 | ОО ГУГБ НКВД:2	security_apparatus:6	6
+Е.М. Манюрин-Броварский	4	ГУГБ:2 | НКВД:2 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:2	6
+Е.Р. Майера	4	ГУГБ:2 | НКВД:2 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:2	6
+И.А. Акулову	6	ВКП(б):1 | НКВД:1 | Правда:1 | Секретариат ЦИК СССР:1 | ЦИК СССР:1 | ЦК ВКП(б):1	state_apparatus:2 | party_apparatus:2 | press_media:1 | security_apparatus:1	6
+И.А. Мальгина	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | international:1 | press_media:1	6
+И.А. Масленникова	6	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+И.Е. Павлова	4	ВКП(б):2 | ГУГБ:2 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+И.И. Граше	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | international:1 | press_media:1	6
+И.Н. Зеликсона	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | ОО ГУГБ НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2 | international:1	6
+К.И. Грюнштейна	4	ВКП(б):2 | НКВД:2 | ГУГБ:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+М.А. Жарикова	4	ВКП(б):2 | ГУГБ:2 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+М.А. Нырчука	3	НКВД:3 | ГУГБ:2 | ВКП(б):1	security_apparatus:5 | party_apparatus:1	6
+М.Г. Грольмана	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2 | international:1	6
+М.Г. Сафьянова	4	ВКП(б):2 | ГУГБ:2 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2 | international:1	6
+М.И. Ганштака	6	ВКП(б):1 | НКВД:1 | Правда:1 | Секретариат ЦИК СССР:1 | ЦИК СССР:1 | ЦК ВКП(б):1	state_apparatus:2 | party_apparatus:2 | press_media:1 | security_apparatus:1	6
+М.Л. Левина	6	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Известия:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | international:1 | press_media:1	6
+М.М. Карпова	6	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:3 | state_apparatus:1 | press_media:1 | security_apparatus:1	6
+М.С. Голендо	6	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | state_apparatus:1 | press_media:1	6
+Н.В. Буинцева	3	ВКП(б):2 | ГУГБ:2 | Правда:2	press_media:2 | security_apparatus:2 | party_apparatus:2	6
+Н.И. Трубиева	6	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | international:1 | press_media:1	6
+Н.М. Маторина	4	ВКП(б):2 | ГУГБ:2 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+О.А. Мешковской	6	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | КПК:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:3 | international:2 | security_apparatus:1	6
+О.Ф. Янкуса	6	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Коминтерн:1 | НКВД:1 | ЦК ВКП(б):1	international:2 | party_apparatus:2 | security_apparatus:2	6
+П.Н. Нечаева	3	ВКП(б):2 | ГУГБ:2 | НКВД:2	security_apparatus:4 | party_apparatus:2	6
+С.А. Гоглидзе	4	ГУГБ:2 | НКВД:2 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:2	6
+С.П. Минаева	4	ГУГБ:2 | НКВД:2 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:4 | party_apparatus:2	6
+Т.В. Мешковского	6	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | international:1 | press_media:1 | security_apparatus:1	6
+Т.Г. Гатаулина	5	ГУГБ:2 | ВКП(б):1 | Горьковский крайком ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+Ю.М. Бочарова	4	ВКП(б):2 | ГУГБ:2 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:3	6
+А.А. Муштакова	3	ВКП(б):2 | ГУГБ:2 | НКВД:1	security_apparatus:3 | party_apparatus:2	5
+А.А. Табанакова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+А.В. Бочарова	5	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | press_media:1 | security_apparatus:1	5
+А.Е. Авдеевой	3	ГУГБ:3 | ВКП(б):1 | НКВД:1	security_apparatus:4 | party_apparatus:1	5
+А.М. Кашкина	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+А.М. Сосипатрова	5	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	security_apparatus:2 | party_apparatus:2 | press_media:1	5
+А.М. Штейна	4	ГУГБ:2 | ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+А.П. Загорулько	3	ГУГБ:2 | НКВД:2 | ВКП(б):1	security_apparatus:4 | party_apparatus:1	5
+А.Ф. Ульянова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | НКИД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | state_apparatus:1	5
+Б.Е. Алдаданова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+Б.Е. Барского	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+Б.Л. Колесникова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+В.Д. Вуйовичем	5	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | international:1 | security_apparatus:1	5
+В.Д. Томленова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+В.К. Путны	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+В.К. Сотскова	5	ВКП(б):1 | КПК:1 | КПК при ЦК ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:4 | security_apparatus:1	5
+В.Н. Голованова	4	ГУГБ:2 | ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+В.П. Потемкина	4	НКИД:2 | ВКП(б):1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | state_apparatus:2	5
+Г.А. Татулова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+Г.Б. Берндта	5	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3 | international:1 | party_apparatus:1	5
+Г.П. Вяткина	5	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1 | international:1 | security_apparatus:1	5
+Г.С. Герасимато	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+Г.С. Зайделя	5	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+Д.А. Карцева	3	ВКП(б):2 | ГУГБ:2 | Правда:1	security_apparatus:2 | party_apparatus:2 | press_media:1	5
+Е.Б. Федосеева	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+Е.И. Майзлиной	4	ГУГБ:2 | ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+З.Д. Ханик	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | Правда:1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+З.Е. Саркисьяна	5	ВКП(б):1 | НКВД:1 | Правда:1 | ЦИК СССР:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1 | press_media:1 | security_apparatus:1	5
+З.И. Фридмана	5	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Коминтерн:1 | Правда:1	international:2 | press_media:1 | security_apparatus:1 | party_apparatus:1	5
+И.В. Любина	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+И.Д. Гаврикова	3	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+И.Н. Стукова	3	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+И.С. Эстермана	3	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+И.Я. Одыня	5	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | Коминтерн:1 | ЦК ВКП(б):1	international:2 | party_apparatus:2 | security_apparatus:1	5
+К.А. Довганя	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+К.И. Гидлевского	3	ВКП(б):2 | ГУГБ:2 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+К.М. Ерофицкого	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+Л.А. Шацкина	5	ВКП(б):1 | КПК:1 | Правда:1 | Прокуратура СССР:1 | ЦК ВКП(б):1	party_apparatus:3 | judicial_apparatus:1 | press_media:1	5
+Л.Я. Любарского	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+М.А. Москвину	5	ВКП(б):1 | ИККИ:1 | Коминтерн:1 | НКВД:1 | Правда:1	international:2 | press_media:1 | security_apparatus:1 | party_apparatus:1	5
+М.В. Михайлика	3	ВКП(б):2 | ГУГБ:2 | Совнарком:1	security_apparatus:2 | party_apparatus:2 | state_apparatus:1	5
+М.Е. Быстрова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+М.И. Кахиани	5	ВКП(б):1 | ГУГБ:1 | КПК:1 | КПК при ЦК ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:4 | security_apparatus:1	5
+М.И. Кащеева	5	ВКП(б):1 | Коминтерн:1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | international:1 | press_media:1	5
+М.Ф. Иоэльсона	5	ВКП(б):1 | ГУГБ:1 | Известия:1 | Правда:1 | ЦК ВКП(б):1	press_media:2 | party_apparatus:2 | security_apparatus:1	5
+М.Я. Карпова	5	ВКП(б):1 | Известия:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	press_media:2 | party_apparatus:2 | security_apparatus:1	5
+М.Я. Презента	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | НКИД:1 | ЦИК СССР:1	state_apparatus:2 | security_apparatus:2 | party_apparatus:1	5
+Н.Г. Туманова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+Н.И. Мухина	3	ВКП(б):2 | НКВД:2 | Коминтерн:1	security_apparatus:2 | party_apparatus:2 | international:1	5
+Н.Н. Алексеева	4	ВКП(б):2 | ИККИ:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:3 | international:2	5
+Н.Н. Шатского	3	ВКП(б):2 | ГУГБ:2 | НКВД:1	security_apparatus:3 | party_apparatus:2	5
+Н.П. Мясниковым	2	ГУГБ:3 | НКВД:2	security_apparatus:5	5
+П.И. Гордеевой	3	ГУГБ:3 | НКВД:1 | Совнарком:1	security_apparatus:4 | state_apparatus:1	5
+П.П. Бурмистрова	4	ГУГБ:2 | ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+П.Ф. Полякова	3	ВКП(б):2 | ГУГБ:2 | НКВД:1	security_apparatus:3 | party_apparatus:2	5
+Р.Г. Миндель	5	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1 | ЦИК СССР:1	security_apparatus:3 | state_apparatus:1 | party_apparatus:1	5
+С.А. Асилова	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | press_media:1	5
+С.Г. Гродзенского	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | Совнарком:1	party_apparatus:2 | security_apparatus:2 | state_apparatus:1	5
+С.Г. Томсинского	5	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+С.Е. Эйдмана	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+С.П. Калашникова	4	ГУГБ:2 | ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	security_apparatus:3 | party_apparatus:2	5
+С.С. Раввы	5	ВКП(б):1 | Верховный Суд СССР:1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | judicial_apparatus:1	5
+Т.П. Денисовой	3	ГУГБ:2 | НКВД:2 | Правда:1	security_apparatus:4 | press_media:1	5
+Ф.И. Никогда	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+Ф.П. Медведева	5	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2 | international:1	5
+Ю.Г. Островского	5	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:2	5
+А.А. Гардин-Гейер	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | security_apparatus:1	4
+А.А. Карпова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.В. Дзедзиевского	4	ВКП(б):1 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+А.В. Перимовым	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.Д. Арефьева	3	ВКП(б):2 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+А.Д. Бронштейне	4	ВКП(б):1 | Правда:1 | Прокуратура СССР:1 | ЦК ВКП(б):1	party_apparatus:2 | judicial_apparatus:1 | press_media:1	4
+А.И. Бриггиса	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.И. Емшанова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.И. Муралова	4	ВКП(б):1 | Правда:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1 | press_media:1	4
+А.И. Уварова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.К. Дрожжина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.Н. Барулина	4	ВКП(б):1 | КПК:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+А.Н. Бурова	4	ВКП(б):1 | Горьковский крайком ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+А.О. Голлендера	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | НКВД:1	security_apparatus:2 | international:1 | party_apparatus:1	4
+А.П. Метальникова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+А.С. Булину	4	ВКП(б):1 | КПК:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+Б.Д. Берману	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Б.З. Ливянта	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | security_apparatus:1	4
+Б.М. Беккера	4	ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+Б.С. Рабиновича	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1	security_apparatus:2 | press_media:1 | party_apparatus:1	4
+В.А. Закамалдина	2	ГУГБ:2 | НКВД:2	security_apparatus:4	4
+В.В. Досекина	2	ВКП(б):2 | ГУГБ:2	security_apparatus:2 | party_apparatus:2	4
+В.В. Папкова	2	ГУГБ:2 | НКВД:2	security_apparatus:4	4
+В.Л. Горохова	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+В.М. Андреева	3	НКВД:2 | ВКП(б):1 | ГУГБ:1	security_apparatus:3 | party_apparatus:1	4
+В.М. Мулина	4	ВКП(б):1 | КПК:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+В.М. Примакова	3	НКВД:2 | ВКП(б):1 | ЦК ВКП(б):1	security_apparatus:2 | party_apparatus:2	4
+В.Н. Ракова	2	ВКП(б):2 | ГУГБ:2	security_apparatus:2 | party_apparatus:2	4
+В.П. Шевелев-Лубков	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+В.Ф. Захариной	4	ВКП(б):1 | ГУГБ:1 | ЦИК СССР:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1 | security_apparatus:1	4
+В.Ф. Логиновым	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Г.Д. Арсентьева	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Г.Е. Меерсона	4	ВКП(б):1 | Верховный Суд СССР:1 | ГУГБ:1 | Известия:1	judicial_apparatus:1 | press_media:1 | security_apparatus:1 | party_apparatus:1	4
+Г.И. Исаева	4	ВКП(б):1 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+Г.С. Биткера	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | security_apparatus:1	4
+Г.С. Тымянского	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+Д.А. Аникина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3 | party_apparatus:1	4
+Д.А. Аникиным	4	ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1 | ЦИК СССР:1	security_apparatus:3 | state_apparatus:1	4
+Д.А. Тайца	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | Правда:1	international:1 | press_media:1 | security_apparatus:1 | party_apparatus:1	4
+Д.М. Лупашко	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Е.А. Петровой	2	ВКП(б):2 | ГУГБ:2	security_apparatus:2 | party_apparatus:2	4
+Е.А. Преображенского	4	ВКП(б):1 | Коминтерн:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | press_media:1	4
+Е.И. Медкова	4	ВКП(б):1 | ГУГБ:1 | ИККИ:1 | НКВД:1	security_apparatus:2 | international:1 | party_apparatus:1	4
+Е.И. Перлина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Е.М. Пружанской	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Е.М. Рыбальченко	2	ГУГБ:2 | НКВД:2	security_apparatus:4	4
+Е.О. Симак	3	ГУГБ:2 | ВКП(б):1 | Совнарком:1	security_apparatus:2 | state_apparatus:1 | party_apparatus:1	4
+Е.Т. Черкасовой	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1	party_apparatus:2 | security_apparatus:2	4
+Е.Ф. Ермолаевой	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Е.Ф. Куликовым	4	ВКП(б):1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | press_media:1	4
+Е.Ф. Тойво-Пешина	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+Е.Я. Буклея	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+З.В. Флоровой	2	ВКП(б):2 | ГУГБ:2	security_apparatus:2 | party_apparatus:2	4
+И.А. Данилова	4	ВКП(б):1 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+И.В. Больших	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦИК СССР:1	security_apparatus:2 | state_apparatus:1 | party_apparatus:1	4
+И.В. Вардин-Мгеладзе	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | Правда:1	international:1 | press_media:1 | security_apparatus:1 | party_apparatus:1	4
+И.Е. Коваленко	2	ГУГБ:2 | НКВД:2	security_apparatus:4	4
+И.З. Станкина	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+И.И. Носкова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1	security_apparatus:2 | press_media:1 | party_apparatus:1	4
+И.М. Кедрова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+И.М. Русанова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3 | party_apparatus:1	4
+И.Н. Миронова	4	ВКП(б):1 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+И.П. Лукьянова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+И.С. Михайлова	3	ВКП(б):2 | ГУГБ:1 | НКВД:1	party_apparatus:2 | security_apparatus:2	4
+К.А. Оганесова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+К.А. Озола	2	ВКП(б):2 | ГУГБ:2	security_apparatus:2 | party_apparatus:2	4
+К.В. Генераловой	4	ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+К.В. Трофимова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+К.М. Петухова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Политбюро:1	party_apparatus:2 | security_apparatus:2	4
+К.Н. Афонина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Л.А. Лаврентьева	2	ГУГБ:3 | ВКП(б):1	security_apparatus:3 | party_apparatus:1	4
+Л.А. Чернозубовой	3	ГУГБ:2 | ВКП(б):1 | НКВД:1	security_apparatus:3 | party_apparatus:1	4
+Л.Г. Миронова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Л.И. Сосицким	2	ГУГБ:2 | НКВД:2	security_apparatus:4	4
+Л.М. Островской	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Л.Я. Нехамкина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+М.А. Житкова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1	security_apparatus:2 | press_media:1 | party_apparatus:1	4
+М.А. Розенцвейга	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+М.Д. Кочетовой	4	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | Правда:1	security_apparatus:2 | press_media:1 | party_apparatus:1	4
+М.И. Рябининой	4	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1	security_apparatus:3 | party_apparatus:1	4
+М.М. Оскольский-Финкельштейн	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+М.Н. Дьячкова	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+М.Н. Уфимцевой	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+М.П. Давыдова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+М.С. Жалыбина-Быкова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Н.А. Бобылева	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+Н.Г. Ольховского	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+Н.И. Медникова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Н.К. Буянского	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Н.М. Букалова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Н.Н. Крестинского	4	ВКП(б):1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | press_media:1	4
+Н.Н. Соина	4	ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+Н.П. Гаврилова	4	ВКП(б):1 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+П.И. Шабалкина	4	ВКП(б):1 | ГУГБ:1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3 | security_apparatus:1	4
+П.М. Репникова	3	ГУГБ:2 | ВКП(б):1 | Политбюро:1	security_apparatus:2 | party_apparatus:2	4
+П.Н. Кашина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+П.Н. Рокоса	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Р.А. Петерсона	2	ВКП(б):2 | ЦК ВКП(б):2	party_apparatus:4	4
+Р.П. Катаняна	4	ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+С.В. Мрачковском	4	ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+С.В. Носова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+С.Н. Бограчева	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3 | party_apparatus:1	4
+С.Н. Бограчевым	4	ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1 | ЦИК СССР:1	security_apparatus:3 | state_apparatus:1	4
+С.Н. Цыбульника	4	ВКП(б):1 | НКВД:1 | ЦИК СССР:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1 | security_apparatus:1	4
+С.О. Акопьяна	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+С.П. Терихова	4	ВКП(б):1 | НКИД:1 | ЦИК СССР:1 | ЦК ВКП(б):1	state_apparatus:2 | party_apparatus:2	4
+С.Т. Узданского	4	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1	security_apparatus:3 | party_apparatus:1	4
+С.Ф. Васильченко	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | security_apparatus:1	4
+Ф.А. Ксенофонтова	4	ВКП(б):1 | Политбюро:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:3 | press_media:1	4
+Ф.В. Кипарисова	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Ф.В. Яблонской	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Ф.И. Вайсберга	4	ВКП(б):1 | ГУГБ:1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1 | security_apparatus:1	4
+Ф.Ф. Иоэльсон	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Э.Г. Лейкина	4	ВКП(б):1 | Известия:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | international:1	4
+Э.З. Гольденберга	4	ВКП(б):1 | ИККИ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | press_media:1	4
+Э.Н. Адунской	4	ВКП(б):1 | НКВД:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+Ю.И. Дуката	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Я.А. Лившицем	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Я.К. Яглома	4	ВКП(б):1 | ГУГБ:1 | Коминтерн:1 | ЦК ВКП(б):1	party_apparatus:2 | international:1 | security_apparatus:1	4
+Я.П. Гальперина	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | Правда:1	security_apparatus:2 | press_media:1 | party_apparatus:1	4
+Я.С. Розановым	3	ГУГБ:2 | ВКП(б):1 | НКВД:1	security_apparatus:3 | party_apparatus:1	4
+Я.Ф. Городецкого	4	ВКП(б):1 | ГУГБ:1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:2	4
+Я.Ю. Харита	4	ВКП(б):1 | ГУГБ:1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1 | security_apparatus:1	4
+А.А. Жданову	3	ВКП(б):1 | Известия:1 | НКВД:1	press_media:1 | security_apparatus:1 | party_apparatus:1	3
+А.А. Лаврентьева	2	ГУГБ:2 | НКВД:1	security_apparatus:3	3
+А.А. Нелидовой	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+А.В. Перимова	3	ВКП(б):1 | ГУГБ:1 | Коминтерн:1	international:1 | security_apparatus:1 | party_apparatus:1	3
+А.Г. Шляпникова	3	ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1	3
+А.З. Волкова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+А.И. Витковского	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+А.И. Зильбермана	3	ВКП(б):1 | Политбюро:1 | Правда:1	party_apparatus:2 | press_media:1	3
+А.И. Никитинской	3	ВКП(б):1 | ГУГБ:1 | ЦИК СССР:1	state_apparatus:1 | security_apparatus:1 | party_apparatus:1	3
+А.И. Стецкого	3	Известия:1 | Политбюро:1 | Правда:1	press_media:2 | party_apparatus:1	3
+А.К. Язовских	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+А.Л. Голоступеца	3	ГУГБ:1 | Секретариат ЦИК СССР:1 | ЦИК СССР:1	state_apparatus:2 | security_apparatus:1	3
+А.М. Луцука	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+А.М. Попова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+А.П. Удалова	3	ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3	3
+А.С. Куклиным	2	ГУГБ:2 | Совнарком:1	security_apparatus:2 | state_apparatus:1	3
+А.Ф. Кошелева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+А.Ю. Айхенвальда	2	ВКП(б):2 | ИККИ:1	party_apparatus:2 | international:1	3
+А.Я. Аросеве	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Б.А. Двинскому	3	ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1	3
+Б.Г. Мдивани	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Б.И. Лехтмана	2	Совнарком:2 | НКВД:1	state_apparatus:2 | security_apparatus:1	3
+Б.Л. Лопатинского	3	ВКП(б):1 | ГУГБ:1 | Правда:1	press_media:1 | security_apparatus:1 | party_apparatus:1	3
+Б.М. Нижника	2	ВКП(б):2 | НКВД:1	party_apparatus:2 | security_apparatus:1	3
+Б.О. Норкина	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Б.Э. Раткая	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+В.А. Ваганяна	3	ВКП(б):1 | Политбюро:1 | ЦК ВКП(б):1	party_apparatus:3	3
+В.В. Глухенко	2	НКВД:2 | Правда:1	security_apparatus:2 | press_media:1	3
+В.В. Румянцнева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+В.Е. Цесарского	3	ВКП(б):1 | КПК:1 | Политбюро:1	party_apparatus:3	3
+В.И. Клюшенкова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+В.К. Клейна	3	ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3	3
+В.М. Меерсона	3	ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1	3
+В.Я. Родака	3	ВКП(б):1 | ГУГБ:1 | Правда:1	press_media:1 | security_apparatus:1 | party_apparatus:1	3
+Г.А. Абрамова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Г.В. Соколовым	2	ГУГБ:2 | НКВД:1	security_apparatus:3	3
+Г.Г. Матитайшвили	3	ВКП(б):1 | Коминтерн:1 | Совнарком:1	state_apparatus:1 | international:1 | party_apparatus:1	3
+Г.И. Миронова	3	ГУГБ:1 | НКВД:1 | ОО ГУГБ НКВД:1	security_apparatus:3	3
+Г.И. Серебряковой	3	ВКП(б):1 | НКИД:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1	3
+Г.К. Фельдмана	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Г.С. Люшкову	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Д.В. Полуяна	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Д.В. Сафронова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Д.Л. Игнатюка	2	НКВД:2 | Правда:1	security_apparatus:2 | press_media:1	3
+Д.С. Гуревича	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Д.С. Тайца	3	ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1	security_apparatus:3	3
+Д.Ф. Бузина	3	ВКП(б):1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1	3
+Д.Я. Александрова	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Е.И. Лакиды	3	ВКП(б):1 | ГУГБ:1 | Правда:1	press_media:1 | security_apparatus:1 | party_apparatus:1	3
+Е.М. Дебрева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Е.С. Мельниковой	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Е.С. Мишаковой	2	ГУГБ:2 | НКВД:1	security_apparatus:3	3
+З.С. Синициной	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+И.Е. Шмундака	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+И.И. Петухова	3	ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1	3
+И.И. Соловьева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+И.И. Тарасовым	2	ГУГБ:2 | НКВД:1	security_apparatus:3	3
+И.М. Орловская-Мрачковская	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+И.М. Покатиловского	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+И.Т. Ляшенко	2	ГУГБ:2 | НКВД:1	security_apparatus:3	3
+И.Ф. Флакса	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+К.А. Апанасевича	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+К.Д. Мучникова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+К.Н. Емельянова	2	ГУГБ:2 | ВКП(б):1	security_apparatus:2 | party_apparatus:1	3
+К.Я. Янсона	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Л.А. Воронова	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Л.В. Когану	3	НКВД:1 | Правда:1 | ЦИК СССР:1	state_apparatus:1 | press_media:1 | security_apparatus:1	3
+Л.К. Пелипейко	3	ВКП(б):1 | ГУГБ:1 | ИНО ГУГБ:1	security_apparatus:2 | party_apparatus:1	3
+Л.Л. Авербахе	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Л.М. Заковского	3	ВКП(б):1 | Известия:1 | НКВД:1	press_media:1 | security_apparatus:1 | party_apparatus:1	3
+Л.О. Ханика	2	ВКП(б):2 | НКВД:1	party_apparatus:2 | security_apparatus:1	3
+М.А. Нариманова	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+М.В. Келдыша	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+М.В. Кузнецова	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+М.Д. Багирова	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+М.И. Гая	3	ГУГБ:1 | ИНО ГУГБ:1 | НКВД:1	security_apparatus:3	3
+М.Л. Елина	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+М.М. Михайлова	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+М.М. Харитоновым	3	ГУГБ:1 | Коминтерн:1 | НКВД:1	security_apparatus:2 | international:1	3
+Н.А. Емельянова	3	ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1	3
+Н.А. Королева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Н.И. Третьякова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Н.Н. Мищенко	2	ГУГБ:2 | ВКП(б):1	security_apparatus:2 | party_apparatus:1	3
+Н.С. Веритовой	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Н.Ф. Печерского	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+О.А. Лидака	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+П.И. Жиромского	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+П.К. Башенкова	3	ВКП(б):1 | Совнарком:1 | ЦК ВКП(б):1	party_apparatus:2 | state_apparatus:1	3
+П.Н. Королева	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+П.П. Григорьева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+П.Т. Богачева	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Р.А. Грюнштейн	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Р.И. Тодорской	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Р.Ф. Брамбилло	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+С.А. Раевского	3	ВКП(б):1 | ГУГБ:1 | КПК:1	party_apparatus:2 | security_apparatus:1	3
+С.А. Розентретера	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+С.А. Саркисова	3	ВКП(б):1 | НКВД:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+С.А. Туровского	3	ВКП(б):1 | Правда:1 | ЦК ВКП(б):1	party_apparatus:2 | press_media:1	3
+С.В. Слащева	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+С.Г. Семенова	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+С.И. Кавтарадзе	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+С.М. Житомирского	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+С.П. Раевского	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+С.П. Распевакина	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Троцкий	1	Коминтерн:3	international:3	3
+Ф.И. Мерзликина	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Ф.И. Музыки	3	ВКП(б):1 | ГУГБ:1 | Коминтерн:1	international:1 | security_apparatus:1 | party_apparatus:1	3
+Ф.И. Шубина	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Э.К. Константа	3	ВКП(б):1 | Коминтерн:1 | НКВД:1	international:1 | security_apparatus:1 | party_apparatus:1	3
+Ю.Д. Урусова	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+Ю.С. Фридлянда	3	ВКП(б):1 | ГУГБ:1 | НКВД:1	security_apparatus:2 | party_apparatus:1	3
+Я.Д. Лейбмана	2	ГУГБ:2 | НКВД:1	security_apparatus:3	3
+Я.И. Зайдмана	3	ВКП(б):1 | ГУГБ:1 | ЦК ВКП(б):1	party_apparatus:2 | security_apparatus:1	3
+А.А. Абрамова	2	ВКП(б):1 | Правда:1	press_media:1 | party_apparatus:1	2
+А.А. Израилитина	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+А.Г. Егорова	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+А.Г. Корчагиной	2	ГУГБ:1 | ЦИК СССР:1	state_apparatus:1 | security_apparatus:1	2
+А.И. Александрова	2	ВКП(б):1 | Правда:1	press_media:1 | party_apparatus:1	2
+А.И. Толмазова	2	Коминтерн:1 | Политбюро:1	party_apparatus:1 | international:1	2
+А.И. Толмазовым	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+А.К. Бормана	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+А.М. Аркус	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+А.М. Ясюкевича	2	ВКП(б):1 | Правда:1	press_media:1 | party_apparatus:1	2
+А.Н. Фокина	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+А.С. Оввян	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+А.Я. Юскиной	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+Б.А. Васильева	2	ИККИ:1 | Коминтерн:1	international:2	2
+Б.П. Нестеровым	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+В.А. Антонов-Овсеенко	2	Политбюро:1 | Правда:1	party_apparatus:1 | press_media:1	2
+В.А. Виноградова	1	ВКП(б):2	party_apparatus:2	2
+В.И. Демченко	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+В.К. Жарикова	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+В.Н. Гутман	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+В.Н. Цатурова-Большакова	1	ВКП(б):2	party_apparatus:2	2
+Г.А. Татуловым	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Г.И. Шварца	1	ВКП(б):2	party_apparatus:2	2
+Г.М. Ивановой	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+Г.М. Маленкова	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Г.М. Маленкову	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Г.М. Сыроквашева	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Г.Р. Николаева	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Г.Ф. Федоровым	2	ГУГБ:1 | Совнарком:1	state_apparatus:1 | security_apparatus:1	2
+Г.Я. Маренко	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Д.С. Зенцова	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Е.А. Кондратьевой	2	ВКП(б):1 | НКВД:1	security_apparatus:1 | party_apparatus:1	2
+Е.Г. Соловьевой	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Е.М. Бочарова	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Е.М. Ярославским	2	ВКП(б):1 | Политбюро:1	party_apparatus:2	2
+З.И. Пелевиной	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+И.А. Козина	1	ГУГБ:2	security_apparatus:2	2
+И.В. Липковского	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+И.Г. Жестянникова	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+И.Д. Зорина	2	ВКП(б):1 | НКВД:1	security_apparatus:1 | party_apparatus:1	2
+И.И. Рыстика	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+И.К. Гогуа	2	ГУГБ:1 | ЦИК СССР:1	state_apparatus:1 | security_apparatus:1	2
+И.М. Майского	2	НКИД:1 | Политбюро:1	state_apparatus:1 | party_apparatus:1	2
+И.Ф. Серегина	2	ВКП(б):1 | НКВД:1	security_apparatus:1 | party_apparatus:1	2
+К.Д. Мучниковым	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+К.Е. Дубовского	2	ГУГБ:1 | Совнарком:1	state_apparatus:1 | security_apparatus:1	2
+К.К. Боштедта	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+К.Ф. Лебедева	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Л.И. Мадьяра	2	ВКП(б):1 | Коминтерн:1	international:1 | party_apparatus:1	2
+Л.С. Ассиновского	1	НКВД:2	security_apparatus:2	2
+М.Б. Черномордику	2	ИККИ:1 | Коминтерн:1	international:2	2
+М.В. Воротникова	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+М.В. Муравьева	2	ВКП(б):1 | Коминтерн:1	international:1 | party_apparatus:1	2
+М.К. Мухановой	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+М.М. Домбровским	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+М.М. Малинова	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+М.П. Луковского	2	ГУГБ:1 | Совнарком:1	state_apparatus:1 | security_apparatus:1	2
+М.П. Прибыловского	2	ВКП(б):1 | НКВД:1	security_apparatus:1 | party_apparatus:1	2
+М.С. Окуджавы	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+М.С. Панфилова	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+М.С. Югова	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+М.Х. Орлова	2	ГУГБ:1 | Правда:1	press_media:1 | security_apparatus:1	2
+Н.Е. Нилендера	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Н.И. Мильгевского	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Н.Н. Ванага	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Н.Н. Колотилина	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Н.С. Сычева	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Н.С. Хрущева	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+П.А. Кравкова	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+П.П. Северовым	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+Р.И. Эйхе	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+С.А. Бабенко	2	Верховный Суд СССР:1 | ГУГБ:1	judicial_apparatus:1 | security_apparatus:1	2
+С.А. Посвольского	2	ВКП(б):1 | Политбюро:1	party_apparatus:2	2
+С.Л. Кривоноса	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+С.Л. Свирского	2	ВКП(б):1 | Верховный Суд СССР:1	judicial_apparatus:1 | party_apparatus:1	2
+С.М. Тамаркина	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+С.Н. Седых	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+С.О. Мандельштама	2	ВКП(б):1 | НКВД:1	security_apparatus:1 | party_apparatus:1	2
+Ф.В. Медведева	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Ф.К. Розенбаха	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+Ф.П. Швальбе	2	ВКП(б):1 | Известия:1	press_media:1 | party_apparatus:1	2
+Х.А. Лившиц	2	ВКП(б):1 | НКВД:1	security_apparatus:1 | party_apparatus:1	2
+Ш.М. Дволайцкого	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Э.Р. Петерсон	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Ю.Р. Закгейма	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Я.В. Апушкина	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Я.И. Богомольного	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Я.М. Урановского	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+Я.С. Розанова	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+Я.Ф. Шарова	2	ГУГБ:1 | НКВД:1	security_apparatus:2	2
+Я.Х. Петерса	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Я.Э. Рудзутаку	2	ВКП(б):1 | ЦК ВКП(б):1	party_apparatus:2	2
+Я.Э. Стэна	2	ВКП(б):1 | ГУГБ:1	security_apparatus:1 | party_apparatus:1	2
+А.Д. Арефьевым	1	ВКП(б):1	party_apparatus:1	1
+А.И. Анишевым	1	ГУГБ:1	security_apparatus:1	1
+А.И. Мячиной	1	ГУГБ:1	security_apparatus:1	1
+А.М. Березина	1	ВКП(б):1	party_apparatus:1	1
+А.М. Горькому	1	Правда:1	press_media:1	1
+А.М. Лариной	1	Известия:1	press_media:1	1
+А.Н. Панова	1	ВКП(б):1	party_apparatus:1	1
+А.Н. Слепковым	1	ВКП(б):1	party_apparatus:1	1
+А.П. Дьячкова	1	ГУГБ:1	security_apparatus:1	1
+В.А. Сорокина	1	ВКП(б):1	party_apparatus:1	1
+В.А. Финашина	1	ВКП(б):1	party_apparatus:1	1
+В.В. Ломинадзе	1	Правда:1	press_media:1	1
+В.В. Ульриху	1	Известия:1	press_media:1	1
+В.Г. Лукина	1	НКВД:1	security_apparatus:1	1
+В.Ф. Бейтельспахера	1	ВКП(б):1	party_apparatus:1	1
+В.Ф. Степанова	1	ВКП(б):1	party_apparatus:1	1
+Г.В. Соколова	1	НКВД:1	security_apparatus:1	1
+Г.М. Дрязгова	1	ВКП(б):1	party_apparatus:1	1
+Г.П. Адамяна	1	ВКП(б):1	party_apparatus:1	1
+Г.П. Поташникова	1	ВКП(б):1	party_apparatus:1	1
+Г.Т. Мясничкова	1	ГУГБ:1	security_apparatus:1	1
+Г.Ф. Самойловича	1	НКВД:1	security_apparatus:1	1
+Д.А. Сниткина	1	ВКП(б):1	party_apparatus:1	1
+Д.П. Албанского	1	ВКП(б):1	party_apparatus:1	1
+Е.П. Рудневой	1	ГУГБ:1	security_apparatus:1	1
+Е.Т. Тимофеева	1	ВКП(б):1	party_apparatus:1	1
+Е.Э. Чернозубовой	1	ГУГБ:1	security_apparatus:1	1
+З.Н. Гайдеровой	1	НКВД:1	security_apparatus:1	1
+И.И. Рейногльда	1	Правда:1	press_media:1	1
+И.Н. Дорошенко	1	НКВД:1	security_apparatus:1	1
+И.Т. Жирова	1	ВКП(б):1	party_apparatus:1	1
+И.Ф. Касперского	1	ВКП(б):1	party_apparatus:1	1
+И.Э. Якире	1	ВКП(б):1	party_apparatus:1	1
+К.К. Мухановым	1	ГУГБ:1	security_apparatus:1	1
+Л.Г. Лелевича	1	ВКП(б):1	party_apparatus:1	1
+Л.И. Мадьяром	1	ИККИ:1	international:1	1
+Л.П. Жашковой	1	ГУГБ:1	security_apparatus:1	1
+Л.Ю. Брик	1	НКВД:1	security_apparatus:1	1
+Л.Я. Файвиловичем	1	ГУГБ:1	security_apparatus:1	1
+М.В. Борисова	1	НКВД:1	security_apparatus:1	1
+М.В. Дубовской	1	ГУГБ:1	security_apparatus:1	1
+М.Г. Короп	1	НКВД:1	security_apparatus:1	1
+М.И. Томской	1	Правда:1	press_media:1	1
+М.Н. Авдеева	1	ВКП(б):1	party_apparatus:1	1
+М.П. Стремякова	1	ВКП(б):1	party_apparatus:1	1
+Н.А. Царькова	1	Правда:1	press_media:1	1
+Н.Д. Зарицкого	1	ЦИК СССР:1	state_apparatus:1	1
+Н.И. Андреева	1	ГУГБ:1	security_apparatus:1	1
+Н.К. Магдарьева	1	ГУГБ:1	security_apparatus:1	1
+Н.М. Гальперина	1	ГУГБ:1	security_apparatus:1	1
+Н.Р. Кикнадзе	1	НКВД:1	security_apparatus:1	1
+П.А. Бака	1	ВКП(б):1	party_apparatus:1	1
+П.В. Чистову	1	НКВД:1	security_apparatus:1	1
+П.Г. Орлова	1	ВКП(б):1	party_apparatus:1	1
+П.И. Бакаева	1	НКВД:1	security_apparatus:1	1
+П.И. Бескиной	1	Известия:1	press_media:1	1
+П.П. Северова	1	ВКП(б):1	party_apparatus:1	1
+П.Ф. Поляковым	1	ГУГБ:1	security_apparatus:1	1
+С.А. Руднева	1	ГУГБ:1	security_apparatus:1	1
+С.А. Шахиджанян	1	ГУГБ:1	security_apparatus:1	1
+С.Г. Виноградова	1	ВКП(б):1	party_apparatus:1	1
+С.Ф. Гелашвили	1	ВКП(б):1	party_apparatus:1	1
+Ф.Д. Корнюшина	1	ВКП(б):1	party_apparatus:1	1
+Э.Б. Абрамсона	1	ВКП(б):1	party_apparatus:1	1
+Ю.Б. Тартаковской	1	ВКП(б):1	party_apparatus:1	1
+Я.П. Новикова	1	ГУГБ:1	security_apparatus:1	1

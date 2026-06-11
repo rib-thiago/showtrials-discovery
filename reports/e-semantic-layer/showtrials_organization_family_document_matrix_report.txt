@@ -1,0 +1,37 @@
+ShowTrials organization family document matrix
+
+Documents: 2179
+Documents with any organization family: 1906
+Documents with multiple organization families: 1317
+
+Family document counts:
+1473	security_apparatus	words=3156961
+1430	party_apparatus	words=3355968
+380	press_media	words=1787092
+320	international	words=1297983
+224	state_apparatus	words=1070691
+41	judicial_apparatus	words=361239
+1	political_organizations	words=4354
+
+Top family co-occurrences:
+1070	party_apparatus	+	security_apparatus
+302	party_apparatus	+	press_media
+267	international	+	party_apparatus
+254	press_media	+	security_apparatus
+220	international	+	security_apparatus
+190	party_apparatus	+	state_apparatus
+152	security_apparatus	+	state_apparatus
+107	international	+	press_media
+86	press_media	+	state_apparatus
+61	international	+	state_apparatus
+38	judicial_apparatus	+	party_apparatus
+30	judicial_apparatus	+	security_apparatus
+20	judicial_apparatus	+	press_media
+16	international	+	judicial_apparatus
+15	judicial_apparatus	+	state_apparatus
+1	political_organizations	+	security_apparatus
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_organization_family_document_matrix.tsv
+/tmp/showtrials-discovery/showtrials_organization_family_document_summary.tsv
+/tmp/showtrials-discovery/showtrials_organization_family_crosspairs.tsv

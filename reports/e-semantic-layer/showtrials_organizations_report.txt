@@ -1,0 +1,37 @@
+ShowTrials organization index
+
+Organizations: 25
+Organization-document rows: 6031
+Person-organization pairs: 3180
+
+Top organizations:
+1397	party	ВКП(б)
+1296	security_police	ГУГБ
+915	security_police	НКВД
+869	party_body	ЦК ВКП(б)
+328	newspaper	Правда
+290	international_communist_body	Коминтерн
+278	party_body	Политбюро
+126	state_body	Совнарком
+103	newspaper	Известия
+82	state_body	ЦИК СССР
+76	international_communist_body	ИККИ
+54	party_control_body	КПК
+53	security_police_department	ИНО ГУГБ
+40	security_police_department	ОО ГУГБ НКВД
+33	judicial_body	Верховный Суд СССР
+28	state_body	НКИД
+20	state_body	Секретариат ЦИК СССР
+15	party_control_body	КПК при ЦК ВКП(б)
+10	prosecutorial_body	Прокуратура СССР
+9	party_body	Горьковский крайком ВКП(б)
+5	international_body	Лига Наций
+1	newspaper	The New York Times
+1	news_agency	United Press International
+1	state_body	Верховный Совет СССР
+1	political_organization	Народная Трудовая Демократическая партия России
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_organizations.tsv
+/tmp/showtrials-discovery/showtrials_organization_documents.tsv
+/tmp/showtrials-discovery/showtrials_person_organization_pairs.tsv

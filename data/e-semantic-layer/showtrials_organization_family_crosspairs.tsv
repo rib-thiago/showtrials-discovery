@@ -1,0 +1,17 @@
+family_a	family_b	document_count
+party_apparatus	security_apparatus	1070
+party_apparatus	press_media	302
+international	party_apparatus	267
+press_media	security_apparatus	254
+international	security_apparatus	220
+party_apparatus	state_apparatus	190
+security_apparatus	state_apparatus	152
+international	press_media	107
+press_media	state_apparatus	86
+international	state_apparatus	61
+judicial_apparatus	party_apparatus	38
+judicial_apparatus	security_apparatus	30
+judicial_apparatus	press_media	20
+international	judicial_apparatus	16
+judicial_apparatus	state_apparatus	15
+political_organizations	security_apparatus	1

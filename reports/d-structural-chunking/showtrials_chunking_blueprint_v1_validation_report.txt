@@ -1,0 +1,8 @@
+Chunking Blueprint v1 Validation Report
+blueprint	/srv/projects/showtrials-discovery/showtrials_chunking_blueprint_v1.tsv
+validation	/srv/projects/showtrials-discovery/showtrials_chunking_blueprint_v1_validation.tsv
+rows_checked	35
+failures	0
+warnings	0
+ok_rows	1
+OK all_checks passed

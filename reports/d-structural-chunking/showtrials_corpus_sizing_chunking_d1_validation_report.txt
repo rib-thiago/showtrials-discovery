@@ -1,0 +1,12 @@
+ShowTrials D1 corpus sizing + chunking validation
+
+Catalog rows: 2179
+Document sizing rows: 2179
+Document type rows: 35
+Process rows: 9
+Policy rows: 35
+Failures: 0
+Warnings: 0
+
+Validation rows:
+OK	all_checks	passed

@@ -1,0 +1,43 @@
+ShowTrials positions index
+
+Positions: 29
+Position-document rows: 10238
+Person-position pairs: 5660
+Position-organization pairs: 569
+
+Top positions:
+1482	membership_role	член
+1357	political_label	троцкист
+988	party_or_administrative_role	секретарь
+667	state_or_party_role	комиссар
+639	leadership_role	руководитель
+607	political_label	правый
+530	state_security_role	нарком
+506	administrative_command_role	начальник
+381	institution_staff_role	сотрудник
+380	administrative_command_role	директор
+361	leadership_role	председатель
+347	trial_role	обвиняемый
+283	administrative_command_role	заместитель
+278	representative_role	представитель
+222	security_or_intelligence_role	агент
+208	membership_role	кандидат
+172	press_role	редактор
+119	judicial_role	прокурор
+119	security_investigation_role	следователь
+95	trial_role	свидетель
+88	diplomatic_role	посол
+83	legal_defense_role	адвокат
+74	trial_role	подсудимый
+69	diplomatic_role	полпред
+58	accusatory_label	вредитель
+49	state_security_role	наркомвнудел
+44	press_role	корреспондент
+31	judicial_role	судья
+1	judicial_role	секретарь_суда
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_positions.tsv
+/tmp/showtrials-discovery/showtrials_position_documents.tsv
+/tmp/showtrials-discovery/showtrials_person_position_pairs.tsv
+/tmp/showtrials-discovery/showtrials_position_organization_pairs.tsv

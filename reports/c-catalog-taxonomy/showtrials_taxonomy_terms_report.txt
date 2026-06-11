@@ -1,0 +1,94 @@
+ShowTrials taxonomy terms diagnosis
+
+Categories loaded: 43
+Tags loaded: 43
+
+Categories:
+434	80	Материалы следствия 1937	materialy-sledstviya-1937
+370	67	Материалы следствия 1936	materialy-sledstviya-1936
+367	77	Материалы следствия московского центра	materialy-sledstviya-moskovskogo-czentra
+233	72	Материалы следствия кремлевского дела	materialy-sledstviya-kremlevskogo-dela
+152	75	Материалы следствия ленинградского центра	materialy-sledstviya-leningradskogo-czentra
+105	130	Материалы следствия 1938	materialy-sledstviya-1938
+71	137	Предыстория 1933	prehistory_1933
+70	138	Бухарин	n_bukharin
+55	76	Другие документы московского центра	drugie-dokumenty-moskovskogo-czentra
+47	78	Другие документы 1936	drugie-dokumenty-1936
+45	143	Ольберг-Троцкий	olberg-trotsky
+34	139	Прослушка	wiretap
+34	79	Другие документы 1937	drugie-dokumenty-1937
+31	148	Троцкий Седов и другие	trotskysedov
+24	71	Материалы партийной проверки кремлевского дела	materialy-partijnoj-proverki-kremlevskogo-dela
+19	142	Ольберг	olberg
+19	70	Прочие документы	prochie-dokumenty
+17	135	Archival Inventory	arch_inv
+17	1	Все тематики	frontpage
+16	147	Ольберг-Троцкий-Два	olberg-trotsky-2
+15	65	Стенограмма 1936	stenogram-1936
+14	84	Стенограмма 1937	stenogram-1937
+13	145	Синани	sinani
+11	131	Другие документы 1938	drugie-dokumenty-1938
+10	73	Дело Петра Николаева	delo-petra-nikolaeva
+6	141	Февральско-мартовский пленум	fm-plenum
+5	128	Процесс марта 1938	march-1938-trial
+5	81	Дело Анатолия Румянцева	delo-anatoliya-rumyanczeva
+5	31	Ленинградский центр	leningrad-center
+5	82	Прочие документы	prochie-dokumenty-drugie-dokumenty-leningradskogo-czentra
+5	35	Кремлевское дело	kremlin-affair
+5	36	Процесс августа 1936	august-trial
+5	38	Разные документы	misc-docs
+4	37	Процесс января 1937	january-trial
+4	88	Стенограмма московского центра	stenogram-1935
+4	39	Московский центр	moscow-center
+3	146	Троцкий и троцкисты 1936	1936-trotsky
+3	85	Стенограмма ленинградского центра	stenogram-1934
+3	69	Дело об анонимке	delo-ob-anonimke
+2	144	Article	article
+2	96	Июньский пленум ЦК 1935 г.	june-1935-plenum
+0	68	Другие документы кремлевского дела	drugie-dokumenty-kremlevskogo-dela
+0	74	Другие документы ленинградского центра	drugie-dokumenty-leningradskogo-czentra
+
+Tags:
+183	118	Правые	rights
+112	97	Украинская группа (НКВД УССР)	ukraine-group
+104	136	Бухарин	bukharin
+69	121	Вредители на железной дороге	railway-wreckers
+58	106	Зиновьевский центр	zinovevskij-czentr
+55	105	Троцкистский центр	troczkistskij-czentr
+48	115	Группа Пятакова	pyatakov
+46	120	Троцкисты Азово-Черноморского края	rostov-group
+41	119	Вредители в угольной промышленности	kuzbass-wreckers
+38	100	Группа Шемелева	shemelev
+36	116	Группа Радека	radek
+36	103	Горьковская группа	gorkovskaya-gruppa
+33	104	Группа Ольберга	gruppa-olberga
+31	117	Параллельный центр	parallel-center
+24	126	Грузинские троцкисты	georgian-trotskyists
+23	98	Группа В.М. Попова (УНКВД СССР по Горькраю)	popov_group
+19	122	Вредители в химической промышленности	chemical-wreckers
+17	111	Группа историков	historians
+17	114	Военные-троцкисты	military
+17	99	Группа Муралова	muralov
+15	101	Группа Дмитриева	dmitriev
+13	109	Юрий Гавен	gaven
+13	132	Партизаны	guerillas
+12	107	Общество политкаторжан	obshhestvo-politkatorzhan
+12	112	Иммигранты	immigrants
+11	102	Ленинградская группа	leningradskaya-gruppa
+10	90	Carousel	carousel
+6	108	Группа Вяткина	gruppa-vyatkina
+6	110	Группа Коминтерна	komintern
+5	91	Leningrad	leningrad
+5	125	Группа Ломинадзе	lominadze-group
+5	92	Moscow	moscow
+5	93	Kremlin	kremlin
+5	94	Trial-1936	trial-1936
+5	129	Trial-1938	trial-1938
+5	113	Группа Грюнштейна	grunshtein
+4	127	Сын Зиновьева	zinoviev-son
+4	95	Trial-1937	trial-1937
+4	133	Вредители на электростанциях	power-stations
+4	134	Уральские троцкисты	urals-trotskyists
+1	89	Frontend	frontend
+1	123	Уралвагонстрой	ural-railcar
+1	140	прав	prav

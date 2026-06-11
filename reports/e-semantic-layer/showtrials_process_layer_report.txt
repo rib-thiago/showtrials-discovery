@@ -1,0 +1,25 @@
+ShowTrials process layer
+
+Processes: 9
+Process-document rows: 2179
+Person-process rows: 923
+Organization-process rows: 133
+Family-process rows: 50
+
+Processes:
+486	major_show_trial	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	people=204	orgs=23	families=6	doctypes=19
+481	major_show_trial	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	people=278	orgs=18	families=6	doctypes=15
+424	related_case	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	people=135	orgs=17	families=6	doctypes=17
+292	related_case	КРЕМЛЕВСКОЕ ДЕЛО	people=127	orgs=18	families=6	doctypes=17
+284	major_show_trial	ПРОЦЕСС 2-12 МАРТА 1938 г.	people=130	orgs=17	families=7	doctypes=17
+175	related_case	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	people=39	orgs=12	families=6	doctypes=13
+31	person_dossier	ТРОЦКИЙ	people=2	orgs=2	families=2	doctypes=2
+4	misc	РАЗНЫЕ ДОКУМЕНТЫ	people=7	orgs=10	families=5	doctypes=3
+2	articles	СТАТЬИ	people=1	orgs=16	families=6	doctypes=1
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_processes.tsv
+/tmp/showtrials-discovery/showtrials_process_document_matrix.tsv
+/tmp/showtrials-discovery/showtrials_person_process_matrix.tsv
+/tmp/showtrials-discovery/showtrials_organization_process_matrix.tsv
+/tmp/showtrials-discovery/showtrials_family_process_matrix.tsv

@@ -1,0 +1,35 @@
+ShowTrials translation glossary G4.1 finalization
+
+Input rows: 892
+Output rows: 892
+Remaining review rows: 61
+Google glossary candidate rows: 153
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	188
+auto_normalized_needs_review	429
+auto_transliterated_needs_review	275
+
+Remaining review by reason:
+person_5plus_docs_unresolved	35
+case_form_with_high_org_context	13
+multiple_aliases_unresolved	13
+
+Applied patches:
+Е.К. Мухановой	→	E.K. Mukhanova
+троцкист	→	Trotskyist
+правый	→	Rightist
+агент	→	agent
+вредитель	→	wrecker
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_glossary_g4_1.tsv
+/tmp/showtrials-discovery/showtrials_translation_glossary_g4_1_review.tsv
+/tmp/showtrials-discovery/showtrials_google_translate_glossary_ru_en_v1.tsv

@@ -1,0 +1,40 @@
+ShowTrials document types v3 validation
+
+Catalog rows: 2179
+Type rows: 2179
+Failures: 0
+Warnings: 0
+
+Type counts:
+982	interrogation_protocol
+526	special_report
+256	letter
+78	statement
+57	confrontation_protocol
+50	session_transcript
+48	testimony
+40	memo_note
+34	conversation_recording
+16	administrative_report
+16	list
+15	telegram
+10	unknown
+7	summary
+6	reference_note
+5	indictment
+4	draft_project
+4	explanation
+3	decree_resolution
+3	plan_instruction
+3	verdict_or_sentence
+2	article
+2	data_extract
+2	plea_pardon
+2	questionnaire_response
+2	speech
+1	autobiography
+1	brochure
+1	medical_act
+1	poem
+1	program
+1	search_protocol

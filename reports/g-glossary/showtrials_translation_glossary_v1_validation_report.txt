@@ -1,0 +1,6 @@
+ShowTrials translation glossary v1 validation
+
+Glossary rows: 892
+Review rows: 97
+Failures: 0
+Warnings: 0

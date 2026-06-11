@@ -1,0 +1,12 @@
+metric	value
+document_count	2179
+total_words	4047644
+total_chars	27379787
+avg_words	1857.57
+median_words	1001
+min_words	23
+max_words	45514
+avg_chars	12565.3
+median_chars	6700
+min_chars	187
+max_chars	298447

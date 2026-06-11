@@ -1,0 +1,6 @@
+level	check	detail
+WARN	all_low_confidence_type	plan_instruction
+WARN	all_low_confidence_type	autobiography
+WARN	all_low_confidence_type	plea_pardon
+WARN	all_low_confidence_type	poem
+WARN	all_low_confidence_type	data_extract

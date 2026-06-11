@@ -1,0 +1,64 @@
+ShowTrials translation profiles v1 plan
+
+Document types covered: 35
+Missing profiles using fallback: 1
+Total chars covered: 27379787
+Top-5 high-volume types coverage chars: 24300357
+Top-5 high-volume types coverage share: 0.8875
+
+Profiles by strategy:
+9604474	docs=526	types=1	classification_recipient_body_attachments
+7301792	docs=982	types=1	protocol_header_then_question_answer_blocks
+4934530	docs=51	types=1	session_header_then_speaker_turns
+1481811	docs=256	types=1	salutation_body_signature
+977750	docs=78	types=1	header_then_numbered_or_paragraph_blocks
+438269	docs=2	types=1	paragraph_blocks_with_headings
+412107	docs=40	types=1	header_body_attachments
+360525	docs=34	types=1	generic_paragraph_blocks
+336308	docs=48	types=1	header_then_narrative_blocks
+318436	docs=57	types=1	protocol_header_then_alternating_speaker_blocks
+250232	docs=16	types=1	list_items_grouped
+170448	docs=5	types=1	sections_charges_numbered_points
+159278	docs=4	types=1	press_sections_and_paragraphs
+97861	docs=16	types=1	header_then_body_paragraphs
+91263	docs=6	types=1	header_factual_paragraphs
+69908	docs=4	types=1	draft_sections_numbered_points
+59083	docs=6	types=2	paragraph_blocks
+41779	docs=2	types=1	speech_sections_or_paragraphs
+32779	docs=1	types=1	program_sections
+30263	docs=3	types=1	sections_findings_sentence
+29330	docs=1	types=1	section_headings_and_paragraphs
+27564	docs=15	types=1	whole_document_or_header_body
+26029	docs=3	types=1	instruction_points
+18165	docs=1	types=1	chronological_paragraph_blocks
+17747	docs=2	types=1	petition_structure
+16713	docs=2	types=1	question_answer_pairs
+15848	docs=2	types=1	split_individual_letters_then_letter_profile
+14715	docs=7	types=1	summary_sections_or_paragraphs
+14237	docs=1	types=1	extract_header_then_question_answer_blocks
+9970	docs=3	types=1	resolution_points
+8927	docs=1	types=1	stanzas
+6240	docs=1	types=1	medical_form_sections
+3202	docs=2	types=1	rows_or_records
+2204	docs=1	types=1	protocol_header_inventory_signature
+
+Missing profiles:
+conversation_recording
+
+Glossary seed layers:
+high	people	person_name	curated_english_name_or_transliteration
+high	organizations	organization	canonical_acronym_or_historical_english_name
+high	processes	process_name	short_canonical_english_label
+medium	roles	role_or_label	curated_term_translation
+low	document_types	internal_document_type	internal_label_only
+
+Next steps:
+1. Review translation profiles v1 manually.
+2. Generate structural segmentation diagnostics using these profiles.
+3. Generate glossary seed TSVs from people, organizations, processes, and roles.
+4. Only after that, plan a small RU->EN pilot batch.
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_profiles_v1.tsv
+/tmp/showtrials-discovery/showtrials_translation_glossary_seed_plan_v1.tsv
+/tmp/showtrials-discovery/showtrials_translation_profiles_v1_report.txt

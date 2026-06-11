@@ -1,0 +1,10 @@
+ShowTrials translation glossary seeds v1 validation
+
+Rows: 892
+Failures: 0
+Warnings: 3
+
+Warnings:
+missing canonical_en: organizations The New York Times
+missing canonical_en: organizations United Press International
+missing canonical_en: organizations Народная Трудовая Демократическая партия России

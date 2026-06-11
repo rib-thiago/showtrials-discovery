@@ -1,0 +1,44 @@
+category_id	parent_id	depth	name	slug	count	child_count	path	link
+135	0	0	Archival Inventory	arch_inv	17	0	Archival Inventory	http://showtrials.ru/category/arch_inv/
+1	0	0	Все тематики	frontpage	17	8	Все тематики	http://showtrials.ru/category/frontpage/
+144	1	1	Article	article	2	0	Все тематики / Article	http://showtrials.ru/category/frontpage/article/
+35	1	1	Кремлевское дело	kremlin-affair	5	4	Все тематики / Кремлевское дело	http://showtrials.ru/category/frontpage/kremlin-affair/
+68	35	2	Другие документы кремлевского дела	drugie-dokumenty-kremlevskogo-dela	0	2	Все тематики / Кремлевское дело / Другие документы кремлевского дела	http://showtrials.ru/category/frontpage/kremlin-affair/drugie-dokumenty-kremlevskogo-dela/
+69	68	3	Дело об анонимке	delo-ob-anonimke	3	0	Все тематики / Кремлевское дело / Другие документы кремлевского дела / Дело об анонимке	http://showtrials.ru/category/frontpage/kremlin-affair/drugie-dokumenty-kremlevskogo-dela/delo-ob-anonimke/
+70	68	3	Прочие документы	prochie-dokumenty	19	0	Все тематики / Кремлевское дело / Другие документы кремлевского дела / Прочие документы	http://showtrials.ru/category/frontpage/kremlin-affair/drugie-dokumenty-kremlevskogo-dela/prochie-dokumenty/
+71	35	2	Материалы партийной проверки кремлевского дела	materialy-partijnoj-proverki-kremlevskogo-dela	24	1	Все тематики / Кремлевское дело / Материалы партийной проверки кремлевского дела	http://showtrials.ru/category/frontpage/kremlin-affair/materialy-partijnoj-proverki-kremlevskogo-dela/
+96	71	3	Июньский пленум ЦК 1935 г.	june-1935-plenum	2	0	Все тематики / Кремлевское дело / Материалы партийной проверки кремлевского дела / Июньский пленум ЦК 1935 г.	http://showtrials.ru/category/frontpage/kremlin-affair/materialy-partijnoj-proverki-kremlevskogo-dela/june-1935-plenum/
+72	35	2	Материалы следствия кремлевского дела	materialy-sledstviya-kremlevskogo-dela	233	0	Все тематики / Кремлевское дело / Материалы следствия кремлевского дела	http://showtrials.ru/category/frontpage/kremlin-affair/materialy-sledstviya-kremlevskogo-dela/
+145	35	2	Синани	sinani	13	0	Все тематики / Кремлевское дело / Синани	http://showtrials.ru/category/frontpage/kremlin-affair/sinani/
+31	1	1	Ленинградский центр	leningrad-center	5	4	Все тематики / Ленинградский центр	http://showtrials.ru/category/frontpage/leningrad-center/
+73	31	2	Дело Петра Николаева	delo-petra-nikolaeva	10	0	Все тематики / Ленинградский центр / Дело Петра Николаева	http://showtrials.ru/category/frontpage/leningrad-center/delo-petra-nikolaeva/
+74	31	2	Другие документы ленинградского центра	drugie-dokumenty-leningradskogo-czentra	0	2	Все тематики / Ленинградский центр / Другие документы ленинградского центра	http://showtrials.ru/category/frontpage/leningrad-center/drugie-dokumenty-leningradskogo-czentra/
+81	74	3	Дело Анатолия Румянцева	delo-anatoliya-rumyanczeva	5	0	Все тематики / Ленинградский центр / Другие документы ленинградского центра / Дело Анатолия Румянцева	http://showtrials.ru/category/frontpage/leningrad-center/drugie-dokumenty-leningradskogo-czentra/delo-anatoliya-rumyanczeva/
+82	74	3	Прочие документы	prochie-dokumenty-drugie-dokumenty-leningradskogo-czentra	5	0	Все тематики / Ленинградский центр / Другие документы ленинградского центра / Прочие документы	http://showtrials.ru/category/frontpage/leningrad-center/drugie-dokumenty-leningradskogo-czentra/prochie-dokumenty-drugie-dokumenty-leningradskogo-czentra/
+75	31	2	Материалы следствия ленинградского центра	materialy-sledstviya-leningradskogo-czentra	152	0	Все тематики / Ленинградский центр / Материалы следствия ленинградского центра	http://showtrials.ru/category/frontpage/leningrad-center/materialy-sledstviya-leningradskogo-czentra/
+85	31	2	Стенограмма ленинградского центра	stenogram-1934	3	0	Все тематики / Ленинградский центр / Стенограмма ленинградского центра	http://showtrials.ru/category/frontpage/leningrad-center/stenogram-1934/
+39	1	1	Московский центр	moscow-center	4	3	Все тематики / Московский центр	http://showtrials.ru/category/frontpage/moscow-center/
+76	39	2	Другие документы московского центра	drugie-dokumenty-moskovskogo-czentra	55	0	Все тематики / Московский центр / Другие документы московского центра	http://showtrials.ru/category/frontpage/moscow-center/drugie-dokumenty-moskovskogo-czentra/
+77	39	2	Материалы следствия московского центра	materialy-sledstviya-moskovskogo-czentra	367	0	Все тематики / Московский центр / Материалы следствия московского центра	http://showtrials.ru/category/frontpage/moscow-center/materialy-sledstviya-moskovskogo-czentra/
+88	39	2	Стенограмма московского центра	stenogram-1935	4	0	Все тематики / Московский центр / Стенограмма московского центра	http://showtrials.ru/category/frontpage/moscow-center/stenogram-1935/
+36	1	1	Процесс августа 1936	august-trial	5	6	Все тематики / Процесс августа 1936	http://showtrials.ru/category/frontpage/august-trial/
+78	36	2	Другие документы 1936	drugie-dokumenty-1936	47	0	Все тематики / Процесс августа 1936 / Другие документы 1936	http://showtrials.ru/category/frontpage/august-trial/drugie-dokumenty-1936/
+67	36	2	Материалы следствия 1936	materialy-sledstviya-1936	370	0	Все тематики / Процесс августа 1936 / Материалы следствия 1936	http://showtrials.ru/category/frontpage/august-trial/materialy-sledstviya-1936/
+142	36	2	Ольберг	olberg	19	0	Все тематики / Процесс августа 1936 / Ольберг	http://showtrials.ru/category/frontpage/august-trial/olberg/
+143	36	2	Ольберг-Троцкий	olberg-trotsky	45	0	Все тематики / Процесс августа 1936 / Ольберг-Троцкий	http://showtrials.ru/category/frontpage/august-trial/olberg-trotsky/
+147	36	2	Ольберг-Троцкий-Два	olberg-trotsky-2	16	0	Все тематики / Процесс августа 1936 / Ольберг-Троцкий-Два	http://showtrials.ru/category/frontpage/august-trial/olberg-trotsky-2/
+65	36	2	Стенограмма 1936	stenogram-1936	15	0	Все тематики / Процесс августа 1936 / Стенограмма 1936	http://showtrials.ru/category/frontpage/august-trial/stenogram-1936/
+128	1	1	Процесс марта 1938	march-1938-trial	5	6	Все тематики / Процесс марта 1938	http://showtrials.ru/category/frontpage/march-1938-trial/
+138	128	2	Бухарин	n_bukharin	70	0	Все тематики / Процесс марта 1938 / Бухарин	http://showtrials.ru/category/frontpage/march-1938-trial/n_bukharin/
+131	128	2	Другие документы 1938	drugie-dokumenty-1938	11	0	Все тематики / Процесс марта 1938 / Другие документы 1938	http://showtrials.ru/category/frontpage/march-1938-trial/drugie-dokumenty-1938/
+130	128	2	Материалы следствия 1938	materialy-sledstviya-1938	105	0	Все тематики / Процесс марта 1938 / Материалы следствия 1938	http://showtrials.ru/category/frontpage/march-1938-trial/materialy-sledstviya-1938/
+137	128	2	Предыстория 1933	prehistory_1933	71	0	Все тематики / Процесс марта 1938 / Предыстория 1933	http://showtrials.ru/category/frontpage/march-1938-trial/prehistory_1933/
+139	128	2	Прослушка	wiretap	34	0	Все тематики / Процесс марта 1938 / Прослушка	http://showtrials.ru/category/frontpage/march-1938-trial/wiretap/
+141	128	2	Февральско-мартовский пленум	fm-plenum	6	0	Все тематики / Процесс марта 1938 / Февральско-мартовский пленум	http://showtrials.ru/category/frontpage/march-1938-trial/fm-plenum/
+37	1	1	Процесс января 1937	january-trial	4	3	Все тематики / Процесс января 1937	http://showtrials.ru/category/frontpage/january-trial/
+79	37	2	Другие документы 1937	drugie-dokumenty-1937	34	0	Все тематики / Процесс января 1937 / Другие документы 1937	http://showtrials.ru/category/frontpage/january-trial/drugie-dokumenty-1937/
+80	37	2	Материалы следствия 1937	materialy-sledstviya-1937	434	0	Все тематики / Процесс января 1937 / Материалы следствия 1937	http://showtrials.ru/category/frontpage/january-trial/materialy-sledstviya-1937/
+84	37	2	Стенограмма 1937	stenogram-1937	14	0	Все тематики / Процесс января 1937 / Стенограмма 1937	http://showtrials.ru/category/frontpage/january-trial/stenogram-1937/
+38	1	1	Разные документы	misc-docs	5	0	Все тематики / Разные документы	http://showtrials.ru/category/frontpage/misc-docs/
+148	0	0	Троцкий Седов и другие	trotskysedov	31	0	Троцкий Седов и другие	http://showtrials.ru/category/trotskysedov/
+146	0	0	Троцкий и троцкисты 1936	1936-trotsky	3	0	Троцкий и троцкисты 1936	http://showtrials.ru/category/1936-trotsky/

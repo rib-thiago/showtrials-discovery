@@ -1,0 +1,25 @@
+level	document_type	check	message
+WARN	biographical_article	translation_readiness_incomplete	document type still needs future review
+WARN	testimony	translation_readiness_incomplete	document type still needs future review
+WARN	indictment	translation_readiness_incomplete	document type still needs future review
+WARN	press_summary	translation_readiness_incomplete	document type still needs future review
+WARN	administrative_report	translation_readiness_incomplete	document type still needs future review
+WARN	explanation	translation_readiness_incomplete	document type still needs future review
+WARN	speech	translation_readiness_incomplete	document type still needs future review
+WARN	program	translation_readiness_incomplete	document type still needs future review
+WARN	verdict_or_sentence	translation_readiness_incomplete	document type still needs future review
+WARN	brochure	translation_readiness_incomplete	document type still needs future review
+WARN	telegram	translation_readiness_incomplete	document type still needs future review
+WARN	plan_instruction	translation_readiness_incomplete	document type still needs future review
+WARN	autobiography	translation_readiness_incomplete	document type still needs future review
+WARN	plea_pardon	translation_readiness_incomplete	document type still needs future review
+WARN	questionnaire_response	translation_readiness_incomplete	document type still needs future review
+WARN	correspondence	translation_readiness_incomplete	document type still needs future review
+WARN	article	translation_readiness_incomplete	document type still needs future review
+WARN	summary	translation_readiness_incomplete	document type still needs future review
+WARN	interrogation_extract	translation_readiness_incomplete	document type still needs future review
+WARN	decree_resolution	translation_readiness_incomplete	document type still needs future review
+WARN	poem	translation_readiness_incomplete	document type still needs future review
+WARN	medical_act	translation_readiness_incomplete	document type still needs future review
+WARN	data_extract	translation_readiness_incomplete	document type still needs future review
+WARN	search_protocol	translation_readiness_incomplete	document type still needs future review

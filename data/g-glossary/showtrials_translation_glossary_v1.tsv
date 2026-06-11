@@ -1,0 +1,893 @@
+source_ru	canonical_en	layer	glossary_kind	priority	source_count	status	confidence	review_reason	notes
+ВКП(б)	All-Union Communist Party (Bolsheviks)	organizations	organization	high	1397	approved	high		canonical organization/institution label
+ГУГБ	GUGB	organizations	organization	high	1296	approved	high		canonical organization/institution label
+НКВД	NKVD	organizations	organization	high	915	approved	high		canonical organization/institution label
+ЦК ВКП(б)	Central Committee of the All-Union Communist Party (Bolsheviks)	organizations	organization	high	869	approved	high		canonical organization/institution label
+Сталин	Joseph Stalin	people	person_name	high	520	approved	high		curated historical English name
+ПРОЦЕСС 19-23 АВГУСТА 1936 г.	August 1936 Trial	processes	process_name	high	486	approved	high		canonical process label
+ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	January 1937 Trial	processes	process_name	high	481	approved	high		canonical process label
+Ежов	Nikolai Yezhov	people	person_name	high	466	approved	high		curated historical English name
+ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	Moscow Center Trial	processes	process_name	high	424	approved	high		canonical process label
+Правда	Pravda	organizations	organization	high	328	approved	high		canonical organization/institution label
+КРЕМЛЕВСКОЕ ДЕЛО	Kremlin Case	processes	process_name	high	292	approved	high		canonical process label
+Коминтерн	Comintern	organizations	organization	high	290	approved	high		canonical organization/institution label
+ПРОЦЕСС 2-12 МАРТА 1938 г.	March 1938 Trial	processes	process_name	high	284	approved	high		canonical process label
+Политбюро	Politburo	organizations	organization	high	278	approved	high		canonical organization/institution label
+ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	Leningrad Center Trial	processes	process_name	high	175	approved	high		canonical process label
+Г.Г. Ягода	Genrikh Yagoda	people	person_name	high	158	approved	high		curated historical English name
+Совнарком	Council of People's Commissars	organizations	organization	high	126	approved	high		canonical organization/institution label
+Известия	Izvestia	organizations	organization	high	103	approved	high		canonical organization/institution label
+Ольберг	Valentin Olberg	people	person_name	high	94	approved	high		curated historical English name
+ЦИК СССР	Central Executive Committee of the USSR	organizations	organization	high	82	approved	high		canonical organization/institution label
+Седов	Lev Sedov	people	person_name	high	78	approved	high		curated historical English name
+ИККИ	Executive Committee of the Communist International	organizations	organization	high	76	approved	high		canonical organization/institution label
+Агранов	Yakov Agranov	people	person_name	high	74	approved	high		curated historical English name
+Бухарин	Nikolai Bukharin	people	person_name	high	73	approved	high		curated historical English name
+КПК	Party Control Commission	organizations	organization	high	54	approved	high		canonical organization/institution label
+ИНО ГУГБ	Foreign Department of the GUGB	organizations	organization	high	53	approved	high		canonical organization/institution label
+Зиновьев	Grigory Zinoviev	people	person_name	high	50	approved	high		curated historical English name
+ОО ГУГБ НКВД	Special Department of the GUGB NKVD	organizations	organization	high	40	approved	high		canonical organization/institution label
+Верховный Суд СССР	Supreme Court of the USSR	organizations	organization	high	33	approved	high		canonical organization/institution label
+ТРОЦКИЙ	Trotsky Dossier	processes	process_name	high	31	approved	high		canonical process label
+НКИД	People's Commissariat for Foreign Affairs	organizations	organization	high	28	approved	high		canonical organization/institution label
+Л.Д. Троцкий	Leon Trotsky	people	person_name	high	28	approved	high		curated historical English name
+Каменев	Lev Kamenev	people	person_name	high	26	approved	high		curated historical English name
+Радек	Karl Radek	people	person_name	high	25	approved	high		curated historical English name
+Пятаков	Georgy Pyatakov	people	person_name	high	22	approved	high		curated historical English name
+Секретариат ЦИК СССР	Secretariat of the Central Executive Committee of the USSR	organizations	organization	high	20	approved	high		canonical organization/institution label
+КПК при ЦК ВКП(б)	Party Control Commission under the Central Committee of the All-Union Communist Party (Bolsheviks)	organizations	organization	high	15	approved	high		canonical organization/institution label
+Прокуратура СССР	Prosecutor's Office of the USSR	organizations	organization	high	10	approved	high		canonical organization/institution label
+Горьковский крайком ВКП(б)	Gorky Regional Committee of the All-Union Communist Party (Bolsheviks)	organizations	organization	high	9	approved	high		canonical organization/institution label
+Лига Наций	League of Nations	organizations	organization	high	5	approved	high		canonical organization/institution label
+РАЗНЫЕ ДОКУМЕНТЫ	Miscellaneous Documents	processes	process_name	high	4	approved	high		canonical process label
+СТАТЬИ	Articles	processes	process_name	high	2	approved	high		canonical process label
+The New York Times	The New York Times	organizations	organization	high	1	approved	high		curated organization label
+United Press International	United Press International	organizations	organization	high	1	approved	high		curated organization label
+Верховный Совет СССР	Supreme Soviet of the USSR	organizations	organization	high	1	approved	high		canonical organization/institution label
+Народная Трудовая Демократическая партия России	People's Labor Democratic Party of Russia	organizations	organization	high	1	approved	high		curated organization label
+Л.В. Николаева	L.V. Nikolaeva	people	person_name	high	43	auto_transliterated_needs_review	medium	high_priority_person_needs_human_review	automatic transliteration seed; human review recommended before production glossary
+Г.Е. Прокофьева	G.E. Prokofeva	people	person_name	high	33	auto_transliterated_needs_review	medium	high_priority_person_needs_human_review	automatic transliteration seed; human review recommended before production glossary
+Г.И. Сафарова	G.I. Safarova	people	person_name	high	32	auto_transliterated_needs_review	medium	high_priority_person_needs_human_review	automatic transliteration seed; human review recommended before production glossary
+Е.В. Цетлина	E.V. Tsetlina	people	person_name	high	20	auto_transliterated_needs_review	medium	high_priority_person_needs_human_review	automatic transliteration seed; human review recommended before production glossary
+член	member	roles	generic_membership	medium	1482	approved	high		role/label translation; review political and accusatory labels
+троцкист	Trotskyist	roles	political_label	medium	1357	approved	high	political_or_accusatory_label_review_recommended	role/label translation; review political and accusatory labels
+секретарь	secretary	roles	office_position	medium	988	approved	high		role/label translation; review political and accusatory labels
+комиссар	commissar	roles	office_position	medium	667	approved	high		role/label translation; review political and accusatory labels
+руководитель	leader	roles	office_position	medium	639	approved	high		role/label translation; review political and accusatory labels
+правый	Rightist	roles	political_label	medium	607	approved	high	political_or_accusatory_label_review_recommended	role/label translation; review political and accusatory labels
+нарком	People's Commissar	roles	office_position	medium	530	approved	high		role/label translation; review political and accusatory labels
+начальник	chief	roles	office_position	medium	506	approved	high		role/label translation; review political and accusatory labels
+сотрудник	staff member	roles	generic_staff	medium	381	approved	high		role/label translation; review political and accusatory labels
+директор	director	roles	office_position	medium	380	approved	high		role/label translation; review political and accusatory labels
+председатель	chairman	roles	office_position	medium	361	approved	high		role/label translation; review political and accusatory labels
+обвиняемый	accused	roles	trial_role	medium	347	approved	high		role/label translation; review political and accusatory labels
+заместитель	deputy	roles	office_position	medium	283	approved	high		role/label translation; review political and accusatory labels
+представитель	representative	roles	generic_representative	medium	278	approved	high		role/label translation; review political and accusatory labels
+агент	agent	roles	accusatory_or_intelligence_label	medium	222	approved	high	political_or_accusatory_label_review_recommended	role/label translation; review political and accusatory labels
+кандидат	candidate	roles	generic_membership	medium	208	approved	high		role/label translation; review political and accusatory labels
+редактор	editor	roles	office_position	medium	172	approved	high		role/label translation; review political and accusatory labels
+прокурор	prosecutor	roles	office_position	medium	119	approved	high		role/label translation; review political and accusatory labels
+следователь	investigator	roles	office_position	medium	119	approved	high		role/label translation; review political and accusatory labels
+свидетель	witness	roles	trial_role	medium	95	approved	high		role/label translation; review political and accusatory labels
+посол	ambassador	roles	office_position	medium	88	approved	high		role/label translation; review political and accusatory labels
+адвокат	defense attorney	roles	office_position	medium	83	approved	high		role/label translation; review political and accusatory labels
+подсудимый	defendant	roles	trial_role	medium	74	approved	high		role/label translation; review political and accusatory labels
+полпред	plenipotentiary representative	roles	office_position	medium	69	approved	high		role/label translation; review political and accusatory labels
+вредитель	wrecker	roles	accusatory_label	medium	58	approved	high	political_or_accusatory_label_review_recommended	role/label translation; review political and accusatory labels
+наркомвнудел	People's Commissar of Internal Affairs	roles	office_position	medium	49	approved	high		role/label translation; review political and accusatory labels
+корреспондент	correspondent	roles	office_position	medium	44	approved	high		role/label translation; review political and accusatory labels
+судья	judge	roles	office_position	medium	31	approved	high		role/label translation; review political and accusatory labels
+Рыков	Alexei Rykov	people	person_name	medium	18	approved	high		curated historical English name
+Сокольников	Grigory Sokolnikov	people	person_name	medium	18	approved	high		curated historical English name
+Л.М. Каганович	Lazar Kaganovich	people	person_name	medium	11	approved	high		curated historical English name
+А.Я. Вышинский	Andrey Vyshinsky	people	person_name	medium	10	approved	high		curated historical English name
+Смирнов	Ivan Smirnov	people	person_name	medium	10	approved	high		curated historical English name
+Киров	Sergei Kirov	people	person_name	medium	9	approved	high		curated historical English name
+А.С. Енукидзе	Avel Yenukidze	people	person_name	medium	8	approved	high		curated historical English name
+С.В. Мрачковский	Sergei Mrachkovsky	people	person_name	medium	8	approved	high		curated historical English name
+Троцкий	Leon Trotsky	people	person_name	medium	6	approved	high		curated historical English name
+секретарь_суда	court secretary	roles	office_position	medium	1	approved	high		role/label translation; review political and accusatory labels
+В.А. Балицкого	V.A. Balitsky	people	person_name	medium	13	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+Е.К. Мухановой	E.K. Mukhanova	people	person_name	medium	13	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+И.П. Бакаева	I.P. Bakaev	people	person_name	medium	13	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+И.И. Рейнгольда	I.I. Reingold	people	person_name	medium	11	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+М.К. Чернявского	M.K. Chernyavsky	people	person_name	medium	11	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+М.Ф. Шкирятову	M.F. Shkiryatov	people	person_name	medium	8	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+С.М. Гессена	S.M. Hessen	people	person_name	medium	8	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+А.Ф. Шараповой	A.F. Sharapova	people	person_name	medium	6	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+Г.М. Аркуса	G.M. Arkus	people	person_name	medium	6	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+Д.А. Шмидта	D.A. Schmidt	people	person_name	medium	6	auto_normalized_needs_review	medium	medium_priority_person_optional_review	auto transliteration adjusted by common historical romanization rules
+Дмитриев	Dmitriev	people	person_name	medium	17	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.А. Розенфельд	N.A. Rozenfeld	people	person_name	medium	16	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Г.Е. Евдокимова	G.E. Evdokimova	people	person_name	medium	14	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Членов	Chlenov	people	person_name	medium	14	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.И. Котолынова	I.I. Kotolynova	people	person_name	medium	13	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.И. Анишева	A.I. Anisheva	people	person_name	medium	12	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.В. Румянцева	V.V. Rumyantseva	people	person_name	medium	12	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Г.Б. Синани-Скалов	G.B. Sinani-Skalov	people	person_name	medium	12	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Г.Ф. Попова	G.F. Popova	people	person_name	medium	12	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.С. Горшенина	I.S. Gorshenina	people	person_name	medium	12	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.М. Гертика	A.M. Gertika	people	person_name	medium	11	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.М. Харитонова	M.M. Kharitonova	people	person_name	medium	11	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.В. Голубенко	N.V. Golubenko	people	person_name	medium	11	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.С. Антонова	N.S. Antonova	people	person_name	medium	10	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+П.А. Николаева	P.A. Nikolaeva	people	person_name	medium	10	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Б.Л. Браво	B.L. Bravo	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Б.Н. Сахова	B.N. Sakhova	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.А. Барута	V.A. Baruta	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.И. Звездова	V.I. Zvezdova	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.С. Левина	V.S. Levina	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+К.К. Муханова	K.K. Mukhanova	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.А. Нырчука	M.A. Nyrchuka	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.Н. Яковлева	M.N. Yakovleva	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Т.И. Глебовой	T.I. Glebovoi	people	person_name	medium	9	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.И. Толмазова	A.I. Tolmazova	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Астров	Astrov	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Г.А. Молчанова	G.A. Molchanova	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Г.Ф. Федорова	G.F. Fedorova	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.Г. Юскина	I.G. Yuskina	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.И. Тарасова	I.I. Tarasova	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.И. Мухина	N.I. Mukhina	people	person_name	medium	8	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.С. Куклина	A.S. Kuklina	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.В. Кузьмина	V.V. Kuzmina	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.М. Попова	V.M. Popova	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.Ф. Логинова	V.F. Loginova	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Е.А. Дрейцера	E.A. Dreitsera	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.А. Мусульбаса	I.A. Musulbasa	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.В. Королькова	M.V. Korolkova	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.П. Мясникова	N.P. Myasnikova	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Ф.Ф. Фадеева	F.F. Fadeeva	people	person_name	medium	7	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.А. Виноградова	V.A. Vinogradova	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.В. Глухенко	V.V. Glukhenko	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Д.Н. Ширяева	D.N. Shiryaeva	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Е.Ф. Куликова	E.F. Kulikova	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+З.И. Давыдовой	Z.I. Davydovoi	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.К. Наумова	I.K. Naumova	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.М. Гуревича	I.M. Gurevicha	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Л.З. Мехлиса	L.Z. Mekhlisa	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Л.Я. Файвиловича	L.Ya. Faivilovicha	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.М. Киллерога	M.M. Killeroga	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Молотов	Molotov	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.А. Угланова	N.A. Uglanova	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.И. Бураго	N.I. Burago	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+П.И. Бескиной	P.I. Beskinoi	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+С.А. Чихладзе	S.A. Chikhladze	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Я.Р. Ельковича	Ya.R. Elkovicha	people	person_name	medium	6	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.А. Шестова	A.A. Shestova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.В. Перимова	A.V. Perimova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.Н. Сафоновой	A.N. Safonovoi	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.Н. Слепкова	A.N. Slepkova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.П. Костиной	A.P. Kostinoi	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.Ю. Айхенвальда	A.Yu. Aikhenvalda	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+А.Ю. Тивеля	A.Yu. Tivelya	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Б.Н. Розенфельда	B.N. Rozenfelda	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.А. Яковлева	V.A. Yakovleva	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.И. Козырева	V.I. Kozyreva	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+В.Я. Головский-Голощапов	V.Ya. Golovskii-Goloshchapov	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Г.В. Соколова	G.V. Sokolova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+И.С. Горшениным	I.S. Gorsheninym	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Л.С. Сосновского	L.S. Sosnovskogo	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Л.Ф. Дитятевой	L.F. Dityatevoi	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.В. Поздеевой	M.V. Pozdeevoi	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+М.С. Рэма	M.S. Rema	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.А. Царькова	N.A. Tsarkova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Н.Б. Розенфельда	N.B. Rozenfelda	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+П.А. Коваленко	P.A. Kovalenko	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Шемелев	Shemelev	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Я.В. Шарова	Ya.V. Sharova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+Я.С. Розанова	Ya.S. Rozanova	people	person_name	medium	5	auto_transliterated_needs_review	medium	medium_priority_person_optional_review	automatic transliteration seed; human review recommended before production glossary
+interrogation_protocol	interrogation protocol	document_types	internal_document_type	low	982	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+special_report	special report	document_types	internal_document_type	low	526	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+letter	letter	document_types	internal_document_type	low	256	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+statement	statement	document_types	internal_document_type	low	78	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+confrontation_protocol	confrontation protocol	document_types	internal_document_type	low	57	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+session_transcript	session transcript	document_types	internal_document_type	low	51	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+testimony	testimony	document_types	internal_document_type	low	48	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+memo_note	memo note	document_types	internal_document_type	low	40	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+conversation_recording	conversation recording	document_types	internal_document_type	low	34	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+administrative_report	administrative report	document_types	internal_document_type	low	16	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+list	list	document_types	internal_document_type	low	16	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+telegram	telegram	document_types	internal_document_type	low	15	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+summary	summary	document_types	internal_document_type	low	7	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+reference_note	reference note	document_types	internal_document_type	low	6	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+indictment	indictment	document_types	internal_document_type	low	5	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+draft_project	draft project	document_types	internal_document_type	low	4	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+explanation	explanation	document_types	internal_document_type	low	4	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+press_summary	press summary	document_types	internal_document_type	low	4	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+decree_resolution	decree resolution	document_types	internal_document_type	low	3	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+plan_instruction	plan instruction	document_types	internal_document_type	low	3	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+verdict_or_sentence	verdict or sentence	document_types	internal_document_type	low	3	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+article	article	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+biographical_article	biographical article	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+correspondence	correspondence	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+data_extract	data extract	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+plea_pardon	plea pardon	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+questionnaire_response	questionnaire response	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+speech	speech	document_types	internal_document_type	low	2	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+autobiography	autobiography	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+brochure	brochure	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+interrogation_extract	interrogation extract	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+medical_act	medical act	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+poem	poem	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+program	program	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+search_protocol	search protocol	document_types	internal_document_type	low	1	approved	medium		internal UI/reporting label; not necessarily Google glossary entry
+В.В. Шмидта	V.V. Schmidt	people	person_name	low	4	auto_normalized_needs_review	medium		auto transliteration adjusted by common historical romanization rules
+М.К. Мухановой	M.K. Mukhanova	people	person_name	low	1	auto_normalized_needs_review	medium		auto transliteration adjusted by common historical romanization rules
+П.И. Бакаева	P.I. Bakaev	people	person_name	low	1	auto_normalized_needs_review	medium		auto transliteration adjusted by common historical romanization rules
+А.А. Мусатова	A.A. Musatova	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Трояновского	A.A. Troyanovskogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Герцберга	A.V. Gertsberga	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Г. Колодина	A.G. Kolodina	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Александрова	A.I. Aleksandrova	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.А. Кушнера	B.A. Kushnera	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Осинского	V.V. Osinskogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Г. Дорошина	V.G. Doroshina	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Д. Миронова	V.D. Mironova	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Е. Евдокимовым	G.E. Evdokimovym	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Л. Хасина	G.L. Khasina	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.Л. Игнатюка	D.L. Ignatyuka	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Ю. Раевской	E.Yu. Raevskoi	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.А. Ашрафяна	Z.A. Ashrafyana	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.М. Беленького	Z.M. Belenkogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.А. Князева	I.A. Knyazeva	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Горовича	I.I. Gorovicha	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Трусова	I.I. Trusova	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Т. Смилги	I.T. Smilgi	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Ф. Касперского	I.F. Kasperskogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Е. Ворошилова	K.E. Voroshilova	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.В. Николаевым	L.V. Nikolaevym	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Сосицкого	L.I. Sositskogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.П. Томского	M.P. Tomskogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Богуславского	M.S. Boguslavskogo	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Строилова	M.S. Stroilova	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.А. Карева	N.A. Kareva	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.В. Пикеля	R.V. Pikelya	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.М. Кулишера	R.M. Kulishera	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Х. Варданиана	S.Kh. Vardaniana	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.С. Гольцмана	E.S. Goltsmana	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.А. Лившица	Ya.A. Livshitsa	people	person_name	low	4	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Андрееву	A.A. Andreevu	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Докучаева	A.A. Dokuchaeva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Е. Авдеевой	A.E. Avdeevoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Е. Кожуро	A.E. Kozhuro	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Биркенгофа	A.I. Birkengofa	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Кармалитова	A.I. Karmalitova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Коновой	A.I. Konovoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Синелобова	A.I. Sinelobova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.К. Середохина	A.K. Seredokhina	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Лариной	A.M. Larinoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Х. Кантора	A.Kh. Kantora	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Я. Свердлова	A.Ya. Sverdlova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Г. Козелева	B.G. Kozeleva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.И. Кузьмичева	B.I. Kuzmicheva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.М. Нижника	B.M. Nizhnika	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.М. Оберталлера	B.M. Obertallera	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Тер-Ваганян	V.A. Ter-Vaganyan	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Румянцевым	V.V. Rumyantsevym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Г. Белова	V.G. Belova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Г. Яковенко	V.G. Yakovenko	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Д. Каспаровой	V.D. Kasparovoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.П. Потемкина	V.P. Potemkina	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Е. Горбачева	G.E. Gorbacheva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.И. Сафаровым	G.I. Safarovym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.К. Орджоникидзе	G.K. Ordzhonikidze	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.М. Артеменко	G.M. Artemenko	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Ф. Овчинникова	G.F. Ovchinnikova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.П. Марецкого	D.P. Maretskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.А. Петровой	E.A. Petrovoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.К. Коршунова	E.K. Korshunova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.И. Пелевиной	Z.I. Pelevinoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Д. Турока	I.D. Turoka	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Бурлакова	I.I. Burlakova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Котолыновым	I.I. Kotolynovym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.К. Федотова	I.K. Fedotova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Н. Маевского	I.N. Maevskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.П. Бакаевым	I.P. Bakaevym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.И. Синелобовой	K.I. Sinelobovoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Н. Лукницкого	K.N. Luknitskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.А. Лаврентьева	L.A. Lavrenteva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Г. Лелевича	L.G. Lelevicha	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Гасвиани	L.I. Gasviani	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.М. Марьясина	L.M. Maryasina	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.О. Ханика	L.O. Khanika	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.П. Серебрякова	L.P. Serebryakova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.П. Серебряковым	L.P. Serebryakovym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Бурштейном	M.V. Burshteinom	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Лурье	M.I. Lure	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Л. Быховского	M.L. Bykhovskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.О. Зюка	M.O. Zyuka	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.П. Жакова	M.P. Zhakova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Окуджавы	M.S. Okudzhavy	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Гордона	N.I. Gordona	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Москалева	N.I. Moskaleva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.М. Лукина-Бухарина	N.M. Lukina-Bukharina	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Крестинского	N.N. Krestinskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Шатским	N.N. Shatskim	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.П. Глебов-Авилов	N.P. Glebov-Avilov	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.П. Михетко	N.P. Mikhetko	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.П. Мясниковым	N.P. Myasnikovym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.С. Антоновым	N.S. Antonovym	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.А. Залуцкого	P.A. Zalutskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.И. Гордеевой	P.I. Gordeevoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Ф. Зайцева	P.F. Zaitseva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Ф. Сапожникова	P.F. Sapozhnikova	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Э. Роцкана	P.E. Rotskana	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.И. Лукашика	S.I. Lukashika	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Я. Шаева	S.Ya. Shaeva	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.А. Горбуновой	F.A. Gorbunovoi	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Х.Г. Гуревича	Kh.G. Gurevicha	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Х.Г. Раковского	Kh.G. Rakovskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.М. Коцюбинского	Yu.M. Kotsyubinskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Н. Вечерковского	Ya.N. Vecherkovskogo	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Н. Дробниса	Ya.N. Drobnisa	people	person_name	low	3	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Бусыгина	A.A. Busygina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Лаврентьева	A.A. Lavrenteva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Муштакова	A.A. Mushtakova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Хвыли	A.A. Khvyli	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Галкина	A.V. Galkina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Луговой-Левенштейн	A.V. Lugovoi-Levenshtein	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Румянцева	A.V. Rumyantseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Д. Арефьева	A.D. Arefeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Д. Зайцева	A.D. Zaitseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Потяева	A.I. Potyaeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Стецкого	A.I. Stetskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Юлина	A.I. Yulina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Горькому	A.M. Gorkomu	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Гусева	A.M. Guseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Зорина	A.M. Zorina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Штейна	A.M. Shteina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.П. Загорулько	A.P. Zagorulko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.С. Куклиным	A.S. Kuklinym	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.С. Соколова	A.S. Sokolova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.И. Лехтмана	B.I. Lekhtmana	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.М. Таля	B.M. Talya	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Ельчаниновой	V.A. Elchaninovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Закамалдина	V.A. Zakamaldina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Котова	V.A. Kotova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Досекина	V.V. Dosekina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Папкова	V.V. Papkova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Д. Вуйовича	V.D. Vuiovicha	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.И. Звездовым	V.I. Zvezdovym	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.И. Невского	V.I. Nevskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.И. Пучкова	V.I. Puchkova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.И. Шипихина	V.I. Shipikhina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.М. Андреева	V.M. Andreeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.М. Примакова	V.M. Primakova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.М. Рохинсона	V.M. Rokhinsona	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Н. Голованова	V.N. Golovanova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Н. Ракова	V.N. Rakova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Н. Цатурова-Большакова	V.N. Tsaturova-Bolshakova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Н. Яковлевой	V.N. Yakovlevoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Ф. Головина	V.F. Golovina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.А. Колоскова	G.A. Koloskova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.В. Соколовым	G.V. Sokolovym	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Е. Пушина	G.E. Pushina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.И. Шварца	G.I. Shvartsa	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Л. Шкловского	G.L. Shklovskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.П. Поташникова	G.P. Potashnikova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.С. Фридлянда	G.S. Fridlyanda	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Я. Маренко	G.Ya. Marenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Гавен	Gaven	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.А. Карцева	D.A. Kartseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.З. Мануильскому	D.Z. Manuilskomu	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.И. Антипаса	D.I. Antipasa	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.И. Матвеева	D.I. Matveeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.П. Бухарцева	D.P. Bukhartseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.С. Азбеля	D.S. Azbelya	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.Т. Шермергорна	D.T. Shermergorna	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.А. Афанасьева	E.A. Afanaseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.В. Рогачевой	E.V. Rogachevoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Д. Соколовой	E.D. Sokolovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.И. Майзлиной	E.I. Maizlinoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.М. Манюрин-Броварский	E.M. Manyurin-Brovarskii	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.М. Рыбальченко	E.M. Rybalchenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Н. Васильева	E.N. Vasileva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.О. Симак	E.O. Simak	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Р. Майера	E.R. Maiera	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.С. Мишаковой	E.S. Mishakovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.В. Флоровой	Z.V. Florovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.Д. Ханик	Z.D. Khanik	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.А. Козина	I.A. Kozina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Д. Гаврикова	I.D. Gavrikova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Е. Коваленко	I.E. Kovalenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Е. Павлова	I.E. Pavlova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Тарасовым	I.I. Tarasovym	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.М. Бык-Бек	I.M. Byk-Bek	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Н. Стукова	I.N. Stukova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.О. Гольденберга	I.O. Goldenberga	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.П. Крыженко	I.P. Kryzhenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.С. Михайлова	I.S. Mikhailova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.С. Эстермана	I.S. Estermana	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Т. Ляшенко	I.T. Lyashenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.А. Озола	K.A. Ozola	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Б. Берман-Юрин	K.B. Berman-Yurin	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.И. Гидлевского	K.I. Gidlevskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.И. Грюнштейна	K.I. Gryunshteina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Н. Емельянова	K.N. Emelyanova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.С. Дорофеева	K.S. Dorofeeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.С. Модебадзе	K.S. Modebadze	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.А. Чернозубовой	L.A. Chernozubovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.А. Шацкина	L.A. Shatskina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.В. Когану	L.V. Koganu	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Д. Гогоберидзе	L.D. Gogoberidze	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Е. Бурковой	L.E. Burkovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Е. Тамма	L.E. Tamma	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Е. Хосроева	L.E. Khosroeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Перельштейн	L.I. Perelshtein	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Пономарева	L.I. Ponomareva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Сосицким	L.I. Sositskim	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Н. Минервиной	L.N. Minervinoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.П. Берии	L.P. Berii	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.С. Ассиновского	L.S. Assinovskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.С. Мамишвили-Мишкевич	L.S. Mamishvili-Mishkevich	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.С. Тер-Минасов	L.S. Ter-Minasov	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Х. Розенблюма	L.Kh. Rozenblyuma	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.А. Жарикова	M.A. Zharikova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Б. Черномордику	M.B. Chernomordiku	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Михайлика	M.V. Mikhailika	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Муравьева	M.V. Muraveva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Г. Сафьянова	M.G. Safyanova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Новожилова	M.I. Novozhilova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Сумецкого	M.I. Sumetskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Кудряшева	M.M. Kudryasheva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Чередниченко	M.M. Cherednichenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Н. Рябинина	M.N. Ryabinina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Т. Антонова	M.T. Antonova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Ф. Постоловского	M.F. Postolovskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Б. Скаловой	N.B. Skalovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.В. Буинцева	N.V. Buintseva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Муралова	N.I. Muralova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.К. Магдарьева	N.K. Magdareva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Л. Лурье	N.L. Lure	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.М. Маторина	N.M. Matorina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.М. Насонова	N.M. Nasonova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Алексеева	N.N. Alekseeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Мищенко	N.N. Mishchenko	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Шатского	N.N. Shatskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+О.П. Дзениса	O.P. Dzenisa	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.А. Липшица	P.A. Lipshitsa	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Г. Петровского	P.G. Petrovskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.К. Александрова	P.K. Aleksandrova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.М. Репникова	P.M. Repnikova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Н. Нечаева	P.N. Nechaeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.П. Бурмистрова	P.P. Burmistrova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.П. Северова	P.P. Severova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Ф. Полякова	P.F. Polyakova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Пригожин	Prigozhin	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.А. Петерсона	R.A. Petersona	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.С. Беннет	R.S. Bennet	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Радин	Radin	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Гоглидзе	S.A. Goglidze	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Ратайчаком	S.A. Rataichakom	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Г. Радомысльского	S.G. Radomyslskogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.М. Закс-Гладнев	S.M. Zaks-Gladnev	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.О. Мандельштама	S.O. Mandelshtama	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.П. Калашникова	S.P. Kalashnikova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.П. Минаева	S.P. Minaeva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.С. Зорина	S.S. Zorina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Я. Бабахана	S.Ya. Babakhana	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Т.Г. Гатаулина	T.G. Gataulina	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Т.П. Денисовой	T.P. Denisovoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Т.Р. Левиной	T.R. Levinoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.Г. Иванова	F.G. Ivanova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.И. Вайсберга	F.I. Vaisberga	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.Б. Абрамсона	E.B. Abramsona	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.Б. Тартаковской	Yu.B. Tartakovskoi	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.М. Бочарова	Yu.M. Bocharova	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.А. Фуртичева	Ya.A. Furticheva	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Д. Лейбмана	Ya.D. Leibmana	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.И. Богомольного	Ya.I. Bogomolnogo	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.С. Розановым	Ya.S. Rozanovym	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Я. Упмал-Ангарский	Ya.Ya. Upmal-Angarskii	people	person_name	low	2	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Абрамова	A.A. Abramova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Антипиной	A.A. Antipinoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Гардин-Гейер	A.A. Gardin-Geier	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Жданову	A.A. Zhdanovu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Израилитина	A.A. Izrailitina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Карпова	A.A. Karpova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Нелидовой	A.A. Nelidovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Орловой	A.A. Orlovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.А. Табанакова	A.A. Tabanakova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Бочарова	A.V. Bocharova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Дзедзиевского	A.V. Dzedzievskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Перимовым	A.V. Perimovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.В. Травиной	A.V. Travinoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Г. Егорова	A.G. Egorova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Г. Корчагиной	A.G. Korchaginoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Г. Шляпникова	A.G. Shlyapnikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Д. Арефьевым	A.D. Arefevym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Д. Бронштейне	A.D. Bronshteine	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.З. Волкова	A.Z. Volkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Анишевым	A.I. Anishevym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Бриггиса	A.I. Briggisa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Витковского	A.I. Vitkovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Гальперина	A.I. Galperina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Емшанова	A.I. Emshanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Зильбермана	A.I. Zilbermana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Муралова	A.I. Muralova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Мячиной	A.I. Myachinoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Никитинской	A.I. Nikitinskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Рамм-Пфемферт	A.I. Ramm-Pfemfert	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Толмазовым	A.I. Tolmazovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.И. Уварова	A.I. Uvarova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.К. Бормана	A.K. Bormana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.К. Дрожжина	A.K. Drozhzhina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.К. Язовских	A.K. Yazovskikh	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Л. Голоступеца	A.L. Golostupetsa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Л. Леонтьева	A.L. Leonteva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Аркус	A.M. Arkus	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Березина	A.M. Berezina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Кашкина	A.M. Kashkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Луцука	A.M. Lutsuka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Непомнящего	A.M. Nepomnyashchego	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Попова	A.M. Popova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Сосипатрова	A.M. Sosipatrova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.М. Ясюкевича	A.M. Yasyukevicha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Барулина	A.N. Barulina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Бурова	A.N. Burova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Маевского	A.N. Maevskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Панова	A.N. Panova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Поскребышеву	A.N. Poskrebyshevu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Слепковым	A.N. Slepkovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Н. Фокина	A.N. Fokina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.О. Альского	A.O. Alskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.О. Голлендера	A.O. Gollendera	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.П. Дьячкова	A.P. Dyachkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.П. Метальникова	A.P. Metalnikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.П. Удалова	A.P. Udalova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.С. Булину	A.S. Bulinu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.С. Оввян	A.S. Ovvyan	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Ф. Кошелева	A.F. Kosheleva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Ф. Ульянова	A.F. Ulyanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Я. Аросеве	A.Ya. Aroseve	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+А.Я. Юскиной	A.Ya. Yuskinoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.А. Васильева	B.A. Vasileva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.А. Двинскому	B.A. Dvinskomu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Г. Мдивани	B.G. Mdivani	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Д. Берману	B.D. Bermanu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Е. Алдаданова	B.E. Aldadanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Е. Барского	B.E. Barskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.З. Ливянта	B.Z. Livyanta	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Л. Колесникова	B.L. Kolesnikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Л. Лопатинского	B.L. Lopatinskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.М. Беккера	B.M. Bekkera	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.О. Норкина	B.O. Norkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.П. Нестерова	B.P. Nesterova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.П. Нестеровым	B.P. Nesterovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.С. Рабиновича	B.S. Rabinovicha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Б.Э. Раткая	B.E. Ratkaya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Антонов-Овсеенко	V.A. Antonov-Ovseenko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Ваганяна	V.A. Vaganyana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Сорокина	V.A. Sorokina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.А. Финашина	V.A. Finashina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Ломинадзе	V.V. Lominadze	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Румянцнева	V.V. Rumyantsneva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.В. Ульриху	V.V. Ulrikhu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Г. Лукина	V.G. Lukina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Д. Вуйовичем	V.D. Vuiovichem	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Д. Томленова	V.D. Tomlenova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Е. Цесарского	V.E. Tsesarskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.И. Демченко	V.I. Demchenko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.И. Клюшенкова	V.I. Klyushenkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.К. Жарикова	V.K. Zharikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.К. Клейна	V.K. Kleina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.К. Путны	V.K. Putny	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.К. Сотскова	V.K. Sotskova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Л. Горохова	V.L. Gorokhova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.М. Меерсона	V.M. Meersona	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.М. Мулина	V.M. Mulina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Н. Гутман	V.N. Gutman	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Н. Слепкова	V.N. Slepkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.П. Второва	V.P. Vtorova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.П. Шевелев-Лубков	V.P. Shevelev-Lubkov	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Ф. Бейтельспахера	V.F. Beitelspakhera	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Ф. Захариной	V.F. Zakharinoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Ф. Логиновым	V.F. Loginovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Ф. Степанова	V.F. Stepanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+В.Я. Родака	V.Ya. Rodaka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.А. Абрамова	G.A. Abramova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.А. Татулова	G.A. Tatulova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.А. Татуловым	G.A. Tatulovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Б. Берндта	G.B. Berndta	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Б. Либермана	G.B. Libermana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Г. Матитайшвили	G.G. Matitaishvili	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Д. Арсентьева	G.D. Arsenteva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Е. Меерсона	G.E. Meersona	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.И. Исаева	G.I. Isaeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.И. Миронова	G.I. Mironova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.И. Серебряковой	G.I. Serebryakovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.К. Фельдмана	G.K. Feldmana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.М. Дрязгова	G.M. Dryazgova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.М. Ивановой	G.M. Ivanovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.М. Маленкова	G.M. Malenkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.М. Маленкову	G.M. Malenkovu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.М. Сыроквашева	G.M. Syrokvasheva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.П. Адамяна	G.P. Adamyana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.П. Вяткина	G.P. Vyatkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Р. Николаева	G.R. Nikolaeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.С. Биткера	G.S. Bitkera	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.С. Герасимато	G.S. Gerasimato	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.С. Зайделя	G.S. Zaidelya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.С. Люшкову	G.S. Lyushkovu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.С. Тымянского	G.S. Tymyanskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Т. Мясничкова	G.T. Myasnichkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Ф. Самойловича	G.F. Samoilovicha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Г.Ф. Федоровым	G.F. Fedorovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.А. Аникина	D.A. Anikina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.А. Аникиным	D.A. Anikinym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.А. Сниткина	D.A. Snitkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.А. Сниткиным	D.A. Snitkinym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.А. Тайца	D.A. Taitsa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.В. Полуяна	D.V. Poluyana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.В. Сафронова	D.V. Safronova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.М. Лупашко	D.M. Lupashko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.П. Албанского	D.P. Albanskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.П. Розита	D.P. Rozita	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.С. Гуревича	D.S. Gurevicha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.С. Зенцова	D.S. Zentsova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.С. Тайца	D.S. Taitsa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.Ф. Бузина	D.F. Buzina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.Ф. Бузиным	D.F. Buzinym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Д.Я. Александрова	D.Ya. Aleksandrova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.А. Кондратьевой	E.A. Kondratevoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.А. Преображенского	E.A. Preobrazhenskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Б. Федосеева	E.B. Fedoseeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.В. Пикель	E.V. Pikel	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Г. Соловьевой	E.G. Solovevoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.И. Лакиды	E.I. Lakidy	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.И. Медкова	E.I. Medkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.И. Перлина	E.I. Perlina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.М. Бочарова	E.M. Bocharova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.М. Дебрева	E.M. Debreva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.М. Пружанской	E.M. Pruzhanskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.М. Ярославским	E.M. Yaroslavskim	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.П. Рудневой	E.P. Rudnevoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.С. Мельниковой	E.S. Melnikovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Т. Тимофеева	E.T. Timofeeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Т. Черкасовой	E.T. Cherkasovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Ф. Ермолаевой	E.F. Ermolaevoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Ф. Куликовым	E.F. Kulikovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Ф. Тойво-Пешина	E.F. Toivo-Peshina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Э. Чернозубовой	E.E. Chernozubovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Е.Я. Буклея	E.Ya. Bukleya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.Е. Саркисьяна	Z.E. Sarkisyana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.И. Фридмана	Z.I. Fridmana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.Н. Гайдеровой	Z.N. Gaiderovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+З.С. Синициной	Z.S. Sinitsinoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.А. Акулову	I.A. Akulovu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.А. Данилова	I.A. Danilova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.А. Мальгина	I.A. Malgina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.А. Масленникова	I.A. Maslennikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.В. Больших	I.V. Bolshikh	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.В. Вардин-Мгеладзе	I.V. Vardin-Mgeladze	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.В. Липковского	I.V. Lipkovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.В. Любина	I.V. Lyubina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Г. Жестянникова	I.G. Zhestyannikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Д. Зорина	I.D. Zorina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Е. Шмундака	I.E. Shmundaka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.З. Станкина	I.Z. Stankina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Граше	I.I. Grashe	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Звады	I.I. Zvady	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Койген	I.I. Koigen	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Носкова	I.I. Noskova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Петухова	I.I. Petukhova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Рейногльда	I.I. Reinoglda	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Рыстика	I.I. Rystika	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.И. Соловьева	I.I. Soloveva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.К. Гогуа	I.K. Gogua	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.М. Кедрова	I.M. Kedrova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.М. Майского	I.M. Maiskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.М. Орловская-Мрачковская	I.M. Orlovskaya-Mrachkovskaya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.М. Покатиловского	I.M. Pokatilovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.М. Русанова	I.M. Rusanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Н. Дорошенко	I.N. Doroshenko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Н. Зеликсона	I.N. Zeliksona	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Н. Миронова	I.N. Mironova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.П. Лукьянова	I.P. Lukyanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.С. Кострицкого	I.S. Kostritskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Т. Жирова	I.T. Zhirova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Ф. Серегина	I.F. Seregina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Ф. Флакса	I.F. Flaksa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Э. Якире	I.E. Yakire	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+И.Я. Одыня	I.Ya. Odynya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.А. Апанасевича	K.A. Apanasevicha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.А. Довганя	K.A. Dovganya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.А. Оганесова	K.A. Oganesova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.В. Генераловой	K.V. Generalovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.В. Трофимова	K.V. Trofimova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Д. Мучникова	K.D. Muchnikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Д. Мучниковым	K.D. Muchnikovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Е. Дубовского	K.E. Dubovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.К. Боштедта	K.K. Boshtedta	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.К. Мухановым	K.K. Mukhanovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.М. Ерофицкого	K.M. Erofitskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.М. Петухова	K.M. Petukhova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Н. Афонина	K.N. Afonina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Ф. Лебедева	K.F. Lebedeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+К.Я. Янсона	K.Ya. Yansona	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.А. Воронова	L.A. Voronova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Г. Миронова	L.G. Mironova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Мадьяра	L.I. Madyara	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.И. Мадьяром	L.I. Madyarom	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.К. Пелипейко	L.K. Pelipeiko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Л. Авербахе	L.L. Averbakhe	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.М. Заковского	L.M. Zakovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.М. Островской	L.M. Ostrovskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.П. Жашковой	L.P. Zhashkovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Ю. Брик	L.Yu. Brik	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Я. Любарского	L.Ya. Lyubarskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Я. Нехамкина	L.Ya. Nekhamkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Л.Я. Файвиловичем	L.Ya. Faivilovichem	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.А. Житкова	M.A. Zhitkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.А. Москвину	M.A. Moskvinu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.А. Нариманова	M.A. Narimanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.А. Розенцвейга	M.A. Rozentsveiga	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Борисова	M.V. Borisova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Воротникова	M.V. Vorotnikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Дубовской	M.V. Dubovskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Келдыша	M.V. Keldysha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.В. Кузнецова	M.V. Kuznetsova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Г. Грольмана	M.G. Grolmana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Г. Короп	M.G. Korop	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Д. Багирова	M.D. Bagirova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Д. Кочетовой	M.D. Kochetovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Е. Быстрова	M.E. Bystrova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Ганштака	M.I. Ganshtaka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Гая	M.I. Gaya	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Калинину	M.I. Kalininu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Кахиани	M.I. Kakhiani	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Кащеева	M.I. Kashcheeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Крушельницкого	M.I. Krushelnitskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Рябининой	M.I. Ryabininoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.И. Томской	M.I. Tomskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Л. Елина	M.L. Elina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Л. Левина	M.L. Levina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Домбровским	M.M. Dombrovskim	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Карпова	M.M. Karpova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Литвинова	M.M. Litvinova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Малинова	M.M. Malinova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Михайлова	M.M. Mikhailova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Оскольский-Финкельштейн	M.M. Oskolskii-Finkelshtein	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.М. Харитоновым	M.M. Kharitonovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Н. Авдеева	M.N. Avdeeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Н. Дьячкова	M.N. Dyachkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Н. Уфимцевой	M.N. Ufimtsevoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Н. Цинцадзе	M.N. Tsintsadze	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.П. Давыдова	M.P. Davydova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.П. Луковского	M.P. Lukovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.П. Прибыловского	M.P. Pribylovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.П. Стремякова	M.P. Stremyakova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Голендо	M.S. Golendo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Жалыбина-Быкова	M.S. Zhalybina-Bykova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Панфилова	M.S. Panfilova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.С. Югова	M.S. Yugova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Ф. Иоэльсона	M.F. Ioelsona	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Х. Орлова	M.Kh. Orlova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Я. Карпова	M.Ya. Karpova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+М.Я. Презента	M.Ya. Prezenta	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.А. Бобылева	N.A. Bobyleva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.А. Емельянова	N.A. Emelyanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.А. Королева	N.A. Koroleva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.А. Углановым	N.A. Uglanovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.В. Комогорова	N.V. Komogorova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Г. Андрейчука	N.G. Andreichuka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Г. Ольховского	N.G. Olkhovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Г. Туманова	N.G. Tumanova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Д. Зарицкого	N.D. Zaritskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Е. Нилендера	N.E. Nilendera	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Андреева	N.I. Andreeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Медникова	N.I. Mednikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Мильгевского	N.I. Milgevskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Третьякова	N.I. Tretyakova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.И. Трубиева	N.I. Trubieva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.К. Буянского	N.K. Buyanskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.М. Букалова	N.M. Bukalova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.М. Гальперина	N.M. Galperina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Ванага	N.N. Vanaga	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Колотилина	N.N. Kolotilina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Н. Соина	N.N. Soina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.П. Гаврилова	N.P. Gavrilova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Р. Кикнадзе	N.R. Kiknadze	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.С. Веритовой	N.S. Veritovoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.С. Сычева	N.S. Sycheva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.С. Хрущева	N.S. Khrushcheva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Н.Ф. Печерского	N.F. Pecherskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+О.А. Лидака	O.A. Lidaka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+О.А. Мешковской	O.A. Meshkovskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+О.Ф. Янкуса	O.F. Yankusa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.А. Бака	P.A. Baka	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.А. Коркину	P.A. Korkinu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.А. Кравкова	P.A. Kravkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.В. Чистову	P.V. Chistovu	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Г. Орлова	P.G. Orlova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.И. Жиромского	P.I. Zhiromskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.И. Решетниченко	P.I. Reshetnichenko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.И. Шабалкина	P.I. Shabalkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.К. Башенкова	P.K. Bashenkova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Н. Кашина	P.N. Kashina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Н. Королева	P.N. Koroleva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Н. Рокоса	P.N. Rokosa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.П. Григорьева	P.P. Grigoreva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.П. Северовым	P.P. Severovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Т. Богачева	P.T. Bogacheva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+П.Ф. Поляковым	P.F. Polyakovym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.А. Грюнштейн	R.A. Gryunshtein	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.Г. Миндель	R.G. Mindel	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.И. Тодорской	R.I. Todorskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.И. Эйхе	R.I. Eikhe	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.П. Катаняна	R.P. Katanyana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Р.Ф. Брамбилло	R.F. Brambillo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Асилова	S.A. Asilova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Бабенко	S.A. Babenko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Посвольского	S.A. Posvolskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Раевского	S.A. Raevskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Розентретера	S.A. Rozentretera	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Руднева	S.A. Rudneva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Саркисова	S.A. Sarkisova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Туровского	S.A. Turovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.А. Шахиджанян	S.A. Shakhidzhanyan	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.В. Мрачковском	S.V. Mrachkovskom	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.В. Носова	S.V. Nosova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.В. Слащева	S.V. Slashcheva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Г. Виноградова	S.G. Vinogradova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Г. Гродзенского	S.G. Grodzenskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Г. Семенова	S.G. Semenova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Г. Томсинского	S.G. Tomsinskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Е. Эйдмана	S.E. Eidmana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.И. Кавтарадзе	S.I. Kavtaradze	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Л. Кривоноса	S.L. Krivonosa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Л. Свирского	S.L. Svirskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.М. Житомирского	S.M. Zhitomirskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.М. Тамаркина	S.M. Tamarkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Н. Бограчева	S.N. Bogracheva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Н. Бограчевым	S.N. Bograchevym	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Н. Седых	S.N. Sedykh	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Н. Цыбульника	S.N. Tsybulnika	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.О. Акопьяна	S.O. Akopyana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.П. Раевского	S.P. Raevskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.П. Распевакина	S.P. Raspevakina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.П. Терихова	S.P. Terikhova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.С. Раввы	S.S. Ravvy	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Т. Узданского	S.T. Uzdanskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Ф. Васильченко	S.F. Vasilchenko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+С.Ф. Гелашвили	S.F. Gelashvili	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Т.В. Мешковского	T.V. Meshkovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.А. Ксенофонтова	F.A. Ksenofontova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.В. Кипарисова	F.V. Kiparisova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.В. Медведева	F.V. Medvedeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.В. Яблонской	F.V. Yablonskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.Г. Наливайко	F.G. Nalivaiko	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.Д. Корнюшина	F.D. Kornyushina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.И. Мерзликина	F.I. Merzlikina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.И. Музыки	F.I. Muzyki	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.И. Никогда	F.I. Nikogda	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.И. Шубина	F.I. Shubina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.К. Розенбаха	F.K. Rozenbakha	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.П. Медведева	F.P. Medvedeva	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.П. Швальбе	F.P. Shvalbe	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ф.Ф. Иоэльсон	F.F. Ioelson	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Х.А. Лившиц	Kh.A. Livshits	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ш.М. Дволайцкого	Sh.M. Dvolaitskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.Г. Лейкина	E.G. Leikina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.З. Гольденберга	E.Z. Goldenberga	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.К. Константа	E.K. Konstanta	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.Н. Адунской	E.N. Adunskoi	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Э.Р. Петерсон	E.R. Peterson	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.Г. Островского	Yu.G. Ostrovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.Д. Урусова	Yu.D. Urusova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.И. Дуката	Yu.I. Dukata	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.Р. Закгейма	Yu.R. Zakgeima	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Ю.С. Фридлянда	Yu.S. Fridlyanda	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.А. Лившицем	Ya.A. Livshitsem	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.В. Апушкина	Ya.V. Apushkina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.И. Зайдмана	Ya.I. Zaidmana	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.К. Яглома	Ya.K. Yagloma	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.М. Урановского	Ya.M. Uranovskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.П. Гальперина	Ya.P. Galperina	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.П. Новикова	Ya.P. Novikova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Ф. Городецкого	Ya.F. Gorodetskogo	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Ф. Шарова	Ya.F. Sharova	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Х. Петерса	Ya.Kh. Petersa	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Э. Рудзутаку	Ya.E. Rudzutaku	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Э. Стэна	Ya.E. Stena	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary
+Я.Ю. Харита	Ya.Yu. Kharita	people	person_name	low	1	auto_transliterated_needs_review	low		automatic transliteration seed; human review recommended before production glossary

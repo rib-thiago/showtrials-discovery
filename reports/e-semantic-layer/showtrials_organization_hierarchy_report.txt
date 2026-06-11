@@ -1,0 +1,23 @@
+ShowTrials organization hierarchy
+
+Organizations loaded: 25
+Hierarchy rows: 9
+Review rows: 1
+Missing rows: 1
+
+Hierarchy:
+high	ЦК ВКП(б)	→	ВКП(б)	central_committee_of	known_party_structure
+high	Политбюро	→	ЦК ВКП(б)	political_bureau_of	known_party_structure
+medium	КПК	→	ЦК ВКП(б)	party_control_body_of	party_control_body
+high	КПК при ЦК ВКП(б)	→	ЦК ВКП(б)	party_control_body_of	name_contains_parent
+high	Горьковский крайком ВКП(б)	→	ВКП(б)	regional_committee_of	name_contains_party
+high	ГУГБ	→	НКВД	main_directorate_of	known_security_structure
+high	ИНО ГУГБ	→	ГУГБ	department_of	name_contains_parent
+high	ОО ГУГБ НКВД	→	ГУГБ	department_of	name_contains_parent
+high	Секретариат ЦИК СССР	→	ЦИК СССР	secretariat_of	name_contains_parent
+
+Manual review suggested:
+КПК	→	ЦК ВКП(б)	party_control_body_of	medium
+
+Missing organizations:
+УНКВД СССР по Горькраю	→	НКВД

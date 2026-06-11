@@ -1,0 +1,27 @@
+ShowTrials document type v1/v2 comparison
+
+Compared documents: 2179
+Changed documents: 137
+
+Transitions:
+41	unknown	→	testimony
+28	statement	→	special_report
+15	unknown	→	list
+12	unknown	→	letter
+7	unknown	→	summary
+4	memo_note	→	letter
+4	unknown	→	draft_project
+4	unknown	→	explanation
+3	unknown	→	decree_resolution
+3	unknown	→	indictment
+3	unknown	→	plan_instruction
+2	unknown	→	plea_pardon
+2	unknown	→	questionnaire_response
+2	unknown	→	speech
+1	memo_note	→	session_transcript
+1	unknown	→	data_extract
+1	unknown	→	program
+1	unknown	→	prosecutor_announcement
+1	unknown	→	search_protocol
+1	unknown	→	session_transcript
+1	verdict_or_sentence	→	list

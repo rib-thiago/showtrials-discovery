@@ -1,0 +1,6 @@
+layer	source_file	source_field	glossary_kind	priority	translation_policy	notes
+people	showtrials_literal_people.tsv	person	person_name	high	curated_english_name_or_transliteration	Top frequent people first; avoid automatic translation of names.
+organizations	showtrials_organizations.tsv	organization	organization	high	canonical_acronym_or_historical_english_name	NKVD/GUGB/VKP(b)/Central Committee/Politburo need stable forms.
+processes	showtrials_processes.tsv	process	process_name	high	short_canonical_english_label	Use stable labels such as August 1936 Trial, January 1937 Trial, March 1938 Trial.
+roles	showtrials_roles_v2.tsv	role	role_or_label	medium	curated_term_translation	Separate office positions from political/accusatory labels.
+document_types	showtrials_document_types_v4.tsv	document_type	internal_document_type	low	internal_label_only	Mostly for UI/reporting, not necessarily for Google glossary.

@@ -1,0 +1,26 @@
+ShowTrials entity anomalies diagnosis
+
+People loaded: 794
+People anomaly rows: 0
+Taxonomy anomaly rows: 11
+
+Person anomaly flags:
+
+Taxonomy anomaly flags:
+7	near_duplicate_candidate
+4	single_document_term
+
+Top person anomalies:
+
+Top taxonomy anomalies:
+collection	1	single_document_term	СПРАВКИ КПК И ИМЛ
+category	434	near_duplicate_candidate	Материалы следствия 1937	~ Материалы следствия 1938 (0.9583)
+category	370	near_duplicate_candidate	Материалы следствия 1936	~ Материалы следствия 1938 (0.9583)
+category	370	near_duplicate_candidate	Материалы следствия 1936	~ Материалы следствия 1937 (0.9583)
+category	47	near_duplicate_candidate	Другие документы 1936	~ Другие документы 1938 (0.9524)
+category	47	near_duplicate_candidate	Другие документы 1936	~ Другие документы 1937 (0.9524)
+category	34	near_duplicate_candidate	Другие документы 1937	~ Другие документы 1938 (0.9524)
+category	15	near_duplicate_candidate	Стенограмма 1936	~ Стенограмма 1937 (0.9375)
+tag	1	single_document_term	Moscow
+tag	1	single_document_term	Уралвагонстрой
+tag	1	single_document_term	прав

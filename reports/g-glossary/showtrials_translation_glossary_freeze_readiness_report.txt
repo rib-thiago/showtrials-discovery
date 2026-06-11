@@ -1,0 +1,34 @@
+ShowTrials translation glossary freeze readiness
+
+Glossary rows: 892
+Review rows: 66
+People approved: 89/794
+People approved share: 0.112
+
+Rows by status:
+approved	187
+auto_normalized_needs_review	430
+auto_transliterated_needs_review	275
+
+Rows by historical tier:
+	25
+not_person	73
+tier1_core_or_high_frequency	16
+tier2_significant	24
+tier2_unresolved	1
+tier3_high_org_context	18
+tier3_review_if_needed	35
+tier4_auto_ok	700
+
+Freeze checks:
+OK	organizations	all organizations approved	freeze organization layer
+OK	processes	all processes approved	freeze process layer
+OK	high_frequency_people	all people with >=20 docs approved	acceptable for pilot
+WARN	medium_frequency_people	1 people with >=10 docs unapproved	review if time allows before broad translation
+WARN	semantic_roles	4 political/accusatory labels need policy review	decide whether current English labels are acceptable
+
+Remaining people >=10 docs:
+13	Е.К. Мухановой	→	E.K. Mukhanov	person_10plus_docs_unresolved
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_glossary_freeze_readiness.tsv

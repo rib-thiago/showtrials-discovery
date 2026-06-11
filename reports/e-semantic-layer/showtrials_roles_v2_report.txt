@@ -1,0 +1,44 @@
+ShowTrials roles v2
+
+Roles: 29
+
+Role classes:
+5129	office_position
+1964	political_label
+1690	generic_membership
+516	trial_role
+381	generic_staff
+278	generic_representative
+222	accusatory_or_intelligence_label
+58	accusatory_label
+
+Roles:
+58	accusatory_label	вредитель	signal=no
+222	accusatory_or_intelligence_label	агент	signal=no
+1482	generic_membership	член	signal=no
+208	generic_membership	кандидат	signal=no
+278	generic_representative	представитель	signal=no
+381	generic_staff	сотрудник	signal=no
+988	office_position	секретарь	signal=yes
+667	office_position	комиссар	signal=yes
+639	office_position	руководитель	signal=yes
+530	office_position	нарком	signal=yes
+506	office_position	начальник	signal=yes
+380	office_position	директор	signal=yes
+361	office_position	председатель	signal=yes
+283	office_position	заместитель	signal=yes
+172	office_position	редактор	signal=yes
+119	office_position	прокурор	signal=yes
+119	office_position	следователь	signal=yes
+88	office_position	посол	signal=yes
+83	office_position	адвокат	signal=yes
+69	office_position	полпред	signal=yes
+49	office_position	наркомвнудел	signal=yes
+44	office_position	корреспондент	signal=yes
+31	office_position	судья	signal=yes
+1	office_position	секретарь_суда	signal=yes
+1357	political_label	троцкист	signal=no
+607	political_label	правый	signal=no
+347	trial_role	обвиняемый	signal=yes
+95	trial_role	свидетель	signal=yes
+74	trial_role	подсудимый	signal=yes

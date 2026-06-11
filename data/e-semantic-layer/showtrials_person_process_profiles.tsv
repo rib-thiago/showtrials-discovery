@@ -1,0 +1,795 @@
+person	total_process_documents	process_count	process_kind_count	top_process	top_process_document_count	top_process_share	process_distribution	process_kind_distribution	interpretation_note
+Сталин	520	7	3	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	242	0.4654	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:242 | ПРОЦЕСС 2-12 МАРТА 1938 г.:144 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:88 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:32 | КРЕМЛЕВСКОЕ ДЕЛО:11 | ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2 | РАЗНЫЕ ДОКУМЕНТЫ:1	major_show_trial:474 | related_case:45 | misc:1	process_profile_from_document_cooccurrence
+Ежов	466	7	3	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	257	0.5515	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:257 | ПРОЦЕСС 2-12 МАРТА 1938 г.:84 | КРЕМЛЕВСКОЕ ДЕЛО:62 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:57 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3 | ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2 | РАЗНЫЕ ДОКУМЕНТЫ:1	major_show_trial:398 | related_case:67 | misc:1	process_profile_from_document_cooccurrence
+Г.Г. Ягода	158	6	3	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	83	0.5253	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:83 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:48 | КРЕМЛЕВСКОЕ ДЕЛО:13 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:8 | ПРОЦЕСС 2-12 МАРТА 1938 г.:5 | РАЗНЫЕ ДОКУМЕНТЫ:1	major_show_trial:136 | related_case:21 | misc:1	process_profile_from_document_cooccurrence
+Ольберг	94	2	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	93	0.9894	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:93 | СТАТЬИ:1	major_show_trial:93 | articles:1	process_profile_from_document_cooccurrence
+Седов	78	3	3	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	46	0.5897	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:46 | ТРОЦКИЙ:31 | КРЕМЛЕВСКОЕ ДЕЛО:1	major_show_trial:46 | person_dossier:31 | related_case:1	process_profile_from_document_cooccurrence
+Агранов	74	7	3	КРЕМЛЕВСКОЕ ДЕЛО	37	0.5	КРЕМЛЕВСКОЕ ДЕЛО:37 | ПРОЦЕСС 2-12 МАРТА 1938 г.:19 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:7 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4 | ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2 | РАЗНЫЕ ДОКУМЕНТЫ:1	related_case:43 | major_show_trial:30 | misc:1	process_profile_from_document_cooccurrence
+Бухарин	73	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	72	0.9863	ПРОЦЕСС 2-12 МАРТА 1938 г.:72 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:73	process_profile_from_document_cooccurrence
+Зиновьев	50	5	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	35	0.7	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:35 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:11 | КРЕМЛЕВСКОЕ ДЕЛО:2 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	related_case:37 | major_show_trial:13	process_profile_from_document_cooccurrence
+Л.В. Николаева	43	2	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	42	0.9767	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:42 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:43	process_profile_from_document_cooccurrence
+Г.Е. Прокофьева	33	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	33	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:33	major_show_trial:33	process_profile_from_document_cooccurrence
+Г.И. Сафарова	32	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	31	0.9688	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:31 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	related_case:31 | major_show_trial:1	process_profile_from_document_cooccurrence
+Л.Д. Троцкий	28	2	2	ТРОЦКИЙ	15	0.5357	ТРОЦКИЙ:15 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:13	person_dossier:15 | major_show_trial:13	process_profile_from_document_cooccurrence
+Каменев	26	3	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	17	0.6538	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:17 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5 | КРЕМЛЕВСКОЕ ДЕЛО:4	related_case:21 | major_show_trial:5	process_profile_from_document_cooccurrence
+Радек	25	3	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	23	0.92	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:23 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:25	process_profile_from_document_cooccurrence
+Пятаков	22	3	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	20	0.9091	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:20 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:22	process_profile_from_document_cooccurrence
+Е.В. Цетлина	20	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	19	0.95	ПРОЦЕСС 2-12 МАРТА 1938 г.:19 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:20	process_profile_from_document_cooccurrence
+Рыков	18	3	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	11	0.6111	ПРОЦЕСС 2-12 МАРТА 1938 г.:11 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:18	process_profile_from_document_cooccurrence
+Сокольников	18	3	2	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	15	0.8333	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:15 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:16 | related_case:2	process_profile_from_document_cooccurrence
+Дмитриев	17	3	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	9	0.5294	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:9 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:7 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:10 | related_case:7	process_profile_from_document_cooccurrence
+Н.А. Розенфельд	16	1	1	КРЕМЛЕВСКОЕ ДЕЛО	16	1.0	КРЕМЛЕВСКОЕ ДЕЛО:16	related_case:16	process_profile_from_document_cooccurrence
+Членов	14	4	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	10	0.7143	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:10 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	related_case:10 | major_show_trial:4	process_profile_from_document_cooccurrence
+Г.Е. Евдокимова	14	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	12	0.8571	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:12 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	related_case:12 | major_show_trial:2	process_profile_from_document_cooccurrence
+В.А. Балицкого	13	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	11	0.8462	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:11 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:13	process_profile_from_document_cooccurrence
+И.П. Бакаева	13	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	10	0.7692	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:10 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	related_case:10 | major_show_trial:3	process_profile_from_document_cooccurrence
+Е.К. Мухановой	13	1	1	КРЕМЛЕВСКОЕ ДЕЛО	13	1.0	КРЕМЛЕВСКОЕ ДЕЛО:13	related_case:13	process_profile_from_document_cooccurrence
+И.И. Котолынова	13	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	13	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:13	related_case:13	process_profile_from_document_cooccurrence
+В.В. Румянцева	12	2	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	10	0.8333	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:10 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:12	process_profile_from_document_cooccurrence
+Г.Б. Синани-Скалов	12	2	2	КРЕМЛЕВСКОЕ ДЕЛО	11	0.9167	КРЕМЛЕВСКОЕ ДЕЛО:11 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	related_case:11 | major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Ф. Попова	12	2	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	11	0.9167	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:11 | ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:12	process_profile_from_document_cooccurrence
+А.И. Анишева	12	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	12	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:12	related_case:12	process_profile_from_document_cooccurrence
+И.С. Горшенина	12	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	12	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:12	related_case:12	process_profile_from_document_cooccurrence
+Л.М. Каганович	11	4	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	0.3636	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:8 | related_case:3	process_profile_from_document_cooccurrence
+А.М. Гертика	11	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	10	0.9091	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:10 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	related_case:10 | major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Рейнгольда	11	2	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	10	0.9091	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:10 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	major_show_trial:10 | related_case:1	process_profile_from_document_cooccurrence
+М.К. Чернявского	11	1	1	КРЕМЛЕВСКОЕ ДЕЛО	11	1.0	КРЕМЛЕВСКОЕ ДЕЛО:11	related_case:11	process_profile_from_document_cooccurrence
+М.М. Харитонова	11	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	11	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:11	related_case:11	process_profile_from_document_cooccurrence
+Н.В. Голубенко	11	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	11	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:11	major_show_trial:11	process_profile_from_document_cooccurrence
+А.Я. Вышинский	10	4	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	5	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	major_show_trial:9 | related_case:1	process_profile_from_document_cooccurrence
+Н.С. Антонова	10	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	10	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:10	related_case:10	process_profile_from_document_cooccurrence
+П.А. Николаева	10	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	10	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:10	related_case:10	process_profile_from_document_cooccurrence
+Смирнов	10	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	10	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:10	major_show_trial:10	process_profile_from_document_cooccurrence
+М.Н. Яковлева	9	3	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	6	0.6667	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:6 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	related_case:6 | major_show_trial:3	process_profile_from_document_cooccurrence
+Т.И. Глебовой	9	3	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	0.5556	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5 | КРЕМЛЕВСКОЕ ДЕЛО:2 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	related_case:7 | major_show_trial:2	process_profile_from_document_cooccurrence
+Б.Н. Сахова	9	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	8	0.8889	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:8 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	related_case:8 | major_show_trial:1	process_profile_from_document_cooccurrence
+Киров	9	2	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	8	0.8889	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:8 | КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:9	process_profile_from_document_cooccurrence
+Б.Л. Браво	9	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	9	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:9	related_case:9	process_profile_from_document_cooccurrence
+В.А. Барута	9	1	1	КРЕМЛЕВСКОЕ ДЕЛО	9	1.0	КРЕМЛЕВСКОЕ ДЕЛО:9	related_case:9	process_profile_from_document_cooccurrence
+В.И. Звездова	9	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	9	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:9	related_case:9	process_profile_from_document_cooccurrence
+В.С. Левина	9	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	9	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:9	related_case:9	process_profile_from_document_cooccurrence
+К.К. Муханова	9	1	1	КРЕМЛЕВСКОЕ ДЕЛО	9	1.0	КРЕМЛЕВСКОЕ ДЕЛО:9	related_case:9	process_profile_from_document_cooccurrence
+М.А. Нырчука	9	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	9	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:9	major_show_trial:9	process_profile_from_document_cooccurrence
+Г.А. Молчанова	8	3	2	ПРОЦЕСС 2-12 МАРТА 1938 г.	4	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:4 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	major_show_trial:7 | related_case:1	process_profile_from_document_cooccurrence
+Астров	8	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	7	0.875	ПРОЦЕСС 2-12 МАРТА 1938 г.:7 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:8	process_profile_from_document_cooccurrence
+М.Ф. Шкирятову	8	2	2	КРЕМЛЕВСКОЕ ДЕЛО	7	0.875	КРЕМЛЕВСКОЕ ДЕЛО:7 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	related_case:7 | major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Толмазова	8	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	8	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:8	related_case:8	process_profile_from_document_cooccurrence
+А.С. Енукидзе	8	1	1	КРЕМЛЕВСКОЕ ДЕЛО	8	1.0	КРЕМЛЕВСКОЕ ДЕЛО:8	related_case:8	process_profile_from_document_cooccurrence
+Г.Ф. Федорова	8	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	8	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:8	related_case:8	process_profile_from_document_cooccurrence
+И.Г. Юскина	8	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	8	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:8	related_case:8	process_profile_from_document_cooccurrence
+И.И. Тарасова	8	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	8	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:8	related_case:8	process_profile_from_document_cooccurrence
+Н.И. Мухина	8	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	8	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:8	major_show_trial:8	process_profile_from_document_cooccurrence
+С.В. Мрачковский	8	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	8	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:8	major_show_trial:8	process_profile_from_document_cooccurrence
+С.М. Гессена	8	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	8	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:8	related_case:8	process_profile_from_document_cooccurrence
+А.С. Куклина	7	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	7	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:7	related_case:7	process_profile_from_document_cooccurrence
+В.В. Кузьмина	7	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	7	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:7	major_show_trial:7	process_profile_from_document_cooccurrence
+В.М. Попова	7	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	7	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:7	major_show_trial:7	process_profile_from_document_cooccurrence
+В.Ф. Логинова	7	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	7	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:7	major_show_trial:7	process_profile_from_document_cooccurrence
+Е.А. Дрейцера	7	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	7	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:7	major_show_trial:7	process_profile_from_document_cooccurrence
+И.А. Мусульбаса	7	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	7	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:7	major_show_trial:7	process_profile_from_document_cooccurrence
+М.В. Королькова	7	1	1	КРЕМЛЕВСКОЕ ДЕЛО	7	1.0	КРЕМЛЕВСКОЕ ДЕЛО:7	related_case:7	process_profile_from_document_cooccurrence
+Н.П. Мясникова	7	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	7	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:7	related_case:7	process_profile_from_document_cooccurrence
+Ф.Ф. Фадеева	7	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	7	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:7	related_case:7	process_profile_from_document_cooccurrence
+Л.З. Мехлиса	6	3	2	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	0.6667	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4 | КРЕМЛЕВСКОЕ ДЕЛО:1 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:5 | related_case:1	process_profile_from_document_cooccurrence
+Е.Ф. Куликова	6	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	5	0.8333	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:5 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:6	process_profile_from_document_cooccurrence
+Молотов	6	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	5	0.8333	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:6	process_profile_from_document_cooccurrence
+Н.А. Угланова	6	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	5	0.8333	ПРОЦЕСС 2-12 МАРТА 1938 г.:5 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:6	process_profile_from_document_cooccurrence
+С.А. Чихладзе	6	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	5	0.8333	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:5 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:6	process_profile_from_document_cooccurrence
+Я.Р. Ельковича	6	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	0.6667	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	related_case:4 | major_show_trial:2	process_profile_from_document_cooccurrence
+А.Ф. Шараповой	6	1	1	КРЕМЛЕВСКОЕ ДЕЛО	6	1.0	КРЕМЛЕВСКОЕ ДЕЛО:6	related_case:6	process_profile_from_document_cooccurrence
+В.А. Виноградова	6	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	6	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:6	related_case:6	process_profile_from_document_cooccurrence
+В.В. Глухенко	6	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	6	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Г.М. Аркуса	6	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	6	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Д.А. Шмидта	6	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	6	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Д.Н. Ширяева	6	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	6	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:6	related_case:6	process_profile_from_document_cooccurrence
+З.И. Давыдовой	6	1	1	КРЕМЛЕВСКОЕ ДЕЛО	6	1.0	КРЕМЛЕВСКОЕ ДЕЛО:6	related_case:6	process_profile_from_document_cooccurrence
+И.К. Наумова	6	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	6	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:6	related_case:6	process_profile_from_document_cooccurrence
+И.М. Гуревича	6	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	6	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Л.Я. Файвиловича	6	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	6	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:6	related_case:6	process_profile_from_document_cooccurrence
+М.М. Киллерога	6	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	6	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Н.И. Бураго	6	1	1	КРЕМЛЕВСКОЕ ДЕЛО	6	1.0	КРЕМЛЕВСКОЕ ДЕЛО:6	related_case:6	process_profile_from_document_cooccurrence
+П.И. Бескиной	6	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	6	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Троцкий	6	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	6	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:6	major_show_trial:6	process_profile_from_document_cooccurrence
+Л.С. Сосновского	5	3	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	0.6	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:5	process_profile_from_document_cooccurrence
+В.А. Яковлева	5	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	0.6	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3 | ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:5	process_profile_from_document_cooccurrence
+Л.Ф. Дитятевой	5	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	0.8	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:5	process_profile_from_document_cooccurrence
+М.В. Поздеевой	5	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	0.8	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	related_case:4 | major_show_trial:1	process_profile_from_document_cooccurrence
+А.А. Шестова	5	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	5	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+А.В. Перимова	5	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+А.Н. Сафоновой	5	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	5	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+А.Н. Слепкова	5	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	5	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+А.П. Костиной	5	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+А.Ю. Айхенвальда	5	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	5	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+А.Ю. Тивеля	5	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	5	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+Б.Н. Розенфельда	5	1	1	КРЕМЛЕВСКОЕ ДЕЛО	5	1.0	КРЕМЛЕВСКОЕ ДЕЛО:5	related_case:5	process_profile_from_document_cooccurrence
+В.И. Козырева	5	1	1	КРЕМЛЕВСКОЕ ДЕЛО	5	1.0	КРЕМЛЕВСКОЕ ДЕЛО:5	related_case:5	process_profile_from_document_cooccurrence
+В.Я. Головский-Голощапов	5	1	1	КРЕМЛЕВСКОЕ ДЕЛО	5	1.0	КРЕМЛЕВСКОЕ ДЕЛО:5	related_case:5	process_profile_from_document_cooccurrence
+Г.В. Соколова	5	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+И.С. Горшениным	5	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+М.С. Рэма	5	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+Н.А. Царькова	5	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+Н.Б. Розенфельда	5	1	1	КРЕМЛЕВСКОЕ ДЕЛО	5	1.0	КРЕМЛЕВСКОЕ ДЕЛО:5	related_case:5	process_profile_from_document_cooccurrence
+П.А. Коваленко	5	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	5	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+Шемелев	5	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	5	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+Я.В. Шарова	5	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	5	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:5	related_case:5	process_profile_from_document_cooccurrence
+Я.С. Розанова	5	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	5	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5	major_show_trial:5	process_profile_from_document_cooccurrence
+К.Е. Ворошилова	4	4	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.25	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	major_show_trial:3 | related_case:1	process_profile_from_document_cooccurrence
+И.Т. Смилги	4	3	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	0.5	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	related_case:2 | major_show_trial:2	process_profile_from_document_cooccurrence
+М.П. Томского	4	3	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:4	process_profile_from_document_cooccurrence
+М.С. Богуславского	4	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	0.75	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:4	process_profile_from_document_cooccurrence
+Н.А. Карева	4	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	0.75	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:4	process_profile_from_document_cooccurrence
+С.Х. Варданиана	4	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	0.75	ПРОЦЕСС 2-12 МАРТА 1938 г.:3 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:4	process_profile_from_document_cooccurrence
+А.А. Мусатова	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+А.А. Трояновского	4	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+А.В. Герцберга	4	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+А.Г. Колодина	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+А.И. Александрова	4	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+Б.А. Кушнера	4	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+В.В. Осинского	4	1	1	КРЕМЛЕВСКОЕ ДЕЛО	4	1.0	КРЕМЛЕВСКОЕ ДЕЛО:4	related_case:4	process_profile_from_document_cooccurrence
+В.В. Шмидта	4	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	4	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+В.Г. Дорошина	4	1	1	КРЕМЛЕВСКОЕ ДЕЛО	4	1.0	КРЕМЛЕВСКОЕ ДЕЛО:4	related_case:4	process_profile_from_document_cooccurrence
+В.Д. Миронова	4	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+Г.Е. Евдокимовым	4	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+Г.Л. Хасина	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+Д.Л. Игнатюка	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+Е.Ю. Раевской	4	1	1	КРЕМЛЕВСКОЕ ДЕЛО	4	1.0	КРЕМЛЕВСКОЕ ДЕЛО:4	related_case:4	process_profile_from_document_cooccurrence
+З.А. Ашрафяна	4	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+З.М. Беленького	4	1	1	КРЕМЛЕВСКОЕ ДЕЛО	4	1.0	КРЕМЛЕВСКОЕ ДЕЛО:4	related_case:4	process_profile_from_document_cooccurrence
+И.А. Князева	4	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+И.И. Горовича	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+И.И. Трусова	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+И.Ф. Касперского	4	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+Л.В. Николаевым	4	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+Л.И. Сосицкого	4	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+М.С. Строилова	4	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+Р.В. Пикеля	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+Р.М. Кулишера	4	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	4	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:4	related_case:4	process_profile_from_document_cooccurrence
+Э.С. Гольцмана	4	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	4	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+Я.А. Лившица	4	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	4	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:4	major_show_trial:4	process_profile_from_document_cooccurrence
+А.А. Андрееву	3	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	0.6667	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+Б.Г. Козелева	3	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	0.6667	ПРОЦЕСС 2-12 МАРТА 1938 г.:2 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+В.В. Румянцевым	3	2	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	0.6667	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:3	process_profile_from_document_cooccurrence
+В.Г. Яковенко	3	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	0.6667	ПРОЦЕСС 2-12 МАРТА 1938 г.:2 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+Г.К. Орджоникидзе	3	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	0.6667	ПРОЦЕСС 2-12 МАРТА 1938 г.:2 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+Г.Ф. Овчинникова	3	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	0.6667	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+И.Н. Маевского	3	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	0.6667	ПРОЦЕСС 2-12 МАРТА 1938 г.:2 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+И.П. Бакаевым	3	2	2	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	0.6667	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	related_case:2 | major_show_trial:1	process_profile_from_document_cooccurrence
+К.Н. Лукницкого	3	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	0.6667	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+М.С. Окуджавы	3	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	0.6667	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.Н. Крестинского	3	2	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	0.6667	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.Н. Шатским	3	2	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	0.6667	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:3	process_profile_from_document_cooccurrence
+А.А. Докучаева	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+А.Е. Авдеевой	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+А.Е. Кожуро	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+А.И. Биркенгофа	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+А.И. Кармалитова	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+А.И. Коновой	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+А.И. Синелобова	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+А.К. Середохина	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+А.М. Лариной	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+А.Х. Кантора	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+А.Я. Свердлова	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+Б.И. Кузьмичева	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Б.М. Нижника	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Б.М. Оберталлера	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+В.А. Тер-Ваганян	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+В.Г. Белова	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+В.Д. Каспаровой	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+В.П. Потемкина	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Г.Е. Горбачева	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+Г.И. Сафаровым	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+Г.М. Артеменко	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Д.П. Марецкого	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Е.А. Петровой	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+Е.К. Коршунова	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+З.И. Пелевиной	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+И.Д. Турока	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+И.И. Бурлакова	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+И.И. Котолыновым	3	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+И.К. Федотова	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+К.И. Синелобовой	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+Л.А. Лаврентьева	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Л.Г. Лелевича	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+Л.И. Гасвиани	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Л.М. Марьясина	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Л.О. Ханика	3	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+Л.П. Серебрякова	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Л.П. Серебряковым	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+М.В. Бурштейном	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+М.И. Лурье	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+М.Л. Быховского	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+М.О. Зюка	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+М.П. Жакова	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.И. Гордона	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.И. Москалева	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.М. Лукина-Бухарина	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.П. Глебов-Авилов	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.П. Михетко	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Н.П. Мясниковым	3	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+Н.С. Антоновым	3	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+П.А. Залуцкого	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+П.И. Гордеевой	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+П.Ф. Зайцева	3	1	1	КРЕМЛЕВСКОЕ ДЕЛО	3	1.0	КРЕМЛЕВСКОЕ ДЕЛО:3	related_case:3	process_profile_from_document_cooccurrence
+П.Ф. Сапожникова	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+П.Э. Роцкана	3	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	3	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:3	related_case:3	process_profile_from_document_cooccurrence
+С.И. Лукашика	3	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	3	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+С.Я. Шаева	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Ф.А. Горбуновой	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Х.Г. Гуревича	3	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	3	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Х.Г. Раковского	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Ю.М. Коцюбинского	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Я.Н. Вечерковского	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+Я.Н. Дробниса	3	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	3	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:3	major_show_trial:3	process_profile_from_document_cooccurrence
+А.В. Галкина	2	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+А.Д. Зайцева	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+А.И. Стецкого	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+А.М. Зорина	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+В.А. Котова	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+В.Д. Вуйовича	2	2	1	КРЕМЛЕВСКОЕ ДЕЛО	1	0.5	КРЕМЛЕВСКОЕ ДЕЛО:1 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:2	process_profile_from_document_cooccurrence
+В.М. Примакова	2	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+В.Н. Яковлевой	2	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+Д.З. Мануильскому	2	2	2	КРЕМЛЕВСКОЕ ДЕЛО	1	0.5	КРЕМЛЕВСКОЕ ДЕЛО:1 | ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	related_case:1 | major_show_trial:1	process_profile_from_document_cooccurrence
+Д.П. Бухарцева	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+Е.А. Афанасьева	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+К.С. Дорофеева	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.А. Шацкина	2	2	2	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	major_show_trial:1 | related_case:1	process_profile_from_document_cooccurrence
+Л.Д. Гогоберидзе	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.И. Сосицким	2	2	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	0.5	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1 | ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:2	process_profile_from_document_cooccurrence
+Л.П. Берии	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.С. Мамишвили-Мишкевич	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.С. Тер-Минасов	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+М.Ф. Постоловского	2	2	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	0.5	ПРОЦЕСС 2-12 МАРТА 1938 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+С.Г. Радомысльского	2	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+С.М. Закс-Гладнев	2	2	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	0.5	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1 | ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:2	process_profile_from_document_cooccurrence
+А.А. Бусыгина	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.А. Лаврентьева	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.А. Муштакова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+А.А. Хвыли	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.В. Луговой-Левенштейн	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.В. Румянцева	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+А.Д. Арефьева	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.И. Потяева	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.И. Юлина	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.М. Горькому	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+А.М. Гусева	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+А.М. Штейна	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.П. Загорулько	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.С. Куклиным	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+А.С. Соколова	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Б.И. Лехтмана	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Б.М. Таля	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.А. Ельчаниновой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+В.А. Закамалдина	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.В. Досекина	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.В. Папкова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.И. Звездовым	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+В.И. Невского	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.И. Пучкова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.И. Шипихина	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+В.М. Андреева	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.М. Рохинсона	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+В.Н. Голованова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.Н. Ракова	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+В.Н. Цатурова-Большакова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+В.Ф. Головина	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Г.А. Колоскова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Г.В. Соколовым	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Г.Е. Пушина	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Г.И. Шварца	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Г.Л. Шкловского	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Г.П. Поташникова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Г.С. Фридлянда	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Г.Я. Маренко	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Гавен	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Д.А. Карцева	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Д.И. Антипаса	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Д.И. Матвеева	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Д.С. Азбеля	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Д.Т. Шермергорна	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Е.В. Рогачевой	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Е.Д. Соколовой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Е.И. Майзлиной	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Е.М. Манюрин-Броварский	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Е.М. Рыбальченко	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Е.Н. Васильева	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Е.О. Симак	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Е.Р. Майера	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Е.С. Мишаковой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+З.В. Флоровой	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+З.Д. Ханик	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+И.А. Козина	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.Д. Гаврикова	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+И.Е. Коваленко	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.Е. Павлова	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+И.И. Тарасовым	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+И.М. Бык-Бек	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.Н. Стукова	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.О. Гольденберга	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.П. Крыженко	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.С. Михайлова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.С. Эстермана	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+И.Т. Ляшенко	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+К.А. Озола	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+К.Б. Берман-Юрин	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+К.И. Гидлевского	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+К.И. Грюнштейна	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+К.Н. Емельянова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+К.С. Модебадзе	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.А. Чернозубовой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Л.В. Когану	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.Е. Бурковой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Л.Е. Тамма	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.Е. Хосроева	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Л.И. Перельштейн	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Л.И. Пономарева	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.Н. Минервиной	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Л.С. Ассиновского	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Л.Х. Розенблюма	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.А. Жарикова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.Б. Черномордику	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+М.В. Михайлика	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.В. Муравьева	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+М.Г. Сафьянова	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.И. Новожилова	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+М.И. Сумецкого	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.М. Кудряшева	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.М. Чередниченко	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+М.Н. Рябинина	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+М.Т. Антонова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Н.Б. Скаловой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Н.В. Буинцева	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Н.И. Муралова	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Н.К. Магдарьева	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Н.Л. Лурье	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Н.М. Маторина	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Н.М. Насонова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Н.Н. Алексеева	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Н.Н. Мищенко	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Н.Н. Шатского	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+О.П. Дзениса	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+П.А. Липшица	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+П.Г. Петровского	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+П.К. Александрова	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+П.М. Репникова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+П.Н. Нечаева	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+П.П. Бурмистрова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+П.П. Северова	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+П.Ф. Полякова	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Пригожин	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Р.А. Петерсона	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Р.С. Беннет	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Радин	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+С.А. Гоглидзе	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+С.А. Ратайчаком	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+С.О. Мандельштама	2	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+С.П. Калашникова	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+С.П. Минаева	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+С.С. Зорина	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+С.Я. Бабахана	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Т.Г. Гатаулина	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Т.П. Денисовой	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Т.Р. Левиной	2	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	2	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Ф.Г. Иванова	2	1	1	КРЕМЛЕВСКОЕ ДЕЛО	2	1.0	КРЕМЛЕВСКОЕ ДЕЛО:2	related_case:2	process_profile_from_document_cooccurrence
+Ф.И. Вайсберга	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Э.Б. Абрамсона	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Ю.Б. Тартаковской	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Ю.М. Бочарова	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Я.А. Фуртичева	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Я.Д. Лейбмана	2	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	2	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Я.И. Богомольного	2	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	2	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:2	related_case:2	process_profile_from_document_cooccurrence
+Я.С. Розановым	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+Я.Я. Упмал-Ангарский	2	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	2	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:2	major_show_trial:2	process_profile_from_document_cooccurrence
+А.А. Абрамова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.А. Антипиной	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.А. Гардин-Гейер	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.А. Жданову	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.А. Израилитина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.А. Карпова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.А. Нелидовой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.А. Орловой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.А. Табанакова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.В. Бочарова	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.В. Дзедзиевского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.В. Перимовым	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.В. Травиной	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Г. Егорова	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.Г. Корчагиной	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.Г. Шляпникова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.Д. Арефьевым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Д. Бронштейне	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.З. Волкова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Анишевым	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.И. Бриггиса	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Витковского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Гальперина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Емшанова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Зильбермана	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.И. Муралова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Мячиной	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.И. Никитинской	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.И. Рамм-Пфемферт	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.И. Толмазовым	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.И. Уварова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.К. Бормана	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.К. Дрожжина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.К. Язовских	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Л. Голоступеца	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.Л. Леонтьева	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.М. Аркус	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.М. Березина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.М. Кашкина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.М. Луцука	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.М. Непомнящего	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.М. Попова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.М. Сосипатрова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.М. Ясюкевича	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Н. Барулина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Н. Бурова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Н. Маевского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Н. Панова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.Н. Поскребышеву	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+А.Н. Слепковым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Н. Фокина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.О. Альского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.О. Голлендера	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.П. Дьячкова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+А.П. Метальникова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.П. Удалова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.С. Булину	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.С. Оввян	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Ф. Кошелева	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Ф. Ульянова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Я. Аросеве	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+А.Я. Юскиной	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Б.А. Васильева	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Б.А. Двинскому	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.Г. Мдивани	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.Д. Берману	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.Е. Алдаданова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.Е. Барского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.З. Ливянта	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Б.Л. Колесникова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.Л. Лопатинского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Б.М. Беккера	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.О. Норкина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.П. Нестерова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.П. Нестеровым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.С. Рабиновича	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Б.Э. Раткая	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.А. Антонов-Овсеенко	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.А. Ваганяна	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.А. Сорокина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+В.А. Финашина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.В. Ломинадзе	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+В.В. Румянцнева	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+В.В. Ульриху	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Г. Лукина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+В.Д. Вуйовичем	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+В.Д. Томленова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Е. Цесарского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+В.И. Демченко	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.И. Клюшенкова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.К. Жарикова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.К. Клейна	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+В.К. Путны	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.К. Сотскова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+В.Л. Горохова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.М. Меерсона	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.М. Мулина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Н. Гутман	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Н. Слепкова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.П. Второва	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.П. Шевелев-Лубков	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Ф. Бейтельспахера	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Ф. Захариной	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Ф. Логиновым	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Ф. Степанова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+В.Я. Родака	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.А. Абрамова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.А. Татулова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.А. Татуловым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Б. Берндта	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Б. Либермана	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Г.Г. Матитайшвили	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Д. Арсентьева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Е. Меерсона	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.И. Исаева	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Г.И. Миронова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Г.И. Серебряковой	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.К. Фельдмана	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.М. Дрязгова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Г.М. Ивановой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Г.М. Маленкова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.М. Маленкову	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.М. Сыроквашева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.П. Адамяна	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.П. Вяткина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Р. Николаева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.С. Биткера	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.С. Герасимато	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.С. Зайделя	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.С. Люшкову	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.С. Тымянского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Т. Мясничкова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Ф. Самойловича	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Г.Ф. Федоровым	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Д.А. Аникина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Д.А. Аникиным	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Д.А. Сниткина	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.А. Сниткиным	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.А. Тайца	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.В. Полуяна	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Д.В. Сафронова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.М. Лупашко	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.П. Албанского	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Д.П. Розита	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.С. Гуревича	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.С. Зенцова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.С. Тайца	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.Ф. Бузина	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.Ф. Бузиным	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Д.Я. Александрова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.А. Кондратьевой	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Е.А. Преображенского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.Б. Федосеева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.В. Пикель	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.Г. Соловьевой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.И. Лакиды	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.И. Медкова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.И. Перлина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.М. Бочарова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.М. Дебрева	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.М. Пружанской	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.М. Ярославским	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Е.П. Рудневой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.С. Мельниковой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.Т. Тимофеева	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Е.Т. Черкасовой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.Ф. Ермолаевой	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Е.Ф. Куликовым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.Ф. Тойво-Пешина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Е.Э. Чернозубовой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Е.Я. Буклея	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+З.Е. Саркисьяна	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+З.И. Фридмана	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+З.Н. Гайдеровой	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+З.С. Синициной	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.А. Акулову	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+И.А. Данилова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.А. Мальгина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.А. Масленникова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.В. Больших	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+И.В. Вардин-Мгеладзе	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+И.В. Липковского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.В. Любина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+И.Г. Жестянникова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+И.Д. Зорина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.Е. Шмундака	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.З. Станкина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Граше	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Звады	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Койген	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Носкова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Петухова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Рейногльда	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Рыстика	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.И. Соловьева	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+И.К. Гогуа	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+И.М. Кедрова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.М. Майского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.М. Орловская-Мрачковская	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.М. Покатиловского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+И.М. Русанова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+И.Н. Дорошенко	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.Н. Зеликсона	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+И.Н. Миронова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.П. Лукьянова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+И.С. Кострицкого	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+И.Т. Жирова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.Ф. Серегина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.Ф. Флакса	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.Э. Якире	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+И.Я. Одыня	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.А. Апанасевича	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+К.А. Довганя	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.А. Оганесова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.В. Генераловой	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.В. Трофимова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.Д. Мучникова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.Д. Мучниковым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.Е. Дубовского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+К.К. Боштедта	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.К. Мухановым	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+К.М. Ерофицкого	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.М. Петухова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.Н. Афонина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+К.Ф. Лебедева	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+К.Я. Янсона	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.А. Воронова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Л.Г. Миронова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.И. Мадьяра	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Л.И. Мадьяром	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Л.К. Пелипейко	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Л.Л. Авербахе	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.М. Заковского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.М. Островской	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.П. Жашковой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Л.Ю. Брик	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.Я. Любарского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Л.Я. Нехамкина	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Л.Я. Файвиловичем	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.А. Житкова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.А. Москвину	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.А. Нариманова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.А. Розенцвейга	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.В. Борисова	1	1	1	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.В. Воротникова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.В. Дубовской	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.В. Келдыша	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.В. Кузнецова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Г. Грольмана	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Г. Короп	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Д. Багирова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Д. Кочетовой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.Е. Быстрова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.И. Ганштака	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.И. Гая	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.И. Калинину	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.И. Кахиани	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.И. Кащеева	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.И. Крушельницкого	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.И. Рябининой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.И. Томской	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.К. Мухановой	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.Л. Елина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Л. Левина	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.М. Домбровским	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.М. Карпова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.М. Литвинова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.М. Малинова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.М. Михайлова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.М. Оскольский-Финкельштейн	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.М. Харитоновым	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.Н. Авдеева	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.Н. Дьячкова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Н. Уфимцевой	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Н. Цинцадзе	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.П. Давыдова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.П. Луковского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.П. Прибыловского	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.П. Стремякова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.С. Голендо	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.С. Жалыбина-Быкова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+М.С. Панфилова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+М.С. Югова	1	1	1	РАЗНЫЕ ДОКУМЕНТЫ	1	1.0	РАЗНЫЕ ДОКУМЕНТЫ:1	misc:1	process_profile_from_document_cooccurrence
+М.Ф. Иоэльсона	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Х. Орлова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Я. Карпова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+М.Я. Презента	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Н.А. Бобылева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.А. Емельянова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Н.А. Королева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.А. Углановым	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.В. Комогорова	1	1	1	РАЗНЫЕ ДОКУМЕНТЫ	1	1.0	РАЗНЫЕ ДОКУМЕНТЫ:1	misc:1	process_profile_from_document_cooccurrence
+Н.Г. Андрейчука	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Г. Ольховского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Г. Туманова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Д. Зарицкого	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Е. Нилендера	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.И. Андреева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.И. Медникова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.И. Мильгевского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.И. Третьякова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.И. Трубиева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.К. Буянского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.М. Букалова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.М. Гальперина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Н. Ванага	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Н. Колотилина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Н. Соина	1	1	1	РАЗНЫЕ ДОКУМЕНТЫ	1	1.0	РАЗНЫЕ ДОКУМЕНТЫ:1	misc:1	process_profile_from_document_cooccurrence
+Н.П. Гаврилова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Р. Кикнадзе	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.С. Веритовой	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.С. Сычева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.С. Хрущева	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Н.Ф. Печерского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+О.А. Лидака	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+О.А. Мешковской	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+О.Ф. Янкуса	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.А. Бака	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+П.А. Коркину	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+П.А. Кравкова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.В. Чистову	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.Г. Орлова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.И. Бакаева	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.И. Жиромского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+П.И. Решетниченко	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.И. Шабалкина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.К. Башенкова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.Н. Кашина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.Н. Королева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.Н. Рокоса	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.П. Григорьева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.П. Северовым	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+П.Т. Богачева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+П.Ф. Поляковым	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Р.А. Грюнштейн	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Р.Г. Миндель	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Р.И. Тодорской	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Р.И. Эйхе	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Р.П. Катаняна	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Р.Ф. Брамбилло	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Асилова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Бабенко	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Посвольского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Раевского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Розентретера	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Руднева	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+С.А. Саркисова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Туровского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.А. Шахиджанян	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.В. Мрачковском	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.В. Носова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.В. Слащева	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Г. Виноградова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Г. Гродзенского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Г. Семенова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+С.Г. Томсинского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Е. Эйдмана	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.И. Кавтарадзе	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Л. Кривоноса	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Л. Свирского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.М. Житомирского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+С.М. Тамаркина	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Н. Бограчева	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+С.Н. Бограчевым	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+С.Н. Седых	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Н. Цыбульника	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+С.О. Акопьяна	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.П. Раевского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+С.П. Распевакина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.П. Терихова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+С.С. Раввы	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Т. Узданского	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+С.Ф. Васильченко	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+С.Ф. Гелашвили	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Т.В. Мешковского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.А. Ксенофонтова	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.В. Кипарисова	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.В. Медведева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.В. Яблонской	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.Г. Наливайко	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Ф.Д. Корнюшина	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.И. Мерзликина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.И. Музыки	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Ф.И. Никогда	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.И. Шубина	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.К. Розенбаха	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.П. Медведева	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.П. Швальбе	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ф.Ф. Иоэльсон	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Х.А. Лившиц	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ш.М. Дволайцкого	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Э.Г. Лейкина	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Э.З. Гольденберга	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Э.К. Константа	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Э.Н. Адунской	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Э.Р. Петерсон	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ю.Г. Островского	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ю.Д. Урусова	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Ю.И. Дуката	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ю.Р. Закгейма	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Ю.С. Фридлянда	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.А. Лившицем	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.В. Апушкина	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Я.И. Зайдмана	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.К. Яглома	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.М. Урановского	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.П. Гальперина	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.П. Новикова	1	1	1	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	1	1.0	ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.Ф. Городецкого	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.Ф. Шарова	1	1	1	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	1	1.0	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:1	related_case:1	process_profile_from_document_cooccurrence
+Я.Х. Петерса	1	1	1	КРЕМЛЕВСКОЕ ДЕЛО	1	1.0	КРЕМЛЕВСКОЕ ДЕЛО:1	related_case:1	process_profile_from_document_cooccurrence
+Я.Э. Рудзутаку	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.Э. Стэна	1	1	1	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	1	1.0	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence
+Я.Ю. Харита	1	1	1	ПРОЦЕСС 2-12 МАРТА 1938 г.	1	1.0	ПРОЦЕСС 2-12 МАРТА 1938 г.:1	major_show_trial:1	process_profile_from_document_cooccurrence

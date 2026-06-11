@@ -1,0 +1,38 @@
+D3.1A Attachment Taxonomy Normalization Report
+input_packages	/srv/projects/showtrials-discovery/showtrials_special_report_packages_d3_1.tsv
+attachment_matrix	/srv/projects/showtrials-discovery/showtrials_special_report_attachment_matrix.tsv
+taxonomy	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1a.tsv
+crosswalk	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv
+total_special_reports	526
+total_attachment_relations	655
+unique_attachment_types	8
+top_attachment_types
+interrogation_protocol	447	84.98%
+memo	53	10.08%
+theses	42	7.98%
+list	39	7.41%
+reference_note	37	7.03%
+unknown_attachment	28	5.32%
+diary	8	1.52%
+draft_project	1	0.19%
+top_combinations
+generic_attachment|interrogation_protocol	338
+generic_attachment	28
+generic_attachment|interrogation_protocol|list	24
+generic_attachment|interrogation_protocol|theses	22
+generic_attachment|interrogation_protocol|memo	22
+-	17
+generic_attachment|interrogation_protocol|reference_note	15
+generic_attachment|reference_note	9
+generic_attachment|interrogation_protocol|memo|reference_note	6
+generic_attachment|list|memo	5
+dominant_attachment_types
+interrogation_protocol	447	84.98%
+unknown_attachment	28	5.32%
+memo	16	3.04%
+reference_note	9	1.71%
+list	3	0.57%
+diary	3	0.57%
+theses	2	0.38%
+draft_project	1	0.19%
+policy	generic_attachment ignored as a document type; generic-only packages become unknown_attachment

@@ -1,0 +1,11 @@
+Chunking Blueprint v1 Report
+review_index	/srv/projects/showtrials-discovery/showtrials_structural_samples_d2_2_review_index.tsv
+d1_policy	/srv/projects/showtrials-discovery/showtrials_chunking_policy_recommendations_d1.tsv
+d2_by_type	/srv/projects/showtrials-discovery/showtrials_structural_chunking_d2_by_type.tsv
+blueprint	/srv/projects/showtrials-discovery/showtrials_chunking_blueprint_v1.tsv
+document_types	35
+manual_review_rows	35
+d2_rows_used	35
+false_positive_notes	3
+constraints	hard_max_chars capped at 5000; lexical Q/A detection is advisory only
+totals_from_d1	documents=2179	chars=27379787	estimated_chunks=10023	failures=0	warnings=0

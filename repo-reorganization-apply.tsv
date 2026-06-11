@@ -1,372 +1,372 @@
 current_path	proposed_path	status	notes
-.gitignore	.gitignore	dry_run	validated only; no files moved
-README.md	README.md	dry_run	validated only; no files moved
-apply-showtrials-auto-person-aliases.py	scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py	dry_run	validated only; no files moved
-apply-showtrials-known-truncated-person-aliases.py	scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py	dry_run	validated only; no files moved
-apply-showtrials-person-alias-decisions.py	scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py	dry_run	validated only; no files moved
-audit-showtrials-structural-samples-d2-1.py	scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py	dry_run	validated only; no files moved
-build-showtrials-canonical-people.py	scripts/e-semantic-layer/build-showtrials-canonical-people.py	dry_run	validated only; no files moved
-build-showtrials-literal-people-index.py	scripts/e-semantic-layer/build-showtrials-literal-people-index.py	dry_run	validated only; no files moved
-build-showtrials-organization-families.py	scripts/e-semantic-layer/build-showtrials-organization-families.py	dry_run	validated only; no files moved
-build-showtrials-organization-family-document-matrix.py	scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py	dry_run	validated only; no files moved
-build-showtrials-organization-hierarchy.py	scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py	dry_run	validated only; no files moved
-build-showtrials-organization-index.py	scripts/e-semantic-layer/build-showtrials-organization-index.py	dry_run	validated only; no files moved
-build-showtrials-people-index.py	scripts/e-semantic-layer/build-showtrials-people-index.py	dry_run	validated only; no files moved
-build-showtrials-person-centrality.py	scripts/e-semantic-layer/build-showtrials-person-centrality.py	dry_run	validated only; no files moved
-build-showtrials-person-institution-profiles-v2.py	scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py	dry_run	validated only; no files moved
-build-showtrials-person-institution-profiles.py	scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py	dry_run	validated only; no files moved
-build-showtrials-person-organization-matrix.py	scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py	dry_run	validated only; no files moved
-build-showtrials-positions.py	scripts/e-semantic-layer/build-showtrials-positions.py	dry_run	validated only; no files moved
-build-showtrials-process-layer.py	scripts/e-semantic-layer/build-showtrials-process-layer.py	dry_run	validated only; no files moved
-build-showtrials-process-profiles.py	scripts/e-semantic-layer/build-showtrials-process-profiles.py	dry_run	validated only; no files moved
-build-showtrials-roles-v2.py	scripts/e-semantic-layer/build-showtrials-roles-v2.py	dry_run	validated only; no files moved
-build-showtrials-translation-glossary-seeds-v1.py	scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py	dry_run	validated only; no files moved
-canonicalize-showtrials-translation-glossary-g4.py	scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py	dry_run	validated only; no files moved
-canonicalize-showtrials-translation-glossary-v1.py	scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py	dry_run	validated only; no files moved
-compare-showtrials-document-types-v1-v2.py	scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py	dry_run	validated only; no files moved
-compare-showtrials-document-types-v2-v3.py	scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py	dry_run	validated only; no files moved
-compare-showtrials-document-types-v3-v4.py	scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py	dry_run	validated only; no files moved
-crawl-urls.txt	reports/a-extraction/crawl-urls.txt	dry_run	validated only; no files moved
-diagnose-showtrials-attachment-taxonomy-d3-1a.py	scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py	dry_run	validated only; no files moved
-diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py	scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py	dry_run	validated only; no files moved
-diagnose-showtrials-author-audit.py	scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py	dry_run	validated only; no files moved
-diagnose-showtrials-category-tree.py	scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py	dry_run	validated only; no files moved
-diagnose-showtrials-corpus-inventory.py	scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py	dry_run	validated only; no files moved
-diagnose-showtrials-corpus-sizing-chunking-d1.py	scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py	dry_run	validated only; no files moved
-diagnose-showtrials-corpus-statistics.py	scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py	dry_run	validated only; no files moved
-diagnose-showtrials-date-audit.py	scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py	dry_run	validated only; no files moved
-diagnose-showtrials-document-collections.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py	dry_run	validated only; no files moved
-diagnose-showtrials-document-index.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py	dry_run	validated only; no files moved
-diagnose-showtrials-document-types-v2.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py	dry_run	validated only; no files moved
-diagnose-showtrials-document-types-v3.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py	dry_run	validated only; no files moved
-diagnose-showtrials-document-types-v4.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py	dry_run	validated only; no files moved
-diagnose-showtrials-document-types.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py	dry_run	validated only; no files moved
-diagnose-showtrials-entity-anomalies.py	scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py	dry_run	validated only; no files moved
-diagnose-showtrials-entity-cleanup.py	scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py	dry_run	validated only; no files moved
-diagnose-showtrials-entity-inventory.py	scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py	dry_run	validated only; no files moved
-diagnose-showtrials-master-catalog.py	scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py	dry_run	validated only; no files moved
-diagnose-showtrials-page-hierarchy.py	scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py	dry_run	validated only; no files moved
-diagnose-showtrials-page-links.py	scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py	dry_run	validated only; no files moved
-diagnose-showtrials-person-aliases.py	scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py	dry_run	validated only; no files moved
-diagnose-showtrials-person-normalization.py	scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py	dry_run	validated only; no files moved
-diagnose-showtrials-post-metadata.py	scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py	dry_run	validated only; no files moved
-diagnose-showtrials-search-corpus.py	scripts/b-json-export-search/diagnose-showtrials-search-corpus.py	dry_run	validated only; no files moved
-diagnose-showtrials-semantic-baseline.sh	scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh	dry_run	validated only; no files moved
-diagnose-showtrials-semantic-layer.py	scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py	dry_run	validated only; no files moved
-diagnose-showtrials-special-report-packages-d3-1.py	scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py	dry_run	validated only; no files moved
-diagnose-showtrials-structural-chunking-d2.py	scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py	dry_run	validated only; no files moved
-diagnose-showtrials-structural-samples-d2-2.py	scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py	dry_run	validated only; no files moved
-diagnose-showtrials-tag-process-audit.py	scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py	dry_run	validated only; no files moved
-diagnose-showtrials-taxonomy-terms.py	scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py	dry_run	validated only; no files moved
-diagnose-showtrials-taxonomy.py	scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py	dry_run	validated only; no files moved
-diagnose-showtrials-text-cleanliness.py	scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py	dry_run	validated only; no files moved
-diagnose-showtrials-title-entities.py	scripts/e-semantic-layer/diagnose-showtrials-title-entities.py	dry_run	validated only; no files moved
-diagnose-showtrials-translation-cost.py	scripts/t-translation-planning/diagnose-showtrials-translation-cost.py	dry_run	validated only; no files moved
-diagnose-showtrials-translation-glossary-freeze-readiness.py	scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py	dry_run	validated only; no files moved
-diagnose-showtrials-truncated-persons.py	scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py	dry_run	validated only; no files moved
-diagnose-showtrials-unmerged-persons.py	scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py	dry_run	validated only; no files moved
-doc-8863.md	docs/a-extraction/doc-8863.md	dry_run	validated only; no files moved
-doc-8863.txt	reports/a-extraction/doc-8863.txt	dry_run	validated only; no files moved
-enrich-showtrials-translation-glossary-g3.py	scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py	dry_run	validated only; no files moved
-finalize-showtrials-translation-glossary-g4-1.py	scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py	dry_run	validated only; no files moved
-pages-page-1.json	data/b-json-export-search/pages-page-1.json	dry_run	validated only; no files moved
-plan-showtrials-chunking-blueprint-v1.py	scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py	dry_run	validated only; no files moved
-plan-showtrials-chunking-blueprint-v1_1.py	scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py	dry_run	validated only; no files moved
-plan-showtrials-translation-profiles-v1.py	scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py	dry_run	validated only; no files moved
-posts-page-1.json	data/b-json-export-search/posts-page-1.json	dry_run	validated only; no files moved
-radek-results.tsv	data/b-json-export-search/radek-results.tsv	dry_run	validated only; no files moved
-repo-current-filelist.txt	data/r-governance/inventory/repo-current-filelist.txt	dry_run	validated only; no files moved
-repo-file-metadata.tsv	data/r-governance/inventory/repo-file-metadata.tsv	dry_run	validated only; no files moved
-review-showtrials-person-aliases.py	scripts/e-semantic-layer/review-showtrials-person-aliases.py	dry_run	validated only; no files moved
-review-showtrials-truncated-persons.py	scripts/e-semantic-layer/review-showtrials-truncated-persons.py	dry_run	validated only; no files moved
-search-showtrials.py	scripts/b-json-export-search/search-showtrials.py	dry_run	validated only; no files moved
-showtrials-audit.py	scripts/a-extraction/showtrials-audit.py	dry_run	validated only; no files moved
-showtrials-doc.py	scripts/b-json-export-search/showtrials-doc.py	dry_run	validated only; no files moved
-showtrials-export-texts.py	scripts/b-json-export-search/showtrials-export-texts.py	dry_run	validated only; no files moved
-showtrials-family-stats.py	scripts/e-semantic-layer/showtrials-family-stats.py	dry_run	validated only; no files moved
-showtrials-pages-inventory.tsv	data/c-catalog-taxonomy/showtrials-pages-inventory.tsv	dry_run	validated only; no files moved
-showtrials-posts-inventory.tsv	data/c-catalog-taxonomy/showtrials-posts-inventory.tsv	dry_run	validated only; no files moved
-showtrials-search-v2.py	scripts/b-json-export-search/showtrials-search-v2.py	dry_run	validated only; no files moved
-showtrials-search.py	scripts/b-json-export-search/showtrials-search.py	dry_run	validated only; no files moved
-showtrials-stats.py	scripts/a-extraction/showtrials-stats.py	dry_run	validated only; no files moved
-showtrials-timeline.py	scripts/c-catalog-taxonomy/showtrials-timeline.py	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_d3_1a.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a.tsv	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_d3_1a_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a_report.txt	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_d3_1a_validation.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a_validation.tsv	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_d3_1a_validation_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a_validation_report.txt	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_d3_1b.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_d3_1b.tsv	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_refinement_d3_1b.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b.tsv	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_refinement_d3_1b_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b_report.txt	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv	dry_run	validated only; no files moved
-showtrials_attachment_taxonomy_refinement_d3_1b_validation_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b_validation_report.txt	dry_run	validated only; no files moved
-showtrials_author_audit.tsv	data/c-catalog-taxonomy/showtrials_author_audit.tsv	dry_run	validated only; no files moved
-showtrials_author_audit_report.txt	reports/c-catalog-taxonomy/showtrials_author_audit_report.txt	dry_run	validated only; no files moved
-showtrials_canonical_people.tsv	data/e-semantic-layer/showtrials_canonical_people.tsv	dry_run	validated only; no files moved
-showtrials_canonical_people_report.txt	reports/e-semantic-layer/showtrials_canonical_people_report.txt	dry_run	validated only; no files moved
-showtrials_canonical_person_documents.tsv	data/e-semantic-layer/showtrials_canonical_person_documents.tsv	dry_run	validated only; no files moved
-showtrials_canonical_person_pairs.tsv	data/e-semantic-layer/showtrials_canonical_person_pairs.tsv	dry_run	validated only; no files moved
-showtrials_categories.json	data/c-catalog-taxonomy/showtrials_categories.json	dry_run	validated only; no files moved
-showtrials_category_tree.tsv	data/c-catalog-taxonomy/showtrials_category_tree.tsv	dry_run	validated only; no files moved
-showtrials_category_tree_report.txt	reports/c-catalog-taxonomy/showtrials_category_tree_report.txt	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1.tsv	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_1.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1_1.tsv	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_1_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_1_report.txt	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_1_validation.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1_1_validation.tsv	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_1_validation_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_report.txt	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_validation.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1_validation.tsv	dry_run	validated only; no files moved
-showtrials_chunking_blueprint_v1_validation_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_chunking_policy_recommendations_d1.tsv	data/d-structural-chunking/showtrials_chunking_policy_recommendations_d1.tsv	dry_run	validated only; no files moved
-showtrials_chunking_policy_v1_1.txt	reports/d-structural-chunking/showtrials_chunking_policy_v1_1.txt	dry_run	validated only; no files moved
-showtrials_collection_inventory.tsv	data/c-catalog-taxonomy/showtrials_collection_inventory.tsv	dry_run	validated only; no files moved
-showtrials_corpus_audit_documents.tsv	data/c-catalog-taxonomy/showtrials_corpus_audit_documents.tsv	dry_run	validated only; no files moved
-showtrials_corpus_audit_report.txt	reports/c-catalog-taxonomy/showtrials_corpus_audit_report.txt	dry_run	validated only; no files moved
-showtrials_corpus_audit_summary.tsv	data/c-catalog-taxonomy/showtrials_corpus_audit_summary.tsv	dry_run	validated only; no files moved
-showtrials_corpus_inventory_report.txt	reports/c-catalog-taxonomy/showtrials_corpus_inventory_report.txt	dry_run	validated only; no files moved
-showtrials_corpus_largest_documents.tsv	data/c-catalog-taxonomy/showtrials_corpus_largest_documents.tsv	dry_run	validated only; no files moved
-showtrials_corpus_sizing_by_document_d1.tsv	data/t-translation-planning/showtrials_corpus_sizing_by_document_d1.tsv	dry_run	validated only; no files moved
-showtrials_corpus_sizing_by_document_type_d1.tsv	data/t-translation-planning/showtrials_corpus_sizing_by_document_type_d1.tsv	dry_run	validated only; no files moved
-showtrials_corpus_sizing_by_process_d1.tsv	data/t-translation-planning/showtrials_corpus_sizing_by_process_d1.tsv	dry_run	validated only; no files moved
-showtrials_corpus_sizing_chunking_d1_report.txt	reports/d-structural-chunking/showtrials_corpus_sizing_chunking_d1_report.txt	dry_run	validated only; no files moved
-showtrials_corpus_sizing_chunking_d1_validation.tsv	data/d-structural-chunking/showtrials_corpus_sizing_chunking_d1_validation.tsv	dry_run	validated only; no files moved
-showtrials_corpus_sizing_chunking_d1_validation_report.txt	reports/d-structural-chunking/showtrials_corpus_sizing_chunking_d1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_corpus_smallest_documents.tsv	data/c-catalog-taxonomy/showtrials_corpus_smallest_documents.tsv	dry_run	validated only; no files moved
-showtrials_corpus_statistics_by_collection.tsv	data/c-catalog-taxonomy/showtrials_corpus_statistics_by_collection.tsv	dry_run	validated only; no files moved
-showtrials_corpus_statistics_by_process.tsv	data/e-semantic-layer/showtrials_corpus_statistics_by_process.tsv	dry_run	validated only; no files moved
-showtrials_corpus_statistics_by_tag.tsv	data/c-catalog-taxonomy/showtrials_corpus_statistics_by_tag.tsv	dry_run	validated only; no files moved
-showtrials_corpus_statistics_overview.tsv	data/c-catalog-taxonomy/showtrials_corpus_statistics_overview.tsv	dry_run	validated only; no files moved
-showtrials_corpus_statistics_report.txt	reports/c-catalog-taxonomy/showtrials_corpus_statistics_report.txt	dry_run	validated only; no files moved
-showtrials_date_audit_report.txt	reports/c-catalog-taxonomy/showtrials_date_audit_report.txt	dry_run	validated only; no files moved
-showtrials_date_outliers.tsv	data/c-catalog-taxonomy/showtrials_date_outliers.tsv	dry_run	validated only; no files moved
-showtrials_dates_by_month.tsv	data/c-catalog-taxonomy/showtrials_dates_by_month.tsv	dry_run	validated only; no files moved
-showtrials_dates_by_year.tsv	data/c-catalog-taxonomy/showtrials_dates_by_year.tsv	dry_run	validated only; no files moved
-showtrials_document_collections.tsv	data/c-catalog-taxonomy/showtrials_document_collections.tsv	dry_run	validated only; no files moved
-showtrials_document_collections_report.txt	reports/c-catalog-taxonomy/showtrials_document_collections_report.txt	dry_run	validated only; no files moved
-showtrials_document_index.tsv	data/c-catalog-taxonomy/showtrials_document_index.tsv	dry_run	validated only; no files moved
-showtrials_document_index_report.txt	reports/c-catalog-taxonomy/showtrials_document_index_report.txt	dry_run	validated only; no files moved
-showtrials_document_type_summary.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary.tsv	dry_run	validated only; no files moved
-showtrials_document_type_summary_v2.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary_v2.tsv	dry_run	validated only; no files moved
-showtrials_document_type_summary_v3.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary_v3.tsv	dry_run	validated only; no files moved
-showtrials_document_type_summary_v4.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary_v4.tsv	dry_run	validated only; no files moved
-showtrials_document_type_unknown_prefixes_v2.tsv	data/c-catalog-taxonomy/showtrials_document_type_unknown_prefixes_v2.tsv	dry_run	validated only; no files moved
-showtrials_document_type_unknown_prefixes_v3.tsv	data/c-catalog-taxonomy/showtrials_document_type_unknown_prefixes_v3.tsv	dry_run	validated only; no files moved
-showtrials_document_type_unknown_prefixes_v4.tsv	data/c-catalog-taxonomy/showtrials_document_type_unknown_prefixes_v4.tsv	dry_run	validated only; no files moved
-showtrials_document_type_v1_v2_changes.tsv	data/c-catalog-taxonomy/showtrials_document_type_v1_v2_changes.tsv	dry_run	validated only; no files moved
-showtrials_document_type_v1_v2_compare_report.txt	reports/c-catalog-taxonomy/showtrials_document_type_v1_v2_compare_report.txt	dry_run	validated only; no files moved
-showtrials_document_type_v2_v3_changes.tsv	data/c-catalog-taxonomy/showtrials_document_type_v2_v3_changes.tsv	dry_run	validated only; no files moved
-showtrials_document_type_v2_v3_compare_report.txt	reports/c-catalog-taxonomy/showtrials_document_type_v2_v3_compare_report.txt	dry_run	validated only; no files moved
-showtrials_document_type_v3_v4_changes.tsv	data/c-catalog-taxonomy/showtrials_document_type_v3_v4_changes.tsv	dry_run	validated only; no files moved
-showtrials_document_type_v3_v4_compare_report.txt	reports/c-catalog-taxonomy/showtrials_document_type_v3_v4_compare_report.txt	dry_run	validated only; no files moved
-showtrials_document_types.tsv	data/c-catalog-taxonomy/showtrials_document_types.tsv	dry_run	validated only; no files moved
-showtrials_document_types_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_report.txt	dry_run	validated only; no files moved
-showtrials_document_types_v2.tsv	data/c-catalog-taxonomy/showtrials_document_types_v2.tsv	dry_run	validated only; no files moved
-showtrials_document_types_v2_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v2_report.txt	dry_run	validated only; no files moved
-showtrials_document_types_v2_validation.tsv	data/c-catalog-taxonomy/showtrials_document_types_v2_validation.tsv	dry_run	validated only; no files moved
-showtrials_document_types_v2_validation_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v2_validation_report.txt	dry_run	validated only; no files moved
-showtrials_document_types_v3.tsv	data/c-catalog-taxonomy/showtrials_document_types_v3.tsv	dry_run	validated only; no files moved
-showtrials_document_types_v3_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v3_report.txt	dry_run	validated only; no files moved
-showtrials_document_types_v3_validation.tsv	data/c-catalog-taxonomy/showtrials_document_types_v3_validation.tsv	dry_run	validated only; no files moved
-showtrials_document_types_v3_validation_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v3_validation_report.txt	dry_run	validated only; no files moved
-showtrials_document_types_v4.tsv	data/c-catalog-taxonomy/showtrials_document_types_v4.tsv	dry_run	validated only; no files moved
-showtrials_document_types_v4_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v4_report.txt	dry_run	validated only; no files moved
-showtrials_document_types_v4_validation.tsv	data/c-catalog-taxonomy/showtrials_document_types_v4_validation.tsv	dry_run	validated only; no files moved
-showtrials_document_types_v4_validation_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v4_validation_report.txt	dry_run	validated only; no files moved
-showtrials_entities_categories.tsv	data/e-semantic-layer/showtrials_entities_categories.tsv	dry_run	validated only; no files moved
-showtrials_entities_collections.tsv	data/e-semantic-layer/showtrials_entities_collections.tsv	dry_run	validated only; no files moved
-showtrials_entities_processes.tsv	data/e-semantic-layer/showtrials_entities_processes.tsv	dry_run	validated only; no files moved
-showtrials_entities_tags.tsv	data/e-semantic-layer/showtrials_entities_tags.tsv	dry_run	validated only; no files moved
-showtrials_entity_anomalies_report.txt	reports/e-semantic-layer/showtrials_entity_anomalies_report.txt	dry_run	validated only; no files moved
-showtrials_entity_candidates.tsv	data/e-semantic-layer/showtrials_entity_candidates.tsv	dry_run	validated only; no files moved
-showtrials_entity_cleanup_report.txt	reports/e-semantic-layer/showtrials_entity_cleanup_report.txt	dry_run	validated only; no files moved
-showtrials_entity_inventory_report.txt	reports/e-semantic-layer/showtrials_entity_inventory_report.txt	dry_run	validated only; no files moved
-showtrials_family_process_matrix.tsv	data/e-semantic-layer/showtrials_family_process_matrix.tsv	dry_run	validated only; no files moved
-showtrials_family_process_profiles.tsv	data/e-semantic-layer/showtrials_family_process_profiles.tsv	dry_run	validated only; no files moved
-showtrials_google_translate_glossary_ru_en_v1.tsv	data/g-glossary/showtrials_google_translate_glossary_ru_en_v1.tsv	dry_run	validated only; no files moved
-showtrials_known_truncated_aliases_report.txt	reports/e-semantic-layer/showtrials_known_truncated_aliases_report.txt	dry_run	validated only; no files moved
-showtrials_largest_documents.tsv	data/c-catalog-taxonomy/showtrials_largest_documents.tsv	dry_run	validated only; no files moved
-showtrials_literal_people.tsv	data/e-semantic-layer/showtrials_literal_people.tsv	dry_run	validated only; no files moved
-showtrials_literal_people_report.txt	reports/e-semantic-layer/showtrials_literal_people_report.txt	dry_run	validated only; no files moved
-showtrials_literal_person_documents.tsv	data/e-semantic-layer/showtrials_literal_person_documents.tsv	dry_run	validated only; no files moved
-showtrials_literal_person_pairs.tsv	data/e-semantic-layer/showtrials_literal_person_pairs.tsv	dry_run	validated only; no files moved
-showtrials_master_catalog.tsv	data/c-catalog-taxonomy/showtrials_master_catalog.tsv	dry_run	validated only; no files moved
-showtrials_master_catalog_report.txt	reports/c-catalog-taxonomy/showtrials_master_catalog_report.txt	dry_run	validated only; no files moved
-showtrials_organization_documents.tsv	data/e-semantic-layer/showtrials_organization_documents.tsv	dry_run	validated only; no files moved
-showtrials_organization_families.tsv	data/e-semantic-layer/showtrials_organization_families.tsv	dry_run	validated only; no files moved
-showtrials_organization_families_report.txt	reports/e-semantic-layer/showtrials_organization_families_report.txt	dry_run	validated only; no files moved
-showtrials_organization_families_validation_report.txt	reports/e-semantic-layer/showtrials_organization_families_validation_report.txt	dry_run	validated only; no files moved
-showtrials_organization_family_crosspairs.tsv	data/e-semantic-layer/showtrials_organization_family_crosspairs.tsv	dry_run	validated only; no files moved
-showtrials_organization_family_document_matrix.tsv	data/e-semantic-layer/showtrials_organization_family_document_matrix.tsv	dry_run	validated only; no files moved
-showtrials_organization_family_document_matrix_report.txt	reports/e-semantic-layer/showtrials_organization_family_document_matrix_report.txt	dry_run	validated only; no files moved
-showtrials_organization_family_document_summary.tsv	data/e-semantic-layer/showtrials_organization_family_document_summary.tsv	dry_run	validated only; no files moved
-showtrials_organization_hierarchy.tsv	data/e-semantic-layer/showtrials_organization_hierarchy.tsv	dry_run	validated only; no files moved
-showtrials_organization_hierarchy_report.txt	reports/e-semantic-layer/showtrials_organization_hierarchy_report.txt	dry_run	validated only; no files moved
-showtrials_organization_hierarchy_review.tsv	data/e-semantic-layer/showtrials_organization_hierarchy_review.tsv	dry_run	validated only; no files moved
-showtrials_organization_hierarchy_validation.tsv	data/e-semantic-layer/showtrials_organization_hierarchy_validation.tsv	dry_run	validated only; no files moved
-showtrials_organization_hierarchy_validation_report.txt	reports/e-semantic-layer/showtrials_organization_hierarchy_validation_report.txt	dry_run	validated only; no files moved
-showtrials_organization_person_summary.tsv	data/e-semantic-layer/showtrials_organization_person_summary.tsv	dry_run	validated only; no files moved
-showtrials_organization_process_matrix.tsv	data/e-semantic-layer/showtrials_organization_process_matrix.tsv	dry_run	validated only; no files moved
-showtrials_organization_process_profiles.tsv	data/e-semantic-layer/showtrials_organization_process_profiles.tsv	dry_run	validated only; no files moved
-showtrials_organizations.tsv	data/e-semantic-layer/showtrials_organizations.tsv	dry_run	validated only; no files moved
-showtrials_organizations_report.txt	reports/e-semantic-layer/showtrials_organizations_report.txt	dry_run	validated only; no files moved
-showtrials_page_hierarchy.tsv	data/c-catalog-taxonomy/showtrials_page_hierarchy.tsv	dry_run	validated only; no files moved
-showtrials_page_hierarchy_report.txt	reports/c-catalog-taxonomy/showtrials_page_hierarchy_report.txt	dry_run	validated only; no files moved
-showtrials_page_links.tsv	data/c-catalog-taxonomy/showtrials_page_links.tsv	dry_run	validated only; no files moved
-showtrials_page_links_report.txt	reports/c-catalog-taxonomy/showtrials_page_links_report.txt	dry_run	validated only; no files moved
-showtrials_people.tsv	data/e-semantic-layer/showtrials_people.tsv	dry_run	validated only; no files moved
-showtrials_people_index_report.txt	reports/e-semantic-layer/showtrials_people_index_report.txt	dry_run	validated only; no files moved
-showtrials_person_aliases.tsv	data/e-semantic-layer/showtrials_person_aliases.tsv	dry_run	validated only; no files moved
-showtrials_person_aliases_manual.tsv	data/e-semantic-layer/showtrials_person_aliases_manual.tsv	dry_run	validated only; no files moved
-showtrials_person_aliases_report.txt	reports/e-semantic-layer/showtrials_person_aliases_report.txt	dry_run	validated only; no files moved
-showtrials_person_aliases_reviewed.tsv	data/e-semantic-layer/showtrials_person_aliases_reviewed.tsv	dry_run	validated only; no files moved
-showtrials_person_aliases_reviewed_report.txt	reports/e-semantic-layer/showtrials_person_aliases_reviewed_report.txt	dry_run	validated only; no files moved
-showtrials_person_anomalies.tsv	data/e-semantic-layer/showtrials_person_anomalies.tsv	dry_run	validated only; no files moved
-showtrials_person_auto_alias_report.txt	reports/e-semantic-layer/showtrials_person_auto_alias_report.txt	dry_run	validated only; no files moved
-showtrials_person_centrality.tsv	data/e-semantic-layer/showtrials_person_centrality.tsv	dry_run	validated only; no files moved
-showtrials_person_centrality_report.txt	reports/e-semantic-layer/showtrials_person_centrality_report.txt	dry_run	validated only; no files moved
-showtrials_person_centrality_validation_report.txt	reports/e-semantic-layer/showtrials_person_centrality_validation_report.txt	dry_run	validated only; no files moved
-showtrials_person_documents.tsv	data/e-semantic-layer/showtrials_person_documents.tsv	dry_run	validated only; no files moved
-showtrials_person_family_pairs.tsv	data/e-semantic-layer/showtrials_person_family_pairs.tsv	dry_run	validated only; no files moved
-showtrials_person_family_pairs_v2.tsv	data/e-semantic-layer/showtrials_person_family_pairs_v2.tsv	dry_run	validated only; no files moved
-showtrials_person_institution_profiles.tsv	data/e-semantic-layer/showtrials_person_institution_profiles.tsv	dry_run	validated only; no files moved
-showtrials_person_institution_profiles_report.txt	reports/e-semantic-layer/showtrials_person_institution_profiles_report.txt	dry_run	validated only; no files moved
-showtrials_person_institution_profiles_v2.tsv	data/e-semantic-layer/showtrials_person_institution_profiles_v2.tsv	dry_run	validated only; no files moved
-showtrials_person_institution_profiles_v2_report.txt	reports/e-semantic-layer/showtrials_person_institution_profiles_v2_report.txt	dry_run	validated only; no files moved
-showtrials_person_institution_profiles_v2_validation_report.txt	reports/e-semantic-layer/showtrials_person_institution_profiles_v2_validation_report.txt	dry_run	validated only; no files moved
-showtrials_person_merge_candidates.tsv	data/e-semantic-layer/showtrials_person_merge_candidates.tsv	dry_run	validated only; no files moved
-showtrials_person_merge_candidates_report.txt	reports/e-semantic-layer/showtrials_person_merge_candidates_report.txt	dry_run	validated only; no files moved
-showtrials_person_normalization_candidates.tsv	data/e-semantic-layer/showtrials_person_normalization_candidates.tsv	dry_run	validated only; no files moved
-showtrials_person_normalization_report.txt	reports/e-semantic-layer/showtrials_person_normalization_report.txt	dry_run	validated only; no files moved
-showtrials_person_organization_matrix.tsv	data/e-semantic-layer/showtrials_person_organization_matrix.tsv	dry_run	validated only; no files moved
-showtrials_person_organization_matrix_report.txt	reports/e-semantic-layer/showtrials_person_organization_matrix_report.txt	dry_run	validated only; no files moved
-showtrials_person_organization_matrix_validation_report.txt	reports/e-semantic-layer/showtrials_person_organization_matrix_validation_report.txt	dry_run	validated only; no files moved
-showtrials_person_organization_pairs.tsv	data/e-semantic-layer/showtrials_person_organization_pairs.tsv	dry_run	validated only; no files moved
-showtrials_person_organization_pairs_v2.tsv	data/e-semantic-layer/showtrials_person_organization_pairs_v2.tsv	dry_run	validated only; no files moved
-showtrials_person_organization_profile_pairs.tsv	data/e-semantic-layer/showtrials_person_organization_profile_pairs.tsv	dry_run	validated only; no files moved
-showtrials_person_organization_summary.tsv	data/e-semantic-layer/showtrials_person_organization_summary.tsv	dry_run	validated only; no files moved
-showtrials_person_pairs.tsv	data/e-semantic-layer/showtrials_person_pairs.tsv	dry_run	validated only; no files moved
-showtrials_person_position_pairs.tsv	data/e-semantic-layer/showtrials_person_position_pairs.tsv	dry_run	validated only; no files moved
-showtrials_person_position_profile_pairs.tsv	data/e-semantic-layer/showtrials_person_position_profile_pairs.tsv	dry_run	validated only; no files moved
-showtrials_person_process_matrix.tsv	data/e-semantic-layer/showtrials_person_process_matrix.tsv	dry_run	validated only; no files moved
-showtrials_person_process_profiles.tsv	data/e-semantic-layer/showtrials_person_process_profiles.tsv	dry_run	validated only; no files moved
-showtrials_person_role_pairs_v2.tsv	data/e-semantic-layer/showtrials_person_role_pairs_v2.tsv	dry_run	validated only; no files moved
-showtrials_position_documents.tsv	data/e-semantic-layer/showtrials_position_documents.tsv	dry_run	validated only; no files moved
-showtrials_position_organization_pairs.tsv	data/e-semantic-layer/showtrials_position_organization_pairs.tsv	dry_run	validated only; no files moved
-showtrials_positions.tsv	data/e-semantic-layer/showtrials_positions.tsv	dry_run	validated only; no files moved
-showtrials_positions_report.txt	reports/e-semantic-layer/showtrials_positions_report.txt	dry_run	validated only; no files moved
-showtrials_post_metadata_fields.tsv	data/c-catalog-taxonomy/showtrials_post_metadata_fields.tsv	dry_run	validated only; no files moved
-showtrials_post_metadata_report.txt	reports/c-catalog-taxonomy/showtrials_post_metadata_report.txt	dry_run	validated only; no files moved
-showtrials_post_metadata_sample.tsv	data/c-catalog-taxonomy/showtrials_post_metadata_sample.tsv	dry_run	validated only; no files moved
-showtrials_post_metadata_terms.tsv	data/c-catalog-taxonomy/showtrials_post_metadata_terms.tsv	dry_run	validated only; no files moved
-showtrials_process_document_matrix.tsv	data/e-semantic-layer/showtrials_process_document_matrix.tsv	dry_run	validated only; no files moved
-showtrials_process_inventory.tsv	data/e-semantic-layer/showtrials_process_inventory.tsv	dry_run	validated only; no files moved
-showtrials_process_layer_report.txt	reports/e-semantic-layer/showtrials_process_layer_report.txt	dry_run	validated only; no files moved
-showtrials_process_layer_validation_report.txt	reports/e-semantic-layer/showtrials_process_layer_validation_report.txt	dry_run	validated only; no files moved
-showtrials_process_profiles_report.txt	reports/e-semantic-layer/showtrials_process_profiles_report.txt	dry_run	validated only; no files moved
-showtrials_process_profiles_validation_report.txt	reports/e-semantic-layer/showtrials_process_profiles_validation_report.txt	dry_run	validated only; no files moved
-showtrials_processes.tsv	data/e-semantic-layer/showtrials_processes.tsv	dry_run	validated only; no files moved
-showtrials_role_documents_v2.tsv	data/e-semantic-layer/showtrials_role_documents_v2.tsv	dry_run	validated only; no files moved
-showtrials_roles_v2.tsv	data/e-semantic-layer/showtrials_roles_v2.tsv	dry_run	validated only; no files moved
-showtrials_roles_v2_report.txt	reports/e-semantic-layer/showtrials_roles_v2_report.txt	dry_run	validated only; no files moved
-showtrials_roles_v2_validation_report.txt	reports/e-semantic-layer/showtrials_roles_v2_validation_report.txt	dry_run	validated only; no files moved
-showtrials_search_corpus_report.txt	reports/b-json-export-search/showtrials_search_corpus_report.txt	dry_run	validated only; no files moved
-showtrials_search_v2_validation.tsv	data/b-json-export-search/showtrials_search_v2_validation.tsv	dry_run	validated only; no files moved
-showtrials_search_v2_validation_report.txt	reports/b-json-export-search/showtrials_search_v2_validation_report.txt	dry_run	validated only; no files moved
-showtrials_semantic_baseline_dependencies.tsv	data/e-semantic-layer/showtrials_semantic_baseline_dependencies.tsv	dry_run	validated only; no files moved
-showtrials_semantic_baseline_inventory.tsv	data/e-semantic-layer/showtrials_semantic_baseline_inventory.tsv	dry_run	validated only; no files moved
-showtrials_semantic_baseline_report.txt	reports/e-semantic-layer/showtrials_semantic_baseline_report.txt	dry_run	validated only; no files moved
-showtrials_semantic_baseline_validation.tsv	data/e-semantic-layer/showtrials_semantic_baseline_validation.tsv	dry_run	validated only; no files moved
-showtrials_semantic_baseline_validation_report.txt	reports/e-semantic-layer/showtrials_semantic_baseline_validation_report.txt	dry_run	validated only; no files moved
-showtrials_semantic_layer_inventory.tsv	data/e-semantic-layer/showtrials_semantic_layer_inventory.tsv	dry_run	validated only; no files moved
-showtrials_semantic_layer_report.txt	reports/e-semantic-layer/showtrials_semantic_layer_report.txt	dry_run	validated only; no files moved
-showtrials_semantic_layer_validation.tsv	data/e-semantic-layer/showtrials_semantic_layer_validation.tsv	dry_run	validated only; no files moved
-showtrials_special_report_attachment_matrix.tsv	data/d-structural-chunking/showtrials_special_report_attachment_matrix.tsv	dry_run	validated only; no files moved
-showtrials_special_report_package_examples_d3_1.tsv	data/d-structural-chunking/showtrials_special_report_package_examples_d3_1.tsv	dry_run	validated only; no files moved
-showtrials_special_report_package_summary_d3_1.tsv	data/d-structural-chunking/showtrials_special_report_package_summary_d3_1.tsv	dry_run	validated only; no files moved
-showtrials_special_report_packages_d3_1.tsv	data/d-structural-chunking/showtrials_special_report_packages_d3_1.tsv	dry_run	validated only; no files moved
-showtrials_special_report_packages_d3_1_report.txt	reports/d-structural-chunking/showtrials_special_report_packages_d3_1_report.txt	dry_run	validated only; no files moved
-showtrials_special_report_packages_d3_1_validation.tsv	data/d-structural-chunking/showtrials_special_report_packages_d3_1_validation.tsv	dry_run	validated only; no files moved
-showtrials_special_report_packages_d3_1_validation_report.txt	reports/d-structural-chunking/showtrials_special_report_packages_d3_1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_structural_chunking_d2_by_document.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_by_document.tsv	dry_run	validated only; no files moved
-showtrials_structural_chunking_d2_by_type.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_by_type.tsv	dry_run	validated only; no files moved
-showtrials_structural_chunking_d2_examples.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_examples.tsv	dry_run	validated only; no files moved
-showtrials_structural_chunking_d2_report.txt	reports/d-structural-chunking/showtrials_structural_chunking_d2_report.txt	dry_run	validated only; no files moved
-showtrials_structural_chunking_d2_validation.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_validation.tsv	dry_run	validated only; no files moved
-showtrials_structural_chunking_d2_validation_report.txt	reports/d-structural-chunking/showtrials_structural_chunking_d2_validation_report.txt	dry_run	validated only; no files moved
-showtrials_structural_samples_d2_1_index.tsv	data/d-structural-chunking/showtrials_structural_samples_d2_1_index.tsv	dry_run	validated only; no files moved
-showtrials_structural_samples_d2_1_report.txt	reports/d-structural-chunking/showtrials_structural_samples_d2_1_report.txt	dry_run	validated only; no files moved
-showtrials_structural_samples_d2_2_report.txt	reports/d-structural-chunking/showtrials_structural_samples_d2_2_report.txt	dry_run	validated only; no files moved
-showtrials_structural_samples_d2_2_review_index.tsv	data/d-structural-chunking/showtrials_structural_samples_d2_2_review_index.tsv	dry_run	validated only; no files moved
-showtrials_tag_process_audit_report.txt	reports/e-semantic-layer/showtrials_tag_process_audit_report.txt	dry_run	validated only; no files moved
-showtrials_tag_process_exclusive.tsv	data/e-semantic-layer/showtrials_tag_process_exclusive.tsv	dry_run	validated only; no files moved
-showtrials_tag_process_matrix.tsv	data/e-semantic-layer/showtrials_tag_process_matrix.tsv	dry_run	validated only; no files moved
-showtrials_tags.json	data/c-catalog-taxonomy/showtrials_tags.json	dry_run	validated only; no files moved
-showtrials_taxonomy_anomalies.tsv	data/c-catalog-taxonomy/showtrials_taxonomy_anomalies.tsv	dry_run	validated only; no files moved
-showtrials_taxonomy_document_matrix.tsv	data/c-catalog-taxonomy/showtrials_taxonomy_document_matrix.tsv	dry_run	validated only; no files moved
-showtrials_taxonomy_report.txt	reports/c-catalog-taxonomy/showtrials_taxonomy_report.txt	dry_run	validated only; no files moved
-showtrials_taxonomy_terms.tsv	data/c-catalog-taxonomy/showtrials_taxonomy_terms.tsv	dry_run	validated only; no files moved
-showtrials_taxonomy_terms_report.txt	reports/c-catalog-taxonomy/showtrials_taxonomy_terms_report.txt	dry_run	validated only; no files moved
-showtrials_text_cleanliness.tsv	data/c-catalog-taxonomy/showtrials_text_cleanliness.tsv	dry_run	validated only; no files moved
-showtrials_text_cleanliness_report.txt	reports/c-catalog-taxonomy/showtrials_text_cleanliness_report.txt	dry_run	validated only; no files moved
-showtrials_timeline.tsv	data/c-catalog-taxonomy/showtrials_timeline.tsv	dry_run	validated only; no files moved
-showtrials_title_document_entities.tsv	data/e-semantic-layer/showtrials_title_document_entities.tsv	dry_run	validated only; no files moved
-showtrials_title_entities.tsv	data/e-semantic-layer/showtrials_title_entities.tsv	dry_run	validated only; no files moved
-showtrials_title_entities_report.txt	reports/e-semantic-layer/showtrials_title_entities_report.txt	dry_run	validated only; no files moved
-showtrials_title_entity_pairs.tsv	data/e-semantic-layer/showtrials_title_entity_pairs.tsv	dry_run	validated only; no files moved
-showtrials_translation_cost_by_document.tsv	data/t-translation-planning/showtrials_translation_cost_by_document.tsv	dry_run	validated only; no files moved
-showtrials_translation_cost_by_document_type.tsv	data/t-translation-planning/showtrials_translation_cost_by_document_type.tsv	dry_run	validated only; no files moved
-showtrials_translation_cost_by_process.tsv	data/t-translation-planning/showtrials_translation_cost_by_process.tsv	dry_run	validated only; no files moved
-showtrials_translation_cost_report.txt	reports/t-translation-planning/showtrials_translation_cost_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_freeze_readiness.tsv	data/g-glossary/showtrials_translation_glossary_freeze_readiness.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_freeze_readiness_report.txt	reports/g-glossary/showtrials_translation_glossary_freeze_readiness_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_g3.tsv	data/g-glossary/showtrials_translation_glossary_g3.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g3_report.txt	reports/g-glossary/showtrials_translation_glossary_g3_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_g3_review.tsv	data/g-glossary/showtrials_translation_glossary_g3_review.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g3_validation.tsv	data/g-glossary/showtrials_translation_glossary_g3_validation.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g3_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_g3_validation_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4.tsv	data/g-glossary/showtrials_translation_glossary_g4.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_1.tsv	data/g-glossary/showtrials_translation_glossary_g4_1.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_1_report.txt	reports/g-glossary/showtrials_translation_glossary_g4_1_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_1_review.tsv	data/g-glossary/showtrials_translation_glossary_g4_1_review.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_1_validation.tsv	data/g-glossary/showtrials_translation_glossary_g4_1_validation.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_1_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_g4_1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_report.txt	reports/g-glossary/showtrials_translation_glossary_g4_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_g4_review.tsv	data/g-glossary/showtrials_translation_glossary_g4_review.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_seed_plan_v1.tsv	data/g-glossary/showtrials_translation_glossary_seed_plan_v1.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_seeds_v1.tsv	data/g-glossary/showtrials_translation_glossary_seeds_v1.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_seeds_v1_report.txt	reports/g-glossary/showtrials_translation_glossary_seeds_v1_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_seeds_v1_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_seeds_v1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_v1.tsv	data/g-glossary/showtrials_translation_glossary_v1.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_v1_report.txt	reports/g-glossary/showtrials_translation_glossary_v1_report.txt	dry_run	validated only; no files moved
-showtrials_translation_glossary_v1_review.tsv	data/g-glossary/showtrials_translation_glossary_v1_review.tsv	dry_run	validated only; no files moved
-showtrials_translation_glossary_v1_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_v1_validation_report.txt	dry_run	validated only; no files moved
-showtrials_translation_profiles_v1.tsv	data/t-translation-planning/showtrials_translation_profiles_v1.tsv	dry_run	validated only; no files moved
-showtrials_translation_profiles_v1_report.txt	reports/t-translation-planning/showtrials_translation_profiles_v1_report.txt	dry_run	validated only; no files moved
-showtrials_truncated_person_candidates.tsv	data/e-semantic-layer/showtrials_truncated_person_candidates.tsv	dry_run	validated only; no files moved
-showtrials_truncated_person_candidates_report.txt	reports/e-semantic-layer/showtrials_truncated_person_candidates_report.txt	dry_run	validated only; no files moved
-showtrials_users.json	data/b-json-export-search/showtrials_users.json	dry_run	validated only; no files moved
-sitemap-urls.txt	reports/a-extraction/sitemap-urls.txt	dry_run	validated only; no files moved
-validate-showtrials-attachment-taxonomy-d3-1a.py	scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py	dry_run	validated only; no files moved
-validate-showtrials-attachment-taxonomy-refinement-d3-1b.py	scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py	dry_run	validated only; no files moved
-validate-showtrials-chunking-blueprint-v1.py	scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py	dry_run	validated only; no files moved
-validate-showtrials-chunking-blueprint-v1_1.py	scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py	dry_run	validated only; no files moved
-validate-showtrials-corpus-sizing-chunking-d1.py	scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py	dry_run	validated only; no files moved
-validate-showtrials-document-types-v2.py	scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py	dry_run	validated only; no files moved
-validate-showtrials-document-types-v3.py	scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py	dry_run	validated only; no files moved
-validate-showtrials-document-types-v4.py	scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py	dry_run	validated only; no files moved
-validate-showtrials-organization-families.py	scripts/e-semantic-layer/validate-showtrials-organization-families.py	dry_run	validated only; no files moved
-validate-showtrials-organization-hierarchy.py	scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py	dry_run	validated only; no files moved
-validate-showtrials-person-centrality.py	scripts/e-semantic-layer/validate-showtrials-person-centrality.py	dry_run	validated only; no files moved
-validate-showtrials-person-institution-profiles-v2.py	scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py	dry_run	validated only; no files moved
-validate-showtrials-person-organization-matrix.py	scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py	dry_run	validated only; no files moved
-validate-showtrials-process-layer.py	scripts/e-semantic-layer/validate-showtrials-process-layer.py	dry_run	validated only; no files moved
-validate-showtrials-process-profiles.py	scripts/e-semantic-layer/validate-showtrials-process-profiles.py	dry_run	validated only; no files moved
-validate-showtrials-roles-v2.py	scripts/e-semantic-layer/validate-showtrials-roles-v2.py	dry_run	validated only; no files moved
-validate-showtrials-search-v2.py	scripts/c-catalog-taxonomy/validate-showtrials-search-v2.py	dry_run	validated only; no files moved
-validate-showtrials-semantic-baseline.sh	scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh	dry_run	validated only; no files moved
-validate-showtrials-special-report-packages-d3-1.py	scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py	dry_run	validated only; no files moved
-validate-showtrials-structural-chunking-d2.py	scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py	dry_run	validated only; no files moved
-validate-showtrials-translation-glossary-g3.py	scripts/g-glossary/validate-showtrials-translation-glossary-g3.py	dry_run	validated only; no files moved
-validate-showtrials-translation-glossary-g4-1.py	scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py	dry_run	validated only; no files moved
-validate-showtrials-translation-glossary-seeds-v1.py	scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py	dry_run	validated only; no files moved
-validate-showtrials-translation-glossary-v1.py	scripts/g-glossary/validate-showtrials-translation-glossary-v1.py	dry_run	validated only; no files moved
+.gitignore	.gitignore	skipped	preserved at root
+README.md	README.md	skipped	preserved at root
+apply-showtrials-auto-person-aliases.py	scripts/e-semantic-layer/apply-showtrials-auto-person-aliases.py	moved	moved by pathlib.Path.rename
+apply-showtrials-known-truncated-person-aliases.py	scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py	moved	moved by pathlib.Path.rename
+apply-showtrials-person-alias-decisions.py	scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py	moved	moved by pathlib.Path.rename
+audit-showtrials-structural-samples-d2-1.py	scripts/d-structural-chunking/audit-showtrials-structural-samples-d2-1.py	moved	moved by pathlib.Path.rename
+build-showtrials-canonical-people.py	scripts/e-semantic-layer/build-showtrials-canonical-people.py	moved	moved by pathlib.Path.rename
+build-showtrials-literal-people-index.py	scripts/e-semantic-layer/build-showtrials-literal-people-index.py	moved	moved by pathlib.Path.rename
+build-showtrials-organization-families.py	scripts/e-semantic-layer/build-showtrials-organization-families.py	moved	moved by pathlib.Path.rename
+build-showtrials-organization-family-document-matrix.py	scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py	moved	moved by pathlib.Path.rename
+build-showtrials-organization-hierarchy.py	scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py	moved	moved by pathlib.Path.rename
+build-showtrials-organization-index.py	scripts/e-semantic-layer/build-showtrials-organization-index.py	moved	moved by pathlib.Path.rename
+build-showtrials-people-index.py	scripts/e-semantic-layer/build-showtrials-people-index.py	moved	moved by pathlib.Path.rename
+build-showtrials-person-centrality.py	scripts/e-semantic-layer/build-showtrials-person-centrality.py	moved	moved by pathlib.Path.rename
+build-showtrials-person-institution-profiles-v2.py	scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py	moved	moved by pathlib.Path.rename
+build-showtrials-person-institution-profiles.py	scripts/e-semantic-layer/build-showtrials-person-institution-profiles.py	moved	moved by pathlib.Path.rename
+build-showtrials-person-organization-matrix.py	scripts/e-semantic-layer/build-showtrials-person-organization-matrix.py	moved	moved by pathlib.Path.rename
+build-showtrials-positions.py	scripts/e-semantic-layer/build-showtrials-positions.py	moved	moved by pathlib.Path.rename
+build-showtrials-process-layer.py	scripts/e-semantic-layer/build-showtrials-process-layer.py	moved	moved by pathlib.Path.rename
+build-showtrials-process-profiles.py	scripts/e-semantic-layer/build-showtrials-process-profiles.py	moved	moved by pathlib.Path.rename
+build-showtrials-roles-v2.py	scripts/e-semantic-layer/build-showtrials-roles-v2.py	moved	moved by pathlib.Path.rename
+build-showtrials-translation-glossary-seeds-v1.py	scripts/g-glossary/build-showtrials-translation-glossary-seeds-v1.py	moved	moved by pathlib.Path.rename
+canonicalize-showtrials-translation-glossary-g4.py	scripts/g-glossary/canonicalize-showtrials-translation-glossary-g4.py	moved	moved by pathlib.Path.rename
+canonicalize-showtrials-translation-glossary-v1.py	scripts/g-glossary/canonicalize-showtrials-translation-glossary-v1.py	moved	moved by pathlib.Path.rename
+compare-showtrials-document-types-v1-v2.py	scripts/c-catalog-taxonomy/compare-showtrials-document-types-v1-v2.py	moved	moved by pathlib.Path.rename
+compare-showtrials-document-types-v2-v3.py	scripts/c-catalog-taxonomy/compare-showtrials-document-types-v2-v3.py	moved	moved by pathlib.Path.rename
+compare-showtrials-document-types-v3-v4.py	scripts/c-catalog-taxonomy/compare-showtrials-document-types-v3-v4.py	moved	moved by pathlib.Path.rename
+crawl-urls.txt	reports/a-extraction/crawl-urls.txt	moved	moved by pathlib.Path.rename
+diagnose-showtrials-attachment-taxonomy-d3-1a.py	scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-d3-1a.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py	scripts/d-structural-chunking/diagnose-showtrials-attachment-taxonomy-refinement-d3-1b.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-author-audit.py	scripts/c-catalog-taxonomy/diagnose-showtrials-author-audit.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-category-tree.py	scripts/c-catalog-taxonomy/diagnose-showtrials-category-tree.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-corpus-inventory.py	scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-inventory.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-corpus-sizing-chunking-d1.py	scripts/d-structural-chunking/diagnose-showtrials-corpus-sizing-chunking-d1.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-corpus-statistics.py	scripts/c-catalog-taxonomy/diagnose-showtrials-corpus-statistics.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-date-audit.py	scripts/c-catalog-taxonomy/diagnose-showtrials-date-audit.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-document-collections.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-collections.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-document-index.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-index.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-document-types-v2.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v2.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-document-types-v3.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v3.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-document-types-v4.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types-v4.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-document-types.py	scripts/c-catalog-taxonomy/diagnose-showtrials-document-types.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-entity-anomalies.py	scripts/e-semantic-layer/diagnose-showtrials-entity-anomalies.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-entity-cleanup.py	scripts/e-semantic-layer/diagnose-showtrials-entity-cleanup.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-entity-inventory.py	scripts/e-semantic-layer/diagnose-showtrials-entity-inventory.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-master-catalog.py	scripts/c-catalog-taxonomy/diagnose-showtrials-master-catalog.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-page-hierarchy.py	scripts/c-catalog-taxonomy/diagnose-showtrials-page-hierarchy.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-page-links.py	scripts/c-catalog-taxonomy/diagnose-showtrials-page-links.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-person-aliases.py	scripts/e-semantic-layer/diagnose-showtrials-person-aliases.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-person-normalization.py	scripts/e-semantic-layer/diagnose-showtrials-person-normalization.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-post-metadata.py	scripts/c-catalog-taxonomy/diagnose-showtrials-post-metadata.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-search-corpus.py	scripts/b-json-export-search/diagnose-showtrials-search-corpus.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-semantic-baseline.sh	scripts/e-semantic-layer/diagnose-showtrials-semantic-baseline.sh	moved	moved by pathlib.Path.rename
+diagnose-showtrials-semantic-layer.py	scripts/e-semantic-layer/diagnose-showtrials-semantic-layer.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-special-report-packages-d3-1.py	scripts/d-structural-chunking/diagnose-showtrials-special-report-packages-d3-1.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-structural-chunking-d2.py	scripts/d-structural-chunking/diagnose-showtrials-structural-chunking-d2.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-structural-samples-d2-2.py	scripts/d-structural-chunking/diagnose-showtrials-structural-samples-d2-2.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-tag-process-audit.py	scripts/e-semantic-layer/diagnose-showtrials-tag-process-audit.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-taxonomy-terms.py	scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy-terms.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-taxonomy.py	scripts/c-catalog-taxonomy/diagnose-showtrials-taxonomy.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-text-cleanliness.py	scripts/c-catalog-taxonomy/diagnose-showtrials-text-cleanliness.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-title-entities.py	scripts/e-semantic-layer/diagnose-showtrials-title-entities.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-translation-cost.py	scripts/t-translation-planning/diagnose-showtrials-translation-cost.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-translation-glossary-freeze-readiness.py	scripts/g-glossary/diagnose-showtrials-translation-glossary-freeze-readiness.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-truncated-persons.py	scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py	moved	moved by pathlib.Path.rename
+diagnose-showtrials-unmerged-persons.py	scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py	moved	moved by pathlib.Path.rename
+doc-8863.md	docs/a-extraction/doc-8863.md	moved	moved by pathlib.Path.rename
+doc-8863.txt	reports/a-extraction/doc-8863.txt	moved	moved by pathlib.Path.rename
+enrich-showtrials-translation-glossary-g3.py	scripts/g-glossary/enrich-showtrials-translation-glossary-g3.py	moved	moved by pathlib.Path.rename
+finalize-showtrials-translation-glossary-g4-1.py	scripts/g-glossary/finalize-showtrials-translation-glossary-g4-1.py	moved	moved by pathlib.Path.rename
+pages-page-1.json	data/b-json-export-search/pages-page-1.json	moved	moved by pathlib.Path.rename
+plan-showtrials-chunking-blueprint-v1.py	scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1.py	moved	moved by pathlib.Path.rename
+plan-showtrials-chunking-blueprint-v1_1.py	scripts/d-structural-chunking/plan-showtrials-chunking-blueprint-v1_1.py	moved	moved by pathlib.Path.rename
+plan-showtrials-translation-profiles-v1.py	scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py	moved	moved by pathlib.Path.rename
+posts-page-1.json	data/b-json-export-search/posts-page-1.json	moved	moved by pathlib.Path.rename
+radek-results.tsv	data/b-json-export-search/radek-results.tsv	moved	moved by pathlib.Path.rename
+repo-current-filelist.txt	data/r-governance/inventory/repo-current-filelist.txt	moved	moved by pathlib.Path.rename
+repo-file-metadata.tsv	data/r-governance/inventory/repo-file-metadata.tsv	moved	moved by pathlib.Path.rename
+review-showtrials-person-aliases.py	scripts/e-semantic-layer/review-showtrials-person-aliases.py	moved	moved by pathlib.Path.rename
+review-showtrials-truncated-persons.py	scripts/e-semantic-layer/review-showtrials-truncated-persons.py	moved	moved by pathlib.Path.rename
+search-showtrials.py	scripts/b-json-export-search/search-showtrials.py	moved	moved by pathlib.Path.rename
+showtrials-audit.py	scripts/a-extraction/showtrials-audit.py	moved	moved by pathlib.Path.rename
+showtrials-doc.py	scripts/b-json-export-search/showtrials-doc.py	moved	moved by pathlib.Path.rename
+showtrials-export-texts.py	scripts/b-json-export-search/showtrials-export-texts.py	moved	moved by pathlib.Path.rename
+showtrials-family-stats.py	scripts/e-semantic-layer/showtrials-family-stats.py	moved	moved by pathlib.Path.rename
+showtrials-pages-inventory.tsv	data/c-catalog-taxonomy/showtrials-pages-inventory.tsv	moved	moved by pathlib.Path.rename
+showtrials-posts-inventory.tsv	data/c-catalog-taxonomy/showtrials-posts-inventory.tsv	moved	moved by pathlib.Path.rename
+showtrials-search-v2.py	scripts/b-json-export-search/showtrials-search-v2.py	moved	moved by pathlib.Path.rename
+showtrials-search.py	scripts/b-json-export-search/showtrials-search.py	moved	moved by pathlib.Path.rename
+showtrials-stats.py	scripts/a-extraction/showtrials-stats.py	moved	moved by pathlib.Path.rename
+showtrials-timeline.py	scripts/c-catalog-taxonomy/showtrials-timeline.py	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_d3_1a.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a.tsv	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_d3_1a_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a_report.txt	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_d3_1a_validation.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_d3_1a_validation_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_d3_1a_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_d3_1b.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_d3_1b.tsv	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_refinement_d3_1b.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b.tsv	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_refinement_d3_1b_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b_report.txt	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv	data/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_attachment_taxonomy_refinement_d3_1b_validation_report.txt	reports/d-structural-chunking/showtrials_attachment_taxonomy_refinement_d3_1b_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_author_audit.tsv	data/c-catalog-taxonomy/showtrials_author_audit.tsv	moved	moved by pathlib.Path.rename
+showtrials_author_audit_report.txt	reports/c-catalog-taxonomy/showtrials_author_audit_report.txt	moved	moved by pathlib.Path.rename
+showtrials_canonical_people.tsv	data/e-semantic-layer/showtrials_canonical_people.tsv	moved	moved by pathlib.Path.rename
+showtrials_canonical_people_report.txt	reports/e-semantic-layer/showtrials_canonical_people_report.txt	moved	moved by pathlib.Path.rename
+showtrials_canonical_person_documents.tsv	data/e-semantic-layer/showtrials_canonical_person_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_canonical_person_pairs.tsv	data/e-semantic-layer/showtrials_canonical_person_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_categories.json	data/c-catalog-taxonomy/showtrials_categories.json	moved	moved by pathlib.Path.rename
+showtrials_category_tree.tsv	data/c-catalog-taxonomy/showtrials_category_tree.tsv	moved	moved by pathlib.Path.rename
+showtrials_category_tree_report.txt	reports/c-catalog-taxonomy/showtrials_category_tree_report.txt	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1.tsv	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_1.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1_1.tsv	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_1_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_1_validation.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1_1_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_1_validation_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_validation.tsv	data/d-structural-chunking/showtrials_chunking_blueprint_v1_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_chunking_blueprint_v1_validation_report.txt	reports/d-structural-chunking/showtrials_chunking_blueprint_v1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_chunking_policy_recommendations_d1.tsv	data/d-structural-chunking/showtrials_chunking_policy_recommendations_d1.tsv	moved	moved by pathlib.Path.rename
+showtrials_chunking_policy_v1_1.txt	reports/d-structural-chunking/showtrials_chunking_policy_v1_1.txt	moved	moved by pathlib.Path.rename
+showtrials_collection_inventory.tsv	data/c-catalog-taxonomy/showtrials_collection_inventory.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_audit_documents.tsv	data/c-catalog-taxonomy/showtrials_corpus_audit_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_audit_report.txt	reports/c-catalog-taxonomy/showtrials_corpus_audit_report.txt	moved	moved by pathlib.Path.rename
+showtrials_corpus_audit_summary.tsv	data/c-catalog-taxonomy/showtrials_corpus_audit_summary.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_inventory_report.txt	reports/c-catalog-taxonomy/showtrials_corpus_inventory_report.txt	moved	moved by pathlib.Path.rename
+showtrials_corpus_largest_documents.tsv	data/c-catalog-taxonomy/showtrials_corpus_largest_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_sizing_by_document_d1.tsv	data/t-translation-planning/showtrials_corpus_sizing_by_document_d1.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_sizing_by_document_type_d1.tsv	data/t-translation-planning/showtrials_corpus_sizing_by_document_type_d1.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_sizing_by_process_d1.tsv	data/t-translation-planning/showtrials_corpus_sizing_by_process_d1.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_sizing_chunking_d1_report.txt	reports/d-structural-chunking/showtrials_corpus_sizing_chunking_d1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_corpus_sizing_chunking_d1_validation.tsv	data/d-structural-chunking/showtrials_corpus_sizing_chunking_d1_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_sizing_chunking_d1_validation_report.txt	reports/d-structural-chunking/showtrials_corpus_sizing_chunking_d1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_corpus_smallest_documents.tsv	data/c-catalog-taxonomy/showtrials_corpus_smallest_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_statistics_by_collection.tsv	data/c-catalog-taxonomy/showtrials_corpus_statistics_by_collection.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_statistics_by_process.tsv	data/e-semantic-layer/showtrials_corpus_statistics_by_process.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_statistics_by_tag.tsv	data/c-catalog-taxonomy/showtrials_corpus_statistics_by_tag.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_statistics_overview.tsv	data/c-catalog-taxonomy/showtrials_corpus_statistics_overview.tsv	moved	moved by pathlib.Path.rename
+showtrials_corpus_statistics_report.txt	reports/c-catalog-taxonomy/showtrials_corpus_statistics_report.txt	moved	moved by pathlib.Path.rename
+showtrials_date_audit_report.txt	reports/c-catalog-taxonomy/showtrials_date_audit_report.txt	moved	moved by pathlib.Path.rename
+showtrials_date_outliers.tsv	data/c-catalog-taxonomy/showtrials_date_outliers.tsv	moved	moved by pathlib.Path.rename
+showtrials_dates_by_month.tsv	data/c-catalog-taxonomy/showtrials_dates_by_month.tsv	moved	moved by pathlib.Path.rename
+showtrials_dates_by_year.tsv	data/c-catalog-taxonomy/showtrials_dates_by_year.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_collections.tsv	data/c-catalog-taxonomy/showtrials_document_collections.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_collections_report.txt	reports/c-catalog-taxonomy/showtrials_document_collections_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_index.tsv	data/c-catalog-taxonomy/showtrials_document_index.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_index_report.txt	reports/c-catalog-taxonomy/showtrials_document_index_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_type_summary.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_summary_v2.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_summary_v3.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary_v3.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_summary_v4.tsv	data/c-catalog-taxonomy/showtrials_document_type_summary_v4.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_unknown_prefixes_v2.tsv	data/c-catalog-taxonomy/showtrials_document_type_unknown_prefixes_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_unknown_prefixes_v3.tsv	data/c-catalog-taxonomy/showtrials_document_type_unknown_prefixes_v3.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_unknown_prefixes_v4.tsv	data/c-catalog-taxonomy/showtrials_document_type_unknown_prefixes_v4.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_v1_v2_changes.tsv	data/c-catalog-taxonomy/showtrials_document_type_v1_v2_changes.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_v1_v2_compare_report.txt	reports/c-catalog-taxonomy/showtrials_document_type_v1_v2_compare_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_type_v2_v3_changes.tsv	data/c-catalog-taxonomy/showtrials_document_type_v2_v3_changes.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_v2_v3_compare_report.txt	reports/c-catalog-taxonomy/showtrials_document_type_v2_v3_compare_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_type_v3_v4_changes.tsv	data/c-catalog-taxonomy/showtrials_document_type_v3_v4_changes.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_type_v3_v4_compare_report.txt	reports/c-catalog-taxonomy/showtrials_document_type_v3_v4_compare_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types.tsv	data/c-catalog-taxonomy/showtrials_document_types.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types_v2.tsv	data/c-catalog-taxonomy/showtrials_document_types_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_v2_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v2_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types_v2_validation.tsv	data/c-catalog-taxonomy/showtrials_document_types_v2_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_v2_validation_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v2_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types_v3.tsv	data/c-catalog-taxonomy/showtrials_document_types_v3.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_v3_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v3_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types_v3_validation.tsv	data/c-catalog-taxonomy/showtrials_document_types_v3_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_v3_validation_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v3_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types_v4.tsv	data/c-catalog-taxonomy/showtrials_document_types_v4.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_v4_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v4_report.txt	moved	moved by pathlib.Path.rename
+showtrials_document_types_v4_validation.tsv	data/c-catalog-taxonomy/showtrials_document_types_v4_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_document_types_v4_validation_report.txt	reports/c-catalog-taxonomy/showtrials_document_types_v4_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_entities_categories.tsv	data/e-semantic-layer/showtrials_entities_categories.tsv	moved	moved by pathlib.Path.rename
+showtrials_entities_collections.tsv	data/e-semantic-layer/showtrials_entities_collections.tsv	moved	moved by pathlib.Path.rename
+showtrials_entities_processes.tsv	data/e-semantic-layer/showtrials_entities_processes.tsv	moved	moved by pathlib.Path.rename
+showtrials_entities_tags.tsv	data/e-semantic-layer/showtrials_entities_tags.tsv	moved	moved by pathlib.Path.rename
+showtrials_entity_anomalies_report.txt	reports/e-semantic-layer/showtrials_entity_anomalies_report.txt	moved	moved by pathlib.Path.rename
+showtrials_entity_candidates.tsv	data/e-semantic-layer/showtrials_entity_candidates.tsv	moved	moved by pathlib.Path.rename
+showtrials_entity_cleanup_report.txt	reports/e-semantic-layer/showtrials_entity_cleanup_report.txt	moved	moved by pathlib.Path.rename
+showtrials_entity_inventory_report.txt	reports/e-semantic-layer/showtrials_entity_inventory_report.txt	moved	moved by pathlib.Path.rename
+showtrials_family_process_matrix.tsv	data/e-semantic-layer/showtrials_family_process_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_family_process_profiles.tsv	data/e-semantic-layer/showtrials_family_process_profiles.tsv	moved	moved by pathlib.Path.rename
+showtrials_google_translate_glossary_ru_en_v1.tsv	data/g-glossary/showtrials_google_translate_glossary_ru_en_v1.tsv	moved	moved by pathlib.Path.rename
+showtrials_known_truncated_aliases_report.txt	reports/e-semantic-layer/showtrials_known_truncated_aliases_report.txt	moved	moved by pathlib.Path.rename
+showtrials_largest_documents.tsv	data/c-catalog-taxonomy/showtrials_largest_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_literal_people.tsv	data/e-semantic-layer/showtrials_literal_people.tsv	moved	moved by pathlib.Path.rename
+showtrials_literal_people_report.txt	reports/e-semantic-layer/showtrials_literal_people_report.txt	moved	moved by pathlib.Path.rename
+showtrials_literal_person_documents.tsv	data/e-semantic-layer/showtrials_literal_person_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_literal_person_pairs.tsv	data/e-semantic-layer/showtrials_literal_person_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_master_catalog.tsv	data/c-catalog-taxonomy/showtrials_master_catalog.tsv	moved	moved by pathlib.Path.rename
+showtrials_master_catalog_report.txt	reports/c-catalog-taxonomy/showtrials_master_catalog_report.txt	moved	moved by pathlib.Path.rename
+showtrials_organization_documents.tsv	data/e-semantic-layer/showtrials_organization_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_families.tsv	data/e-semantic-layer/showtrials_organization_families.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_families_report.txt	reports/e-semantic-layer/showtrials_organization_families_report.txt	moved	moved by pathlib.Path.rename
+showtrials_organization_families_validation_report.txt	reports/e-semantic-layer/showtrials_organization_families_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_organization_family_crosspairs.tsv	data/e-semantic-layer/showtrials_organization_family_crosspairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_family_document_matrix.tsv	data/e-semantic-layer/showtrials_organization_family_document_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_family_document_matrix_report.txt	reports/e-semantic-layer/showtrials_organization_family_document_matrix_report.txt	moved	moved by pathlib.Path.rename
+showtrials_organization_family_document_summary.tsv	data/e-semantic-layer/showtrials_organization_family_document_summary.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_hierarchy.tsv	data/e-semantic-layer/showtrials_organization_hierarchy.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_hierarchy_report.txt	reports/e-semantic-layer/showtrials_organization_hierarchy_report.txt	moved	moved by pathlib.Path.rename
+showtrials_organization_hierarchy_review.tsv	data/e-semantic-layer/showtrials_organization_hierarchy_review.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_hierarchy_validation.tsv	data/e-semantic-layer/showtrials_organization_hierarchy_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_hierarchy_validation_report.txt	reports/e-semantic-layer/showtrials_organization_hierarchy_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_organization_person_summary.tsv	data/e-semantic-layer/showtrials_organization_person_summary.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_process_matrix.tsv	data/e-semantic-layer/showtrials_organization_process_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_organization_process_profiles.tsv	data/e-semantic-layer/showtrials_organization_process_profiles.tsv	moved	moved by pathlib.Path.rename
+showtrials_organizations.tsv	data/e-semantic-layer/showtrials_organizations.tsv	moved	moved by pathlib.Path.rename
+showtrials_organizations_report.txt	reports/e-semantic-layer/showtrials_organizations_report.txt	moved	moved by pathlib.Path.rename
+showtrials_page_hierarchy.tsv	data/c-catalog-taxonomy/showtrials_page_hierarchy.tsv	moved	moved by pathlib.Path.rename
+showtrials_page_hierarchy_report.txt	reports/c-catalog-taxonomy/showtrials_page_hierarchy_report.txt	moved	moved by pathlib.Path.rename
+showtrials_page_links.tsv	data/c-catalog-taxonomy/showtrials_page_links.tsv	moved	moved by pathlib.Path.rename
+showtrials_page_links_report.txt	reports/c-catalog-taxonomy/showtrials_page_links_report.txt	moved	moved by pathlib.Path.rename
+showtrials_people.tsv	data/e-semantic-layer/showtrials_people.tsv	moved	moved by pathlib.Path.rename
+showtrials_people_index_report.txt	reports/e-semantic-layer/showtrials_people_index_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_aliases.tsv	data/e-semantic-layer/showtrials_person_aliases.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_aliases_manual.tsv	data/e-semantic-layer/showtrials_person_aliases_manual.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_aliases_report.txt	reports/e-semantic-layer/showtrials_person_aliases_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_aliases_reviewed.tsv	data/e-semantic-layer/showtrials_person_aliases_reviewed.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_aliases_reviewed_report.txt	reports/e-semantic-layer/showtrials_person_aliases_reviewed_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_anomalies.tsv	data/e-semantic-layer/showtrials_person_anomalies.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_auto_alias_report.txt	reports/e-semantic-layer/showtrials_person_auto_alias_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_centrality.tsv	data/e-semantic-layer/showtrials_person_centrality.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_centrality_report.txt	reports/e-semantic-layer/showtrials_person_centrality_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_centrality_validation_report.txt	reports/e-semantic-layer/showtrials_person_centrality_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_documents.tsv	data/e-semantic-layer/showtrials_person_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_family_pairs.tsv	data/e-semantic-layer/showtrials_person_family_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_family_pairs_v2.tsv	data/e-semantic-layer/showtrials_person_family_pairs_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_institution_profiles.tsv	data/e-semantic-layer/showtrials_person_institution_profiles.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_institution_profiles_report.txt	reports/e-semantic-layer/showtrials_person_institution_profiles_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_institution_profiles_v2.tsv	data/e-semantic-layer/showtrials_person_institution_profiles_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_institution_profiles_v2_report.txt	reports/e-semantic-layer/showtrials_person_institution_profiles_v2_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_institution_profiles_v2_validation_report.txt	reports/e-semantic-layer/showtrials_person_institution_profiles_v2_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_merge_candidates.tsv	data/e-semantic-layer/showtrials_person_merge_candidates.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_merge_candidates_report.txt	reports/e-semantic-layer/showtrials_person_merge_candidates_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_normalization_candidates.tsv	data/e-semantic-layer/showtrials_person_normalization_candidates.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_normalization_report.txt	reports/e-semantic-layer/showtrials_person_normalization_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_organization_matrix.tsv	data/e-semantic-layer/showtrials_person_organization_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_organization_matrix_report.txt	reports/e-semantic-layer/showtrials_person_organization_matrix_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_organization_matrix_validation_report.txt	reports/e-semantic-layer/showtrials_person_organization_matrix_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_person_organization_pairs.tsv	data/e-semantic-layer/showtrials_person_organization_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_organization_pairs_v2.tsv	data/e-semantic-layer/showtrials_person_organization_pairs_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_organization_profile_pairs.tsv	data/e-semantic-layer/showtrials_person_organization_profile_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_organization_summary.tsv	data/e-semantic-layer/showtrials_person_organization_summary.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_pairs.tsv	data/e-semantic-layer/showtrials_person_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_position_pairs.tsv	data/e-semantic-layer/showtrials_person_position_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_position_profile_pairs.tsv	data/e-semantic-layer/showtrials_person_position_profile_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_process_matrix.tsv	data/e-semantic-layer/showtrials_person_process_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_process_profiles.tsv	data/e-semantic-layer/showtrials_person_process_profiles.tsv	moved	moved by pathlib.Path.rename
+showtrials_person_role_pairs_v2.tsv	data/e-semantic-layer/showtrials_person_role_pairs_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_position_documents.tsv	data/e-semantic-layer/showtrials_position_documents.tsv	moved	moved by pathlib.Path.rename
+showtrials_position_organization_pairs.tsv	data/e-semantic-layer/showtrials_position_organization_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_positions.tsv	data/e-semantic-layer/showtrials_positions.tsv	moved	moved by pathlib.Path.rename
+showtrials_positions_report.txt	reports/e-semantic-layer/showtrials_positions_report.txt	moved	moved by pathlib.Path.rename
+showtrials_post_metadata_fields.tsv	data/c-catalog-taxonomy/showtrials_post_metadata_fields.tsv	moved	moved by pathlib.Path.rename
+showtrials_post_metadata_report.txt	reports/c-catalog-taxonomy/showtrials_post_metadata_report.txt	moved	moved by pathlib.Path.rename
+showtrials_post_metadata_sample.tsv	data/c-catalog-taxonomy/showtrials_post_metadata_sample.tsv	moved	moved by pathlib.Path.rename
+showtrials_post_metadata_terms.tsv	data/c-catalog-taxonomy/showtrials_post_metadata_terms.tsv	moved	moved by pathlib.Path.rename
+showtrials_process_document_matrix.tsv	data/e-semantic-layer/showtrials_process_document_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_process_inventory.tsv	data/e-semantic-layer/showtrials_process_inventory.tsv	moved	moved by pathlib.Path.rename
+showtrials_process_layer_report.txt	reports/e-semantic-layer/showtrials_process_layer_report.txt	moved	moved by pathlib.Path.rename
+showtrials_process_layer_validation_report.txt	reports/e-semantic-layer/showtrials_process_layer_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_process_profiles_report.txt	reports/e-semantic-layer/showtrials_process_profiles_report.txt	moved	moved by pathlib.Path.rename
+showtrials_process_profiles_validation_report.txt	reports/e-semantic-layer/showtrials_process_profiles_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_processes.tsv	data/e-semantic-layer/showtrials_processes.tsv	moved	moved by pathlib.Path.rename
+showtrials_role_documents_v2.tsv	data/e-semantic-layer/showtrials_role_documents_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_roles_v2.tsv	data/e-semantic-layer/showtrials_roles_v2.tsv	moved	moved by pathlib.Path.rename
+showtrials_roles_v2_report.txt	reports/e-semantic-layer/showtrials_roles_v2_report.txt	moved	moved by pathlib.Path.rename
+showtrials_roles_v2_validation_report.txt	reports/e-semantic-layer/showtrials_roles_v2_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_search_corpus_report.txt	reports/b-json-export-search/showtrials_search_corpus_report.txt	moved	moved by pathlib.Path.rename
+showtrials_search_v2_validation.tsv	data/b-json-export-search/showtrials_search_v2_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_search_v2_validation_report.txt	reports/b-json-export-search/showtrials_search_v2_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_semantic_baseline_dependencies.tsv	data/e-semantic-layer/showtrials_semantic_baseline_dependencies.tsv	moved	moved by pathlib.Path.rename
+showtrials_semantic_baseline_inventory.tsv	data/e-semantic-layer/showtrials_semantic_baseline_inventory.tsv	moved	moved by pathlib.Path.rename
+showtrials_semantic_baseline_report.txt	reports/e-semantic-layer/showtrials_semantic_baseline_report.txt	moved	moved by pathlib.Path.rename
+showtrials_semantic_baseline_validation.tsv	data/e-semantic-layer/showtrials_semantic_baseline_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_semantic_baseline_validation_report.txt	reports/e-semantic-layer/showtrials_semantic_baseline_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_semantic_layer_inventory.tsv	data/e-semantic-layer/showtrials_semantic_layer_inventory.tsv	moved	moved by pathlib.Path.rename
+showtrials_semantic_layer_report.txt	reports/e-semantic-layer/showtrials_semantic_layer_report.txt	moved	moved by pathlib.Path.rename
+showtrials_semantic_layer_validation.tsv	data/e-semantic-layer/showtrials_semantic_layer_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_special_report_attachment_matrix.tsv	data/d-structural-chunking/showtrials_special_report_attachment_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_special_report_package_examples_d3_1.tsv	data/d-structural-chunking/showtrials_special_report_package_examples_d3_1.tsv	moved	moved by pathlib.Path.rename
+showtrials_special_report_package_summary_d3_1.tsv	data/d-structural-chunking/showtrials_special_report_package_summary_d3_1.tsv	moved	moved by pathlib.Path.rename
+showtrials_special_report_packages_d3_1.tsv	data/d-structural-chunking/showtrials_special_report_packages_d3_1.tsv	moved	moved by pathlib.Path.rename
+showtrials_special_report_packages_d3_1_report.txt	reports/d-structural-chunking/showtrials_special_report_packages_d3_1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_special_report_packages_d3_1_validation.tsv	data/d-structural-chunking/showtrials_special_report_packages_d3_1_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_special_report_packages_d3_1_validation_report.txt	reports/d-structural-chunking/showtrials_special_report_packages_d3_1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_structural_chunking_d2_by_document.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_by_document.tsv	moved	moved by pathlib.Path.rename
+showtrials_structural_chunking_d2_by_type.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_by_type.tsv	moved	moved by pathlib.Path.rename
+showtrials_structural_chunking_d2_examples.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_examples.tsv	moved	moved by pathlib.Path.rename
+showtrials_structural_chunking_d2_report.txt	reports/d-structural-chunking/showtrials_structural_chunking_d2_report.txt	moved	moved by pathlib.Path.rename
+showtrials_structural_chunking_d2_validation.tsv	data/d-structural-chunking/showtrials_structural_chunking_d2_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_structural_chunking_d2_validation_report.txt	reports/d-structural-chunking/showtrials_structural_chunking_d2_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_structural_samples_d2_1_index.tsv	data/d-structural-chunking/showtrials_structural_samples_d2_1_index.tsv	moved	moved by pathlib.Path.rename
+showtrials_structural_samples_d2_1_report.txt	reports/d-structural-chunking/showtrials_structural_samples_d2_1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_structural_samples_d2_2_report.txt	reports/d-structural-chunking/showtrials_structural_samples_d2_2_report.txt	moved	moved by pathlib.Path.rename
+showtrials_structural_samples_d2_2_review_index.tsv	data/d-structural-chunking/showtrials_structural_samples_d2_2_review_index.tsv	moved	moved by pathlib.Path.rename
+showtrials_tag_process_audit_report.txt	reports/e-semantic-layer/showtrials_tag_process_audit_report.txt	moved	moved by pathlib.Path.rename
+showtrials_tag_process_exclusive.tsv	data/e-semantic-layer/showtrials_tag_process_exclusive.tsv	moved	moved by pathlib.Path.rename
+showtrials_tag_process_matrix.tsv	data/e-semantic-layer/showtrials_tag_process_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_tags.json	data/c-catalog-taxonomy/showtrials_tags.json	moved	moved by pathlib.Path.rename
+showtrials_taxonomy_anomalies.tsv	data/c-catalog-taxonomy/showtrials_taxonomy_anomalies.tsv	moved	moved by pathlib.Path.rename
+showtrials_taxonomy_document_matrix.tsv	data/c-catalog-taxonomy/showtrials_taxonomy_document_matrix.tsv	moved	moved by pathlib.Path.rename
+showtrials_taxonomy_report.txt	reports/c-catalog-taxonomy/showtrials_taxonomy_report.txt	moved	moved by pathlib.Path.rename
+showtrials_taxonomy_terms.tsv	data/c-catalog-taxonomy/showtrials_taxonomy_terms.tsv	moved	moved by pathlib.Path.rename
+showtrials_taxonomy_terms_report.txt	reports/c-catalog-taxonomy/showtrials_taxonomy_terms_report.txt	moved	moved by pathlib.Path.rename
+showtrials_text_cleanliness.tsv	data/c-catalog-taxonomy/showtrials_text_cleanliness.tsv	moved	moved by pathlib.Path.rename
+showtrials_text_cleanliness_report.txt	reports/c-catalog-taxonomy/showtrials_text_cleanliness_report.txt	moved	moved by pathlib.Path.rename
+showtrials_timeline.tsv	data/c-catalog-taxonomy/showtrials_timeline.tsv	moved	moved by pathlib.Path.rename
+showtrials_title_document_entities.tsv	data/e-semantic-layer/showtrials_title_document_entities.tsv	moved	moved by pathlib.Path.rename
+showtrials_title_entities.tsv	data/e-semantic-layer/showtrials_title_entities.tsv	moved	moved by pathlib.Path.rename
+showtrials_title_entities_report.txt	reports/e-semantic-layer/showtrials_title_entities_report.txt	moved	moved by pathlib.Path.rename
+showtrials_title_entity_pairs.tsv	data/e-semantic-layer/showtrials_title_entity_pairs.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_cost_by_document.tsv	data/t-translation-planning/showtrials_translation_cost_by_document.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_cost_by_document_type.tsv	data/t-translation-planning/showtrials_translation_cost_by_document_type.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_cost_by_process.tsv	data/t-translation-planning/showtrials_translation_cost_by_process.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_cost_report.txt	reports/t-translation-planning/showtrials_translation_cost_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_freeze_readiness.tsv	data/g-glossary/showtrials_translation_glossary_freeze_readiness.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_freeze_readiness_report.txt	reports/g-glossary/showtrials_translation_glossary_freeze_readiness_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g3.tsv	data/g-glossary/showtrials_translation_glossary_g3.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g3_report.txt	reports/g-glossary/showtrials_translation_glossary_g3_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g3_review.tsv	data/g-glossary/showtrials_translation_glossary_g3_review.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g3_validation.tsv	data/g-glossary/showtrials_translation_glossary_g3_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g3_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_g3_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4.tsv	data/g-glossary/showtrials_translation_glossary_g4.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_1.tsv	data/g-glossary/showtrials_translation_glossary_g4_1.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_1_report.txt	reports/g-glossary/showtrials_translation_glossary_g4_1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_1_review.tsv	data/g-glossary/showtrials_translation_glossary_g4_1_review.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_1_validation.tsv	data/g-glossary/showtrials_translation_glossary_g4_1_validation.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_1_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_g4_1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_report.txt	reports/g-glossary/showtrials_translation_glossary_g4_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_g4_review.tsv	data/g-glossary/showtrials_translation_glossary_g4_review.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_seed_plan_v1.tsv	data/g-glossary/showtrials_translation_glossary_seed_plan_v1.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_seeds_v1.tsv	data/g-glossary/showtrials_translation_glossary_seeds_v1.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_seeds_v1_report.txt	reports/g-glossary/showtrials_translation_glossary_seeds_v1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_seeds_v1_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_seeds_v1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_v1.tsv	data/g-glossary/showtrials_translation_glossary_v1.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_v1_report.txt	reports/g-glossary/showtrials_translation_glossary_v1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_v1_review.tsv	data/g-glossary/showtrials_translation_glossary_v1_review.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_glossary_v1_validation_report.txt	reports/g-glossary/showtrials_translation_glossary_v1_validation_report.txt	moved	moved by pathlib.Path.rename
+showtrials_translation_profiles_v1.tsv	data/t-translation-planning/showtrials_translation_profiles_v1.tsv	moved	moved by pathlib.Path.rename
+showtrials_translation_profiles_v1_report.txt	reports/t-translation-planning/showtrials_translation_profiles_v1_report.txt	moved	moved by pathlib.Path.rename
+showtrials_truncated_person_candidates.tsv	data/e-semantic-layer/showtrials_truncated_person_candidates.tsv	moved	moved by pathlib.Path.rename
+showtrials_truncated_person_candidates_report.txt	reports/e-semantic-layer/showtrials_truncated_person_candidates_report.txt	moved	moved by pathlib.Path.rename
+showtrials_users.json	data/b-json-export-search/showtrials_users.json	moved	moved by pathlib.Path.rename
+sitemap-urls.txt	reports/a-extraction/sitemap-urls.txt	moved	moved by pathlib.Path.rename
+validate-showtrials-attachment-taxonomy-d3-1a.py	scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-d3-1a.py	moved	moved by pathlib.Path.rename
+validate-showtrials-attachment-taxonomy-refinement-d3-1b.py	scripts/d-structural-chunking/validate-showtrials-attachment-taxonomy-refinement-d3-1b.py	moved	moved by pathlib.Path.rename
+validate-showtrials-chunking-blueprint-v1.py	scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1.py	moved	moved by pathlib.Path.rename
+validate-showtrials-chunking-blueprint-v1_1.py	scripts/d-structural-chunking/validate-showtrials-chunking-blueprint-v1_1.py	moved	moved by pathlib.Path.rename
+validate-showtrials-corpus-sizing-chunking-d1.py	scripts/d-structural-chunking/validate-showtrials-corpus-sizing-chunking-d1.py	moved	moved by pathlib.Path.rename
+validate-showtrials-document-types-v2.py	scripts/c-catalog-taxonomy/validate-showtrials-document-types-v2.py	moved	moved by pathlib.Path.rename
+validate-showtrials-document-types-v3.py	scripts/c-catalog-taxonomy/validate-showtrials-document-types-v3.py	moved	moved by pathlib.Path.rename
+validate-showtrials-document-types-v4.py	scripts/c-catalog-taxonomy/validate-showtrials-document-types-v4.py	moved	moved by pathlib.Path.rename
+validate-showtrials-organization-families.py	scripts/e-semantic-layer/validate-showtrials-organization-families.py	moved	moved by pathlib.Path.rename
+validate-showtrials-organization-hierarchy.py	scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py	moved	moved by pathlib.Path.rename
+validate-showtrials-person-centrality.py	scripts/e-semantic-layer/validate-showtrials-person-centrality.py	moved	moved by pathlib.Path.rename
+validate-showtrials-person-institution-profiles-v2.py	scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py	moved	moved by pathlib.Path.rename
+validate-showtrials-person-organization-matrix.py	scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py	moved	moved by pathlib.Path.rename
+validate-showtrials-process-layer.py	scripts/e-semantic-layer/validate-showtrials-process-layer.py	moved	moved by pathlib.Path.rename
+validate-showtrials-process-profiles.py	scripts/e-semantic-layer/validate-showtrials-process-profiles.py	moved	moved by pathlib.Path.rename
+validate-showtrials-roles-v2.py	scripts/e-semantic-layer/validate-showtrials-roles-v2.py	moved	moved by pathlib.Path.rename
+validate-showtrials-search-v2.py	scripts/c-catalog-taxonomy/validate-showtrials-search-v2.py	moved	moved by pathlib.Path.rename
+validate-showtrials-semantic-baseline.sh	scripts/e-semantic-layer/validate-showtrials-semantic-baseline.sh	moved	moved by pathlib.Path.rename
+validate-showtrials-special-report-packages-d3-1.py	scripts/d-structural-chunking/validate-showtrials-special-report-packages-d3-1.py	moved	moved by pathlib.Path.rename
+validate-showtrials-structural-chunking-d2.py	scripts/d-structural-chunking/validate-showtrials-structural-chunking-d2.py	moved	moved by pathlib.Path.rename
+validate-showtrials-translation-glossary-g3.py	scripts/g-glossary/validate-showtrials-translation-glossary-g3.py	moved	moved by pathlib.Path.rename
+validate-showtrials-translation-glossary-g4-1.py	scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py	moved	moved by pathlib.Path.rename
+validate-showtrials-translation-glossary-seeds-v1.py	scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py	moved	moved by pathlib.Path.rename
+validate-showtrials-translation-glossary-v1.py	scripts/g-glossary/validate-showtrials-translation-glossary-v1.py	moved	moved by pathlib.Path.rename

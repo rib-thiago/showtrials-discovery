@@ -1,0 +1,85 @@
+ShowTrials text cleanliness diagnosis
+
+Files scanned: 2179
+Total chars: 27918045
+Total words: 4047644
+
+Pattern totals:
+html_tag_like	25850
+html_entity_like	0
+nbsp_char	74307
+many_spaces	0
+many_blank_lines	0
+footnote_marker	5266
+archive_ref	14262
+editorial_braces	1032
+angle_editorial	25850
+stamp_marker	201
+
+Top files by possible HTML residue:
+505	4665_spisok-arestovannyh-po-sostoyaniyu-na-20-yanvarya-1935-g.txt
+483	8173_speczsoobshhenie-g-g-yagody-i-v-stalinu-o-troczkistskoj-gruppe-i-n-smirnova-s-pr.txt
+417	4581_spisok-licz-prohodyashhih-po-pokazaniyam-no-ne-arestovannyh.txt
+385	5240_speczsoobshhenie-g-g-yagody-i-v-stalinu-o-merah-nakazaniya-uchastnikam-terrorist.txt
+339	5660_zapiska-g-g-yagody-i-v-stalinu-s-prilozheniem-spravok-na-uchastnikov-troczkistsk.txt
+321	4583_spisok-licz-arestovannyh-po-delu-terroristicheskoj-zinovevskoj-organizaczii.txt
+298	4847_spisok-arestovannyh-po-delu-kontrrevolyuczionnyh-terroristicheskih-grupp-v-kreml.txt
+207	10470_speczsoobshhenie-ya-s-agranova-i-v-stalinu-s-prilozheniem-memoranduma-po-delu-ar.txt
+184	2644_zasedanie-15-yanvarya-1935-g.txt
+155	8164_varianty-vystupleniya-n-i-buharina-vo-vremya-doprosa-na-sudebnom-proczesse-pravo.txt
+147	6711_spisok-rodstvennikov-obvinyaemyh-osuzhdennyh-i-rasstrelyannyh-po-prigovoru-vkvs-.txt
+147	8169_chernovye-varianty-poslednego-slova-n-i-buharina-na-proczesse-pravotroczkistskog.txt
+147	8690_zayavlenie-n-i-buharina-chlenam-plenuma-czk-vkpb.txt
+141	4841_obyasneniya-p-f-zajczeva-n-i-ezhovu-po-voprosu-o-chuzhdyh-elementah-v-apparate-c.txt
+140	4771_spisok-aktivnyh-zinovevczev-troczkistov-i-shlyapnikovczev-podlezhashhih-nemedlen.txt
+138	7885_speczsoobshhenie-n-i-ezhova-i-v-stalinu-s-prilozheniem-zayavleniya-i-protokola-d.txt
+132	5863_protokol-doprosa-m-s-stroilova.txt
+131	5242_prigovor-voennoj-kollegii-verhovnogo-suda-sssr-po-kremlevskomu-delu.txt
+125	9912_zayavlenie-d-i-antipasa-n-i-ezhovu-o-rabotnikah-upravleniya-komendanta-moskovsko.txt
+107	5879_protokol-doprosa-m-s-stroilova-2.txt
+
+Top files by NBSP chars:
+1445	8849_speczsoobshhenie-n-i-ezhova-i-v-stalinu-s-prilozheniem-tezisov-o-sovremennom-pol.txt
+1375	5660_zapiska-g-g-yagody-i-v-stalinu-s-prilozheniem-spravok-na-uchastnikov-troczkistsk.txt
+1134	2618_zasedanie-voennogo-tribunala-verhovnogo-suda-sssr-28-dekabrya-1934-g.txt
+1008	7450_pismo-s-m-zaksa-gladneva-n-i-ezhovu-s-prilozheniem-dokladnoj-zapiski-ob-izdanii-.txt
+731	1699_spisok-lichnogo-sostava-czik.txt
+675	2523_25-yanvarya-utrennee-zasedanie.txt
+596	4581_spisok-licz-prohodyashhih-po-pokazaniyam-no-ne-arestovannyh.txt
+547	5864_protokol-doprosa-e-r-majera-s-prilozheniyami.txt
+453	2525_25-yanvarya-vechernee-zasedanie.txt
+445	4796_statisticheskie-dannye-po-vyseleniyu-iz-leningrada-chlenov-semej-osuzhdennyh.txt
+401	8954_vechernee-zasedanie-fevralsko-martovskogo-plenuma-czk-vkpb-1937-g-buharin-i-ryko.txt
+383	8956_utrennee-zasedanie-fevralsko-martovskogo-plenuma-czk-vkpb-1937-g-buharin-i-rykov.txt
+366	7726_speczsoobshhenie-n-i-ezhova-i-v-stalinu-s-prilozheniem-protokola-doprosa-a-a-tab.txt
+361	10626_spisok-rabotnikov-diplomaticheskogo-korpusa-na-poluchenie-biletov-na-proczess-av.txt
+310	8690_zayavlenie-n-i-buharina-chlenam-plenuma-czk-vkpb.txt
+308	8555_zayavlenie-e-v-czetlina-v-kollegiyu-ogpu-czk-i-czkk-vkpb.txt
+299	5879_protokol-doprosa-m-s-stroilova-2.txt
+288	8938_vechernee-zasedanie-buharin-i-rykov.txt
+285	1790_utro-19-avgusta-1936.txt
+279	8951_utrennee-zasedanie-fevralsko-martovskogo-plenuma-czk-vkpb-1937-g-buharin-i-rykov.txt
+
+Top files by many blank lines:
+
+Top files by archive references:
+112	4665_spisok-arestovannyh-po-sostoyaniyu-na-20-yanvarya-1935-g.txt
+76	1790_utro-19-avgusta-1936.txt
+67	6762_proekt-obvinitelnogo-zaklyucheniya-po-delu-troczkistsko-zinovevskogo-terroristic.txt
+49	4811_chernovoj-nepravlenyj-variant-stenogrammy-vechrnego-zasedaniya-iyunskogo-plenuma.txt
+34	7300_obvinitelnoe-zaklyuchenie-po-delu-parallelnogo-antisovetskogo-troczkistskogo-cze.txt
+31	4833_obyasnitelnaya-zapiska-s-p-terihova-m-f-shkiryatovu-po-voprosu-o-polozhenii-v-pr.txt
+31	5774_predsmertnye-pisma-i-nabroski-m-p-tomskogo.txt
+30	7844_zayavlenie-m-p-pribylovskogo-i-v-stalinu-o-vreditelskoj-rabote-gruppy-byvshih-zi.txt
+30	8592_speczsoobshhenie-ya-s-agranova-i-v-stalinu-s-prilozheniem-zayavleniya-a-n-slepko.txt
+28	6947_soobshhenie-l-z-mehlisa-i-v-stalinu-i-drugim-s-prilozheniem-materialov-o-vredite.txt
+27	2617_obvinitelnoe-zaklyuchenie.txt
+27	6842_speczsoobshhenie-g-g-yagody-n-i-ezhovu-s-prilozheniem-pisem-g-e-zinoveva-i-s-g-r.txt
+26	4831_zapiska-e-d-sokolovoj-m-f-shkiryatovu-v-kpk-pri-czk-vkpb-o-polozhenii-v-pravitel.txt
+26	8798_perepiska-i-v-stalina-i-a-i-steczkogo.txt
+25	5864_protokol-doprosa-e-r-majera-s-prilozheniyami.txt
+25	6830_pismo-m-p-tomskogo-v-politbyuro-czk-vkpb-s-prilozheniem-zapisej-g-e-zinoveva-o-l.txt
+25	6868_pisma-sh-m-dvolajczkogo-n-i-ezhovu-i-v-m-molotovu-o-znakomstve-s-m-v-pozdeevoj-i.txt
+25	6951_soobshhenie-m-m-malinova-i-v-stalinu-o-samoubijstve-n-n-kolotilina-s-prilozhenie.txt
+25	7214_speczsoobshhenie-g-g-yagody-i-v-stalinu-s-prilozheniem-dokumentov-nadejnnyh-pri-.txt
+25	9470_georgij-borisovich-sinani-skalov.txt

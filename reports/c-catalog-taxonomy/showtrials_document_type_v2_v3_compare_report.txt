@@ -1,0 +1,22 @@
+ShowTrials document type v2/v3 comparison
+
+Compared documents: 2179
+Changed documents: 139
+
+Transitions:
+91	unknown	→	letter
+14	unknown	→	telegram
+12	unknown	→	administrative_report
+7	unknown	→	testimony
+3	unknown	→	interrogation_protocol
+2	letter	→	administrative_report
+1	letter	→	telegram
+1	prosecutor_announcement	→	administrative_report
+1	statement	→	administrative_report
+1	unknown	→	brochure
+1	unknown	→	conversation_recording
+1	unknown	→	data_extract
+1	unknown	→	medical_act
+1	unknown	→	memo_note
+1	unknown	→	poem
+1	unknown	→	special_report

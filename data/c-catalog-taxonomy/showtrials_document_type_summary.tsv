@@ -1,0 +1,146 @@
+scope	name	document_type	count
+global	ALL	interrogation_protocol	979
+global	ALL	special_report	497
+global	ALL	unknown	247
+global	ALL	letter	152
+global	ALL	statement	107
+global	ALL	confrontation_protocol	57
+global	ALL	session_transcript	48
+global	ALL	memo_note	44
+global	ALL	conversation_recording	33
+global	ALL	reference_note	6
+global	ALL	verdict_or_sentence	4
+global	ALL	article	2
+global	ALL	indictment	2
+global	ALL	autobiography	1
+process	КРЕМЛЕВСКОЕ ДЕЛО	interrogation_protocol	176
+process	КРЕМЛЕВСКОЕ ДЕЛО	special_report	47
+process	КРЕМЛЕВСКОЕ ДЕЛО	unknown	17
+process	КРЕМЛЕВСКОЕ ДЕЛО	letter	16
+process	КРЕМЛЕВСКОЕ ДЕЛО	memo_note	13
+process	КРЕМЛЕВСКОЕ ДЕЛО	confrontation_protocol	8
+process	КРЕМЛЕВСКОЕ ДЕЛО	session_transcript	6
+process	КРЕМЛЕВСКОЕ ДЕЛО	statement	5
+process	КРЕМЛЕВСКОЕ ДЕЛО	reference_note	2
+process	КРЕМЛЕВСКОЕ ДЕЛО	autobiography	1
+process	КРЕМЛЕВСКОЕ ДЕЛО	verdict_or_sentence	1
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	interrogation_protocol	198
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	special_report	112
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	unknown	95
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	letter	36
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	statement	18
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	session_transcript	10
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	memo_note	9
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	confrontation_protocol	4
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	article	2
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	reference_note	2
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	special_report	83
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	letter	51
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	statement	37
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	interrogation_protocol	34
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	conversation_recording	33
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	unknown	24
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	session_transcript	10
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	confrontation_protocol	8
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	memo_note	4
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	special_report	247
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	interrogation_protocol	133
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	unknown	31
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	letter	24
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	memo_note	15
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	session_transcript	15
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	statement	13
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	confrontation_protocol	1
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	indictment	1
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	reference_note	1
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	interrogation_protocol	144
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	confrontation_protocol	13
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	unknown	5
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	letter	4
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	statement	3
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	verdict_or_sentence	2
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	indictment	1
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	memo_note	1
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	session_transcript	1
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	special_report	1
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	interrogation_protocol	294
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	unknown	41
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	statement	30
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	confrontation_protocol	23
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	letter	21
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	session_transcript	6
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	special_report	5
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	memo_note	2
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	reference_note	1
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	verdict_or_sentence	1
+process	РАЗНЫЕ ДОКУМЕНТЫ	special_report	2
+process	РАЗНЫЕ ДОКУМЕНТЫ	statement	1
+process	РАЗНЫЕ ДОКУМЕНТЫ	unknown	1
+process	СТАТЬИ	unknown	2
+process	ТРОЦКИЙ	unknown	31
+collection	БУХАРИН	letter	44
+collection	БУХАРИН	conversation_recording	33
+collection	БУХАРИН	unknown	11
+collection	БУХАРИН	statement	5
+collection	БУХАРИН	session_transcript	4
+collection	БУХАРИН	special_report	3
+collection	БУХАРИН	interrogation_protocol	2
+collection	БУХАРИН	confrontation_protocol	1
+collection	БУХАРИН	memo_note	1
+collection	Г.Б. СИНАНИ-СКАЛОВ	session_transcript	4
+collection	Г.Б. СИНАНИ-СКАЛОВ	unknown	4
+collection	Г.Б. СИНАНИ-СКАЛОВ	letter	2
+collection	Г.Б. СИНАНИ-СКАЛОВ	memo_note	2
+collection	Г.Б. СИНАНИ-СКАЛОВ	autobiography	1
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	interrogation_protocol	10
+collection	ДРУГИЕ ДОКУМЕНТЫ	unknown	57
+collection	ДРУГИЕ ДОКУМЕНТЫ	letter	56
+collection	ДРУГИЕ ДОКУМЕНТЫ	statement	31
+collection	ДРУГИЕ ДОКУМЕНТЫ	memo_note	16
+collection	ДРУГИЕ ДОКУМЕНТЫ	special_report	6
+collection	ДРУГИЕ ДОКУМЕНТЫ	session_transcript	5
+collection	ДРУГИЕ ДОКУМЕНТЫ	reference_note	4
+collection	ДРУГИЕ ДОКУМЕНТЫ	interrogation_protocol	2
+collection	ДРУГИЕ ДОКУМЕНТЫ	verdict_or_sentence	1
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	memo_note	9
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	unknown	8
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	letter	4
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	session_transcript	2
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	reference_note	1
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	statement	1
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	interrogation_protocol	949
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	special_report	471
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	confrontation_protocol	52
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	unknown	51
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	statement	45
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	letter	25
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	memo_note	15
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	indictment	1
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	reference_note	1
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	session_transcript	1
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	verdict_or_sentence	1
+collection	ОЛЬБЕРГ	unknown	65
+collection	ОЛЬБЕРГ	letter	13
+collection	ОЛЬБЕРГ	article	2
+collection	ПРЕДЫСТОРИЯ	statement	20
+collection	ПРЕДЫСТОРИЯ	interrogation_protocol	16
+collection	ПРЕДЫСТОРИЯ	special_report	11
+collection	ПРЕДЫСТОРИЯ	unknown	10
+collection	ПРЕДЫСТОРИЯ	letter	5
+collection	ПРЕДЫСТОРИЯ	confrontation_protocol	4
+collection	ПРЕДЫСТОРИЯ	memo_note	1
+collection	РАЗНЫЕ ДОКУМЕНТЫ	special_report	2
+collection	РАЗНЫЕ ДОКУМЕНТЫ	statement	1
+collection	РАЗНЫЕ ДОКУМЕНТЫ	unknown	1
+collection	СПРАВКА	special_report	4
+collection	СПРАВКА	statement	4
+collection	СПРАВКА	letter	2
+collection	СПРАВКИ КПК И ИМЛ	letter	1
+collection	СТАТЬИ	unknown	2
+collection	ТРОЦКИЙ	unknown	31
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	session_transcript	5
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	unknown	1
+collection	ХОД ПРОЦЕССА	session_transcript	27
+collection	ХОД ПРОЦЕССА	unknown	6
+collection	ХОД ПРОЦЕССА	verdict_or_sentence	2
+collection	ХОД ПРОЦЕССА	indictment	1

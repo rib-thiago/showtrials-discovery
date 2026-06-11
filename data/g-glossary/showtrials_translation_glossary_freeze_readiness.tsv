@@ -1,0 +1,6 @@
+level	check	detail	recommendation
+OK	organizations	all organizations approved	freeze organization layer
+OK	processes	all processes approved	freeze process layer
+OK	high_frequency_people	all people with >=20 docs approved	acceptable for pilot
+WARN	medium_frequency_people	1 people with >=10 docs unapproved	review if time allows before broad translation
+WARN	semantic_roles	4 political/accusatory labels need policy review	decide whether current English labels are acceptable

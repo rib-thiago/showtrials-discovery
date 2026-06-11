@@ -1,0 +1,10 @@
+child_organization	parent_organization	relation_type	confidence	reason	child_kind	parent_kind	child_document_count	parent_document_count	status	review_decision	notes
+ЦК ВКП(б)	ВКП(б)	central_committee_of	high	known_party_structure	party_body	party	869	1397	auto_proposed		
+Политбюро	ЦК ВКП(б)	political_bureau_of	high	known_party_structure	party_body	party_body	278	869	auto_proposed		
+КПК	ЦК ВКП(б)	party_control_body_of	medium	party_control_body	party_control_body	party_body	54	869	auto_proposed		
+КПК при ЦК ВКП(б)	ЦК ВКП(б)	party_control_body_of	high	name_contains_parent	party_control_body	party_body	15	869	auto_proposed		
+Горьковский крайком ВКП(б)	ВКП(б)	regional_committee_of	high	name_contains_party	party_body	party	9	1397	auto_proposed		
+ГУГБ	НКВД	main_directorate_of	high	known_security_structure	security_police	security_police	1296	915	auto_proposed		
+ИНО ГУГБ	ГУГБ	department_of	high	name_contains_parent	security_police_department	security_police	53	1296	auto_proposed		
+ОО ГУГБ НКВД	ГУГБ	department_of	high	name_contains_parent	security_police_department	security_police	40	1296	auto_proposed		
+Секретариат ЦИК СССР	ЦИК СССР	secretariat_of	high	name_contains_parent	state_body	state_body	20	82	auto_proposed		

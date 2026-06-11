@@ -1,0 +1,183 @@
+scope	name	flag	count
+global	ALL	nbsp_present	2177
+global	ALL	archive_refs_present	2050
+global	ALL	angle_markup_present	1898
+global	ALL	missing_tag	1175
+global	ALL	footnotes_present	878
+global	ALL	stamp_markers_present	110
+global	ALL	multi_tag	96
+global	ALL	multi_category	52
+global	ALL	very_long	42
+global	ALL	multi_process	34
+global	ALL	very_short	31
+process	КРЕМЛЕВСКОЕ ДЕЛО	missing_tag	292
+process	КРЕМЛЕВСКОЕ ДЕЛО	nbsp_present	292
+process	КРЕМЛЕВСКОЕ ДЕЛО	archive_refs_present	289
+process	КРЕМЛЕВСКОЕ ДЕЛО	angle_markup_present	278
+process	КРЕМЛЕВСКОЕ ДЕЛО	footnotes_present	119
+process	КРЕМЛЕВСКОЕ ДЕЛО	stamp_markers_present	4
+process	КРЕМЛЕВСКОЕ ДЕЛО	very_long	2
+process	КРЕМЛЕВСКОЕ ДЕЛО	multi_category	1
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	nbsp_present	486
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	angle_markup_present	436
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	archive_refs_present	435
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	footnotes_present	244
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	missing_tag	158
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	multi_tag	50
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	very_long	12
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	very_short	10
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	stamp_markers_present	7
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	multi_category	5
+process	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	multi_process	4
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	nbsp_present	284
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	angle_markup_present	260
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	archive_refs_present	249
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	footnotes_present	123
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	stamp_markers_present	56
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	multi_tag	21
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	missing_tag	19
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	multi_category	14
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	very_long	9
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	multi_process	1
+process	ПРОЦЕСС 2-12 МАРТА 1938 г.	very_short	1
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	nbsp_present	481
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	archive_refs_present	479
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	angle_markup_present	457
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	footnotes_present	224
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	missing_tag	72
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	stamp_markers_present	33
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	multi_category	32
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	multi_process	29
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	multi_tag	25
+process	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	very_long	13
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	missing_tag	175
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	nbsp_present	173
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	archive_refs_present	171
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	angle_markup_present	127
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	footnotes_present	42
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	very_short	6
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	stamp_markers_present	2
+process	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	very_long	1
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	nbsp_present	424
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	missing_tag	422
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	archive_refs_present	419
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	angle_markup_present	334
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	footnotes_present	108
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	very_short	11
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	stamp_markers_present	8
+process	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	very_long	3
+process	РАЗНЫЕ ДОКУМЕНТЫ	angle_markup_present	4
+process	РАЗНЫЕ ДОКУМЕНТЫ	archive_refs_present	4
+process	РАЗНЫЕ ДОКУМЕНТЫ	missing_tag	4
+process	РАЗНЫЕ ДОКУМЕНТЫ	nbsp_present	4
+process	РАЗНЫЕ ДОКУМЕНТЫ	footnotes_present	3
+process	СТАТЬИ	angle_markup_present	2
+process	СТАТЬИ	archive_refs_present	2
+process	СТАТЬИ	footnotes_present	2
+process	СТАТЬИ	missing_tag	2
+process	СТАТЬИ	nbsp_present	2
+process	СТАТЬИ	very_long	2
+process	ТРОЦКИЙ	missing_tag	31
+process	ТРОЦКИЙ	nbsp_present	31
+process	ТРОЦКИЙ	footnotes_present	13
+process	ТРОЦКИЙ	very_short	3
+process	ТРОЦКИЙ	archive_refs_present	2
+collection	БУХАРИН	nbsp_present	104
+collection	БУХАРИН	angle_markup_present	91
+collection	БУХАРИН	archive_refs_present	73
+collection	БУХАРИН	footnotes_present	52
+collection	БУХАРИН	stamp_markers_present	29
+collection	БУХАРИН	multi_tag	20
+collection	БУХАРИН	multi_category	13
+collection	БУХАРИН	very_long	2
+collection	БУХАРИН	very_short	1
+collection	Г.Б. СИНАНИ-СКАЛОВ	archive_refs_present	13
+collection	Г.Б. СИНАНИ-СКАЛОВ	missing_tag	13
+collection	Г.Б. СИНАНИ-СКАЛОВ	nbsp_present	13
+collection	Г.Б. СИНАНИ-СКАЛОВ	angle_markup_present	12
+collection	Г.Б. СИНАНИ-СКАЛОВ	footnotes_present	8
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	archive_refs_present	10
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	missing_tag	10
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	nbsp_present	8
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	angle_markup_present	5
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	footnotes_present	1
+collection	ДЕЛО ПЕТРА НИКОЛАЕВА	very_short	1
+collection	ДРУГИЕ ДОКУМЕНТЫ	nbsp_present	178
+collection	ДРУГИЕ ДОКУМЕНТЫ	archive_refs_present	167
+collection	ДРУГИЕ ДОКУМЕНТЫ	missing_tag	156
+collection	ДРУГИЕ ДОКУМЕНТЫ	angle_markup_present	141
+collection	ДРУГИЕ ДОКУМЕНТЫ	footnotes_present	64
+collection	ДРУГИЕ ДОКУМЕНТЫ	stamp_markers_present	14
+collection	ДРУГИЕ ДОКУМЕНТЫ	multi_category	5
+collection	ДРУГИЕ ДОКУМЕНТЫ	multi_process	2
+collection	ДРУГИЕ ДОКУМЕНТЫ	very_long	2
+collection	ДРУГИЕ ДОКУМЕНТЫ	very_short	2
+collection	ДРУГИЕ ДОКУМЕНТЫ	multi_tag	1
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	missing_tag	25
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	nbsp_present	25
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	archive_refs_present	24
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	angle_markup_present	20
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	footnotes_present	15
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	stamp_markers_present	2
+collection	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	very_long	2
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	nbsp_present	1612
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	archive_refs_present	1603
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	angle_markup_present	1452
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	missing_tag	811
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	footnotes_present	631
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	multi_tag	74
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	stamp_markers_present	43
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	multi_category	34
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	multi_process	32
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	very_short	15
+collection	МАТЕРИАЛЫ СЛЕДСТВИЯ	very_long	5
+collection	ОЛЬБЕРГ	missing_tag	80
+collection	ОЛЬБЕРГ	nbsp_present	80
+collection	ОЛЬБЕРГ	angle_markup_present	64
+collection	ОЛЬБЕРГ	archive_refs_present	42
+collection	ОЛЬБЕРГ	footnotes_present	28
+collection	ОЛЬБЕРГ	very_short	9
+collection	ПРЕДЫСТОРИЯ	archive_refs_present	67
+collection	ПРЕДЫСТОРИЯ	nbsp_present	67
+collection	ПРЕДЫСТОРИЯ	angle_markup_present	61
+collection	ПРЕДЫСТОРИЯ	stamp_markers_present	21
+collection	ПРЕДЫСТОРИЯ	footnotes_present	19
+collection	ПРЕДЫСТОРИЯ	missing_tag	2
+collection	РАЗНЫЕ ДОКУМЕНТЫ	angle_markup_present	4
+collection	РАЗНЫЕ ДОКУМЕНТЫ	archive_refs_present	4
+collection	РАЗНЫЕ ДОКУМЕНТЫ	missing_tag	4
+collection	РАЗНЫЕ ДОКУМЕНТЫ	nbsp_present	4
+collection	РАЗНЫЕ ДОКУМЕНТЫ	footnotes_present	3
+collection	СПРАВКА	archive_refs_present	10
+collection	СПРАВКА	nbsp_present	10
+collection	СПРАВКА	angle_markup_present	8
+collection	СПРАВКА	footnotes_present	7
+collection	СПРАВКА	missing_tag	4
+collection	СПРАВКА	multi_tag	1
+collection	СПРАВКА	stamp_markers_present	1
+collection	СПРАВКИ КПК И ИМЛ	archive_refs_present	1
+collection	СПРАВКИ КПК И ИМЛ	footnotes_present	1
+collection	СПРАВКИ КПК И ИМЛ	missing_tag	1
+collection	СПРАВКИ КПК И ИМЛ	nbsp_present	1
+collection	СТАТЬИ	angle_markup_present	2
+collection	СТАТЬИ	archive_refs_present	2
+collection	СТАТЬИ	footnotes_present	2
+collection	СТАТЬИ	missing_tag	2
+collection	СТАТЬИ	nbsp_present	2
+collection	СТАТЬИ	very_long	2
+collection	ТРОЦКИЙ	missing_tag	31
+collection	ТРОЦКИЙ	nbsp_present	31
+collection	ТРОЦКИЙ	footnotes_present	13
+collection	ТРОЦКИЙ	very_short	3
+collection	ТРОЦКИЙ	archive_refs_present	2
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	footnotes_present	6
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	nbsp_present	6
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	angle_markup_present	5
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	very_long	5
+collection	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	archive_refs_present	2
+collection	ХОД ПРОЦЕССА	missing_tag	36
+collection	ХОД ПРОЦЕССА	nbsp_present	36
+collection	ХОД ПРОЦЕССА	angle_markup_present	33
+collection	ХОД ПРОЦЕССА	archive_refs_present	30
+collection	ХОД ПРОЦЕССА	footnotes_present	28
+collection	ХОД ПРОЦЕССА	very_long	24

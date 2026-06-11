@@ -1,0 +1,42 @@
+page_id	parent_id	depth	slug	title	url	content_chars	content_words
+8074	0	0	arhivnye-opisi	АРХИВНЫЕ ОПИСИ	http://showtrials.ru/arhivnye-opisi/	327	72
+853	0	0	glavnaya	ГЛАВНАЯ	http://showtrials.ru/	156280	24449
+2247	0	0	frontend	ДОБАВЛЕНИЕ ДОКУМЕНТА	http://showtrials.ru/frontend/	0	0
+9346	0	0	articles	СТАТЬИ	http://showtrials.ru/articles/	109	16
+961	853	1	kremlin-affair	КРЕМЛЕВСКОЕ ДЕЛО	http://showtrials.ru/glavnaya/kremlin-affair/	557	66
+977	853	1	about-me	О ПРОЕКТЕ	http://showtrials.ru/glavnaya/about-me/	6830	912
+971	853	1	august1936-trial	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	http://showtrials.ru/glavnaya/august1936-trial/	745	84
+7319	853	1	proczess-2-12-marta-1938-g	ПРОЦЕСС 2-12 МАРТА 1938 г.	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/	681	78
+973	853	1	january1937-trial	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	http://showtrials.ru/glavnaya/january1937-trial/	660	77
+862	853	1	lencenter	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	http://showtrials.ru/glavnaya/lencenter/	728	89
+943	853	1	moscow-center-trial	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	http://showtrials.ru/glavnaya/moscow-center-trial/	514	63
+975	853	1	miscellaneous-docs	РАЗНЫЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/miscellaneous-docs/	429	72
+11016	853	1	troczkij	ТРОЦКИЙ	http://showtrials.ru/glavnaya/troczkij/	1466	292
+860	862	2	pyotr-nikolayev-case	ДЕЛО ПЕТРА НИКОЛАЕВА	http://showtrials.ru/glavnaya/lencenter/pyotr-nikolayev-case/	571	90
+864	862	2	misc_docs_1934	ДРУГИЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/lencenter/misc_docs_1934/	931	153
+858	862	2	lencenter-materials	МАТЕРИАЛЫ СЛЕДСТВИЯ	http://showtrials.ru/glavnaya/lencenter/lencenter-materials/	8152	1299
+866	862	2	order_supreme_court	ПОСТАНОВЛЕНИЕ ПВС СССР	http://showtrials.ru/glavnaya/lencenter/order_supreme_court/	15619	2123
+1293	862	2	leningrad-center-trial-full-record	ХОД ПРОЦЕССА	http://showtrials.ru/glavnaya/lencenter/leningrad-center-trial-full-record/	1275	174
+957	943	2	misc-docs-1935	ДРУГИЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/moscow-center-trial/misc-docs-1935/	5208	830
+955	943	2	materialy-sledstviya-1935	МАТЕРИАЛЫ СЛЕДСТВИЯ	http://showtrials.ru/glavnaya/moscow-center-trial/materialy-sledstviya-1935/	19701	3195
+959	943	2	cpc-iml-notes-1935	СПРАВКИ КПК И ИМЛ	http://showtrials.ru/glavnaya/moscow-center-trial/cpc-iml-notes-1935/	137467	19616
+950	943	2	moscow-center-trial-record	ХОД ПРОЦЕССА	http://showtrials.ru/glavnaya/moscow-center-trial/moscow-center-trial-record/	2076	314
+9401	961	2	sinani-skalov	Г.Б. СИНАНИ-СКАЛОВ	http://showtrials.ru/glavnaya/kremlin-affair/sinani-skalov/	1170	169
+967	961	2	misc-docs-kremlin	ДРУГИЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/kremlin-affair/misc-docs-kremlin/	2175	343
+963	961	2	party-review	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	http://showtrials.ru/glavnaya/kremlin-affair/party-review/	3124	483
+965	961	2	investigation-materials-kremlin	МАТЕРИАЛЫ СЛЕДСТВИЯ	http://showtrials.ru/glavnaya/kremlin-affair/investigation-materials-kremlin/	14728	2293
+969	961	2	proc-kgb-note	СПРАВКА ПРОКУРАТУРЫ И КГБ	http://showtrials.ru/glavnaya/kremlin-affair/proc-kgb-note/	26019	3458
+983	971	2	misc-docs-1936	ДРУГИЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/august1936-trial/misc-docs-1936/	5175	814
+981	971	2	august-materials	МАТЕРИАЛЫ СЛЕДСТВИЯ	http://showtrials.ru/glavnaya/august1936-trial/august-materials/	32898	4542
+9048	971	2	olberg	ОЛЬБЕРГ	http://showtrials.ru/glavnaya/august1936-trial/olberg/	4160	778
+985	971	2	note-1936	СПРАВКА	http://showtrials.ru/glavnaya/august1936-trial/note-1936/	56601	8018
+1799	971	2	august1936-trial-record	ХОД ПРОЦЕССА	http://showtrials.ru/glavnaya/august1936-trial/august1936-trial-record/	3422	475
+991	973	2	misc-docs-1937	ДРУГИЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/january1937-trial/misc-docs-1937/	3522	535
+989	973	2	january-materials	МАТЕРИАЛЫ СЛЕДСТВИЯ	http://showtrials.ru/glavnaya/january1937-trial/january-materials/	43138	6046
+993	973	2	note-1937	СПРАВКА	http://showtrials.ru/glavnaya/january1937-trial/note-1937/	66185	9280
+987	973	2	january1937-trial-record	ХОД ПРОЦЕССА	http://showtrials.ru/glavnaya/january1937-trial/january1937-trial-record/	1997	285
+8261	7319	2	bukharin	БУХАРИН	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/bukharin/	6934	1136
+7496	7319	2	drugie-dokumenty	ДРУГИЕ ДОКУМЕНТЫ	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/drugie-dokumenty/	961	149
+7488	7319	2	materialy-sledstviya	МАТЕРИАЛЫ СЛЕДСТВИЯ	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/materialy-sledstviya/	10797	1537
+8189	7319	2	predystoriya	ПРЕДЫСТОРИЯ	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/predystoriya/	4957	803
+8927	7319	2	fevralsko-martovskij-plenum-1937-g	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/fevralsko-martovskij-plenum-1937-g/	681	97

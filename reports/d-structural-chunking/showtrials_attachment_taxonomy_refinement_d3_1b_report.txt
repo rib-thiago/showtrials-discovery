@@ -1,0 +1,29 @@
+D3.1B Attachment Taxonomy Refinement Report
+input_packages	/srv/projects/showtrials-discovery/showtrials_special_report_packages_d3_1.tsv
+input_matrix	/srv/projects/showtrials-discovery/showtrials_special_report_attachment_matrix.tsv
+input_taxonomy_d3_1a	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1a.tsv
+taxonomy_d3_1b	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1b.tsv
+refinement_changes	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_refinement_d3_1b.tsv
+total_special_reports	526
+documents_changed	101
+unknown_attachment_resolved	27
+confrontation_protocol_found	17
+statement_found	30
+letter_found	10
+memo_note_found	51
+types_appeared_after_refinement	confrontation_protocol|statement|letter|memo_note
+types_disappeared_after_refinement	none
+top_attachment_types
+interrogation_protocol	448	85.17%
+memo_note	51	9.70%
+theses	42	7.98%
+list	40	7.60%
+reference_note	37	7.03%
+statement	30	5.70%
+confrontation_protocol	17	3.23%
+letter	10	1.90%
+diary	8	1.52%
+memo	4	0.76%
+draft_project	1	0.19%
+unknown_attachment	1	0.19%
+policy	classification refinement only; no chunking, translation, embeddings, APIs, or blueprint changes

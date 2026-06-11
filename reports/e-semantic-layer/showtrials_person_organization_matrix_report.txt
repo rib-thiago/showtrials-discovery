@@ -1,0 +1,86 @@
+ShowTrials person-organization matrix
+
+Person-organization pairs: 3180
+People with organizations: 771
+Organizations with people: 22
+
+Top person-organization pairs:
+451	weight=140.911781	Ежов	→	ВКП(б)	party_apparatus
+445	weight=121.305442	Сталин	→	ВКП(б)	party_apparatus
+444	weight=216.144016	Ежов	→	ЦК ВКП(б)	party_apparatus
+430	weight=175.947154	Сталин	→	ЦК ВКП(б)	party_apparatus
+378	weight=89.430258	Ежов	→	ГУГБ	security_apparatus
+328	weight=52.361633	Сталин	→	ГУГБ	security_apparatus
+255	weight=38.887814	Ежов	→	НКВД	security_apparatus
+240	weight=29.054224	Сталин	→	НКВД	security_apparatus
+156	weight=17.199677	Г.Г. Ягода	→	ВКП(б)	party_apparatus
+151	weight=25.075753	Г.Г. Ягода	→	ЦК ВКП(б)	party_apparatus
+116	weight=7.622754	Г.Г. Ягода	→	ГУГБ	security_apparatus
+109	weight=7.592806	Сталин	→	Правда	press_media
+96	weight=6.120199	Сталин	→	Политбюро	party_apparatus
+92	weight=5.094525	Ежов	→	Правда	press_media
+85	weight=4.247942	Г.Г. Ягода	→	НКВД	security_apparatus
+79	weight=3.80584	Ежов	→	Политбюро	party_apparatus
+70	weight=2.274536	Сталин	→	Коминтерн	international
+69	weight=3.177746	Агранов	→	ВКП(б)	party_apparatus
+68	weight=4.889621	Агранов	→	ЦК ВКП(б)	party_apparatus
+59	weight=3.1346	Сталин	→	Совнарком	state_apparatus
+57	weight=1.370379	Ежов	→	Коминтерн	international
+51	weight=1.383164	Агранов	→	ГУГБ	security_apparatus
+42	weight=1.383271	Сталин	→	Известия	press_media
+42	weight=1.329457	Л.В. Николаева	→	ГУГБ	security_apparatus
+42	weight=1.261803	Ежов	→	Совнарком	state_apparatus
+39	weight=1.235864	Ежов	→	Известия	press_media
+38	weight=0.538061	Бухарин	→	ВКП(б)	party_apparatus
+37	weight=1.287406	Л.В. Николаева	→	НКВД	security_apparatus
+36	weight=1.018245	Г.Г. Ягода	→	Коминтерн	international
+35	weight=0.675867	Бухарин	→	ЦК ВКП(б)	party_apparatus
+35	weight=0.613815	Зиновьев	→	ВКП(б)	party_apparatus
+34	weight=0.580476	Агранов	→	НКВД	security_apparatus
+33	weight=0.818163	Г.Г. Ягода	→	Политбюро	party_apparatus
+33	weight=0.779528	Г.Е. Прокофьева	→	ВКП(б)	party_apparatus
+32	weight=1.614664	Бухарин	→	Политбюро	party_apparatus
+31	weight=1.038846	Г.Е. Прокофьева	→	ЦК ВКП(б)	party_apparatus
+31	weight=0.696572	Г.Е. Прокофьева	→	ГУГБ	security_apparatus
+31	weight=0.574849	Г.Г. Ягода	→	Правда	press_media
+28	weight=0.505224	Зиновьев	→	ЦК ВКП(б)	party_apparatus
+27	weight=0.474609	Г.И. Сафарова	→	ГУГБ	security_apparatus
+26	weight=0.600273	Г.И. Сафарова	→	НКВД	security_apparatus
+25	weight=0.652564	Бухарин	→	Правда	press_media
+23	weight=0.307869	Сталин	→	ИККИ	international
+21	weight=1.23168	Бухарин	→	Известия	press_media
+21	weight=0.368026	Ежов	→	КПК	party_apparatus
+20	weight=0.551724	Зиновьев	→	Коминтерн	international
+20	weight=0.260298	Пятаков	→	ВКП(б)	party_apparatus
+19	weight=0.358772	Пятаков	→	ЦК ВКП(б)	party_apparatus
+19	weight=0.179499	Ежов	→	ЦИК СССР	state_apparatus
+17	weight=0.226145	Радек	→	ЦК ВКП(б)	party_apparatus
+
+Top organizations by person-pair volume:
+2631	people=671	ВКП(б)	party_apparatus
+2238	people=590	ГУГБ	security_apparatus
+2077	people=466	ЦК ВКП(б)	party_apparatus
+1540	people=465	НКВД	security_apparatus
+580	people=204	Правда	press_media
+506	people=168	Политбюро	party_apparatus
+475	people=154	Коминтерн	international
+239	people=88	Совнарком	state_apparatus
+206	people=51	Известия	press_media
+122	people=48	ИККИ	international
+111	people=52	ЦИК СССР	state_apparatus
+108	people=51	КПК	party_apparatus
+83	people=35	ИНО ГУГБ	security_apparatus
+44	people=25	ОО ГУГБ НКВД	security_apparatus
+41	people=23	Верховный Суд СССР	judicial_apparatus
+41	people=23	НКИД	state_apparatus
+35	people=22	КПК при ЦК ВКП(б)	party_apparatus
+23	people=16	Секретариат ЦИК СССР	state_apparatus
+17	people=12	Прокуратура СССР	judicial_apparatus
+14	people=10	Горьковский крайком ВКП(б)	party_apparatus
+7	people=5	Лига Наций	international
+1	people=1	Верховный Совет СССР	state_apparatus
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_person_organization_matrix.tsv
+/tmp/showtrials-discovery/showtrials_person_organization_summary.tsv
+/tmp/showtrials-discovery/showtrials_organization_person_summary.tsv

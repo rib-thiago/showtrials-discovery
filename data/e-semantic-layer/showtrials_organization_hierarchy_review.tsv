@@ -1,0 +1,2 @@
+child_organization	parent_organization	relation_type	confidence	reason	child_kind	parent_kind	child_document_count	parent_document_count	status	review_decision	notes
+КПК	ЦК ВКП(б)	party_control_body_of	medium	party_control_body	party_control_body	party_body	54	869	auto_proposed		

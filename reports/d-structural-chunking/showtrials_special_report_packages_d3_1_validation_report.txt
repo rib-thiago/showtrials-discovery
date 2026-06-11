@@ -1,0 +1,9 @@
+D3.1 Special Report Package Validation Report
+packages	/srv/projects/showtrials-discovery/showtrials_special_report_packages_d3_1.tsv
+validation	/srv/projects/showtrials-discovery/showtrials_special_report_packages_d3_1_validation.tsv
+rows_checked	526
+document_types_special_report_rows	526
+blueprint_expected_special_report_rows	526
+failures	0
+warnings	0
+OK all_checks passed

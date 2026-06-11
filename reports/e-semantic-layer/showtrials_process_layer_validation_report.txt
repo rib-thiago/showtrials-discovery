@@ -1,0 +1,10 @@
+ShowTrials process layer validation
+
+Catalog documents: 2179
+Processes: 9
+Process-document rows: 2179
+Person-process rows: 923
+Organization-process rows: 133
+Family-process rows: 50
+Failures: 0
+Warnings: 0

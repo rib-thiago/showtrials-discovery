@@ -1,0 +1,7 @@
+ShowTrials author audit
+
+Documents loaded: 2179
+Author IDs in catalog: 1
+Users loaded from API: 1
+
+1	admin	2179	4047644

@@ -1,0 +1,9 @@
+D3.1B Attachment Taxonomy Refinement Validation Report
+taxonomy	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1b.tsv
+refinement_changes	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_refinement_d3_1b.tsv
+validation	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv
+taxonomy_rows	12
+refinement_rows	101
+failures	0
+warnings	0
+OK all_checks passed

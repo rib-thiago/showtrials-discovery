@@ -1,0 +1,31 @@
+ShowTrials Chunking Policy v1.1
+
+1. Semantic unit
+A semantic unit is the smallest document-native block that should remain intact for translation and retrieval. It is not just a character window. It can be a question/answer pair, a confrontation exchange, a speaker turn, a conversation event segment, a letter section, or an attachment inside a documentary package.
+
+2. Why chunking is not size-only
+Size-only chunking can split a question from its answer, a speaker label from the utterance, a list item from its record, or a cover note from the attachment it introduces. v1.1 still keeps hard_max_chars <= 5000, but size limits are applied after structural boundaries are identified.
+
+3. Core document differences
+interrogation_protocol uses question_answer_block because the stable semantic unit is the Q/A pair.
+confrontation_protocol uses confrontation_exchange because the exchange boundary between confronted participants is more important than a generic Q/A token.
+session_transcript uses speaker_turn because courtroom/session meaning follows speaker boundaries and procedural notes.
+conversation_recording uses conversation_segment because timestamps, speakers, and event notes define the record.
+special_report uses document_package because it often contains a cover communication plus one or more attached documentary units.
+
+4. Why special_report is document_package
+D3.1A and D3.1B showed that special_report is usually a container: interrogation_protocol=448, memo_note=51, theses=42, list=40, reference_note=37, statement=30, confrontation_protocol=17, letter=10, diary=8, draft_project=1. Treating this as a simple document would mix cover note and attachments.
+
+5. Attachment detection before chunking
+Attachment detection runs before chunking so the builder can first separate cover material from attached protocols, statements, letters, lists, notes, diaries, theses, and draft projects. Each attachment can then use its own structural policy.
+
+6. Translation cost control
+Structural chunking reduces translation cost by avoiding duplicated context padding, preventing failed oversize translation units, and allowing short cover notes or lists to be translated only as needed. It also prevents paying to translate incoherent fragments that must be reprocessed later.
+
+7. Future RAG support
+Future retrieval should cite coherent documentary units, not arbitrary character spans. v1.1 makes future RAG evidence cleaner by keeping Q/A pairs, speaker turns, exchanges, attachments, list records, and document package boundaries available as metadata.
+
+Discovery basis
+D1 sizing established corpus scale. D2/D2.2 separated real structural units from lexical false positives. D3.1A normalized special_report attachments. D3.1B refined the taxonomy before this consolidation.
+Attachment taxonomy v1.1: interrogation_protocol=448, memo_note=51, theses=42, list=40, reference_note=37, statement=30, confrontation_protocol=17, letter=10, diary=8, memo=4, draft_project=1, unknown_attachment=1
+Refinement changes recorded: 101

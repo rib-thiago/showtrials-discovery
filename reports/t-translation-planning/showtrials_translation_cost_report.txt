@@ -1,0 +1,68 @@
+ShowTrials translation cost diagnosis
+
+Documents: 2179
+Total chars: 27379787
+Total words: 4047644
+
+Document size distribution:
+min_chars: 187
+median_chars: 6700
+avg_chars: 12565.3
+p90_chars: 25592
+p95_chars: 37283
+p99_chars: 129628
+max_chars: 298447
+
+NMT cost estimates:
+RU->EN before free credit: $547.60
+RU->EN after monthly 500k free credit: $537.60
+RU->EN+PT before free credit: $1095.19
+RU->EN+PT after monthly 500k free credit: $1085.19
+
+Top processes by chars:
+8904937	docs=481	$178.10	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.
+6578197	docs=486	$131.56	ПРОЦЕСС 19-23 АВГУСТА 1936 г.
+5155014	docs=284	$103.10	ПРОЦЕСС 2-12 МАРТА 1938 г.
+2738256	docs=424	$54.77	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”
+2588499	docs=292	$51.77	КРЕМЛЕВСКОЕ ДЕЛО
+781969	docs=175	$15.64	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”
+438269	docs=2	$8.77	СТАТЬИ
+109149	docs=31	$2.18	ТРОЦКИЙ
+85497	docs=4	$1.71	РАЗНЫЕ ДОКУМЕНТЫ
+
+Top document types by chars:
+9604474	docs=526	$192.09	special_report
+7301792	docs=982	$146.04	interrogation_protocol
+4934530	docs=51	$98.69	session_transcript
+1481811	docs=256	$29.64	letter
+977750	docs=78	$19.55	statement
+438269	docs=2	$8.77	biographical_article
+412107	docs=40	$8.24	memo_note
+360525	docs=34	$7.21	conversation_recording
+336308	docs=48	$6.73	testimony
+318436	docs=57	$6.37	confrontation_protocol
+250232	docs=16	$5.00	list
+170448	docs=5	$3.41	indictment
+159278	docs=4	$3.19	press_summary
+97861	docs=16	$1.96	administrative_report
+91263	docs=6	$1.83	reference_note
+69908	docs=4	$1.40	draft_project
+43399	docs=4	$0.87	explanation
+41779	docs=2	$0.84	speech
+32779	docs=1	$0.66	program
+30263	docs=3	$0.61	verdict_or_sentence
+29330	docs=1	$0.59	brochure
+27564	docs=15	$0.55	telegram
+26029	docs=3	$0.52	plan_instruction
+18165	docs=1	$0.36	autobiography
+17747	docs=2	$0.35	plea_pardon
+16713	docs=2	$0.33	questionnaire_response
+15848	docs=2	$0.32	correspondence
+15684	docs=2	$0.31	article
+14715	docs=7	$0.29	summary
+14237	docs=1	$0.28	interrogation_extract
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_cost_by_document.tsv
+/tmp/showtrials-discovery/showtrials_translation_cost_by_process.tsv
+/tmp/showtrials-discovery/showtrials_translation_cost_by_document_type.tsv

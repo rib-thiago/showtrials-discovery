@@ -1,0 +1,55 @@
+ShowTrials translation glossary G4.1 validation
+
+Rows: 892
+Google glossary rows: 153
+Failures: 0
+Warnings: 35
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	188
+auto_normalized_needs_review	429
+auto_transliterated_needs_review	275
+
+Validation rows:
+WARN	person_5plus_unapproved	9 В.И. Звездова → V.I. Zvezdov
+WARN	person_5plus_unapproved	8 А.И. Толмазова → A.I. Tolmazov
+WARN	person_5plus_unapproved	8 М.Ф. Шкирятову → M.F. Shkiryatov
+WARN	person_5plus_unapproved	8 С.М. Гессена → S.M. Hessen
+WARN	person_5plus_unapproved	7 А.С. Куклина → A.S. Kuklin
+WARN	person_5plus_unapproved	7 Л.Я. Файвиловича → L.Ya. Faivilovich
+WARN	person_5plus_unapproved	7 М.В. Королькова → M.V. Korolkov
+WARN	person_5plus_unapproved	6 А.Ф. Шараповой → A.F. Sharapov
+WARN	person_5plus_unapproved	6 В.А. Виноградова → V.A. Vinogradov
+WARN	person_5plus_unapproved	6 Д.А. Шмидта → D.A. Schmidt
+WARN	person_5plus_unapproved	6 Д.Н. Ширяева → D.N. Shiryaev
+WARN	person_5plus_unapproved	6 Е.Ф. Куликова → E.F. Kulikov
+WARN	person_5plus_unapproved	6 З.И. Давыдовой → Z.I. Davydova
+WARN	person_5plus_unapproved	6 И.К. Наумова → I.K. Naumov
+WARN	person_5plus_unapproved	6 И.М. Гуревича → I.M. Gurevich
+WARN	person_5plus_unapproved	6 П.И. Бескиной → P.I. Beskina
+WARN	person_5plus_unapproved	5 А.А. Шестова → A.A. Shestov
+WARN	person_5plus_unapproved	5 А.В. Перимова → A.V. Perimov
+WARN	person_5plus_unapproved	5 А.Н. Сафоновой → A.N. Safonova
+WARN	person_5plus_unapproved	5 А.Н. Слепкова → A.N. Slepkov
+WARN	person_5plus_unapproved	5 А.П. Костиной → A.P. Kostina
+WARN	person_5plus_unapproved	5 Б.Н. Розенфельда → B.N. Rosenfeld
+WARN	person_5plus_unapproved	5 В.А. Яковлева → V.A. Yakovlev
+WARN	person_5plus_unapproved	5 В.И. Козырева → V.I. Kozyrev
+WARN	person_5plus_unapproved	5 Г.В. Соколова → G.V. Sokolov
+WARN	person_5plus_unapproved	5 Л.Ф. Дитятевой → L.F. Dityateva
+WARN	person_5plus_unapproved	5 М.В. Поздеевой → M.V. Pozdeeva
+WARN	person_5plus_unapproved	5 Н.А. Царькова → N.A. Tsarkov
+WARN	person_5plus_unapproved	5 Н.Б. Розенфельда → N.B. Rosenfeld
+WARN	person_5plus_unapproved	5 Я.В. Шарова → Ya.V. Sharov
+WARN	person_5plus_unapproved	5 Я.С. Розанова → Ya.S. Rozanov
+WARN	person_5plus_unapproved	6 В.В. Глухенко → V.V. Glukhenko
+WARN	person_5plus_unapproved	5 А.Ю. Тивеля → A.Yu. Tivelya
+WARN	person_5plus_unapproved	5 И.С. Горшениным → I.S. Gorsheninym
+WARN	person_5plus_unapproved	5 М.С. Рэма → M.S. Rema

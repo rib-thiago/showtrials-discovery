@@ -1,0 +1,11 @@
+D3.1A Attachment Taxonomy Validation Report
+attachment_matrix	/srv/projects/showtrials-discovery/showtrials_special_report_attachment_matrix.tsv
+taxonomy	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1a.tsv
+validation	/srv/projects/showtrials-discovery/showtrials_attachment_taxonomy_d3_1a_validation.tsv
+total_special_reports	526
+matrix_relations	655
+taxonomy_rows	8
+taxonomy_documents_sum	655
+failures	0
+warnings	28
+issues found FAIL=0 WARN=28

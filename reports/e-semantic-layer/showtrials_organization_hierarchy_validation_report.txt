@@ -1,0 +1,9 @@
+ShowTrials organization hierarchy validation
+
+Organizations: 25
+Hierarchy rows: 9
+Failures: 0
+Warnings: 1
+
+Warnings:
+manual_review_recommended	1	

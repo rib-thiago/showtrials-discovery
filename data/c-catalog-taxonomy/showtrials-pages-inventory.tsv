@@ -1,0 +1,42 @@
+id	parent	date	modified	slug	link	title	content_chars	content_words
+11016	853	2025-05-16T18:02:19	2026-05-20T13:56:50	troczkij	http://showtrials.ru/glavnaya/troczkij/	ТРОЦКИЙ	1466	292
+9401	961	2022-11-04T00:18:38	2022-11-15T10:18:33	sinani-skalov	http://showtrials.ru/glavnaya/kremlin-affair/sinani-skalov/	Г.Б. СИНАНИ-СКАЛОВ	1170	169
+9346	0	2022-10-26T12:47:17	2022-10-26T13:14:12	articles	http://showtrials.ru/articles/	СТАТЬИ	109	16
+7496	7319	2022-04-08T17:39:43	2022-04-10T20:38:31	drugie-dokumenty	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/drugie-dokumenty/	ДРУГИЕ ДОКУМЕНТЫ	961	149
+8261	7319	2022-04-07T11:06:14	2022-04-16T12:42:44	bukharin	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/bukharin/	БУХАРИН	6934	1136
+8927	7319	2022-03-11T07:04:50	2022-06-11T10:40:36	fevralsko-martovskij-plenum-1937-g	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/fevralsko-martovskij-plenum-1937-g/	ФЕВРАЛЬСКО-МАРТОВСКИЙ ПЛЕНУМ 1937 г.	681	97
+8074	0	2022-02-20T21:17:18	2022-02-20T22:31:47	arhivnye-opisi	http://showtrials.ru/arhivnye-opisi/	АРХИВНЫЕ ОПИСИ	327	72
+7488	7319	2021-12-16T17:37:53	2021-12-16T18:25:28	materialy-sledstviya	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/materialy-sledstviya/	МАТЕРИАЛЫ СЛЕДСТВИЯ	10797	1537
+2247	0	2021-06-01T18:35:11	2021-07-09T13:24:54	frontend	http://showtrials.ru/frontend/	ДОБАВЛЕНИЕ ДОКУМЕНТА	0	0
+985	971	2021-05-25T19:21:03	2026-03-27T22:52:11	note-1936	http://showtrials.ru/glavnaya/august1936-trial/note-1936/	СПРАВКА	56601	8018
+983	971	2021-05-25T18:20:28	2024-11-29T13:03:54	misc-docs-1936	http://showtrials.ru/glavnaya/august1936-trial/misc-docs-1936/	ДРУГИЕ ДОКУМЕНТЫ	5175	814
+9048	971	2021-05-25T17:51:33	2025-03-27T14:19:06	olberg	http://showtrials.ru/glavnaya/august1936-trial/olberg/	ОЛЬБЕРГ	4160	778
+993	973	2021-05-25T17:24:47	2021-06-10T21:43:46	note-1937	http://showtrials.ru/glavnaya/january1937-trial/note-1937/	СПРАВКА	66185	9280
+975	853	2021-05-25T17:23:29	2021-11-23T23:10:32	miscellaneous-docs	http://showtrials.ru/glavnaya/miscellaneous-docs/	РАЗНЫЕ ДОКУМЕНТЫ	429	72
+991	973	2021-05-25T17:23:17	2021-06-10T22:29:17	misc-docs-1937	http://showtrials.ru/glavnaya/january1937-trial/misc-docs-1937/	ДРУГИЕ ДОКУМЕНТЫ	3522	535
+989	973	2021-05-25T17:22:40	2021-07-27T15:09:36	january-materials	http://showtrials.ru/glavnaya/january1937-trial/january-materials/	МАТЕРИАЛЫ СЛЕДСТВИЯ	43138	6046
+987	973	2021-05-25T17:21:48	2021-06-10T22:01:20	january1937-trial-record	http://showtrials.ru/glavnaya/january1937-trial/january1937-trial-record/	ХОД ПРОЦЕССА	1997	285
+981	971	2021-05-25T17:19:48	2021-06-14T15:15:06	august-materials	http://showtrials.ru/glavnaya/august1936-trial/august-materials/	МАТЕРИАЛЫ СЛЕДСТВИЯ	32898	4542
+977	853	2021-05-25T17:14:20	2025-02-27T00:21:35	about-me	http://showtrials.ru/glavnaya/about-me/	О ПРОЕКТЕ	6830	912
+7319	853	2021-05-25T17:13:36	2022-06-11T07:32:33	proczess-2-12-marta-1938-g	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/	ПРОЦЕСС 2-12 МАРТА 1938 г.	681	78
+973	853	2021-05-25T17:12:02	2024-11-02T20:57:20	january1937-trial	http://showtrials.ru/glavnaya/january1937-trial/	ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	660	77
+971	853	2021-05-25T17:10:58	2024-11-02T20:55:27	august1936-trial	http://showtrials.ru/glavnaya/august1936-trial/	ПРОЦЕСС 19-23 АВГУСТА 1936 г.	745	84
+969	961	2021-05-25T17:09:53	2023-05-22T08:15:57	proc-kgb-note	http://showtrials.ru/glavnaya/kremlin-affair/proc-kgb-note/	СПРАВКА ПРОКУРАТУРЫ И КГБ	26019	3458
+967	961	2021-05-25T17:08:48	2021-06-10T18:27:49	misc-docs-kremlin	http://showtrials.ru/glavnaya/kremlin-affair/misc-docs-kremlin/	ДРУГИЕ ДОКУМЕНТЫ	2175	343
+965	961	2021-05-25T17:07:17	2021-06-12T21:57:33	investigation-materials-kremlin	http://showtrials.ru/glavnaya/kremlin-affair/investigation-materials-kremlin/	МАТЕРИАЛЫ СЛЕДСТВИЯ	14728	2293
+963	961	2021-05-25T17:06:11	2021-06-12T17:44:11	party-review	http://showtrials.ru/glavnaya/kremlin-affair/party-review/	МАТЕРИАЛЫ ПАРТИЙНОЙ ПРОВЕРКИ	3124	483
+961	853	2021-05-25T17:05:24	2024-11-02T20:59:03	kremlin-affair	http://showtrials.ru/glavnaya/kremlin-affair/	КРЕМЛЕВСКОЕ ДЕЛО	557	66
+959	943	2021-05-25T17:04:36	2024-09-24T21:05:19	cpc-iml-notes-1935	http://showtrials.ru/glavnaya/moscow-center-trial/cpc-iml-notes-1935/	СПРАВКИ КПК И ИМЛ	137467	19616
+957	943	2021-05-25T17:03:33	2021-06-10T07:40:52	misc-docs-1935	http://showtrials.ru/glavnaya/moscow-center-trial/misc-docs-1935/	ДРУГИЕ ДОКУМЕНТЫ	5208	830
+1799	971	2021-05-25T17:01:50	2026-03-16T22:54:33	august1936-trial-record	http://showtrials.ru/glavnaya/august1936-trial/august1936-trial-record/	ХОД ПРОЦЕССА	3422	475
+955	943	2021-05-25T16:58:54	2021-06-11T16:47:47	materialy-sledstviya-1935	http://showtrials.ru/glavnaya/moscow-center-trial/materialy-sledstviya-1935/	МАТЕРИАЛЫ СЛЕДСТВИЯ	19701	3195
+950	943	2021-05-25T16:56:06	2021-06-10T07:39:02	moscow-center-trial-record	http://showtrials.ru/glavnaya/moscow-center-trial/moscow-center-trial-record/	ХОД ПРОЦЕССА	2076	314
+943	853	2021-05-25T16:27:59	2022-08-20T12:05:16	moscow-center-trial	http://showtrials.ru/glavnaya/moscow-center-trial/	ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	514	63
+866	862	2021-05-25T13:00:46	2021-06-09T22:12:15	order_supreme_court	http://showtrials.ru/glavnaya/lencenter/order_supreme_court/	ПОСТАНОВЛЕНИЕ ПВС СССР	15619	2123
+864	862	2021-05-25T12:59:40	2022-04-13T12:34:33	misc_docs_1934	http://showtrials.ru/glavnaya/lencenter/misc_docs_1934/	ДРУГИЕ ДОКУМЕНТЫ	931	153
+862	853	2021-05-25T12:57:51	2021-07-05T22:45:36	lencenter	http://showtrials.ru/glavnaya/lencenter/	ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	728	89
+853	0	2021-05-25T12:48:35	2026-03-13T12:00:20	glavnaya	http://showtrials.ru/	ГЛАВНАЯ	156280	24449
+860	862	2021-05-25T12:28:09	2021-06-09T22:02:22	pyotr-nikolayev-case	http://showtrials.ru/glavnaya/lencenter/pyotr-nikolayev-case/	ДЕЛО ПЕТРА НИКОЛАЕВА	571	90
+858	862	2021-05-25T12:26:49	2021-07-27T15:21:11	lencenter-materials	http://showtrials.ru/glavnaya/lencenter/lencenter-materials/	МАТЕРИАЛЫ СЛЕДСТВИЯ	8152	1299
+1293	862	2021-05-24T12:24:02	2021-06-09T21:55:34	leningrad-center-trial-full-record	http://showtrials.ru/glavnaya/lencenter/leningrad-center-trial-full-record/	ХОД ПРОЦЕССА	1275	174
+8189	7319	2021-04-02T22:26:19	2022-04-10T20:36:33	predystoriya	http://showtrials.ru/glavnaya/proczess-2-12-marta-1938-g/predystoriya/	ПРЕДЫСТОРИЯ	4957	803

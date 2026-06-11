@@ -1,0 +1,24 @@
+ShowTrials D2.1 structural sample audit
+
+Output dir: /srv/projects/showtrials-discovery/structural_samples_d2_1
+Sample types: 14
+Max per type: 8
+
+special_report	selected=8	total=526
+interrogation_protocol	selected=8	total=982
+session_transcript	selected=8	total=51
+letter	selected=8	total=256
+statement	selected=8	total=78
+conversation_recording	selected=8	total=34
+testimony	selected=8	total=48
+confrontation_protocol	selected=8	total=57
+memo_note	selected=8	total=40
+list	selected=8	total=16
+indictment	selected=5	total=5
+press_summary	selected=4	total=4
+reference_note	selected=6	total=6
+biographical_article	selected=2	total=2
+
+Outputs:
+/srv/projects/showtrials-discovery/structural_samples_d2_1
+/srv/projects/showtrials-discovery/showtrials_structural_samples_d2_1_index.tsv

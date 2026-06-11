@@ -1,0 +1,54 @@
+ShowTrials unmerged person diagnosis
+
+People loaded: 795
+Merge candidates: 44
+Review candidates: 44
+Already manual aliases: 0
+
+Top review candidates:
+high	same_initials_same_stem	1+1	Г.М. Маленкова	<->	Г.М. Маленкову	SUGGEST=Г.М. Маленкова
+high	same_initials_same_stem	1+1	Д.Ф. Бузина	<->	Д.Ф. Бузиным	SUGGEST=Д.Ф. Бузина
+high	same_initials_same_stem	1+1	Л.И. Мадьяра	<->	Л.И. Мадьяром	SUGGEST=Л.И. Мадьяра
+medium	same_initials_stem_prefix	43+4	Л.В. Николаева	<->	Л.В. Николаевым	SUGGEST=Л.В. Николаева
+medium	same_initials_stem_prefix	32+3	Г.И. Сафарова	<->	Г.И. Сафаровым	SUGGEST=Г.И. Сафарова
+medium	same_initials_stem_prefix	14+4	Г.Е. Евдокимова	<->	Г.Е. Евдокимовым	SUGGEST=Г.Е. Евдокимова
+medium	same_initials_stem_prefix	13+3	И.И. Котолынова	<->	И.И. Котолыновым	SUGGEST=И.И. Котолынова
+medium	same_initials_stem_prefix	13+3	И.П. Бакаева	<->	И.П. Бакаевым	SUGGEST=И.П. Бакаева
+medium	same_initials_stem_prefix	12+1	А.И. Анишева	<->	А.И. Анишевым	SUGGEST=А.И. Анишева
+medium	same_initials_stem_prefix	12+3	В.В. Румянцева	<->	В.В. Румянцевым	SUGGEST=В.В. Румянцева
+medium	same_initials_stem_prefix	12+1	В.В. Румянцева	<->	В.В. Румянцнева	SUGGEST=В.В. Румянцева
+medium	same_initials_stem_prefix	12+5	И.С. Горшенина	<->	И.С. Горшениным	SUGGEST=И.С. Горшенина
+medium	same_initials_high_similarity	11+1	И.И. Рейнгольда	<->	И.И. Рейногльда	SUGGEST=И.И. Рейнгольда
+medium	same_initials_stem_prefix	11+1	М.М. Харитонова	<->	М.М. Харитоновым	SUGGEST=М.М. Харитонова
+medium	same_initials_stem_prefix	10+3	Н.С. Антонова	<->	Н.С. Антоновым	SUGGEST=Н.С. Антонова
+medium	same_initials_stem_prefix	9+2	В.И. Звездова	<->	В.И. Звездовым	SUGGEST=В.И. Звездова
+medium	same_initials_stem_prefix	9+1	К.К. Муханова	<->	К.К. Мухановым	SUGGEST=К.К. Муханова
+medium	same_initials_stem_prefix	8+1	А.И. Толмазова	<->	А.И. Толмазовым	SUGGEST=А.И. Толмазова
+medium	same_initials_stem_prefix	8+1	Г.Ф. Федорова	<->	Г.Ф. Федоровым	SUGGEST=Г.Ф. Федорова
+medium	same_initials_stem_prefix	8+2	И.И. Тарасова	<->	И.И. Тарасовым	SUGGEST=И.И. Тарасова
+medium	same_initials_stem_prefix	8+1	С.В. Мрачковский	<->	С.В. Мрачковском	SUGGEST=С.В. Мрачковский
+medium	same_initials_stem_prefix	7+2	А.С. Куклина	<->	А.С. Куклиным	SUGGEST=А.С. Куклина
+medium	same_initials_stem_prefix	7+1	В.Ф. Логинова	<->	В.Ф. Логиновым	SUGGEST=В.Ф. Логинова
+medium	same_initials_stem_prefix	7+3	Н.П. Мясникова	<->	Н.П. Мясниковым	SUGGEST=Н.П. Мясникова
+medium	same_initials_stem_prefix	6+1	Е.Ф. Куликова	<->	Е.Ф. Куликовым	SUGGEST=Е.Ф. Куликова
+medium	same_initials_stem_prefix	6+1	Л.Я. Файвиловича	<->	Л.Я. Файвиловичем	SUGGEST=Л.Я. Файвиловича
+medium	same_initials_stem_prefix	6+1	Н.А. Угланова	<->	Н.А. Углановым	SUGGEST=Н.А. Угланова
+medium	same_initials_stem_prefix	5+1	А.В. Перимова	<->	А.В. Перимовым	SUGGEST=А.В. Перимова
+medium	same_initials_stem_prefix	5+1	А.Н. Слепкова	<->	А.Н. Слепковым	SUGGEST=А.Н. Слепкова
+medium	same_initials_stem_prefix	5+2	Г.В. Соколова	<->	Г.В. Соколовым	SUGGEST=Г.В. Соколова
+medium	same_initials_high_similarity	5+2	Л.С. Сосновского	<->	Л.С. Ассиновского	SUGGEST=Л.С. Сосновского
+medium	same_initials_stem_prefix	5+2	Я.С. Розанова	<->	Я.С. Розановым	SUGGEST=Я.С. Розанова
+medium	same_initials_stem_prefix	4+1	Я.А. Лившица	<->	Я.А. Лившицем	SUGGEST=Я.А. Лившица
+medium	same_initials_stem_prefix	3+3	Л.П. Серебрякова	<->	Л.П. Серебряковым	SUGGEST=Л.П. Серебрякова
+medium	same_initials_stem_prefix	2+1	А.Д. Арефьева	<->	А.Д. Арефьевым	SUGGEST=А.Д. Арефьева
+medium	same_initials_stem_prefix	2+1	В.Д. Вуйовича	<->	В.Д. Вуйовичем	SUGGEST=В.Д. Вуйовича
+medium	same_initials_stem_prefix	2+1	П.П. Северова	<->	П.П. Северовым	SUGGEST=П.П. Северова
+medium	same_initials_stem_prefix	2+1	П.Ф. Полякова	<->	П.Ф. Поляковым	SUGGEST=П.Ф. Полякова
+medium	same_initials_stem_prefix	1+1	Б.П. Нестерова	<->	Б.П. Нестеровым	SUGGEST=Б.П. Нестерова
+medium	same_initials_stem_prefix	1+1	Г.А. Татулова	<->	Г.А. Татуловым	SUGGEST=Г.А. Татулова
+medium	same_initials_stem_prefix	1+1	Д.А. Аникина	<->	Д.А. Аникиным	SUGGEST=Д.А. Аникина
+medium	same_initials_stem_prefix	1+1	Д.А. Сниткина	<->	Д.А. Сниткиным	SUGGEST=Д.А. Сниткина
+medium	same_initials_stem_prefix	1+1	К.Д. Мучникова	<->	К.Д. Мучниковым	SUGGEST=К.Д. Мучникова
+medium	same_initials_stem_prefix	1+1	С.Н. Бограчева	<->	С.Н. Бограчевым	SUGGEST=С.Н. Бограчева
+
+Already manual aliases detected:

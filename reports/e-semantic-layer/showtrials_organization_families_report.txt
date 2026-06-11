@@ -1,0 +1,11 @@
+ShowTrials organization families
+
+Organizations: 25
+
+party_apparatus	organizations=6	documents=2622
+state_apparatus	organizations=5	documents=257
+press_media	organizations=4	documents=433
+security_apparatus	organizations=4	documents=2304
+international	organizations=3	documents=371
+judicial_apparatus	organizations=2	documents=43
+political_organizations	organizations=1	documents=1

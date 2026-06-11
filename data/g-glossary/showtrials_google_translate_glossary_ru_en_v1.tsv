@@ -1,0 +1,154 @@
+source_ru	target_en	layer	glossary_kind	confidence
+The New York Times	The New York Times	organizations	organization	high
+United Press International	United Press International	organizations	organization	high
+ВКП(б)	All-Union Communist Party (Bolsheviks)	organizations	organization	high
+Верховный Совет СССР	Supreme Soviet of the USSR	organizations	organization	high
+Верховный Суд СССР	Supreme Court of the USSR	organizations	organization	high
+ГУГБ	GUGB	organizations	organization	high
+Горьковский крайком ВКП(б)	Gorky Regional Committee of the All-Union Communist Party (Bolsheviks)	organizations	organization	high
+ИККИ	Executive Committee of the Communist International	organizations	organization	high
+ИНО ГУГБ	Foreign Department of the GUGB	organizations	organization	high
+Известия	Izvestia	organizations	organization	high
+КПК	Party Control Commission	organizations	organization	high
+КПК при ЦК ВКП(б)	Party Control Commission under the Central Committee of the All-Union Communist Party (Bolsheviks)	organizations	organization	high
+Коминтерн	Comintern	organizations	organization	high
+Лига Наций	League of Nations	organizations	organization	high
+НКВД	NKVD	organizations	organization	high
+НКИД	People's Commissariat for Foreign Affairs	organizations	organization	high
+Народная Трудовая Демократическая партия России	People's Labor Democratic Party of Russia	organizations	organization	high
+ОО ГУГБ НКВД	Special Department of the GUGB NKVD	organizations	organization	high
+Политбюро	Politburo	organizations	organization	high
+Правда	Pravda	organizations	organization	high
+Прокуратура СССР	Prosecutor's Office of the USSR	organizations	organization	high
+Секретариат ЦИК СССР	Secretariat of the Central Executive Committee of the USSR	organizations	organization	high
+Совнарком	Council of People's Commissars	organizations	organization	high
+ЦИК СССР	Central Executive Committee of the USSR	organizations	organization	high
+ЦК ВКП(б)	Central Committee of the All-Union Communist Party (Bolsheviks)	organizations	organization	high
+А.И. Анишева	A.I. Anishev	people	person_name	medium
+А.М. Аркус	A.M. Arkus	people	person_name	medium
+А.М. Гертика	A.M. Gertik	people	person_name	medium
+А.С. Енукидзе	Avel Yenukidze	people	person_name	high
+А.Ю. Айхенвальда	A.Yu. Aikhenvald	people	person_name	medium
+А.Я. Вышинский	Andrey Vyshinsky	people	person_name	high
+Агранов	Yakov Agranov	people	person_name	high
+Астров	Astrov	people	person_name	medium
+Б.Л. Браво	B.L. Bravo	people	person_name	medium
+Б.Н. Сахова	B.N. Sakhov	people	person_name	medium
+Бухарин	Nikolai Bukharin	people	person_name	high
+В.А. Балицкого	Vsevolod Balitsky	people	person_name	medium
+В.А. Барута	V.A. Baruta	people	person_name	medium
+В.В. Кузьмина	V.V. Kuzmin	people	person_name	medium
+В.В. Осинского	Valerian Osinsky	people	person_name	medium
+В.В. Румянцева	V.V. Rumyantsev	people	person_name	medium
+В.М. Попова	V.M. Popov	people	person_name	medium
+В.С. Левина	V.S. Levin	people	person_name	medium
+В.Ф. Логинова	V.F. Loginov	people	person_name	medium
+В.Я. Головский-Голощапов	V.Ya. Golovsky-Goloshchapov	people	person_name	medium
+Г.А. Молчанова	G.A. Molchanov	people	person_name	medium
+Г.Б. Синани-Скалов	G.B. Sinani-Skalov	people	person_name	medium
+Г.Г. Ягода	Genrikh Yagoda	people	person_name	high
+Г.Е. Евдокимова	G.E. Evdokimov	people	person_name	medium
+Г.Е. Прокофьева	G.E. Prokofiev	people	person_name	medium
+Г.И. Сафарова	G.I. Safarov	people	person_name	medium
+Г.М. Аркуса	G.M. Arkus	people	person_name	medium
+Г.Ф. Попова	G.F. Popov	people	person_name	medium
+Г.Ф. Федорова	G.F. Fedorov	people	person_name	medium
+Дмитриев	Dmitriev	people	person_name	medium
+Е.А. Дрейцера	E.A. Dreitser	people	person_name	medium
+Е.В. Цетлина	E.V. Tsetlin	people	person_name	medium
+Е.К. Мухановой	E.K. Mukhanova	people	person_name	high
+Ежов	Nikolai Yezhov	people	person_name	high
+З.М. Беленького	Z.M. Belenky	people	person_name	medium
+Зиновьев	Grigory Zinoviev	people	person_name	high
+И.А. Мусульбаса	I.A. Musulbas	people	person_name	medium
+И.Г. Юскина	I.G. Yuskin	people	person_name	medium
+И.И. Котолынова	I.I. Kotolynov	people	person_name	medium
+И.И. Рейнгольда	Isaak Reingold	people	person_name	medium
+И.И. Тарасова	I.I. Tarasov	people	person_name	medium
+И.П. Бакаева	Ivan Bakaev	people	person_name	medium
+И.С. Горшенина	I.S. Gorshenin	people	person_name	medium
+И.Т. Смилги	Ivar Smilga	people	person_name	medium
+К.К. Муханова	K.K. Mukhanov	people	person_name	medium
+Каменев	Lev Kamenev	people	person_name	high
+Киров	Sergei Kirov	people	person_name	high
+Л.В. Николаева	L.V. Nikolaeva	people	person_name	medium
+Л.Д. Троцкий	Leon Trotsky	people	person_name	high
+Л.З. Мехлиса	Lev Mekhlis	people	person_name	medium
+Л.И. Сосицкого	L.I. Sositsky	people	person_name	medium
+Л.М. Каганович	Lazar Kaganovich	people	person_name	high
+Л.С. Сосновского	L.S. Sosnovsky	people	person_name	medium
+М.А. Нырчука	M.A. Nyrchuk	people	person_name	medium
+М.К. Чернявского	M.K. Chernyavsky	people	person_name	medium
+М.М. Киллерога	M.M. Killerog	people	person_name	medium
+М.М. Харитонова	M.M. Kharitonov	people	person_name	medium
+М.Н. Яковлева	M.N. Yakovlev	people	person_name	medium
+М.П. Томского	Mikhail Tomsky	people	person_name	medium
+М.С. Богуславского	M.S. Boguslavsky	people	person_name	medium
+Молотов	Vyacheslav Molotov	people	person_name	medium
+Н.А. Розенфельд	N.A. Rosenfeld	people	person_name	medium
+Н.А. Угланова	N.A. Uglanov	people	person_name	medium
+Н.В. Голубенко	N.V. Golubenko	people	person_name	medium
+Н.И. Бураго	N.I. Burago	people	person_name	medium
+Н.И. Мухина	N.I. Mukhin	people	person_name	medium
+Н.П. Глебов-Авилов	N.P. Glebov-Avilov	people	person_name	medium
+Н.П. Мясникова	N.P. Myasnikov	people	person_name	medium
+Н.С. Антонова	N.S. Antonov	people	person_name	medium
+Ольберг	Valentin Olberg	people	person_name	high
+П.А. Залуцкого	P.A. Zalutsky	people	person_name	medium
+П.А. Коваленко	P.A. Kovalenko	people	person_name	medium
+П.А. Николаева	P.A. Nikolaev	people	person_name	medium
+Пятаков	Georgy Pyatakov	people	person_name	high
+Радек	Karl Radek	people	person_name	high
+Рыков	Alexei Rykov	people	person_name	high
+С.А. Чихладзе	S.A. Chikhladze	people	person_name	medium
+С.В. Мрачковский	Sergei Mrachkovsky	people	person_name	high
+Седов	Lev Sedov	people	person_name	high
+Смирнов	Ivan Smirnov	people	person_name	high
+Сокольников	Grigory Sokolnikov	people	person_name	high
+Сталин	Joseph Stalin	people	person_name	high
+Т.И. Глебовой	T.I. Glebova	people	person_name	medium
+Троцкий	Leon Trotsky	people	person_name	high
+Ф.Ф. Фадеева	F.F. Fadeev	people	person_name	medium
+Членов	Chlenov	people	person_name	medium
+Шемелев	Shemelev	people	person_name	medium
+Э.С. Гольцмана	Eduard Holtzman	people	person_name	medium
+Я.А. Лившица	Ya.A. Livshits	people	person_name	medium
+Я.Р. Ельковича	Ya.R. Elkovich	people	person_name	medium
+КРЕМЛЕВСКОЕ ДЕЛО	Kremlin Case	processes	process_name	high
+ПРОЦЕСС 19-23 АВГУСТА 1936 г.	August 1936 Trial	processes	process_name	high
+ПРОЦЕСС 2-12 МАРТА 1938 г.	March 1938 Trial	processes	process_name	high
+ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.	January 1937 Trial	processes	process_name	high
+ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”	Leningrad Center Trial	processes	process_name	high
+ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”	Moscow Center Trial	processes	process_name	high
+РАЗНЫЕ ДОКУМЕНТЫ	Miscellaneous Documents	processes	process_name	high
+СТАТЬИ	Articles	processes	process_name	high
+ТРОЦКИЙ	Trotsky Dossier	processes	process_name	high
+агент	agent	roles	accusatory_or_intelligence_label	medium
+адвокат	defense attorney	roles	office_position	high
+вредитель	wrecker	roles	accusatory_label	high
+директор	director	roles	office_position	high
+заместитель	deputy	roles	office_position	high
+кандидат	candidate	roles	generic_membership	high
+комиссар	commissar	roles	office_position	high
+корреспондент	correspondent	roles	office_position	high
+нарком	People's Commissar	roles	office_position	high
+наркомвнудел	People's Commissar of Internal Affairs	roles	office_position	high
+начальник	chief	roles	office_position	high
+обвиняемый	accused	roles	trial_role	high
+подсудимый	defendant	roles	trial_role	high
+полпред	plenipotentiary representative	roles	office_position	high
+посол	ambassador	roles	office_position	high
+правый	Rightist	roles	political_label	high
+председатель	chairman	roles	office_position	high
+представитель	representative	roles	generic_representative	high
+прокурор	prosecutor	roles	office_position	high
+редактор	editor	roles	office_position	high
+руководитель	leader	roles	office_position	high
+свидетель	witness	roles	trial_role	high
+секретарь	secretary	roles	office_position	high
+секретарь_суда	court secretary	roles	office_position	high
+следователь	investigator	roles	office_position	high
+сотрудник	staff member	roles	generic_staff	high
+судья	judge	roles	office_position	high
+троцкист	Trotskyist	roles	political_label	high
+член	member	roles	generic_membership	high

@@ -1,0 +1,11 @@
+ShowTrials document type v3/v4 comparison
+
+Compared documents: 2179
+Changed documents: 10
+
+Transitions:
+4	unknown	→	press_summary
+2	unknown	→	biographical_article
+2	unknown	→	correspondence
+1	unknown	→	interrogation_extract
+1	unknown	→	session_transcript

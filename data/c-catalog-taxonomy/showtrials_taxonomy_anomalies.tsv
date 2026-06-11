@@ -1,0 +1,12 @@
+scope	term	count	flags	near_term	near_term_count	similarity
+collection	СПРАВКИ КПК И ИМЛ	1	single_document_term			
+category	Материалы следствия 1937	434	near_duplicate_candidate	Материалы следствия 1938	105	0.9583
+category	Материалы следствия 1936	370	near_duplicate_candidate	Материалы следствия 1938	105	0.9583
+category	Материалы следствия 1936	370	near_duplicate_candidate	Материалы следствия 1937	434	0.9583
+category	Другие документы 1936	47	near_duplicate_candidate	Другие документы 1938	11	0.9524
+category	Другие документы 1936	47	near_duplicate_candidate	Другие документы 1937	34	0.9524
+category	Другие документы 1937	34	near_duplicate_candidate	Другие документы 1938	11	0.9524
+category	Стенограмма 1936	15	near_duplicate_candidate	Стенограмма 1937	14	0.9375
+tag	Moscow	1	single_document_term			
+tag	Уралвагонстрой	1	single_document_term			
+tag	прав	1	single_document_term			

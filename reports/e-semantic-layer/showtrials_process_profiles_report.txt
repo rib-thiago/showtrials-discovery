@@ -1,0 +1,88 @@
+ShowTrials process profiles
+
+Person profiles: 794
+Organization profiles: 25
+Family profiles: 7
+
+Top person process profiles:
+520	processes=7	top_share=0.4654	Сталин	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:242
+466	processes=7	top_share=0.5515	Ежов	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:257
+158	processes=6	top_share=0.5253	Г.Г. Ягода	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:83
+94	processes=2	top_share=0.9894	Ольберг	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:93
+78	processes=3	top_share=0.5897	Седов	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:46
+74	processes=7	top_share=0.5	Агранов	TOP=КРЕМЛЕВСКОЕ ДЕЛО:37
+73	processes=2	top_share=0.9863	Бухарин	TOP=ПРОЦЕСС 2-12 МАРТА 1938 г.:72
+50	processes=5	top_share=0.7	Зиновьев	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:35
+43	processes=2	top_share=0.9767	Л.В. Николаева	TOP=ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:42
+33	processes=1	top_share=1.0	Г.Е. Прокофьева	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:33
+32	processes=2	top_share=0.9688	Г.И. Сафарова	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:31
+28	processes=2	top_share=0.5357	Л.Д. Троцкий	TOP=ТРОЦКИЙ:15
+26	processes=3	top_share=0.6538	Каменев	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:17
+25	processes=3	top_share=0.92	Радек	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:23
+22	processes=3	top_share=0.9091	Пятаков	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:20
+20	processes=2	top_share=0.95	Е.В. Цетлина	TOP=ПРОЦЕСС 2-12 МАРТА 1938 г.:19
+18	processes=3	top_share=0.6111	Рыков	TOP=ПРОЦЕСС 2-12 МАРТА 1938 г.:11
+18	processes=3	top_share=0.8333	Сокольников	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:15
+17	processes=3	top_share=0.5294	Дмитриев	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:9
+16	processes=1	top_share=1.0	Н.А. Розенфельд	TOP=КРЕМЛЕВСКОЕ ДЕЛО:16
+14	processes=4	top_share=0.7143	Членов	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:10
+14	processes=2	top_share=0.8571	Г.Е. Евдокимова	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:12
+13	processes=2	top_share=0.8462	В.А. Балицкого	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:11
+13	processes=2	top_share=0.7692	И.П. Бакаева	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:10
+13	processes=1	top_share=1.0	Е.К. Мухановой	TOP=КРЕМЛЕВСКОЕ ДЕЛО:13
+13	processes=1	top_share=1.0	И.И. Котолынова	TOP=ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:13
+12	processes=2	top_share=0.8333	В.В. Румянцева	TOP=ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:10
+12	processes=2	top_share=0.9167	Г.Б. Синани-Скалов	TOP=КРЕМЛЕВСКОЕ ДЕЛО:11
+12	processes=2	top_share=0.9167	Г.Ф. Попова	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:11
+12	processes=1	top_share=1.0	А.И. Анишева	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:12
+12	processes=1	top_share=1.0	И.С. Горшенина	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:12
+11	processes=4	top_share=0.3636	Л.М. Каганович	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:4
+11	processes=2	top_share=0.9091	А.М. Гертика	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:10
+11	processes=2	top_share=0.9091	И.И. Рейнгольда	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:10
+11	processes=1	top_share=1.0	М.К. Чернявского	TOP=КРЕМЛЕВСКОЕ ДЕЛО:11
+11	processes=1	top_share=1.0	М.М. Харитонова	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:11
+11	processes=1	top_share=1.0	Н.В. Голубенко	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:11
+10	processes=4	top_share=0.5	А.Я. Вышинский	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:5
+10	processes=1	top_share=1.0	Н.С. Антонова	TOP=ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:10
+10	processes=1	top_share=1.0	П.А. Николаева	TOP=ПРОЦЕСС “ЛЕНИНГРАДСКОГО ЦЕНТРА”:10
+
+Top organization process profiles:
+1397	processes=8	top_share=0.2827	ВКП(б)	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:395
+1296	processes=8	top_share=0.267	ГУГБ	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:346
+915	processes=8	top_share=0.2776	НКВД	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:254
+869	processes=8	top_share=0.3579	ЦК ВКП(б)	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:311
+328	processes=9	top_share=0.3049	Правда	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:100
+290	processes=9	top_share=0.3345	Коминтерн	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:97
+278	processes=7	top_share=0.241	Политбюро	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:67
+126	processes=7	top_share=0.3492	Совнарком	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:44
+103	processes=7	top_share=0.4078	Известия	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:42
+82	processes=7	top_share=0.5976	ЦИК СССР	TOP=КРЕМЛЕВСКОЕ ДЕЛО:49
+76	processes=7	top_share=0.2632	ИККИ	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:20
+54	processes=6	top_share=0.2778	КПК	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:15
+53	processes=4	top_share=0.5094	ИНО ГУГБ	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:27
+40	processes=6	top_share=0.425	ОО ГУГБ НКВД	TOP=ПРОЦЕСС “МОСКОВСКОГО ЦЕНТРА”:17
+33	processes=7	top_share=0.4242	Верховный Суд СССР	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:14
+28	processes=5	top_share=0.4286	НКИД	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:12
+20	processes=2	top_share=0.95	Секретариат ЦИК СССР	TOP=КРЕМЛЕВСКОЕ ДЕЛО:19
+15	processes=4	top_share=0.4	КПК при ЦК ВКП(б)	TOP=КРЕМЛЕВСКОЕ ДЕЛО:6
+10	processes=3	top_share=0.8	Прокуратура СССР	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:8
+9	processes=2	top_share=0.8889	Горьковский крайком ВКП(б)	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:8
+5	processes=5	top_share=0.2	Лига Наций	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1
+1	processes=1	top_share=1.0	The New York Times	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1
+1	processes=1	top_share=1.0	United Press International	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:1
+1	processes=1	top_share=1.0	Верховный Совет СССР	TOP=ПРОЦЕСС 2-12 МАРТА 1938 г.:1
+1	processes=1	top_share=1.0	Народная Трудовая Демократическая партия России	TOP=ПРОЦЕСС 2-12 МАРТА 1938 г.:1
+
+Family process profiles:
+1473	processes=8	top_share=0.2688	security_apparatus	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:396
+1430	processes=8	top_share=0.2832	party_apparatus	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:405
+380	processes=9	top_share=0.3289	press_media	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:125
+320	processes=9	top_share=0.3125	international	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:100
+224	processes=8	top_share=0.2768	state_apparatus	TOP=ПРОЦЕСС 23-29 ЯНВАРЯ 1937 г.:62
+41	processes=7	top_share=0.5366	judicial_apparatus	TOP=ПРОЦЕСС 19-23 АВГУСТА 1936 г.:22
+1	processes=1	top_share=1.0	political_organizations	TOP=ПРОЦЕСС 2-12 МАРТА 1938 г.:1
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_person_process_profiles.tsv
+/tmp/showtrials-discovery/showtrials_organization_process_profiles.tsv
+/tmp/showtrials-discovery/showtrials_family_process_profiles.tsv

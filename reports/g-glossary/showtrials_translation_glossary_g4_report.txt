@@ -1,0 +1,110 @@
+ShowTrials translation glossary G4 historical person canonicalization
+
+Input rows: 892
+Output rows: 892
+G4 review rows: 66
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	187
+auto_normalized_needs_review	430
+auto_transliterated_needs_review	275
+
+Rows by historical person tier:
+	25
+not_person	73
+tier1_core_or_high_frequency	16
+tier2_significant	24
+tier2_unresolved	1
+tier3_high_org_context	18
+tier3_review_if_needed	35
+tier4_auto_ok	700
+
+Rows by G4 action:
+approved_by_g4_historical_person_map	30
+romanization_cleanup	10
+
+Review queue by reason:
+person_5plus_docs_unresolved	35
+case_form_with_high_org_context	13
+multiple_aliases_unresolved	13
+semantic_label_policy_review	4
+person_10plus_docs_unresolved	1
+
+Top G4 review queue:
+medium	1357	orgs=	aliases=	roles	троцкист	→	Trotskyist	semantic_label_policy_review
+medium	607	orgs=	aliases=	roles	правый	→	Rightist	semantic_label_policy_review
+medium	222	orgs=	aliases=	roles	агент	→	agent	semantic_label_policy_review
+medium	58	orgs=	aliases=	roles	вредитель	→	wrecker	semantic_label_policy_review
+medium	13	orgs=9	aliases=1	people	Е.К. Мухановой	→	E.K. Mukhanov	person_10plus_docs_unresolved
+low	9	orgs=4	aliases=1	people	В.И. Звездова	→	V.I. Zvezdov	person_5plus_docs_unresolved
+low	8	orgs=11	aliases=2	people	М.Ф. Шкирятову	→	M.F. Shkiryatov	person_5plus_docs_unresolved
+low	8	orgs=6	aliases=2	people	С.М. Гессена	→	S.M. Hessen	person_5plus_docs_unresolved
+low	8	orgs=2	aliases=1	people	А.И. Толмазова	→	A.I. Tolmazov	person_5plus_docs_unresolved
+low	7	orgs=5	aliases=1	people	А.С. Куклина	→	A.S. Kuklin	person_5plus_docs_unresolved
+low	7	orgs=5	aliases=1	people	М.В. Королькова	→	M.V. Korolkov	person_5plus_docs_unresolved
+low	7	orgs=4	aliases=2	people	Л.Я. Файвиловича	→	L.Ya. Faivilovich	person_5plus_docs_unresolved
+low	6	orgs=7	aliases=1	people	Е.Ф. Куликова	→	E.F. Kulikov	person_5plus_docs_unresolved
+low	6	orgs=6	aliases=1	people	Д.А. Шмидта	→	D.A. Schmidt	person_5plus_docs_unresolved
+low	6	orgs=6	aliases=1	people	Д.Н. Ширяева	→	D.N. Shiryaev	person_5plus_docs_unresolved
+low	6	orgs=6	aliases=1	people	И.К. Наумова	→	I.K. Naumov	person_5plus_docs_unresolved
+low	6	orgs=4	aliases=1	people	З.И. Давыдовой	→	Z.I. Davydova	person_5plus_docs_unresolved
+low	6	orgs=4	aliases=1	people	И.М. Гуревича	→	I.M. Gurevich	person_5plus_docs_unresolved
+low	6	orgs=3	aliases=1	people	А.Ф. Шараповой	→	A.F. Sharapov	person_5plus_docs_unresolved
+low	6	orgs=2	aliases=1	people	В.В. Глухенко	→	V.V. Glukhenko	person_5plus_docs_unresolved
+low	6	orgs=1	aliases=1	people	В.А. Виноградова	→	V.A. Vinogradov	person_5plus_docs_unresolved
+low	6	orgs=1	aliases=1	people	П.И. Бескиной	→	P.I. Beskina	person_5plus_docs_unresolved
+low	5	orgs=9	aliases=1	people	А.Ю. Тивеля	→	A.Yu. Tivelya	person_5plus_docs_unresolved
+low	5	orgs=8	aliases=1	people	А.Н. Слепкова	→	A.N. Slepkov	person_5plus_docs_unresolved
+low	5	orgs=6	aliases=1	people	А.А. Шестова	→	A.A. Shestov	person_5plus_docs_unresolved
+low	5	orgs=5	aliases=1	people	А.П. Костиной	→	A.P. Kostina	person_5plus_docs_unresolved
+low	5	orgs=5	aliases=2	people	Б.Н. Розенфельда	→	B.N. Rosenfeld	person_5plus_docs_unresolved
+low	5	orgs=5	aliases=1	people	Л.Ф. Дитятевой	→	L.F. Dityateva	person_5plus_docs_unresolved
+low	5	orgs=5	aliases=1	people	Н.Б. Розенфельда	→	N.B. Rosenfeld	person_5plus_docs_unresolved
+low	5	orgs=4	aliases=1	people	А.Н. Сафоновой	→	A.N. Safonova	person_5plus_docs_unresolved
+low	5	orgs=4	aliases=1	people	В.А. Яковлева	→	V.A. Yakovlev	person_5plus_docs_unresolved
+low	5	orgs=4	aliases=1	people	В.И. Козырева	→	V.I. Kozyrev	person_5plus_docs_unresolved
+low	5	orgs=4	aliases=1	people	И.С. Горшениным	→	I.S. Gorsheninym	person_5plus_docs_unresolved
+low	5	orgs=4	aliases=1	people	М.В. Поздеевой	→	M.V. Pozdeeva	person_5plus_docs_unresolved
+low	5	orgs=4	aliases=2	people	Я.В. Шарова	→	Ya.V. Sharov	person_5plus_docs_unresolved
+low	5	orgs=3	aliases=1	people	А.В. Перимова	→	A.V. Perimov	person_5plus_docs_unresolved
+low	5	orgs=3	aliases=1	people	М.С. Рэма	→	M.S. Rema	person_5plus_docs_unresolved
+low	5	orgs=2	aliases=1	people	Я.С. Розанова	→	Ya.S. Rozanov	person_5plus_docs_unresolved
+low	5	orgs=1	aliases=1	people	Г.В. Соколова	→	G.V. Sokolov	person_5plus_docs_unresolved
+low	5	orgs=1	aliases=1	people	Н.А. Царькова	→	N.A. Tsarkov	person_5plus_docs_unresolved
+low	4	orgs=10	aliases=1	people	Б.А. Кушнера	→	B.A. Kushner	case_form_with_high_org_context
+low	4	orgs=8	aliases=2	people	В.В. Шмидта	→	V.V. Schmidt	case_form_with_high_org_context
+low	4	orgs=7	aliases=2	people	Н.А. Карева	→	N.A. Karev	multiple_aliases_unresolved
+low	4	orgs=6	aliases=2	people	Е.К. Коршунова	→	E.K. Korshunov	multiple_aliases_unresolved
+low	4	orgs=6	aliases=2	people	К.Е. Ворошилова	→	K.E. Voroshilov	multiple_aliases_unresolved
+low	4	orgs=6	aliases=2	people	С.Х. Варданиана	→	S.Kh. Vardaniana	multiple_aliases_unresolved
+low	4	orgs=5	aliases=2	people	А.И. Биркенгофа	→	A.I. Birkengof	multiple_aliases_unresolved
+low	4	orgs=4	aliases=2	people	А.В. Герцберга	→	A.V. Gertsberg	multiple_aliases_unresolved
+low	4	orgs=2	aliases=2	people	А.А. Трояновского	→	A.A. Troyanovsky	multiple_aliases_unresolved
+low	3	orgs=9	aliases=1	people	Д.П. Марецкого	→	D.P. Maretsky	case_form_with_high_org_context
+low	3	orgs=9	aliases=1	people	П.Ф. Сапожникова	→	P.F. Sapozhnikov	case_form_with_high_org_context
+low	3	orgs=8	aliases=1	people	И.К. Федотова	→	I.K. Fedotov	case_form_with_high_org_context
+low	3	orgs=6	aliases=2	people	И.Н. Маевского	→	I.N. Maevsky	multiple_aliases_unresolved
+low	3	orgs=5	aliases=2	people	Х.Г. Раковского	→	Kh.G. Rakovsky	multiple_aliases_unresolved
+low	3	orgs=5	aliases=2	people	Я.Н. Дробниса	→	Ya.N. Drobnisa	multiple_aliases_unresolved
+low	3	orgs=4	aliases=2	people	В.П. Потемкина	→	V.P. Potemkin	multiple_aliases_unresolved
+low	3	orgs=4	aliases=2	people	М.В. Бурштейном	→	M.V. Burshteinom	multiple_aliases_unresolved
+low	3	orgs=4	aliases=2	people	С.А. Ратайчаком	→	S.A. Rataichakom	multiple_aliases_unresolved
+low	2	orgs=10	aliases=1	people	Е.Д. Соколовой	→	E.D. Sokolova	case_form_with_high_org_context
+low	2	orgs=9	aliases=1	people	А.Д. Зайцева	→	A.D. Zaitsev	case_form_with_high_org_context
+low	2	orgs=9	aliases=1	people	В.И. Шипихина	→	V.I. Shipikhin	case_form_with_high_org_context
+low	2	orgs=8	aliases=1	people	А.С. Соколова	→	A.S. Sokolov	case_form_with_high_org_context
+low	2	orgs=8	aliases=1	people	С.Г. Радомысльского	→	S.G. Radomyslsky	case_form_with_high_org_context
+low	1	orgs=9	aliases=1	people	Н.В. Комогорова	→	N.V. Komogorov	case_form_with_high_org_context
+low	1	orgs=8	aliases=1	people	А.Л. Леонтьева	→	A.L. Leontev	case_form_with_high_org_context
+low	1	orgs=8	aliases=1	people	В.П. Второва	→	V.P. Vtorov	case_form_with_high_org_context
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_glossary_g4.tsv
+/tmp/showtrials-discovery/showtrials_translation_glossary_g4_review.tsv

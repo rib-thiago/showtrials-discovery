@@ -1,0 +1,12 @@
+D3.1 Special Report Documentary Package Analysis
+packages	/srv/projects/showtrials-discovery/showtrials_special_report_packages_d3_1.tsv
+summary	/srv/projects/showtrials-discovery/showtrials_special_report_package_summary_d3_1.tsv
+examples	/srv/projects/showtrials-discovery/showtrials_special_report_package_examples_d3_1.tsv
+special_report_rows	526
+missing_corpus_text	0
+strong	502
+likely	0
+possible	10
+none	14
+heuristic	strong=s prilozheniem or multiple attachment types; likely=napravlyayu plus embedded type; possible=single weak marker/type; none=no marker
+policy	analysis aid only; no translation, API calls, embeddings, or input mutation

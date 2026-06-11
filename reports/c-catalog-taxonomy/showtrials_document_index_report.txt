@@ -1,0 +1,6 @@
+ShowTrials document index diagnosis
+
+JSON files: 22
+Rows indexed: 2179
+Unique IDs: 2179
+Duplicate IDs: 0

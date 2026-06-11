@@ -1,0 +1,4 @@
+ShowTrials process profiles validation
+
+Failures: 0
+Warnings: 0

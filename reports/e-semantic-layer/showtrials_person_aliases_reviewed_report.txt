@@ -1,0 +1,7 @@
+ShowTrials reviewed alias application
+
+Base aliases: 832
+Manual approved: 55
+Manual rejected: 1
+Reviewed aliases: 832
+Output: /tmp/showtrials-discovery/showtrials_person_aliases_reviewed.tsv

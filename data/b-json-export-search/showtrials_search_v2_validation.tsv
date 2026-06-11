@@ -1,0 +1,10 @@
+test	status	command	detail
+text_radek_yagoda	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py Радек Ягода --limit 5 --format tsv	rows=5
+person_stalin	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --person Сталин --limit 5 --format tsv	rows=5
+organization_nkvd	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --organization НКВД --limit 5 --format tsv	rows=5
+family_security	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --family security_apparatus --limit 5 --format tsv	rows=5
+process_march_1938	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --process МАРТА 1938 --limit 5 --format tsv	rows=5
+doctype_interrogation	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --doctype interrogation_protocol --limit 5 --format tsv	rows=5
+role_prosecutor	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --role прокурор --limit 5 --format tsv	rows=5
+combined_bukharin_march	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --person Бухарин --process МАРТА 1938 --limit 5 --format tsv	rows=5
+combined_security_special_report	PASS	/tmp/showtrials-discovery/showtrials-search-v2.py --family security_apparatus --doctype special_report --limit 5 --format tsv	rows=5

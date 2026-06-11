@@ -1,0 +1,67 @@
+ShowTrials semantic baseline
+
+Generated: 2026-06-08T04:18:51-03:00
+Base: /tmp/showtrials-discovery
+
+Layer inventory:
+layer                                path                                                                          status   row_count  column_count
+catalog                              /tmp/showtrials-discovery/showtrials_master_catalog.tsv                       present  2179       21
+search_corpus                        /tmp/showtrials-discovery/showtrials_search_corpus.tsv                        present  2179       11
+people                               /tmp/showtrials-discovery/showtrials_literal_people.tsv                       present  794        10
+person_documents                     /tmp/showtrials-discovery/showtrials_literal_person_documents.tsv             present  3623       9
+person_aliases                       /tmp/showtrials-discovery/showtrials_person_aliases.tsv                       present  832        10
+document_types_v4                    /tmp/showtrials-discovery/showtrials_document_types_v4.tsv                    present  2179       12
+organizations                        /tmp/showtrials-discovery/showtrials_organizations.tsv                        present  25         9
+organization_documents               /tmp/showtrials-discovery/showtrials_organization_documents.tsv               present  6031       13
+organization_hierarchy               /tmp/showtrials-discovery/showtrials_organization_hierarchy.tsv               present  9          12
+organization_families                /tmp/showtrials-discovery/showtrials_organization_families.tsv                present  25         6
+organization_family_document_matrix  /tmp/showtrials-discovery/showtrials_organization_family_document_matrix.tsv  present  2179       20
+roles_v2                             /tmp/showtrials-discovery/showtrials_roles_v2.tsv                             present  29         10
+role_documents_v2                    /tmp/showtrials-discovery/showtrials_role_documents_v2.tsv                    present  10238      17
+person_organization_matrix           /tmp/showtrials-discovery/showtrials_person_organization_matrix.tsv           present  3180       14
+person_organization_summary          /tmp/showtrials-discovery/showtrials_person_organization_summary.tsv          present  771        5
+organization_person_summary          /tmp/showtrials-discovery/showtrials_organization_person_summary.tsv          present  22         5
+person_context_profiles_v2           /tmp/showtrials-discovery/showtrials_person_institution_profiles_v2.tsv       present  794        17
+processes                            /tmp/showtrials-discovery/showtrials_processes.tsv                            present  9          16
+process_document_matrix              /tmp/showtrials-discovery/showtrials_process_document_matrix.tsv              present  2179       12
+person_process_matrix                /tmp/showtrials-discovery/showtrials_person_process_matrix.tsv                present  923        5
+organization_process_matrix          /tmp/showtrials-discovery/showtrials_organization_process_matrix.tsv          present  133        5
+family_process_matrix                /tmp/showtrials-discovery/showtrials_family_process_matrix.tsv                present  50         5
+person_process_profiles              /tmp/showtrials-discovery/showtrials_person_process_profiles.tsv              present  794        10
+organization_process_profiles        /tmp/showtrials-discovery/showtrials_organization_process_profiles.tsv        present  25         10
+family_process_profiles              /tmp/showtrials-discovery/showtrials_family_process_profiles.tsv              present  7          10
+search_v2_script                     /tmp/showtrials-discovery/showtrials-search-v2.py                             present  246        1
+search_v2_validation                 /tmp/showtrials-discovery/showtrials_search_v2_validation.tsv                 present  9          4
+semantic_layer_inventory             /tmp/showtrials-discovery/showtrials_semantic_layer_inventory.tsv             present  24         6
+semantic_layer_validation            /tmp/showtrials-discovery/showtrials_semantic_layer_validation.tsv            present  1          4
+
+Dependencies:
+artifact                                            depends_on                                       purpose
+showtrials_literal_people.tsv                       showtrials_master_catalog.tsv                    person entity inventory
+showtrials_literal_person_documents.tsv             showtrials_literal_people.tsv                    person-document links
+showtrials_person_aliases.tsv                       showtrials_literal_people.tsv                    manual/automatic alias normalization
+showtrials_document_types_v4.tsv                    showtrials_master_catalog.tsv                    document type classification
+showtrials_organizations.tsv                        showtrials_master_catalog.tsv                    organization entity inventory
+showtrials_organization_documents.tsv               showtrials_organizations.tsv                     organization-document links
+showtrials_organization_hierarchy.tsv               showtrials_organizations.tsv                     organization hierarchy
+showtrials_organization_families.tsv                showtrials_organizations.tsv                     institutional family mapping
+showtrials_organization_family_document_matrix.tsv  showtrials_organization_documents.tsv            document-family matrix
+showtrials_roles_v2.tsv                             showtrials_positions.tsv                         role taxonomy
+showtrials_role_documents_v2.tsv                    showtrials_roles_v2.tsv                          role-document links
+showtrials_person_organization_matrix.tsv           person_documents + organization_documents        person-organization cooccurrence matrix
+showtrials_processes.tsv                            showtrials_master_catalog.tsv                    process entity layer
+showtrials_process_document_matrix.tsv              showtrials_processes.tsv                         process-document matrix
+showtrials_person_process_matrix.tsv                person_documents + processes                     person-process matrix
+showtrials_organization_process_matrix.tsv          organization_documents + processes               organization-process matrix
+showtrials_family_process_matrix.tsv                organization_family_document_matrix + processes  family-process matrix
+showtrials_process_profiles.tsv                     process matrices                                 entity process profiles
+showtrials-search-v2.py                             semantic TSV baseline                            semantic search consumer
+
+Interpretation policy:
+- Frequency and cooccurrence are contextual evidence.
+- They are not biographical, causal, or historiographical claims.
+- Centrality metrics require manual curatorial interpretation before use.
+- Search v2 is approved as a consumer of the validated semantic baseline.
+
+Recommended next state:
+ShowTrials Discovery v1 semantic baseline can be treated as frozen for exploratory search.

@@ -1,0 +1,7 @@
+http://showtrials.ru/wp-sitemap-posts-inventory-1.xml
+http://showtrials.ru/wp-sitemap-posts-page-1.xml
+http://showtrials.ru/wp-sitemap-posts-post-1.xml
+http://showtrials.ru/wp-sitemap-posts-post-2.xml
+http://showtrials.ru/wp-sitemap-taxonomies-category-1.xml
+http://showtrials.ru/wp-sitemap-taxonomies-post_tag-1.xml
+http://showtrials.ru/wp-sitemap-users-1.xml

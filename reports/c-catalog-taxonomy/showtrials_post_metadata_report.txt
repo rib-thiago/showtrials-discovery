@@ -1,0 +1,143 @@
+ShowTrials post metadata diagnosis
+
+Posts loaded: 2179
+
+Top-level fields:
+2179	_links
+2179	acf
+2179	author
+2179	categories
+2179	class_list
+2179	comment_status
+2179	content
+2179	date
+2179	date_gmt
+2179	excerpt
+2179	featured_media
+2179	format
+2179	guid
+2179	id
+2179	link
+2179	meta
+2179	modified
+2179	modified_gmt
+2179	ping_status
+2179	slug
+2179	status
+2179	sticky
+2179	tags
+2179	template
+2179	title
+2179	type
+
+Field Python types:
+2179	_links:dict
+2179	acf:list
+2179	author:int
+2179	categories:list
+2179	class_list:list
+2179	comment_status:str
+2179	content:dict
+2179	date:str
+2179	date_gmt:str
+2179	excerpt:dict
+2179	featured_media:int
+2179	format:str
+2179	guid:dict
+2179	id:int
+2179	link:str
+2179	meta:dict
+2179	modified:str
+2179	modified_gmt:str
+2179	ping_status:str
+2179	slug:str
+2179	status:str
+2179	sticky:bool
+2179	tags:list
+2179	template:str
+2179	title:dict
+2179	type:str
+
+Categories:
+434	category	80
+370	category	67
+367	category	77
+233	category	72
+152	category	75
+105	category	130
+71	category	137
+70	category	138
+55	category	76
+47	category	78
+45	category	143
+34	category	139
+34	category	79
+31	category	148
+24	category	71
+19	category	142
+19	category	70
+16	category	147
+15	category	65
+14	category	84
+13	category	145
+11	category	131
+10	category	73
+6	category	141
+5	category	38
+5	category	81
+5	category	82
+4	category	1
+4	category	88
+3	category	146
+3	category	69
+3	category	85
+2	category	144
+2	category	96
+
+Tags:
+183	tag	118
+112	tag	97
+104	tag	136
+69	tag	121
+58	tag	106
+55	tag	105
+48	tag	115
+46	tag	120
+41	tag	119
+38	tag	100
+36	tag	103
+36	tag	116
+33	tag	104
+31	tag	117
+24	tag	126
+23	tag	98
+19	tag	122
+17	tag	111
+17	tag	114
+17	tag	99
+15	tag	101
+13	tag	109
+13	tag	132
+12	tag	107
+12	tag	112
+11	tag	102
+6	tag	108
+6	tag	110
+5	tag	113
+5	tag	125
+4	tag	127
+4	tag	133
+4	tag	134
+1	tag	123
+1	tag	140
+1	tag	92
+
+Meta keys:
+2179	_acf_changed:bool
+2179	footnotes:str
+
+ACF keys:
+none
+
+Embedded keys:
+none

@@ -1,0 +1,134 @@
+ShowTrials translation glossary G3 enrichment
+
+Input rows: 892
+Output rows: 892
+G3 review rows: 533
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	160
+auto_normalized_needs_review	432
+auto_transliterated_needs_review	300
+
+Rows by G3 action:
+auto_morphological_normalization	422
+approved_by_g3_curated_or_morphological_rule	41
+role_note_enriched	4
+
+Review queue by reason:
+person_multiple_org_contexts_not_approved	477
+person_5plus_docs_not_approved	46
+person_10plus_docs_not_approved	6
+political_or_accusatory_label_semantic_review	4
+
+Top G3 review queue:
+medium	1357	roles	троцкист	→	Trotskyist	political_or_accusatory_label_semantic_review
+medium	607	roles	правый	→	Rightist	political_or_accusatory_label_semantic_review
+medium	222	roles	агент	→	agent	political_or_accusatory_label_semantic_review
+medium	58	roles	вредитель	→	wrecker	political_or_accusatory_label_semantic_review
+medium	13	people	В.А. Балицкого	→	V.A. Balitsky	person_10plus_docs_not_approved
+medium	13	people	Е.К. Мухановой	→	E.K. Mukhanov	person_10plus_docs_not_approved
+medium	13	people	И.П. Бакаева	→	I.P. Bakaev	person_10plus_docs_not_approved
+medium	12	people	Г.Б. Синани-Скалов	→	G.B. Sinani-Skalov	person_10plus_docs_not_approved
+medium	11	people	И.И. Рейнгольда	→	I.I. Reingold	person_10plus_docs_not_approved
+medium	11	people	М.К. Чернявского	→	M.K. Chernyavsky	person_10plus_docs_not_approved
+low	9	people	Б.Л. Браво	→	B.L. Bravo	person_5plus_docs_not_approved
+low	9	people	В.А. Барута	→	V.A. Baruta	person_5plus_docs_not_approved
+low	9	people	В.И. Звездова	→	V.I. Zvezdov	person_5plus_docs_not_approved
+low	8	people	А.И. Толмазова	→	A.I. Tolmazov	person_5plus_docs_not_approved
+low	8	people	Астров	→	Astrov	person_5plus_docs_not_approved
+low	8	people	М.Ф. Шкирятову	→	M.F. Shkiryatov	person_5plus_docs_not_approved
+low	8	people	С.М. Гессена	→	S.M. Hessen	person_5plus_docs_not_approved
+low	7	people	А.С. Куклина	→	A.S. Kuklin	person_5plus_docs_not_approved
+low	7	people	И.А. Мусульбаса	→	I.A. Musulbasa	person_5plus_docs_not_approved
+low	7	people	Л.Я. Файвиловича	→	L.Ya. Faivilovich	person_5plus_docs_not_approved
+low	7	people	М.В. Королькова	→	M.V. Korolkov	person_5plus_docs_not_approved
+low	6	people	А.Ф. Шараповой	→	A.F. Sharapov	person_5plus_docs_not_approved
+low	6	people	В.А. Виноградова	→	V.A. Vinogradov	person_5plus_docs_not_approved
+low	6	people	В.В. Глухенко	→	V.V. Glukhenko	person_5plus_docs_not_approved
+low	6	people	Г.М. Аркуса	→	G.M. Arkus	person_5plus_docs_not_approved
+low	6	people	Д.А. Шмидта	→	D.A. Schmidt	person_5plus_docs_not_approved
+low	6	people	Д.Н. Ширяева	→	D.N. Shiryaev	person_5plus_docs_not_approved
+low	6	people	Е.Ф. Куликова	→	E.F. Kulikov	person_5plus_docs_not_approved
+low	6	people	З.И. Давыдовой	→	Z.I. Davydova	person_5plus_docs_not_approved
+low	6	people	И.К. Наумова	→	I.K. Naumov	person_5plus_docs_not_approved
+low	6	people	И.М. Гуревича	→	I.M. Gurevich	person_5plus_docs_not_approved
+low	6	people	М.М. Киллерога	→	M.M. Killeroga	person_5plus_docs_not_approved
+low	6	people	Н.И. Бураго	→	N.I. Burago	person_5plus_docs_not_approved
+low	6	people	П.И. Бескиной	→	P.I. Beskina	person_5plus_docs_not_approved
+low	6	people	С.А. Чихладзе	→	S.A. Chikhladze	person_5plus_docs_not_approved
+low	5	people	А.А. Шестова	→	A.A. Shestov	person_5plus_docs_not_approved
+low	5	people	А.В. Перимова	→	A.V. Perimov	person_5plus_docs_not_approved
+low	5	people	А.Н. Сафоновой	→	A.N. Safonova	person_5plus_docs_not_approved
+low	5	people	А.Н. Слепкова	→	A.N. Slepkov	person_5plus_docs_not_approved
+low	5	people	А.П. Костиной	→	A.P. Kostina	person_5plus_docs_not_approved
+low	5	people	А.Ю. Айхенвальда	→	A.Yu. Aikhenvalda	person_5plus_docs_not_approved
+low	5	people	А.Ю. Тивеля	→	A.Yu. Tivelya	person_5plus_docs_not_approved
+low	5	people	Б.Н. Розенфельда	→	B.N. Rozenfelda	person_5plus_docs_not_approved
+low	5	people	В.А. Яковлева	→	V.A. Yakovlev	person_5plus_docs_not_approved
+low	5	people	В.И. Козырева	→	V.I. Kozyrev	person_5plus_docs_not_approved
+low	5	people	Г.В. Соколова	→	G.V. Sokolov	person_5plus_docs_not_approved
+low	5	people	И.С. Горшениным	→	I.S. Gorsheninym	person_5plus_docs_not_approved
+low	5	people	Л.Ф. Дитятевой	→	L.F. Dityateva	person_5plus_docs_not_approved
+low	5	people	М.В. Поздеевой	→	M.V. Pozdeeva	person_5plus_docs_not_approved
+low	5	people	М.С. Рэма	→	M.S. Rema	person_5plus_docs_not_approved
+low	5	people	Н.А. Царькова	→	N.A. Tsarkov	person_5plus_docs_not_approved
+low	5	people	Н.Б. Розенфельда	→	N.B. Rozenfelda	person_5plus_docs_not_approved
+low	5	people	П.А. Коваленко	→	P.A. Kovalenko	person_5plus_docs_not_approved
+low	5	people	Шемелев	→	Shemelev	person_5plus_docs_not_approved
+low	5	people	Я.В. Шарова	→	Ya.V. Sharov	person_5plus_docs_not_approved
+low	5	people	Я.С. Розанова	→	Ya.S. Rozanov	person_5plus_docs_not_approved
+low	4	people	А.А. Мусатова	→	A.A. Musatov	person_multiple_org_contexts_not_approved
+low	4	people	А.В. Герцберга	→	A.V. Gertsberga	person_multiple_org_contexts_not_approved
+low	4	people	А.Г. Колодина	→	A.G. Kolodin	person_multiple_org_contexts_not_approved
+low	4	people	А.И. Биркенгофа	→	A.I. Birkengofa	person_multiple_org_contexts_not_approved
+low	4	people	Б.А. Кушнера	→	B.A. Kushnera	person_multiple_org_contexts_not_approved
+low	4	people	В.В. Осинского	→	V.V. Osinsky	person_multiple_org_contexts_not_approved
+low	4	people	В.В. Шмидта	→	V.V. Schmidt	person_multiple_org_contexts_not_approved
+low	4	people	В.Г. Дорошина	→	V.G. Doroshin	person_multiple_org_contexts_not_approved
+low	4	people	В.Д. Миронова	→	V.D. Mironov	person_multiple_org_contexts_not_approved
+low	4	people	Г.Е. Евдокимовым	→	G.E. Evdokimovym	person_multiple_org_contexts_not_approved
+low	4	people	Г.Л. Хасина	→	G.L. Khasin	person_multiple_org_contexts_not_approved
+low	4	people	Е.К. Коршунова	→	E.K. Korshunov	person_multiple_org_contexts_not_approved
+low	4	people	Е.Ю. Раевской	→	E.Yu. Raevskoi	person_multiple_org_contexts_not_approved
+low	4	people	З.А. Ашрафяна	→	Z.A. Ashrafyana	person_multiple_org_contexts_not_approved
+low	4	people	З.М. Беленького	→	Z.M. Belenky	person_multiple_org_contexts_not_approved
+low	4	people	И.А. Князева	→	I.A. Knyazev	person_multiple_org_contexts_not_approved
+low	4	people	И.И. Горовича	→	I.I. Gorovich	person_multiple_org_contexts_not_approved
+low	4	people	И.И. Трусова	→	I.I. Trusov	person_multiple_org_contexts_not_approved
+low	4	people	И.Т. Смилги	→	I.T. Smilgi	person_multiple_org_contexts_not_approved
+low	4	people	К.Е. Ворошилова	→	K.E. Voroshilov	person_multiple_org_contexts_not_approved
+low	4	people	Л.В. Николаевым	→	L.V. Nikolaevym	person_multiple_org_contexts_not_approved
+low	4	people	Л.И. Сосицкого	→	L.I. Sositsky	person_multiple_org_contexts_not_approved
+low	4	people	М.П. Томского	→	M.P. Tomsky	person_multiple_org_contexts_not_approved
+low	4	people	М.С. Богуславского	→	M.S. Boguslavsky	person_multiple_org_contexts_not_approved
+low	4	people	М.С. Строилова	→	M.S. Stroilov	person_multiple_org_contexts_not_approved
+low	4	people	Н.А. Карева	→	N.A. Karev	person_multiple_org_contexts_not_approved
+low	4	people	Р.В. Пикеля	→	R.V. Pikelya	person_multiple_org_contexts_not_approved
+low	4	people	Р.М. Кулишера	→	R.M. Kulishera	person_multiple_org_contexts_not_approved
+low	4	people	С.Х. Варданиана	→	S.Kh. Vardaniana	person_multiple_org_contexts_not_approved
+low	4	people	Э.С. Гольцмана	→	E.S. Goltsmana	person_multiple_org_contexts_not_approved
+low	4	people	Я.А. Лившица	→	Ya.A. Livshitsa	person_multiple_org_contexts_not_approved
+low	3	people	А.А. Андрееву	→	A.A. Andreevu	person_multiple_org_contexts_not_approved
+low	3	people	А.А. Докучаева	→	A.A. Dokuchaev	person_multiple_org_contexts_not_approved
+low	3	people	А.Е. Авдеевой	→	A.E. Avdeeva	person_multiple_org_contexts_not_approved
+low	3	people	А.Е. Кожуро	→	A.E. Kozhuro	person_multiple_org_contexts_not_approved
+low	3	people	А.И. Кармалитова	→	A.I. Karmalitov	person_multiple_org_contexts_not_approved
+low	3	people	А.И. Коновой	→	A.I. Konova	person_multiple_org_contexts_not_approved
+low	3	people	А.И. Синелобова	→	A.I. Sinelobov	person_multiple_org_contexts_not_approved
+low	3	people	А.К. Середохина	→	A.K. Seredokhin	person_multiple_org_contexts_not_approved
+low	3	people	А.Х. Кантора	→	A.Kh. Kantora	person_multiple_org_contexts_not_approved
+low	3	people	А.Я. Свердлова	→	A.Ya. Sverdlov	person_multiple_org_contexts_not_approved
+low	3	people	Б.Г. Козелева	→	B.G. Kozelev	person_multiple_org_contexts_not_approved
+low	3	people	Б.И. Кузьмичева	→	B.I. Kuzmichev	person_multiple_org_contexts_not_approved
+low	3	people	Б.М. Оберталлера	→	B.M. Obertallera	person_multiple_org_contexts_not_approved
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_glossary_g3.tsv
+/tmp/showtrials-discovery/showtrials_translation_glossary_g3_review.tsv

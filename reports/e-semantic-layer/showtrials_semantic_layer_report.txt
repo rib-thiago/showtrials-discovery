@@ -1,0 +1,62 @@
+ShowTrials semantic layer diagnosis
+
+Files checked: 24
+Failures: 0
+Warnings: 0
+
+Layer inventory:
+catalog	rows=2179	cols=21	exists=yes
+people	rows=794	cols=10	exists=yes
+person_documents	rows=3623	cols=9	exists=yes
+person_aliases	rows=832	cols=10	exists=yes
+document_types	rows=2179	cols=12	exists=yes
+organizations	rows=25	cols=9	exists=yes
+organization_documents	rows=6031	cols=13	exists=yes
+organization_hierarchy	rows=9	cols=12	exists=yes
+organization_families	rows=25	cols=6	exists=yes
+organization_family_document_matrix	rows=2179	cols=20	exists=yes
+roles_v2	rows=29	cols=10	exists=yes
+role_documents_v2	rows=10238	cols=17	exists=yes
+person_organization_matrix	rows=3180	cols=14	exists=yes
+person_organization_summary	rows=771	cols=5	exists=yes
+organization_person_summary	rows=22	cols=5	exists=yes
+person_context_profiles_v2	rows=794	cols=17	exists=yes
+person_process_matrix	rows=923	cols=5	exists=yes
+organization_process_matrix	rows=133	cols=5	exists=yes
+family_process_matrix	rows=50	cols=5	exists=yes
+processes	rows=9	cols=16	exists=yes
+process_document_matrix	rows=2179	cols=12	exists=yes
+person_process_profiles	rows=794	cols=10	exists=yes
+organization_process_profiles	rows=25	cols=10	exists=yes
+family_process_profiles	rows=7	cols=10	exists=yes
+
+Key counts:
+catalog: 2179
+people: 794
+person_documents: 3623
+document_types: 2179
+organizations: 25
+organization_documents: 6031
+organization_hierarchy: 9
+organization_families: 25
+roles_v2: 29
+person_organization_matrix: 3180
+processes: 9
+process_document_matrix: 2179
+person_process_matrix: 923
+organization_process_matrix: 133
+family_process_matrix: 50
+person_process_profiles: 794
+
+Validation:
+OK	all_checks	semantic_layer	passed
+
+Interpretation policy:
+Frequency and cooccurrence layers are contextual evidence, not biographical or causal claims.
+Do not promote centrality metrics to historical interpretation without manual curatorial review.
+Next recommended front: build a search/query layer that consumes these stable semantic TSVs.
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_semantic_layer_inventory.tsv
+/tmp/showtrials-discovery/showtrials_semantic_layer_validation.tsv
+/tmp/showtrials-discovery/showtrials_semantic_layer_report.txt

@@ -1,0 +1,36 @@
+document_type	documents	chars	primary_chunk_unit	secondary_chunk_unit	target_chunk_chars	soft_max_chars	hard_max_chars	preserve_boundaries	package_detection_required	attachment_first_strategy	manual_review_required	translation_ready	chunking_confidence	policy_version	notes
+special_report	526	9604474	document_package	attachment	3200	4500	5000	attachment_boundaries	yes	yes	yes	conditional	high	v1.1	special_report acts as documentary container
+interrogation_protocol	982	7301792	question_answer_block	paragraph_within_answer	3000	4500	5000	question_answer_pairs	no	no	sample_review	yes	high	v1.1	D2/D2.2 confirmed interrogation_protocol as Q/A unit
+session_transcript	51	4934530	speaker_turn	speaker_turn_group	3000	4200	5000	speaker_boundaries	no	no	yes	yes	high	v1.1	D2/D2.2 confirmed session transcript speaker turns
+letter	256	1481811	letter_section	paragraph	3000	4500	5000	salutation_body_signature	no	no	sample_review	yes	medium	v1.1	D3.1B attachment taxonomy added letter as explicit attached document type
+statement	78	977750	statement_section	paragraph	3200	4500	5000	statement_sections	no	no	yes	yes	medium	v1.1	D3.1B attachment taxonomy added statement as explicit attached document type
+biographical_article	2	438269	article_section_or_paragraph_block	paragraph	3300	4500	5000	article sections and paragraphs	no	no	yes	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks; avoid lexical false-positive QA detection
+memo_note	40	412107	memo_section	paragraph	3200	4500	5000	memo_sections	no	no	sample_review	yes	medium	v1.1	D3.1B refined zapisка attachments to memo_note
+conversation_recording	34	360525	conversation_segment	speaker_turn	3000	4300	5000	timestamp_and_event_boundaries	no	no	yes	yes	high	v1.1	D2/D2.2 confirmed timestamp, speaker, and event boundaries
+testimony	48	336308	narrative_paragraph_or_qa_block	paragraph	3200	4500	5000	narrative paragraphs or explicit Q/A blocks	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks
+confrontation_protocol	57	318436	confrontation_exchange	speaker_or_exchange_turn	3000	4500	5000	exchange_boundaries	no	no	sample_review	yes	high	v1.1	D3.1B distinguishes confrontation_protocol from ordinary interrogation attachments
+list	16	250232	list_item_group	list_item	2800	3000	5000	list_item_boundaries	no	no	yes	yes	medium	v1.1	D3.1B confirmed list attachments
+indictment	5	170448	legal_section_or_charge_block	paragraph	3000	4300	5000	legal sections and charge blocks	no	no	yes	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks
+press_summary	4	159278	press_item_or_paragraph_block	paragraph	3200	4500	5000	press items and paragraphs	no	no	yes	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+administrative_report	16	97861	section_or_paragraph_block	paragraph	3200	4500	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+reference_note	6	91263	reference_section	paragraph	3000	4300	5000	reference_sections	no	no	yes	yes	medium	v1.1	D3.1B confirmed reference_note attachments
+draft_project	4	69908	draft_project_section	paragraph	3000	4300	5000	draft_project_sections	no	no	sample_review	yes	medium	v1.1	D3.1B confirmed draft_project attachments inside special_report packages
+explanation	4	43399	section_or_paragraph_block	paragraph	3200	4500	5000	document sections and paragraphs	no	no	yes	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+speech	2	41779	section_or_paragraph_block	paragraph	3300	4500	5000	document sections and paragraphs	no	no	yes	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+program	1	32779	section_or_paragraph_block	paragraph	3000	4300	5000	document sections and paragraphs	no	no	yes	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks; avoid lexical false-positive QA detection
+verdict_or_sentence	3	30263	section_or_paragraph_block	paragraph	3000	4300	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks
+brochure	1	29330	section_or_paragraph_block	paragraph	3300	4500	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks; avoid lexical false-positive QA detection
+telegram	15	27564	section_or_paragraph_block	paragraph	2800	4000	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+plan_instruction	3	26029	section_or_paragraph_block	paragraph	2800	4200	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+autobiography	1	18165	section_or_paragraph_block	paragraph	3300	4500	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+plea_pardon	2	17747	section_or_paragraph_block	paragraph	3000	4300	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+questionnaire_response	2	16713	section_or_paragraph_block	paragraph	2800	4000	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks
+correspondence	2	15848	section_or_paragraph_block	paragraph	3000	4500	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+article	2	15684	article_section_or_paragraph_block	paragraph	3300	4500	5000	article sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+summary	7	14715	section_or_paragraph_block	paragraph	3200	4500	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+interrogation_extract	1	14237	section_or_paragraph_block	paragraph	3000	4300	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks
+decree_resolution	3	9970	section_or_paragraph_block	paragraph	2800	4200	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+poem	1	8927	section_or_paragraph_block	paragraph	2800	3000	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+medical_act	1	6240	section_or_paragraph_block	paragraph	2800	4000	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=question_answer_blocks
+data_extract	2	3202	section_or_paragraph_block	paragraph	2800	3000	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=whole_or_light_paragraph_chunks
+search_protocol	1	2204	section_or_paragraph_block	paragraph	2800	4000	5000	document sections and paragraphs	no	no	sample_review	review_required	medium	v1.1	d2_dominant_unit=header_body_attachments

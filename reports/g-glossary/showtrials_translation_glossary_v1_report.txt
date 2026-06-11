@@ -1,0 +1,108 @@
+ShowTrials translation glossary v1 canonicalization
+
+Input rows: 892
+Output rows: 892
+Review rows: 97
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	119
+auto_normalized_needs_review	13
+auto_transliterated_needs_review	760
+
+Review queue by reason:
+medium_priority_person_optional_review	89
+high_priority_person_needs_human_review	4
+political_or_accusatory_label_review_recommended	4
+
+Top review queue:
+high	43	people	Л.В. Николаева	→	L.V. Nikolaeva	high_priority_person_needs_human_review
+high	33	people	Г.Е. Прокофьева	→	G.E. Prokofeva	high_priority_person_needs_human_review
+high	32	people	Г.И. Сафарова	→	G.I. Safarova	high_priority_person_needs_human_review
+high	20	people	Е.В. Цетлина	→	E.V. Tsetlina	high_priority_person_needs_human_review
+medium	1357	roles	троцкист	→	Trotskyist	political_or_accusatory_label_review_recommended
+medium	607	roles	правый	→	Rightist	political_or_accusatory_label_review_recommended
+medium	222	roles	агент	→	agent	political_or_accusatory_label_review_recommended
+medium	58	roles	вредитель	→	wrecker	political_or_accusatory_label_review_recommended
+medium	17	people	Дмитриев	→	Dmitriev	medium_priority_person_optional_review
+medium	16	people	Н.А. Розенфельд	→	N.A. Rozenfeld	medium_priority_person_optional_review
+medium	14	people	Г.Е. Евдокимова	→	G.E. Evdokimova	medium_priority_person_optional_review
+medium	14	people	Членов	→	Chlenov	medium_priority_person_optional_review
+medium	13	people	В.А. Балицкого	→	V.A. Balitsky	medium_priority_person_optional_review
+medium	13	people	Е.К. Мухановой	→	E.K. Mukhanova	medium_priority_person_optional_review
+medium	13	people	И.И. Котолынова	→	I.I. Kotolynova	medium_priority_person_optional_review
+medium	13	people	И.П. Бакаева	→	I.P. Bakaev	medium_priority_person_optional_review
+medium	12	people	А.И. Анишева	→	A.I. Anisheva	medium_priority_person_optional_review
+medium	12	people	В.В. Румянцева	→	V.V. Rumyantseva	medium_priority_person_optional_review
+medium	12	people	Г.Б. Синани-Скалов	→	G.B. Sinani-Skalov	medium_priority_person_optional_review
+medium	12	people	Г.Ф. Попова	→	G.F. Popova	medium_priority_person_optional_review
+medium	12	people	И.С. Горшенина	→	I.S. Gorshenina	medium_priority_person_optional_review
+medium	11	people	А.М. Гертика	→	A.M. Gertika	medium_priority_person_optional_review
+medium	11	people	И.И. Рейнгольда	→	I.I. Reingold	medium_priority_person_optional_review
+medium	11	people	М.К. Чернявского	→	M.K. Chernyavsky	medium_priority_person_optional_review
+medium	11	people	М.М. Харитонова	→	M.M. Kharitonova	medium_priority_person_optional_review
+medium	11	people	Н.В. Голубенко	→	N.V. Golubenko	medium_priority_person_optional_review
+medium	10	people	Н.С. Антонова	→	N.S. Antonova	medium_priority_person_optional_review
+medium	10	people	П.А. Николаева	→	P.A. Nikolaeva	medium_priority_person_optional_review
+medium	9	people	Б.Л. Браво	→	B.L. Bravo	medium_priority_person_optional_review
+medium	9	people	Б.Н. Сахова	→	B.N. Sakhova	medium_priority_person_optional_review
+medium	9	people	В.А. Барута	→	V.A. Baruta	medium_priority_person_optional_review
+medium	9	people	В.И. Звездова	→	V.I. Zvezdova	medium_priority_person_optional_review
+medium	9	people	В.С. Левина	→	V.S. Levina	medium_priority_person_optional_review
+medium	9	people	К.К. Муханова	→	K.K. Mukhanova	medium_priority_person_optional_review
+medium	9	people	М.А. Нырчука	→	M.A. Nyrchuka	medium_priority_person_optional_review
+medium	9	people	М.Н. Яковлева	→	M.N. Yakovleva	medium_priority_person_optional_review
+medium	9	people	Т.И. Глебовой	→	T.I. Glebovoi	medium_priority_person_optional_review
+medium	8	people	А.И. Толмазова	→	A.I. Tolmazova	medium_priority_person_optional_review
+medium	8	people	Астров	→	Astrov	medium_priority_person_optional_review
+medium	8	people	Г.А. Молчанова	→	G.A. Molchanova	medium_priority_person_optional_review
+medium	8	people	Г.Ф. Федорова	→	G.F. Fedorova	medium_priority_person_optional_review
+medium	8	people	И.Г. Юскина	→	I.G. Yuskina	medium_priority_person_optional_review
+medium	8	people	И.И. Тарасова	→	I.I. Tarasova	medium_priority_person_optional_review
+medium	8	people	М.Ф. Шкирятову	→	M.F. Shkiryatov	medium_priority_person_optional_review
+medium	8	people	Н.И. Мухина	→	N.I. Mukhina	medium_priority_person_optional_review
+medium	8	people	С.М. Гессена	→	S.M. Hessen	medium_priority_person_optional_review
+medium	7	people	А.С. Куклина	→	A.S. Kuklina	medium_priority_person_optional_review
+medium	7	people	В.В. Кузьмина	→	V.V. Kuzmina	medium_priority_person_optional_review
+medium	7	people	В.М. Попова	→	V.M. Popova	medium_priority_person_optional_review
+medium	7	people	В.Ф. Логинова	→	V.F. Loginova	medium_priority_person_optional_review
+medium	7	people	Е.А. Дрейцера	→	E.A. Dreitsera	medium_priority_person_optional_review
+medium	7	people	И.А. Мусульбаса	→	I.A. Musulbasa	medium_priority_person_optional_review
+medium	7	people	М.В. Королькова	→	M.V. Korolkova	medium_priority_person_optional_review
+medium	7	people	Н.П. Мясникова	→	N.P. Myasnikova	medium_priority_person_optional_review
+medium	7	people	Ф.Ф. Фадеева	→	F.F. Fadeeva	medium_priority_person_optional_review
+medium	6	people	А.Ф. Шараповой	→	A.F. Sharapova	medium_priority_person_optional_review
+medium	6	people	В.А. Виноградова	→	V.A. Vinogradova	medium_priority_person_optional_review
+medium	6	people	В.В. Глухенко	→	V.V. Glukhenko	medium_priority_person_optional_review
+medium	6	people	Г.М. Аркуса	→	G.M. Arkus	medium_priority_person_optional_review
+medium	6	people	Д.А. Шмидта	→	D.A. Schmidt	medium_priority_person_optional_review
+medium	6	people	Д.Н. Ширяева	→	D.N. Shiryaeva	medium_priority_person_optional_review
+medium	6	people	Е.Ф. Куликова	→	E.F. Kulikova	medium_priority_person_optional_review
+medium	6	people	З.И. Давыдовой	→	Z.I. Davydovoi	medium_priority_person_optional_review
+medium	6	people	И.К. Наумова	→	I.K. Naumova	medium_priority_person_optional_review
+medium	6	people	И.М. Гуревича	→	I.M. Gurevicha	medium_priority_person_optional_review
+medium	6	people	Л.З. Мехлиса	→	L.Z. Mekhlisa	medium_priority_person_optional_review
+medium	6	people	Л.Я. Файвиловича	→	L.Ya. Faivilovicha	medium_priority_person_optional_review
+medium	6	people	М.М. Киллерога	→	M.M. Killeroga	medium_priority_person_optional_review
+medium	6	people	Молотов	→	Molotov	medium_priority_person_optional_review
+medium	6	people	Н.А. Угланова	→	N.A. Uglanova	medium_priority_person_optional_review
+medium	6	people	Н.И. Бураго	→	N.I. Burago	medium_priority_person_optional_review
+medium	6	people	П.И. Бескиной	→	P.I. Beskinoi	medium_priority_person_optional_review
+medium	6	people	С.А. Чихладзе	→	S.A. Chikhladze	medium_priority_person_optional_review
+medium	6	people	Я.Р. Ельковича	→	Ya.R. Elkovicha	medium_priority_person_optional_review
+medium	5	people	А.А. Шестова	→	A.A. Shestova	medium_priority_person_optional_review
+medium	5	people	А.В. Перимова	→	A.V. Perimova	medium_priority_person_optional_review
+medium	5	people	А.Н. Сафоновой	→	A.N. Safonovoi	medium_priority_person_optional_review
+medium	5	people	А.Н. Слепкова	→	A.N. Slepkova	medium_priority_person_optional_review
+medium	5	people	А.П. Костиной	→	A.P. Kostinoi	medium_priority_person_optional_review
+medium	5	people	А.Ю. Айхенвальда	→	A.Yu. Aikhenvalda	medium_priority_person_optional_review
+
+Outputs:
+/tmp/showtrials-discovery/showtrials_translation_glossary_v1.tsv
+/tmp/showtrials-discovery/showtrials_translation_glossary_v1_review.tsv

@@ -1,0 +1,21 @@
+ShowTrials translation glossary G3 validation
+
+Rows: 892
+Review rows: 533
+Failures: 0
+Warnings: 0
+
+Rows by layer:
+document_types	35
+organizations	25
+people	794
+processes	9
+roles	29
+
+Rows by status:
+approved	160
+auto_normalized_needs_review	432
+auto_transliterated_needs_review	300
+
+Validation rows:
+OK	all_checks	passed

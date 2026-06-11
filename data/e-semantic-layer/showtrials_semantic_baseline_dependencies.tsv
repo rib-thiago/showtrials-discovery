@@ -1,0 +1,20 @@
+artifact	depends_on	purpose
+showtrials_literal_people.tsv	showtrials_master_catalog.tsv	person entity inventory
+showtrials_literal_person_documents.tsv	showtrials_literal_people.tsv	person-document links
+showtrials_person_aliases.tsv	showtrials_literal_people.tsv	manual/automatic alias normalization
+showtrials_document_types_v4.tsv	showtrials_master_catalog.tsv	document type classification
+showtrials_organizations.tsv	showtrials_master_catalog.tsv	organization entity inventory
+showtrials_organization_documents.tsv	showtrials_organizations.tsv	organization-document links
+showtrials_organization_hierarchy.tsv	showtrials_organizations.tsv	organization hierarchy
+showtrials_organization_families.tsv	showtrials_organizations.tsv	institutional family mapping
+showtrials_organization_family_document_matrix.tsv	showtrials_organization_documents.tsv	document-family matrix
+showtrials_roles_v2.tsv	showtrials_positions.tsv	role taxonomy
+showtrials_role_documents_v2.tsv	showtrials_roles_v2.tsv	role-document links
+showtrials_person_organization_matrix.tsv	person_documents + organization_documents	person-organization cooccurrence matrix
+showtrials_processes.tsv	showtrials_master_catalog.tsv	process entity layer
+showtrials_process_document_matrix.tsv	showtrials_processes.tsv	process-document matrix
+showtrials_person_process_matrix.tsv	person_documents + processes	person-process matrix
+showtrials_organization_process_matrix.tsv	organization_documents + processes	organization-process matrix
+showtrials_family_process_matrix.tsv	organization_family_document_matrix + processes	family-process matrix
+showtrials_process_profiles.tsv	process matrices	entity process profiles
+showtrials-search-v2.py	semantic TSV baseline	semantic search consumer
