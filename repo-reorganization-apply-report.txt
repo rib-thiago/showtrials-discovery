@@ -1,0 +1,8 @@
+Repository Reorganization Apply Report
+map	/srv/projects/showtrials-discovery/repo-reorganization-map.tsv
+apply_tsv	/srv/projects/showtrials-discovery/repo-reorganization-apply.tsv
+files_planned	371
+files_moved	0
+files_skipped	371
+files_failed	0
+directories_created	0
