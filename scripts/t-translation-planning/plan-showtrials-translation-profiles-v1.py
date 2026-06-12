@@ -10,6 +10,10 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 from lib.showtrials_paths import (  # noqa: E402
     DOCUMENT_TYPES_V4,
+    LITERAL_PEOPLE,
+    ORGANIZATIONS,
+    PROCESSES,
+    ROLES_V2,
     TRANSLATION_COST_BY_DOCUMENT_TYPE,
     TRANSLATION_GLOSSARY_SEED_PLAN_V1,
     TRANSLATION_PROFILES_V1,
@@ -335,7 +339,7 @@ PROFILE_RULES = {
 GLOSSARY_SEED_LAYERS = [
     {
         "layer": "people",
-        "source_file": "showtrials_literal_people.tsv",
+        "source_file": LITERAL_PEOPLE.name,
         "source_field": "person",
         "glossary_kind": "person_name",
         "priority": "high",
@@ -344,7 +348,7 @@ GLOSSARY_SEED_LAYERS = [
     },
     {
         "layer": "organizations",
-        "source_file": "showtrials_organizations.tsv",
+        "source_file": ORGANIZATIONS.name,
         "source_field": "organization",
         "glossary_kind": "organization",
         "priority": "high",
@@ -353,7 +357,7 @@ GLOSSARY_SEED_LAYERS = [
     },
     {
         "layer": "processes",
-        "source_file": "showtrials_processes.tsv",
+        "source_file": PROCESSES.name,
         "source_field": "process",
         "glossary_kind": "process_name",
         "priority": "high",
@@ -362,7 +366,7 @@ GLOSSARY_SEED_LAYERS = [
     },
     {
         "layer": "roles",
-        "source_file": "showtrials_roles_v2.tsv",
+        "source_file": ROLES_V2.name,
         "source_field": "role",
         "glossary_kind": "role_or_label",
         "priority": "medium",

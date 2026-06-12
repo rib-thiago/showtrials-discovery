@@ -10,9 +10,9 @@ old_export_dir_refs	9
 
 priority_counts
 critical	7
-high	64
+high	63
 medium	0
-low	38
+low	39
 
 phase_priority_counts
 a-extraction	high	2
@@ -26,5 +26,4 @@ g-glossary	high	10
 lib	low	1
 r-governance	high	1
 r-governance	low	4
-t-translation-planning	high	1
-t-translation-planning	low	1
+t-translation-planning	low	2

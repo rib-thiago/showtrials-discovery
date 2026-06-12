@@ -100,11 +100,11 @@ scripts/g-glossary/validate-showtrials-translation-glossary-g3.py	g-glossary	hig
 scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py	g-glossary	high	no	1	0	3	1	0	0	1	3	needs_path_normalization
 scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py	g-glossary	high	no	1	0	1	1	0	0	1	1	needs_path_normalization
 scripts/g-glossary/validate-showtrials-translation-glossary-v1.py	g-glossary	high	no	1	0	2	1	0	0	1	2	needs_path_normalization
-scripts/lib/showtrials_paths.py	lib	low	no	0	0	59	28	3	6	1	0	no_obvious_legacy_paths
+scripts/lib/showtrials_paths.py	lib	low	no	0	0	63	28	3	6	1	0	no_obvious_legacy_paths
 scripts/r-governance/apply-repo-reorganization-from-map.py	r-governance	low	no	0	0	0	0	0	0	2	2	no_obvious_legacy_paths
 scripts/r-governance/diagnose-repo-file-metadata.py	r-governance	low	no	0	0	0	0	0	0	2	1	no_obvious_legacy_paths
 scripts/r-governance/diagnose-showtrials-path-normalization-readiness.py	r-governance	high	yes	1	1	0	0	0	0	1	1	needs_path_normalization
 scripts/r-governance/validate-repo-reorganization-from-map.py	r-governance	low	no	0	0	0	0	0	0	2	2	no_obvious_legacy_paths
 scripts/r-governance/validate-tsv-shape.py	r-governance	low	no	0	0	0	0	0	0	1	1	no_obvious_legacy_paths
 scripts/t-translation-planning/diagnose-showtrials-translation-cost.py	t-translation-planning	low	yes	0	0	0	0	0	0	1	3	no_obvious_legacy_paths
-scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py	t-translation-planning	high	yes	0	0	4	0	0	0	1	3	needs_path_normalization
+scripts/t-translation-planning/plan-showtrials-translation-profiles-v1.py	t-translation-planning	low	yes	0	0	0	0	0	0	1	3	no_obvious_legacy_paths
