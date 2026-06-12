@@ -10,12 +10,22 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
-DOC_TYPES = ROOT / "showtrials_document_types_v4.tsv"
-BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
-VALIDATION = ROOT / "showtrials_special_report_packages_d3_1_validation.tsv"
-REPORT = ROOT / "showtrials_special_report_packages_d3_1_validation_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    CHUNKING_BLUEPRINT_V1,
+    DOCUMENT_TYPES_V4,
+    SPECIAL_REPORT_PACKAGES_D3_1,
+    SPECIAL_REPORT_PACKAGES_D3_1_VALIDATION,
+    SPECIAL_REPORT_PACKAGES_D3_1_VALIDATION_REPORT,
+    ensure_parent,
+)
+
+PACKAGES = SPECIAL_REPORT_PACKAGES_D3_1
+DOC_TYPES = DOCUMENT_TYPES_V4
+BLUEPRINT = CHUNKING_BLUEPRINT_V1
+VALIDATION = SPECIAL_REPORT_PACKAGES_D3_1_VALIDATION
+REPORT = SPECIAL_REPORT_PACKAGES_D3_1_VALIDATION_REPORT
 
 FIELDS = ["level", "document_post_id", "check", "message"]
 ALLOWED_LIKELIHOODS = {"none", "possible", "likely", "strong"}
@@ -29,7 +39,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -157,7 +167,7 @@ def main() -> int:
         f"warnings\t{warnings}",
         "OK all_checks passed" if failures == 0 and warnings == 0 else f"issues found FAIL={failures} WARN={warnings}",
     ]
-    REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(VALIDATION)
     print(REPORT)

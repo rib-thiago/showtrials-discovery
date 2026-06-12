@@ -1,18 +1,30 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from difflib import SequenceMatcher
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PEOPLE = BASE / "showtrials_literal_people.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    ENTITY_ANOMALIES_REPORT,
+    LITERAL_PEOPLE,
+    MASTER_CATALOG,
+    PERSON_ANOMALIES,
+    TAXONOMY_ANOMALIES,
+    ensure_parent,
+)
 
-OUT_PEOPLE = BASE / "showtrials_person_anomalies.tsv"
-OUT_TERMS = BASE / "showtrials_taxonomy_anomalies.tsv"
-OUT_REPORT = BASE / "showtrials_entity_anomalies_report.txt"
+PEOPLE = LITERAL_PEOPLE
+CATALOG = MASTER_CATALOG
+
+OUT_PEOPLE = PERSON_ANOMALIES
+OUT_TERMS = TAXONOMY_ANOMALIES
+OUT_REPORT = ENTITY_ANOMALIES_REPORT
 
 def split_pipe(v):
     return [x.strip() for x in (v or "").split(" | ") if x.strip()]
@@ -74,7 +86,7 @@ for p in people:
             "collections": p.get("collections", ""),
         })
 
-with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PEOPLE).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "document_count", "total_words", "first_date", "last_date",
         "flags", "raw_forms", "processes", "collections"
@@ -138,7 +150,7 @@ for scope, counter in taxonomy.items():
                 "similarity": "",
             })
 
-with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TERMS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "scope", "term", "count", "flags",
         "near_term", "near_term_count", "similarity"
@@ -183,7 +195,7 @@ for r in tax_rows[:120]:
         + (f"\t~ {r['near_term']} ({r['similarity']})" if r.get("near_term") else "")
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PEOPLE)
 print(OUT_TERMS)

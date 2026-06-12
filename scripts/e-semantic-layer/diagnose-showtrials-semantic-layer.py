@@ -1,39 +1,71 @@
 #!/usr/bin/env python3
 import csv
 from pathlib import Path
+import sys
 
-BASE = Path("/tmp/showtrials-discovery")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    DOCUMENT_TYPES_V4,
+    FAMILY_PROCESS_MATRIX,
+    FAMILY_PROCESS_PROFILES,
+    LITERAL_PEOPLE,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATIONS,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILIES,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    ORGANIZATION_HIERARCHY,
+    ORGANIZATION_PERSON_SUMMARY,
+    ORGANIZATION_PROCESS_MATRIX,
+    ORGANIZATION_PROCESS_PROFILES,
+    PERSON_ALIASES,
+    PERSON_INSTITUTION_PROFILES_V2,
+    PERSON_ORGANIZATION_MATRIX,
+    PERSON_ORGANIZATION_SUMMARY,
+    PERSON_PROCESS_MATRIX,
+    PERSON_PROCESS_PROFILES,
+    PROCESSES,
+    PROCESS_DOCUMENT_MATRIX,
+    ROLE_DOCUMENTS_V2,
+    ROLES_V2,
+    SEMANTIC_LAYER_INVENTORY,
+    SEMANTIC_LAYER_REPORT,
+    SEMANTIC_LAYER_VALIDATION,
+    ensure_parent,
+)
 
 FILES = {
-    "catalog": BASE / "showtrials_master_catalog.tsv",
-    "people": BASE / "showtrials_literal_people.tsv",
-    "person_documents": BASE / "showtrials_literal_person_documents.tsv",
-    "person_aliases": BASE / "showtrials_person_aliases.tsv",
-    "document_types": BASE / "showtrials_document_types_v4.tsv",
-    "organizations": BASE / "showtrials_organizations.tsv",
-    "organization_documents": BASE / "showtrials_organization_documents.tsv",
-    "organization_hierarchy": BASE / "showtrials_organization_hierarchy.tsv",
-    "organization_families": BASE / "showtrials_organization_families.tsv",
-    "organization_family_document_matrix": BASE / "showtrials_organization_family_document_matrix.tsv",
-    "roles_v2": BASE / "showtrials_roles_v2.tsv",
-    "role_documents_v2": BASE / "showtrials_role_documents_v2.tsv",
-    "person_organization_matrix": BASE / "showtrials_person_organization_matrix.tsv",
-    "person_organization_summary": BASE / "showtrials_person_organization_summary.tsv",
-    "organization_person_summary": BASE / "showtrials_organization_person_summary.tsv",
-    "person_context_profiles_v2": BASE / "showtrials_person_institution_profiles_v2.tsv",
-    "person_process_matrix": BASE / "showtrials_person_process_matrix.tsv",
-    "organization_process_matrix": BASE / "showtrials_organization_process_matrix.tsv",
-    "family_process_matrix": BASE / "showtrials_family_process_matrix.tsv",
-    "processes": BASE / "showtrials_processes.tsv",
-    "process_document_matrix": BASE / "showtrials_process_document_matrix.tsv",
-    "person_process_profiles": BASE / "showtrials_person_process_profiles.tsv",
-    "organization_process_profiles": BASE / "showtrials_organization_process_profiles.tsv",
-    "family_process_profiles": BASE / "showtrials_family_process_profiles.tsv",
+    "catalog": MASTER_CATALOG,
+    "people": LITERAL_PEOPLE,
+    "person_documents": LITERAL_PERSON_DOCUMENTS,
+    "person_aliases": PERSON_ALIASES,
+    "document_types": DOCUMENT_TYPES_V4,
+    "organizations": ORGANIZATIONS,
+    "organization_documents": ORGANIZATION_DOCUMENTS,
+    "organization_hierarchy": ORGANIZATION_HIERARCHY,
+    "organization_families": ORGANIZATION_FAMILIES,
+    "organization_family_document_matrix": ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    "roles_v2": ROLES_V2,
+    "role_documents_v2": ROLE_DOCUMENTS_V2,
+    "person_organization_matrix": PERSON_ORGANIZATION_MATRIX,
+    "person_organization_summary": PERSON_ORGANIZATION_SUMMARY,
+    "organization_person_summary": ORGANIZATION_PERSON_SUMMARY,
+    "person_context_profiles_v2": PERSON_INSTITUTION_PROFILES_V2,
+    "person_process_matrix": PERSON_PROCESS_MATRIX,
+    "organization_process_matrix": ORGANIZATION_PROCESS_MATRIX,
+    "family_process_matrix": FAMILY_PROCESS_MATRIX,
+    "processes": PROCESSES,
+    "process_document_matrix": PROCESS_DOCUMENT_MATRIX,
+    "person_process_profiles": PERSON_PROCESS_PROFILES,
+    "organization_process_profiles": ORGANIZATION_PROCESS_PROFILES,
+    "family_process_profiles": FAMILY_PROCESS_PROFILES,
 }
 
-REPORT = BASE / "showtrials_semantic_layer_report.txt"
-TSV = BASE / "showtrials_semantic_layer_inventory.tsv"
-VALIDATION = BASE / "showtrials_semantic_layer_validation.tsv"
+REPORT = SEMANTIC_LAYER_REPORT
+TSV = SEMANTIC_LAYER_INVENTORY
+VALIDATION = SEMANTIC_LAYER_VALIDATION
 
 def load_rows(path):
     if not path.exists():
@@ -154,13 +186,13 @@ if not validation:
         "detail": "passed",
     })
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["layer", "path", "exists", "row_count", "column_count", "columns"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(inventory)
 
-with VALIDATION.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(VALIDATION).open("w", encoding="utf-8", newline="") as f:
     fields = ["level", "check", "layer", "detail"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -224,7 +256,7 @@ report.append(str(TSV))
 report.append(str(VALIDATION))
 report.append(str(REPORT))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(TSV)
 print(VALIDATION)

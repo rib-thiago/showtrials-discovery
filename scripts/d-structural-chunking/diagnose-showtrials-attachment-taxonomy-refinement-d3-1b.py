@@ -12,14 +12,25 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
-MATRIX = ROOT / "showtrials_special_report_attachment_matrix.tsv"
-OLD_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1a.tsv"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-OUTPUT_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1b.tsv"
-OUTPUT_REFINEMENT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b.tsv"
-OUTPUT_REPORT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b_report.txt"
+from lib.showtrials_paths import (
+    ATTACHMENT_TAXONOMY_D3_1A,
+    ATTACHMENT_TAXONOMY_D3_1B,
+    ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B,
+    ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B_REPORT,
+    SPECIAL_REPORT_ATTACHMENT_MATRIX,
+    SPECIAL_REPORT_PACKAGES_D3_1,
+    ensure_parent,
+)
+
+PACKAGES = SPECIAL_REPORT_PACKAGES_D3_1
+MATRIX = SPECIAL_REPORT_ATTACHMENT_MATRIX
+OLD_TAXONOMY = ATTACHMENT_TAXONOMY_D3_1A
+
+OUTPUT_TAXONOMY = ATTACHMENT_TAXONOMY_D3_1B
+OUTPUT_REFINEMENT = ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B
+OUTPUT_REPORT = ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B_REPORT
 
 ALLOWED_TYPES = {
     "interrogation_protocol",
@@ -83,7 +94,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -220,7 +231,7 @@ def main() -> int:
     for row in taxonomy_rows[:12]:
         report_lines.append(f"{row['attachment_type']}\t{row['documents']}\t{row['percentage_of_special_reports']}%")
     report_lines.append("policy\tclassification refinement only; no chunking, translation, embeddings, APIs, or blueprint changes")
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_TAXONOMY)
     print(OUTPUT_REFINEMENT)

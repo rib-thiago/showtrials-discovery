@@ -3,20 +3,34 @@ import csv
 import statistics
 from pathlib import Path
 from collections import defaultdict, Counter
+import sys
 
-BASE = Path("/tmp/showtrials-discovery")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-PROFILES = BASE / "showtrials_translation_profiles_v1_1.tsv"
+from lib.showtrials_paths import (
+    CHUNKING_POLICY_RECOMMENDATIONS_D1,
+    CORPUS_SIZING_BY_DOCUMENT_D1,
+    CORPUS_SIZING_BY_DOCUMENT_TYPE_D1,
+    CORPUS_SIZING_BY_PROCESS_D1,
+    CORPUS_SIZING_CHUNKING_D1_REPORT,
+    DOCUMENT_TYPES_V4,
+    MASTER_CATALOG,
+    TRANSLATION_PROFILES_V1,
+    TRANSLATION_PROFILES_V1_1,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+PROFILES = TRANSLATION_PROFILES_V1_1
 if not PROFILES.exists():
-    PROFILES = BASE / "showtrials_translation_profiles_v1.tsv"
+    PROFILES = TRANSLATION_PROFILES_V1
 
-OUT_DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
-OUT_TYPES = BASE / "showtrials_corpus_sizing_by_document_type_d1.tsv"
-OUT_PROCESSES = BASE / "showtrials_corpus_sizing_by_process_d1.tsv"
-OUT_POLICY = BASE / "showtrials_chunking_policy_recommendations_d1.tsv"
-REPORT = BASE / "showtrials_corpus_sizing_chunking_d1_report.txt"
+OUT_DOCS = CORPUS_SIZING_BY_DOCUMENT_D1
+OUT_TYPES = CORPUS_SIZING_BY_DOCUMENT_TYPE_D1
+OUT_PROCESSES = CORPUS_SIZING_BY_PROCESS_D1
+OUT_POLICY = CHUNKING_POLICY_RECOMMENDATIONS_D1
+REPORT = CORPUS_SIZING_CHUNKING_D1_REPORT
 
 NMT_USD_PER_MILLION = 20.0
 
@@ -100,7 +114,7 @@ for r in catalog:
     by_type[dt].append(row)
     by_process[process].append(row)
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "primary_process", "primary_collection", "document_type",
@@ -114,7 +128,7 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writerows(sorted(doc_rows, key=lambda x: (-x["content_chars"], x["document_post_id"])))
 
 def write_group(path, groups, key_name):
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         fields = [
             key_name, "documents", "chars", "words",
             "avg_chars", "median_chars", "p90_chars", "p95_chars", "p99_chars", "max_chars",
@@ -192,7 +206,7 @@ for dt, rows in by_type.items():
         "recommendation": rec,
     })
 
-with OUT_POLICY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_POLICY).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_type", "documents", "chars", "median_chars", "p95_chars", "max_chars",
         "whole_document_likely_ok", "chunking_required_docs",
@@ -235,7 +249,7 @@ report.append(str(OUT_TYPES))
 report.append(str(OUT_PROCESSES))
 report.append(str(OUT_POLICY))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOCS)
 print(OUT_TYPES)

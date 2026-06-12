@@ -10,12 +10,22 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-INPUT_PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
-MATRIX = ROOT / "showtrials_special_report_attachment_matrix.tsv"
-TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1a.tsv"
-VALIDATION = ROOT / "showtrials_attachment_taxonomy_d3_1a_validation.tsv"
-REPORT = ROOT / "showtrials_attachment_taxonomy_d3_1a_validation_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    ATTACHMENT_TAXONOMY_D3_1A,
+    ATTACHMENT_TAXONOMY_D3_1A_VALIDATION,
+    ATTACHMENT_TAXONOMY_D3_1A_VALIDATION_REPORT,
+    SPECIAL_REPORT_ATTACHMENT_MATRIX,
+    SPECIAL_REPORT_PACKAGES_D3_1,
+    ensure_parent,
+)
+
+INPUT_PACKAGES = SPECIAL_REPORT_PACKAGES_D3_1
+MATRIX = SPECIAL_REPORT_ATTACHMENT_MATRIX
+TAXONOMY = ATTACHMENT_TAXONOMY_D3_1A
+VALIDATION = ATTACHMENT_TAXONOMY_D3_1A_VALIDATION
+REPORT = ATTACHMENT_TAXONOMY_D3_1A_VALIDATION_REPORT
 
 FIELDS = ["level", "document_post_id", "check", "message"]
 KNOWN_TYPES = {
@@ -42,7 +52,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -163,7 +173,7 @@ def main() -> int:
         f"warnings\t{warnings}",
         status,
     ]
-    REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(VALIDATION)
     print(REPORT)

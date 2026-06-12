@@ -10,11 +10,20 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1b.tsv"
-REFINEMENT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b.tsv"
-VALIDATION = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b_validation.tsv"
-REPORT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b_validation_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    ATTACHMENT_TAXONOMY_D3_1B,
+    ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B,
+    ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B_VALIDATION,
+    ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B_VALIDATION_REPORT,
+    ensure_parent,
+)
+
+TAXONOMY = ATTACHMENT_TAXONOMY_D3_1B
+REFINEMENT = ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B
+VALIDATION = ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B_VALIDATION
+REPORT = ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B_VALIDATION_REPORT
 
 ALLOWED_TYPES = {
     "interrogation_protocol",
@@ -42,7 +51,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -136,7 +145,7 @@ def main() -> int:
         f"warnings\t{warnings}",
         status,
     ]
-    REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(VALIDATION)
     print(REPORT)

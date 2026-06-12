@@ -11,10 +11,18 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-INPUT_INDEX = ROOT / "showtrials_structural_samples_d2_1_index.tsv"
-OUTPUT_INDEX = ROOT / "showtrials_structural_samples_d2_2_review_index.tsv"
-OUTPUT_REPORT = ROOT / "showtrials_structural_samples_d2_2_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    STRUCTURAL_SAMPLES_D2_1_INDEX,
+    STRUCTURAL_SAMPLES_D2_2_REPORT,
+    STRUCTURAL_SAMPLES_D2_2_REVIEW_INDEX,
+    ensure_parent,
+)
+
+INPUT_INDEX = STRUCTURAL_SAMPLES_D2_1_INDEX
+OUTPUT_INDEX = STRUCTURAL_SAMPLES_D2_2_REVIEW_INDEX
+OUTPUT_REPORT = STRUCTURAL_SAMPLES_D2_2_REPORT
 
 FIELDS = [
     "document_type",
@@ -114,7 +122,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -210,7 +218,7 @@ def main() -> int:
     ]
     for document_type, count in sorted(counts.items()):
         report_lines.append(f"{document_type}\t{count}\t{priority_for(document_type)}")
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_INDEX)
     print(OUTPUT_REPORT)

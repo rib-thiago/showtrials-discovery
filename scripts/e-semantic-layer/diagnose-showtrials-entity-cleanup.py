@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
-ENTITIES = BASE / "showtrials_title_entities.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_entity_candidates.tsv"
-OUT_REPORT = BASE / "showtrials_entity_cleanup_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    ENTITY_CANDIDATES,
+    ENTITY_CLEANUP_REPORT,
+    TITLE_ENTITIES,
+    ensure_parent,
+)
+
+ENTITIES = TITLE_ENTITIES
+
+OUT_TSV = ENTITY_CANDIDATES
+OUT_REPORT = ENTITY_CLEANUP_REPORT
 
 DOCUMENT_TERMS = {
     "делу", "аресте", "показаниях", "качестве", "семей", "ходе", "делам",
@@ -95,7 +106,7 @@ with ENTITIES.open("r", encoding="utf-8", newline="") as f:
             "collections": r.get("collections", ""),
         })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "entity", "entity_type", "confidence", "document_count", "total_words",
         "process_count", "processes", "collection_count", "collections"
@@ -128,7 +139,7 @@ report.append("Top UNKNOWN candidates:")
 for r in [x for x in rows if x["entity_type"] == "UNKNOWN"][:80]:
     report.append(f"{r['document_count']}\t{r['total_words']}\t{r['confidence']}\t{r['entity']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

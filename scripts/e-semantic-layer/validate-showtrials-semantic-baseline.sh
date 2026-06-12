@@ -1,10 +1,16 @@
 #!/usr/bin/env bash
 set -u
 
-BASE="/tmp/showtrials-discovery"
-INVENTORY="$BASE/showtrials_semantic_baseline_inventory.tsv"
-REPORT="$BASE/showtrials_semantic_baseline_validation_report.txt"
-TSV="$BASE/showtrials_semantic_baseline_validation.tsv"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+DATA_B="$ROOT/data/b-json-export-search"
+DATA_E="$ROOT/data/e-semantic-layer"
+REPORT_E="$ROOT/reports/e-semantic-layer"
+
+INVENTORY="$DATA_E/showtrials_semantic_baseline_inventory.tsv"
+REPORT="$REPORT_E/showtrials_semantic_baseline_validation_report.txt"
+TSV="$DATA_E/showtrials_semantic_baseline_validation.tsv"
+
+mkdir -p "$(dirname "$TSV")" "$(dirname "$REPORT")"
 
 failures=0
 warnings=0
@@ -36,8 +42,8 @@ warnings=0
     fi
   fi
 
-  if [ -f "$BASE/showtrials_semantic_layer_validation.tsv" ]; then
-    bad_semantic="$(awk -F '\t' 'NR>1 && $1!="OK" {c++} END {print c+0}' "$BASE/showtrials_semantic_layer_validation.tsv")"
+  if [ -f "$DATA_E/showtrials_semantic_layer_validation.tsv" ]; then
+    bad_semantic="$(awk -F '\t' 'NR>1 && $1!="OK" {c++} END {print c+0}' "$DATA_E/showtrials_semantic_layer_validation.tsv")"
     if [ "$bad_semantic" -gt 0 ]; then
       echo -e "FAIL\tsemantic_layer_validation_not_clean\tsemantic_layer\t$bad_semantic"
       failures=$((failures + 1))
@@ -47,8 +53,8 @@ warnings=0
     failures=$((failures + 1))
   fi
 
-  if [ -f "$BASE/showtrials_search_v2_validation.tsv" ]; then
-    failed_search="$(awk -F '\t' 'NR>1 && $2!="PASS" {c++} END {print c+0}' "$BASE/showtrials_search_v2_validation.tsv")"
+  if [ -f "$DATA_B/showtrials_search_v2_validation.tsv" ]; then
+    failed_search="$(awk -F '\t' 'NR>1 && $2!="PASS" {c++} END {print c+0}' "$DATA_B/showtrials_search_v2_validation.tsv")"
     if [ "$failed_search" -gt 0 ]; then
       echo -e "FAIL\tsearch_v2_validation_not_clean\tsearch_v2\t$failed_search"
       failures=$((failures + 1))

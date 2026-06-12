@@ -11,13 +11,23 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-INPUT_PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-OUTPUT_MATRIX = ROOT / "showtrials_special_report_attachment_matrix.tsv"
-OUTPUT_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1a.tsv"
-OUTPUT_CROSSWALK = ROOT / "showtrials_attachment_taxonomy_crosswalk_d3_1a.tsv"
-OUTPUT_REPORT = ROOT / "showtrials_attachment_taxonomy_d3_1a_report.txt"
+from lib.showtrials_paths import (
+    ATTACHMENT_TAXONOMY_CROSSWALK_D3_1A,
+    ATTACHMENT_TAXONOMY_D3_1A,
+    ATTACHMENT_TAXONOMY_D3_1A_REPORT,
+    SPECIAL_REPORT_ATTACHMENT_MATRIX,
+    SPECIAL_REPORT_PACKAGES_D3_1,
+    ensure_parent,
+)
+
+INPUT_PACKAGES = SPECIAL_REPORT_PACKAGES_D3_1
+
+OUTPUT_MATRIX = SPECIAL_REPORT_ATTACHMENT_MATRIX
+OUTPUT_TAXONOMY = ATTACHMENT_TAXONOMY_D3_1A
+OUTPUT_CROSSWALK = ATTACHMENT_TAXONOMY_CROSSWALK_D3_1A
+OUTPUT_REPORT = ATTACHMENT_TAXONOMY_D3_1A_REPORT
 
 VALID_TYPES = {
     "interrogation_protocol",
@@ -77,7 +87,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -221,7 +231,7 @@ def main() -> int:
     for attachment_type, count in dominant_counts.most_common():
         report_lines.append(f"{attachment_type}\t{count}\t{percentage(count, total_special_reports)}%")
     report_lines.append("policy\tgeneric_attachment ignored as a document type; generic-only packages become unknown_attachment")
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_MATRIX)
     print(OUTPUT_TAXONOMY)

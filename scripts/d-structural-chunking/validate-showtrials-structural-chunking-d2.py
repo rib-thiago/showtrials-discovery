@@ -1,15 +1,25 @@
 #!/usr/bin/env python3
 import csv
 from pathlib import Path
+import sys
 
-BASE = Path("/srv/projects/showtrials-discovery")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOCS = BASE / "showtrials_structural_chunking_d2_by_document.tsv"
-TYPES = BASE / "showtrials_structural_chunking_d2_by_type.tsv"
+from lib.showtrials_paths import (
+    MASTER_CATALOG,
+    STRUCTURAL_CHUNKING_D2_BY_DOCUMENT,
+    STRUCTURAL_CHUNKING_D2_BY_TYPE,
+    STRUCTURAL_CHUNKING_D2_VALIDATION,
+    STRUCTURAL_CHUNKING_D2_VALIDATION_REPORT,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_structural_chunking_d2_validation_report.txt"
-TSV = BASE / "showtrials_structural_chunking_d2_validation.tsv"
+CATALOG = MASTER_CATALOG
+DOCS = STRUCTURAL_CHUNKING_D2_BY_DOCUMENT
+TYPES = STRUCTURAL_CHUNKING_D2_BY_TYPE
+
+REPORT = STRUCTURAL_CHUNKING_D2_VALIDATION_REPORT
+TSV = STRUCTURAL_CHUNKING_D2_VALIDATION
 
 def load(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -44,7 +54,7 @@ for r in low_types:
 if not checks:
     add("OK", "all_checks", "passed")
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["level", "check", "detail"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -64,7 +74,7 @@ report = [
 for c in checks[:120]:
     report.append(f"{c['level']}\t{c['check']}\t{c['detail']}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)

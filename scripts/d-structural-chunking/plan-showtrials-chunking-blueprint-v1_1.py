@@ -11,16 +11,29 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-BLUEPRINT_V1 = ROOT / "showtrials_chunking_blueprint_v1.tsv"
-D2_BY_TYPE = ROOT / "showtrials_structural_chunking_d2_by_type.tsv"
-ATTACHMENT_TAXONOMY = ROOT / "showtrials_attachment_taxonomy_d3_1b.tsv"
-ATTACHMENT_REFINEMENT = ROOT / "showtrials_attachment_taxonomy_refinement_d3_1b.tsv"
-BLUEPRINT_V1_REPORT = ROOT / "showtrials_chunking_blueprint_v1_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-OUTPUT_BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1_1.tsv"
-OUTPUT_POLICY = ROOT / "showtrials_chunking_policy_v1_1.txt"
-OUTPUT_REPORT = ROOT / "showtrials_chunking_blueprint_v1_1_report.txt"
+from lib.showtrials_paths import (
+    ATTACHMENT_TAXONOMY_D3_1B,
+    ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B,
+    CHUNKING_BLUEPRINT_V1,
+    CHUNKING_BLUEPRINT_V1_1,
+    CHUNKING_BLUEPRINT_V1_1_REPORT,
+    CHUNKING_BLUEPRINT_V1_REPORT,
+    CHUNKING_POLICY_V1_1,
+    STRUCTURAL_CHUNKING_D2_BY_TYPE,
+    ensure_parent,
+)
+
+BLUEPRINT_V1 = CHUNKING_BLUEPRINT_V1
+D2_BY_TYPE = STRUCTURAL_CHUNKING_D2_BY_TYPE
+ATTACHMENT_TAXONOMY = ATTACHMENT_TAXONOMY_D3_1B
+ATTACHMENT_REFINEMENT = ATTACHMENT_TAXONOMY_REFINEMENT_D3_1B
+BLUEPRINT_V1_REPORT = CHUNKING_BLUEPRINT_V1_REPORT
+
+OUTPUT_BLUEPRINT = CHUNKING_BLUEPRINT_V1_1
+OUTPUT_POLICY = CHUNKING_POLICY_V1_1
+OUTPUT_REPORT = CHUNKING_BLUEPRINT_V1_1_REPORT
 
 FIELDS = [
     "document_type",
@@ -157,7 +170,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -246,7 +259,7 @@ D1 sizing established corpus scale. D2/D2.2 separated real structural units from
 Attachment taxonomy v1.1: {taxonomy_summary}
 Refinement changes recorded: {len(refinement_rows)}
 """
-    path.write_text(text, encoding="utf-8")
+    ensure_parent(path).write_text(text, encoding="utf-8")
 
 
 def main() -> int:
@@ -295,7 +308,7 @@ def main() -> int:
         f"future_review_dependent\t{future_review}",
         f"policy_version\t{POLICY_VERSION}",
     ]
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_BLUEPRINT)
     print(OUTPUT_POLICY)

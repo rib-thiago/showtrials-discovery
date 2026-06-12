@@ -1,16 +1,29 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_DOC_ENTITIES = BASE / "showtrials_title_document_entities.tsv"
-OUT_ENTITIES = BASE / "showtrials_title_entities.tsv"
-OUT_PAIRS = BASE / "showtrials_title_entity_pairs.tsv"
-OUT_REPORT = BASE / "showtrials_title_entities_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    MASTER_CATALOG,
+    TITLE_DOCUMENT_ENTITIES,
+    TITLE_ENTITIES,
+    TITLE_ENTITIES_REPORT,
+    TITLE_ENTITY_PAIRS,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+
+OUT_DOC_ENTITIES = TITLE_DOCUMENT_ENTITIES
+OUT_ENTITIES = TITLE_ENTITIES
+OUT_PAIRS = TITLE_ENTITY_PAIRS
+OUT_REPORT = TITLE_ENTITIES_REPORT
 
 # Padrões simples para títulos russos:
 # - iniciais + sobrenome: К.Б. Радека
@@ -141,7 +154,7 @@ for d in docs:
         "document_url": d.get("document_url", ""),
     })
 
-with OUT_DOC_ENTITIES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOC_ENTITIES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "primary_process", "primary_collection",
@@ -151,7 +164,7 @@ with OUT_DOC_ENTITIES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(doc_rows)
 
-with OUT_ENTITIES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_ENTITIES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "entity", "document_count", "total_words",
         "process_count", "processes", "collection_count", "collections"
@@ -169,7 +182,7 @@ with OUT_ENTITIES.open("w", encoding="utf-8", newline="") as f:
             "collections": " | ".join(sorted(entity_collections[e])),
         })
 
-with OUT_PAIRS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PAIRS).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["entity_a", "entity_b", "document_count"])
     for (a, b), ids in sorted(pair_docs.items(), key=lambda x: len(x[1]), reverse=True):
@@ -197,7 +210,7 @@ report.append("Documents without extracted title entities:")
 for r in [x for x in doc_rows if x["entity_count"] == 0][:40]:
     report.append(f"{r['document_post_id']}\t{r['document_title']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOC_ENTITIES)
 print(OUT_ENTITIES)

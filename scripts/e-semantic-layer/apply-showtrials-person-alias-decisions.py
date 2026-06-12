@@ -1,13 +1,24 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-ALIASES = BASE / "showtrials_person_aliases.tsv"
-MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
-OUT = BASE / "showtrials_person_aliases_reviewed.tsv"
-REPORT = BASE / "showtrials_person_aliases_reviewed_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    PERSON_ALIASES,
+    PERSON_ALIASES_MANUAL,
+    PERSON_ALIASES_REVIEWED,
+    PERSON_ALIASES_REVIEWED_REPORT,
+    ensure_parent,
+)
+
+ALIASES = PERSON_ALIASES
+MANUAL = PERSON_ALIASES_MANUAL
+OUT = PERSON_ALIASES_REVIEWED
+REPORT = PERSON_ALIASES_REVIEWED_REPORT
 
 def load_aliases(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -58,13 +69,13 @@ if MANUAL.exists():
 
 fields = list(rows[0].keys())
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     for raw in sorted(by_raw):
         w.writerow(by_raw[raw])
 
-REPORT.write_text(
+ensure_parent(REPORT).write_text(
     "\n".join([
         "ShowTrials reviewed alias application",
         "",

@@ -1,17 +1,32 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-TERMS = BASE / "showtrials_taxonomy_terms.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_PROCESSES = BASE / "showtrials_entities_processes.tsv"
-OUT_COLLECTIONS = BASE / "showtrials_entities_collections.tsv"
-OUT_CATEGORIES = BASE / "showtrials_entities_categories.tsv"
-OUT_TAGS = BASE / "showtrials_entities_tags.tsv"
-OUT_REPORT = BASE / "showtrials_entity_inventory_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    ENTITY_CATEGORIES,
+    ENTITY_COLLECTIONS,
+    ENTITY_INVENTORY_REPORT,
+    ENTITY_PROCESSES,
+    ENTITY_TAGS,
+    MASTER_CATALOG,
+    TAXONOMY_TERMS,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+TERMS = TAXONOMY_TERMS
+
+OUT_PROCESSES = ENTITY_PROCESSES
+OUT_COLLECTIONS = ENTITY_COLLECTIONS
+OUT_CATEGORIES = ENTITY_CATEGORIES
+OUT_TAGS = ENTITY_TAGS
+OUT_REPORT = ENTITY_INVENTORY_REPORT
 
 def split_pipe(value):
     return [x.strip() for x in (value or "").split(" | ") if x.strip()]
@@ -54,7 +69,7 @@ def aggregate_multi(field):
     return agg
 
 def write_entities(path, label, agg, term_type=None):
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         fields = [
             "entity_type", "entity_name", "document_count",
             "total_words", "total_chars", "avg_words",
@@ -115,7 +130,7 @@ report.append("Top tags:")
 for k, v in sorted(tag_agg.items(), key=lambda x: x[1]["words"], reverse=True)[:40]:
     report.append(f"{len(v['docs'])}\t{v['words']}\t{k}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PROCESSES)
 print(OUT_COLLECTIONS)

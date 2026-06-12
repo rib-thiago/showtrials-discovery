@@ -16,8 +16,8 @@ REPORT = ROOT / "reports/r-governance/path-audit/showtrials_path_normalization_r
 SCRIPT_GLOBS = ["scripts/**/*.py", "scripts/**/*.sh"]
 
 PATTERNS = {
-    "tmp_base": re.compile(r"/tmp/showtrials-discovery"),
-    "srv_base": re.compile(r"/srv/projects/showtrials-discovery"),
+    "tmp_base": re.compile(r"/tmp/" + "showtrials-discovery"),
+    "srv_base": re.compile(r"/srv/projects/" + "showtrials-discovery"),
     "root_artifact_tsv": re.compile(r"""["']showtrials_[^"']+\.tsv["']"""),
     "root_artifact_txt": re.compile(r"""["']showtrials_[^"']+\.txt["']"""),
     "root_artifact_json": re.compile(r"""["']showtrials_[^"']+\.json["']"""),

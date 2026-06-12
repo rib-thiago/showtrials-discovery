@@ -10,10 +10,18 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-INPUT_BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
-OUTPUT_VALIDATION = ROOT / "showtrials_chunking_blueprint_v1_validation.tsv"
-OUTPUT_REPORT = ROOT / "showtrials_chunking_blueprint_v1_validation_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    CHUNKING_BLUEPRINT_V1,
+    CHUNKING_BLUEPRINT_V1_VALIDATION,
+    CHUNKING_BLUEPRINT_V1_VALIDATION_REPORT,
+    ensure_parent,
+)
+
+INPUT_BLUEPRINT = CHUNKING_BLUEPRINT_V1
+OUTPUT_VALIDATION = CHUNKING_BLUEPRINT_V1_VALIDATION
+OUTPUT_REPORT = CHUNKING_BLUEPRINT_V1_VALIDATION_REPORT
 
 FIELDS = ["level", "document_type", "check", "message"]
 
@@ -24,7 +32,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -152,7 +160,7 @@ def main() -> int:
         f"ok_rows\t{ok_count}",
         status_line,
     ]
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_VALIDATION)
     print(OUTPUT_REPORT)

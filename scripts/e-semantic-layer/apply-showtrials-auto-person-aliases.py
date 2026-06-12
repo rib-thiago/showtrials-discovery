@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-CANDIDATES = BASE / "showtrials_person_merge_candidates.tsv"
-MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
-OUT_REPORT = BASE / "showtrials_person_auto_alias_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    PERSON_ALIASES_MANUAL,
+    PERSON_AUTO_ALIAS_REPORT,
+    PERSON_MERGE_CANDIDATES,
+    ensure_parent,
+)
+
+CANDIDATES = PERSON_MERGE_CANDIDATES
+MANUAL = PERSON_ALIASES_MANUAL
+OUT_REPORT = PERSON_AUTO_ALIAS_REPORT
 
 AUTO_REJECT = {
     ("Л.С. Сосновского", "Л.С. Ассиновского"),
@@ -81,7 +91,7 @@ with CANDIDATES.open("r", encoding="utf-8", newline="") as f:
             review.append(r)
 
 exists = MANUAL.exists()
-with MANUAL.open("a", encoding="utf-8", newline="") as f:
+with ensure_parent(MANUAL).open("a", encoding="utf-8", newline="") as f:
     fields = ["raw_person", "canonical_person", "decision", "confidence", "reason", "notes"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     if not exists:
@@ -113,7 +123,7 @@ report.append("Rejected suggested candidates:")
 for r in rejected:
     report.append(f"{r['candidate_a']}\t<->\t{r['candidate_b']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_REPORT)
 print(MANUAL)

@@ -1,14 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_MATRIX = BASE / "showtrials_tag_process_matrix.tsv"
-OUT_EXCLUSIVE = BASE / "showtrials_tag_process_exclusive.tsv"
-OUT_REPORT = BASE / "showtrials_tag_process_audit_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    MASTER_CATALOG,
+    TAG_PROCESS_AUDIT_REPORT,
+    TAG_PROCESS_EXCLUSIVE,
+    TAG_PROCESS_MATRIX,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+
+OUT_MATRIX = TAG_PROCESS_MATRIX
+OUT_EXCLUSIVE = TAG_PROCESS_EXCLUSIVE
+OUT_REPORT = TAG_PROCESS_AUDIT_REPORT
 
 def split_pipe(value):
     return [x.strip() for x in (value or "").split(" | ") if x.strip()]
@@ -42,13 +54,13 @@ for d in docs:
             agg[key]["words"] += d["content_words"]
         tag_processes[tag].add(process)
 
-with OUT_MATRIX.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_MATRIX).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["tag", "process", "document_count", "total_words"])
     for (tag, process), data in sorted(agg.items(), key=lambda x: (x[0][0], -len(x[1]["docs"]))):
         w.writerow([tag, process, len(data["docs"]), data["words"]])
 
-with OUT_EXCLUSIVE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_EXCLUSIVE).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["tag", "process_count", "processes"])
     for tag, processes in sorted(tag_processes.items(), key=lambda x: (len(x[1]), x[0])):
@@ -77,7 +89,7 @@ report.append("Top tag-process pairs by document count:")
 for (tag, process), data in sorted(agg.items(), key=lambda x: len(x[1]["docs"]), reverse=True)[:40]:
     report.append(f"{len(data['docs'])}\t{data['words']}\t{tag}\t{process}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_MATRIX)
 print(OUT_EXCLUSIVE)

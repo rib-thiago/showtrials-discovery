@@ -1,17 +1,29 @@
 #!/usr/bin/env python3
 import csv
 from pathlib import Path
+import sys
 
-BASE = Path("/tmp/showtrials-discovery")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
-TYPES = BASE / "showtrials_corpus_sizing_by_document_type_d1.tsv"
-PROCESSES = BASE / "showtrials_corpus_sizing_by_process_d1.tsv"
-POLICY = BASE / "showtrials_chunking_policy_recommendations_d1.tsv"
+from lib.showtrials_paths import (
+    CHUNKING_POLICY_RECOMMENDATIONS_D1,
+    CORPUS_SIZING_BY_DOCUMENT_D1,
+    CORPUS_SIZING_BY_DOCUMENT_TYPE_D1,
+    CORPUS_SIZING_BY_PROCESS_D1,
+    CORPUS_SIZING_CHUNKING_D1_VALIDATION,
+    CORPUS_SIZING_CHUNKING_D1_VALIDATION_REPORT,
+    MASTER_CATALOG,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_corpus_sizing_chunking_d1_validation_report.txt"
-TSV = BASE / "showtrials_corpus_sizing_chunking_d1_validation.tsv"
+CATALOG = MASTER_CATALOG
+DOCS = CORPUS_SIZING_BY_DOCUMENT_D1
+TYPES = CORPUS_SIZING_BY_DOCUMENT_TYPE_D1
+PROCESSES = CORPUS_SIZING_BY_PROCESS_D1
+POLICY = CHUNKING_POLICY_RECOMMENDATIONS_D1
+
+REPORT = CORPUS_SIZING_CHUNKING_D1_VALIDATION_REPORT
+TSV = CORPUS_SIZING_CHUNKING_D1_VALIDATION
 
 def load(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -64,7 +76,7 @@ for r in docs:
 if not checks:
     add("OK", "all_checks", "passed")
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["level", "check", "detail"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -86,7 +98,7 @@ report = [
 for c in checks[:120]:
     report.append(f"{c['level']}\t{c['check']}\t{c['detail']}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)

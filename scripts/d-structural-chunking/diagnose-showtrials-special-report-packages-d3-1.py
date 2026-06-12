@@ -12,17 +12,31 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-MASTER = ROOT / "showtrials_master_catalog.tsv"
-DOC_TYPES = ROOT / "showtrials_document_types_v4.tsv"
-CORPUS = ROOT / "showtrials_search_corpus.tsv"
-SIZING = ROOT / "showtrials_corpus_sizing_by_document_d1.tsv"
-BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-OUTPUT_PACKAGES = ROOT / "showtrials_special_report_packages_d3_1.tsv"
-OUTPUT_SUMMARY = ROOT / "showtrials_special_report_package_summary_d3_1.tsv"
-OUTPUT_EXAMPLES = ROOT / "showtrials_special_report_package_examples_d3_1.tsv"
-OUTPUT_REPORT = ROOT / "showtrials_special_report_packages_d3_1_report.txt"
+from lib.showtrials_paths import (
+    CHUNKING_BLUEPRINT_V1,
+    CORPUS_SIZING_BY_DOCUMENT_D1,
+    DOCUMENT_TYPES_V4,
+    MASTER_CATALOG,
+    SEARCH_CORPUS,
+    SPECIAL_REPORT_PACKAGE_EXAMPLES_D3_1,
+    SPECIAL_REPORT_PACKAGE_SUMMARY_D3_1,
+    SPECIAL_REPORT_PACKAGES_D3_1,
+    SPECIAL_REPORT_PACKAGES_D3_1_REPORT,
+    ensure_parent,
+)
+
+MASTER = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+CORPUS = SEARCH_CORPUS
+SIZING = CORPUS_SIZING_BY_DOCUMENT_D1
+BLUEPRINT = CHUNKING_BLUEPRINT_V1
+
+OUTPUT_PACKAGES = SPECIAL_REPORT_PACKAGES_D3_1
+OUTPUT_SUMMARY = SPECIAL_REPORT_PACKAGE_SUMMARY_D3_1
+OUTPUT_EXAMPLES = SPECIAL_REPORT_PACKAGE_EXAMPLES_D3_1
+OUTPUT_REPORT = SPECIAL_REPORT_PACKAGES_D3_1_REPORT
 
 PACKAGE_FIELDS = [
     "document_post_id",
@@ -79,7 +93,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -308,7 +322,7 @@ def main() -> int:
         "heuristic\tstrong=s prilozheniem or multiple attachment types; likely=napravlyayu plus embedded type; possible=single weak marker/type; none=no marker",
         "policy\tanalysis aid only; no translation, API calls, embeddings, or input mutation",
     ]
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_PACKAGES)
     print(OUTPUT_SUMMARY)

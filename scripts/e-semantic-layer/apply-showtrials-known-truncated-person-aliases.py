@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
-REPORT = BASE / "showtrials_known_truncated_aliases_report.txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    KNOWN_TRUNCATED_ALIASES_REPORT,
+    PERSON_ALIASES_MANUAL,
+    ensure_parent,
+)
+
+MANUAL = PERSON_ALIASES_MANUAL
+REPORT = KNOWN_TRUNCATED_ALIASES_REPORT
 
 ALIASES = {
     "Л.С. Мамишвили-": "Л.С. Мамишвили-Мишкевич",
@@ -34,7 +44,7 @@ if MANUAL.exists():
 exists = MANUAL.exists()
 added = []
 
-with MANUAL.open("a", encoding="utf-8", newline="") as f:
+with ensure_parent(MANUAL).open("a", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=FIELDS, delimiter="\t")
     if not exists:
         w.writeheader()
@@ -52,7 +62,7 @@ with MANUAL.open("a", encoding="utf-8", newline="") as f:
         })
         added.append((raw, canon))
 
-REPORT.write_text(
+ensure_parent(REPORT).write_text(
     "ShowTrials known truncated person aliases\n\n"
     f"Added: {len(added)}\n"
     f"Manual TSV: {MANUAL}\n\n"

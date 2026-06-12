@@ -11,12 +11,22 @@ from pathlib import Path
 
 csv.field_size_limit(sys.maxsize)
 
-ROOT = Path(__file__).resolve().parent
-REVIEW_INDEX = ROOT / "showtrials_structural_samples_d2_2_review_index.tsv"
-D1_POLICY = ROOT / "showtrials_chunking_policy_recommendations_d1.tsv"
-D2_BY_TYPE = ROOT / "showtrials_structural_chunking_d2_by_type.tsv"
-OUTPUT_BLUEPRINT = ROOT / "showtrials_chunking_blueprint_v1.tsv"
-OUTPUT_REPORT = ROOT / "showtrials_chunking_blueprint_v1_report.txt"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from lib.showtrials_paths import (
+    CHUNKING_BLUEPRINT_V1,
+    CHUNKING_BLUEPRINT_V1_REPORT,
+    CHUNKING_POLICY_RECOMMENDATIONS_D1,
+    STRUCTURAL_CHUNKING_D2_BY_TYPE,
+    STRUCTURAL_SAMPLES_D2_2_REVIEW_INDEX,
+    ensure_parent,
+)
+
+REVIEW_INDEX = STRUCTURAL_SAMPLES_D2_2_REVIEW_INDEX
+D1_POLICY = CHUNKING_POLICY_RECOMMENDATIONS_D1
+D2_BY_TYPE = STRUCTURAL_CHUNKING_D2_BY_TYPE
+OUTPUT_BLUEPRINT = CHUNKING_BLUEPRINT_V1
+OUTPUT_REPORT = CHUNKING_BLUEPRINT_V1_REPORT
 
 FIELDS = [
     "document_type",
@@ -150,7 +160,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, delimiter="\t", fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -279,7 +289,7 @@ def main() -> int:
         "constraints\thard_max_chars capped at 5000; lexical Q/A detection is advisory only",
         "totals_from_d1\tdocuments=2179\tchars=27379787\testimated_chunks=10023\tfailures=0\twarnings=0",
     ]
-    OUTPUT_REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+    ensure_parent(OUTPUT_REPORT).write_text("\n".join(report_lines) + "\n", encoding="utf-8")
 
     print(OUTPUT_BLUEPRINT)
     print(OUTPUT_REPORT)

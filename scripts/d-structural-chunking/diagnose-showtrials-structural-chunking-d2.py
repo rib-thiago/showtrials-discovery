@@ -7,17 +7,29 @@ csv.field_size_limit(sys.maxsize)
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/srv/projects/showtrials-discovery")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-CORPUS = BASE / "showtrials_search_corpus.tsv"
-D1_DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
+from lib.showtrials_paths import (
+    CORPUS_SIZING_BY_DOCUMENT_D1,
+    DOCUMENT_TYPES_V4,
+    MASTER_CATALOG,
+    SEARCH_CORPUS,
+    STRUCTURAL_CHUNKING_D2_BY_DOCUMENT,
+    STRUCTURAL_CHUNKING_D2_BY_TYPE,
+    STRUCTURAL_CHUNKING_D2_EXAMPLES,
+    STRUCTURAL_CHUNKING_D2_REPORT,
+    ensure_parent,
+)
 
-OUT_DOCS = BASE / "showtrials_structural_chunking_d2_by_document.tsv"
-OUT_TYPES = BASE / "showtrials_structural_chunking_d2_by_type.tsv"
-OUT_EXAMPLES = BASE / "showtrials_structural_chunking_d2_examples.tsv"
-REPORT = BASE / "showtrials_structural_chunking_d2_report.txt"
+CATALOG = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+CORPUS = SEARCH_CORPUS
+D1_DOCS = CORPUS_SIZING_BY_DOCUMENT_D1
+
+OUT_DOCS = STRUCTURAL_CHUNKING_D2_BY_DOCUMENT
+OUT_TYPES = STRUCTURAL_CHUNKING_D2_BY_TYPE
+OUT_EXAMPLES = STRUCTURAL_CHUNKING_D2_EXAMPLES
+REPORT = STRUCTURAL_CHUNKING_D2_REPORT
 
 PATTERNS = {
     "question_answer_markers": re.compile(r"\b(Вопрос|Ответ|В\.|О\.|В:|О:)\b", re.I),
@@ -140,7 +152,7 @@ fields_doc = [
     *PATTERNS.keys(),
 ]
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields_doc, delimiter="\t")
     w.writeheader()
     w.writerows(sorted(doc_rows, key=lambda r: (-int(r["content_chars"]), r["document_post_id"])))
@@ -169,7 +181,7 @@ for dt, rows in by_type.items():
         "avg_lines": round(sum(r["lines"] for r in rows) / len(rows), 2),
     })
 
-with OUT_TYPES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TYPES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_type", "documents", "chars",
         "dominant_recommended_unit", "dominant_unit_docs",
@@ -181,7 +193,7 @@ with OUT_TYPES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(type_rows, key=lambda r: (-r["chars"], r["document_type"])))
 
-with OUT_EXAMPLES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_EXAMPLES).open("w", encoding="utf-8", newline="") as f:
     fields = ["document_post_id", "document_type", "pattern", "document_title", "sample"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -207,7 +219,7 @@ report.append(str(OUT_DOCS))
 report.append(str(OUT_TYPES))
 report.append(str(OUT_EXAMPLES))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOCS)
 print(OUT_TYPES)

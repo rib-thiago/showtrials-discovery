@@ -7,16 +7,27 @@ from collections import defaultdict
 
 csv.field_size_limit(sys.maxsize)
 
-BASE = Path("/srv/projects/showtrials-discovery")
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-CORPUS = BASE / "showtrials_search_corpus.tsv"
-D1_DOCS = BASE / "showtrials_corpus_sizing_by_document_d1.tsv"
+from lib.showtrials_paths import (
+    CORPUS_SIZING_BY_DOCUMENT_D1,
+    DOCUMENT_TYPES_V4,
+    MASTER_CATALOG,
+    SEARCH_CORPUS,
+    STRUCTURAL_SAMPLES_D2_1_DIR,
+    STRUCTURAL_SAMPLES_D2_1_INDEX,
+    STRUCTURAL_SAMPLES_D2_1_REPORT,
+    ensure_parent,
+)
 
-OUT_DIR = BASE / "structural_samples_d2_1"
-OUT_INDEX = BASE / "showtrials_structural_samples_d2_1_index.tsv"
-OUT_REPORT = BASE / "showtrials_structural_samples_d2_1_report.txt"
+CATALOG = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+CORPUS = SEARCH_CORPUS
+D1_DOCS = CORPUS_SIZING_BY_DOCUMENT_D1
+
+OUT_DIR = STRUCTURAL_SAMPLES_D2_1_DIR
+OUT_INDEX = STRUCTURAL_SAMPLES_D2_1_INDEX
+OUT_REPORT = STRUCTURAL_SAMPLES_D2_1_REPORT
 
 SAMPLE_TYPES = [
     "special_report",
@@ -130,7 +141,7 @@ for doc_id, meta in catalog.items():
         "content_words": d1r.get("content_words") or meta.get("content_words") or "",
     })
 
-OUT_DIR.mkdir(exist_ok=True)
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 index_rows = []
 report = []
@@ -146,7 +157,7 @@ for dt in SAMPLE_TYPES:
     report.append(f"{dt}\tselected={len(selected)}\ttotal={len(by_type.get(dt, []))}")
 
     type_dir = OUT_DIR / dt
-    type_dir.mkdir(exist_ok=True)
+    type_dir.mkdir(parents=True, exist_ok=True)
 
     for n, r in enumerate(selected, start=1):
         doc_id = r["document_post_id"]
@@ -184,7 +195,7 @@ for dt in SAMPLE_TYPES:
             "document_url": r["document_url"],
         })
 
-with OUT_INDEX.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_INDEX).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_type", "sample_no", "document_post_id",
         "content_chars", "content_words", "primary_process",
@@ -199,7 +210,7 @@ report.append("Outputs:")
 report.append(str(OUT_DIR))
 report.append(str(OUT_INDEX))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DIR)
 print(OUT_INDEX)
