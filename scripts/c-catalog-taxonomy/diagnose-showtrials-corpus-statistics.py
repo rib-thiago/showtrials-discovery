@@ -1,19 +1,35 @@
 #!/usr/bin/env python3
 import csv
 import statistics
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-SRC = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_OVERVIEW = BASE / "showtrials_corpus_statistics_overview.tsv"
-OUT_PROCESS = BASE / "showtrials_corpus_statistics_by_process.tsv"
-OUT_COLLECTION = BASE / "showtrials_corpus_statistics_by_collection.tsv"
-OUT_TAG = BASE / "showtrials_corpus_statistics_by_tag.tsv"
-OUT_LARGEST = BASE / "showtrials_corpus_largest_documents.tsv"
-OUT_SMALLEST = BASE / "showtrials_corpus_smallest_documents.tsv"
-OUT_REPORT = BASE / "showtrials_corpus_statistics_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    CORPUS_LARGEST_DOCUMENTS,
+    CORPUS_SMALLEST_DOCUMENTS,
+    CORPUS_STATISTICS_BY_COLLECTION,
+    CORPUS_STATISTICS_BY_PROCESS,
+    CORPUS_STATISTICS_BY_TAG,
+    CORPUS_STATISTICS_OVERVIEW,
+    CORPUS_STATISTICS_REPORT,
+    MASTER_CATALOG,
+    ensure_parent,
+)
+
+SRC = MASTER_CATALOG
+
+OUT_OVERVIEW = CORPUS_STATISTICS_OVERVIEW
+OUT_PROCESS = CORPUS_STATISTICS_BY_PROCESS
+OUT_COLLECTION = CORPUS_STATISTICS_BY_COLLECTION
+OUT_TAG = CORPUS_STATISTICS_BY_TAG
+OUT_LARGEST = CORPUS_LARGEST_DOCUMENTS
+OUT_SMALLEST = CORPUS_SMALLEST_DOCUMENTS
+OUT_REPORT = CORPUS_STATISTICS_REPORT
 
 def to_int(v):
     try:
@@ -45,7 +61,7 @@ def stats(values):
 word_stats = stats(words)
 char_stats = stats(chars)
 
-with OUT_OVERVIEW.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_OVERVIEW).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["metric", "value"])
     w.writerow(["document_count", len(rows)])
@@ -79,7 +95,7 @@ def aggregate_by(field, split=False):
     return agg
 
 def write_agg(path, agg, label):
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t")
         w.writerow([label, "document_count", "total_words", "total_chars", "avg_words"])
         for key, data in sorted(agg.items(), key=lambda x: x[1]["words"], reverse=True):
@@ -99,7 +115,7 @@ largest = sorted(rows, key=lambda r: r["content_words"], reverse=True)
 smallest = sorted(rows, key=lambda r: r["content_words"])
 
 def write_docs(path, docs):
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         fields = [
             "rank", "document_post_id", "document_title", "content_words",
             "content_chars", "primary_process", "primary_collection",
@@ -155,7 +171,7 @@ report.append("Smallest documents:")
 for r in smallest[:20]:
     report.append(f"{r['content_words']}\t{r['primary_process']}\t{r['primary_collection']}\t{r['document_title']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_OVERVIEW)
 print(OUT_PROCESS)

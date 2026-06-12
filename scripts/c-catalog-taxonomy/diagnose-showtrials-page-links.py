@@ -1,12 +1,26 @@
 #!/usr/bin/env python3
 import csv, json, re, html
+import sys
 from pathlib import Path
 from urllib.parse import urljoin, urldefrag, urlparse
 
-BASE = Path("/tmp/showtrials-discovery")
-PAGES = BASE / "pages-json/pages-page-1.json"
-OUT_TSV = BASE / "showtrials_page_links.tsv"
-OUT_REPORT = BASE / "showtrials_page_links_report.txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    PAGE_LINKS,
+    PAGE_LINKS_REPORT,
+    PAGES_PAGE_1_JSON,
+    SHOWTRIALS_HOST,
+    SHOWTRIALS_HTTP,
+    SHOWTRIALS_HTTPS,
+    ensure_parent,
+)
+
+PAGES = PAGES_PAGE_1_JSON
+OUT_TSV = PAGE_LINKS
+OUT_REPORT = PAGE_LINKS_REPORT
 
 def clean(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
@@ -15,9 +29,9 @@ def clean(s):
 def norm_url(url):
     url, _frag = urldefrag(url)
     url = url.strip()
-    if url.startswith("https://showtrials.ru/"):
-        url = "http://" + url[len("https://"):]
-    if url.startswith("http://showtrials.ru") and not url.endswith("/"):
+    if url.startswith(SHOWTRIALS_HTTPS + "/"):
+        url = SHOWTRIALS_HTTP + url[len(SHOWTRIALS_HTTPS):]
+    if url.startswith(SHOWTRIALS_HTTP) and not url.endswith("/"):
         parsed = urlparse(url)
         if "." not in Path(parsed.path).name:
             url += "/"
@@ -37,7 +51,7 @@ for p in pages:
         anchor = clean(m.group(2))
         abs_url = norm_url(urljoin(source_url, href))
         parsed = urlparse(abs_url)
-        internal = parsed.netloc == "showtrials.ru"
+        internal = parsed.netloc == SHOWTRIALS_HOST
 
         if not internal:
             kind = "external"
@@ -58,7 +72,7 @@ for p in pages:
             "link_kind": kind,
         })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["source_page_id","source_title","source_url","order_in_page","target_url","anchor_text","link_kind"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -81,7 +95,7 @@ for r in internal:
 for title, count in sorted(counts.items(), key=lambda x: x[1], reverse=True)[:20]:
     report.append(f"{count}\t{title}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

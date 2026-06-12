@@ -1,16 +1,30 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-SRC = BASE / "showtrials_document_collections.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_PROCESS = BASE / "showtrials_process_inventory.tsv"
-OUT_COLLECTION = BASE / "showtrials_collection_inventory.tsv"
-OUT_TIMELINE = BASE / "showtrials_timeline.tsv"
-OUT_LARGEST = BASE / "showtrials_largest_documents.tsv"
-OUT_REPORT = BASE / "showtrials_corpus_inventory_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    COLLECTION_INVENTORY,
+    CORPUS_INVENTORY_REPORT,
+    DOCUMENT_COLLECTIONS,
+    LARGEST_DOCUMENTS,
+    PROCESS_INVENTORY,
+    TIMELINE,
+    ensure_parent,
+)
+
+SRC = DOCUMENT_COLLECTIONS
+
+OUT_PROCESS = PROCESS_INVENTORY
+OUT_COLLECTION = COLLECTION_INVENTORY
+OUT_TIMELINE = TIMELINE
+OUT_LARGEST = LARGEST_DOCUMENTS
+OUT_REPORT = CORPUS_INVENTORY_REPORT
 
 rows = []
 with SRC.open("r", encoding="utf-8", newline="") as f:
@@ -53,7 +67,7 @@ for r in unique_docs:
     p = r["process_title"]
     proc[p]["words"] += r["content_words"]
 
-with OUT_PROCESS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PROCESS).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["process_title", "collection_count", "document_count", "total_words"])
     for p, data in sorted(proc.items(), key=lambda x: len(x[1]["docs"]), reverse=True):
@@ -69,7 +83,7 @@ for r in unique_docs:
     key = (r["process_title"], r["collection_title"])
     coll[key]["words"] += r["content_words"]
 
-with OUT_COLLECTION.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_COLLECTION).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["process_title", "collection_title", "document_count", "total_words"])
     for (p, c), data in sorted(coll.items(), key=lambda x: len(x[1]["docs"]), reverse=True):
@@ -83,7 +97,7 @@ for r in unique_docs:
     timeline[year]["docs"] += 1
     timeline[year]["words"] += r["content_words"]
 
-with OUT_TIMELINE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TIMELINE).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["year", "document_count", "total_words"])
     for year, data in sorted(timeline.items()):
@@ -92,7 +106,7 @@ with OUT_TIMELINE.open("w", encoding="utf-8", newline="") as f:
 # Largest documents
 largest = sorted(unique_docs, key=lambda r: r["content_words"], reverse=True)
 
-with OUT_LARGEST.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_LARGEST).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow([
         "rank", "document_post_id", "document_title", "content_words",
@@ -133,7 +147,7 @@ report.append("Largest documents:")
 for r in largest[:20]:
     report.append(f"{r['content_words']}\t{r['process_title']}\t{r['collection_title']}\t{r['document_title']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PROCESS)
 print(OUT_COLLECTION)

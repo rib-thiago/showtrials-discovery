@@ -1,12 +1,23 @@
 #!/usr/bin/env python3
 import csv, json, re, html
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-PAGES = BASE / "pages-json/pages-page-1.json"
-OUT_TSV = BASE / "showtrials_page_hierarchy.tsv"
-OUT_REPORT = BASE / "showtrials_page_hierarchy_report.txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    PAGE_HIERARCHY,
+    PAGE_HIERARCHY_REPORT,
+    PAGES_PAGE_1_JSON,
+    ensure_parent,
+)
+
+PAGES = PAGES_PAGE_1_JSON
+OUT_TSV = PAGE_HIERARCHY
+OUT_REPORT = PAGE_HIERARCHY_REPORT
 
 def clean(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
@@ -40,7 +51,7 @@ for p in sorted(pages, key=lambda x: (depth_of(x["id"]), x.get("parent", 0), cle
         "content_words": len(clean(p.get("content", {}).get("rendered", "")).split()),
     })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=rows[0].keys(), delimiter="\t")
     w.writeheader()
     w.writerows(rows)
@@ -62,7 +73,7 @@ report.append("")
 report.append("Tree:")
 report.extend(render_tree())
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

@@ -1,14 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TERMS = BASE / "showtrials_taxonomy_terms.tsv"
-OUT_DOCS = BASE / "showtrials_taxonomy_document_matrix.tsv"
-OUT_REPORT = BASE / "showtrials_taxonomy_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    MASTER_CATALOG,
+    TAXONOMY_DOCUMENT_MATRIX,
+    TAXONOMY_REPORT,
+    TAXONOMY_TERMS,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+
+OUT_TERMS = TAXONOMY_TERMS
+OUT_DOCS = TAXONOMY_DOCUMENT_MATRIX
+OUT_REPORT = TAXONOMY_REPORT
 
 def split_pipe(v):
     return [x.strip() for x in (v or "").split(" | ") if x.strip()]
@@ -52,7 +64,7 @@ for d in docs:
         "document_url": d.get("document_url", ""),
     })
 
-with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TERMS).open("w", encoding="utf-8", newline="") as f:
     fields = ["scope", "term", "document_count", "total_words"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -65,7 +77,7 @@ with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
                 "total_words": term_words[scope][term],
             })
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "processes", "collections", "categories", "tags",
@@ -92,7 +104,7 @@ for key in ["process_count", "collection_count", "category_count", "tag_count"]:
     count = sum(1 for r in doc_rows if int(r[key]) > 1)
     report.append(f"{count}\t{key}>1")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TERMS)
 print(OUT_DOCS)

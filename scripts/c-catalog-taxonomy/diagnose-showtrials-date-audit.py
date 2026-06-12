@@ -1,16 +1,29 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_YEAR = BASE / "showtrials_dates_by_year.tsv"
-OUT_MONTH = BASE / "showtrials_dates_by_month.tsv"
-OUT_OUTLIERS = BASE / "showtrials_date_outliers.tsv"
-OUT_REPORT = BASE / "showtrials_date_audit_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    DATE_AUDIT_REPORT,
+    DATE_OUTLIERS,
+    DATES_BY_MONTH,
+    DATES_BY_YEAR,
+    MASTER_CATALOG,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+
+OUT_YEAR = DATES_BY_YEAR
+OUT_MONTH = DATES_BY_MONTH
+OUT_OUTLIERS = DATE_OUTLIERS
+OUT_REPORT = DATE_AUDIT_REPORT
 
 def to_int(v):
     try:
@@ -49,21 +62,21 @@ for d in docs:
     except Exception:
         outliers.append(d)
 
-with OUT_YEAR.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_YEAR).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["year", "document_count", "total_words", "total_chars", "avg_words"])
     for year, data in sorted(by_year.items()):
         avg = round(data["words"] / data["docs"], 2) if data["docs"] else 0
         w.writerow([year, data["docs"], data["words"], data["chars"], avg])
 
-with OUT_MONTH.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_MONTH).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["month", "document_count", "total_words", "total_chars", "avg_words"])
     for month, data in sorted(by_month.items()):
         avg = round(data["words"] / data["docs"], 2) if data["docs"] else 0
         w.writerow([month, data["docs"], data["words"], data["chars"], avg])
 
-with OUT_OUTLIERS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_OUTLIERS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title", "primary_process",
         "primary_collection", "category_names", "tag_names", "content_words", "document_url"
@@ -93,7 +106,7 @@ report.append("Outliers:")
 for d in sorted(outliers, key=lambda r: r.get("document_date", ""))[:50]:
     report.append(f"{d.get('document_date')}\t{d.get('primary_process')}\t{d.get('document_title')}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_YEAR)
 print(OUT_MONTH)

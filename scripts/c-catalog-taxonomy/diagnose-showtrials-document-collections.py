@@ -1,15 +1,30 @@
 #!/usr/bin/env python3
 import csv, json, re, html
+import sys
 from pathlib import Path
 from urllib.parse import urlparse
 
-BASE = Path("/tmp/showtrials-discovery")
-POSTS_DIR = BASE / "posts-json"
-PAGES = BASE / "pages-json/pages-page-1.json"
-LINKS = BASE / "showtrials_page_links.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_document_collections.tsv"
-OUT_REPORT = BASE / "showtrials_document_collections_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_COLLECTIONS,
+    DOCUMENT_COLLECTIONS_REPORT,
+    PAGE_LINKS,
+    PAGES_PAGE_1_JSON,
+    POSTS_JSON_DIR,
+    SHOWTRIALS_HTTP,
+    SHOWTRIALS_HTTPS,
+    ensure_parent,
+)
+
+POSTS_DIR = POSTS_JSON_DIR
+PAGES = PAGES_PAGE_1_JSON
+LINKS = PAGE_LINKS
+
+OUT_TSV = DOCUMENT_COLLECTIONS
+OUT_REPORT = DOCUMENT_COLLECTIONS_REPORT
 
 def clean(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
@@ -17,9 +32,9 @@ def clean(s):
 
 def norm_url(url):
     url = url.strip()
-    if url.startswith("https://showtrials.ru/"):
-        url = "http://" + url[len("https://"):]
-    if url.startswith("http://showtrials.ru") and not url.endswith("/"):
+    if url.startswith(SHOWTRIALS_HTTPS + "/"):
+        url = SHOWTRIALS_HTTP + url[len(SHOWTRIALS_HTTPS):]
+    if url.startswith(SHOWTRIALS_HTTP) and not url.endswith("/"):
         parsed = urlparse(url)
         if "." not in Path(parsed.path).name:
             url += "/"
@@ -84,7 +99,7 @@ with LINKS.open("r", encoding="utf-8", newline="") as f:
             "content_words": len(clean(post.get("content", {}).get("rendered", "")).split()),
         })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "process_title","collection_page_id","collection_title","collection_url",
         "order_in_collection","document_post_id","document_title","document_url",
@@ -113,7 +128,7 @@ report = [
 for (proc, coll), count in sorted(by_collection.items(), key=lambda x: x[1], reverse=True):
     report.append(f"{count}\t{proc}\t{coll}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

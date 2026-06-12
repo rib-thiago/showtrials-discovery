@@ -1,16 +1,29 @@
 #!/usr/bin/env python3
 import csv
 import json
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-POSTS_DIR = BASE / "posts-json"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_FIELDS = BASE / "showtrials_post_metadata_fields.tsv"
-OUT_TERMS = BASE / "showtrials_post_metadata_terms.tsv"
-OUT_SAMPLE = BASE / "showtrials_post_metadata_sample.tsv"
-OUT_REPORT = BASE / "showtrials_post_metadata_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    POSTS_JSON_DIR,
+    POST_METADATA_FIELDS,
+    POST_METADATA_REPORT,
+    POST_METADATA_SAMPLE,
+    POST_METADATA_TERMS,
+    ensure_parent,
+)
+
+POSTS_DIR = POSTS_JSON_DIR
+
+OUT_FIELDS = POST_METADATA_FIELDS
+OUT_TERMS = POST_METADATA_TERMS
+OUT_SAMPLE = POST_METADATA_SAMPLE
+OUT_REPORT = POST_METADATA_REPORT
 
 posts = []
 for path in sorted(POSTS_DIR.glob("posts-page-*.json")):
@@ -78,13 +91,13 @@ for p in posts:
             "top_level_keys": ",".join(sorted(p.keys())),
         })
 
-with OUT_FIELDS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_FIELDS).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["field", "count"])
     for key, count in sorted(field_counter.items(), key=lambda x: (-x[1], x[0])):
         w.writerow([key, count])
 
-with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TERMS).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["term_type", "term_id_or_value", "count"])
     for key, count in sorted(category_counter.items(), key=lambda x: (-x[1], x[0])):
@@ -98,7 +111,7 @@ with OUT_TERMS.open("w", encoding="utf-8", newline="") as f:
     for key, count in sorted(template_counter.items(), key=lambda x: (-x[1], x[0])):
         w.writerow(["template", key, count])
 
-with OUT_SAMPLE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_SAMPLE).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "id","date","modified","slug","link","status","type","format","template",
         "categories","tags","meta_keys","acf_keys","top_level_keys"
@@ -149,7 +162,7 @@ if embedded_keys:
 else:
     report.append("none")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_FIELDS)
 print(OUT_TERMS)

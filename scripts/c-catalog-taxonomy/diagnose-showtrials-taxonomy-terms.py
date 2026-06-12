@@ -2,29 +2,43 @@
 import csv
 import json
 import subprocess
+import sys
 from pathlib import Path
 from urllib.parse import quote
 
-BASE = Path("/tmp/showtrials-discovery")
-OUT_CATEGORIES_JSON = BASE / "showtrials_categories.json"
-OUT_TAGS_JSON = BASE / "showtrials_tags.json"
-OUT_TSV = BASE / "showtrials_taxonomy_terms.tsv"
-OUT_REPORT = BASE / "showtrials_taxonomy_terms_report.txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    CATEGORIES_JSON,
+    TAGS_JSON,
+    TAXONOMY_TERMS,
+    TAXONOMY_TERMS_REPORT,
+    WP_CATEGORIES_ENDPOINT,
+    WP_TAGS_ENDPOINT,
+    ensure_parent,
+)
+
+OUT_CATEGORIES_JSON = CATEGORIES_JSON
+OUT_TAGS_JSON = TAGS_JSON
+OUT_TSV = TAXONOMY_TERMS
+OUT_REPORT = TAXONOMY_TERMS_REPORT
 
 def curl_json(url, out):
     subprocess.run(
-        ["curl", "-sS", "--fail", "--max-time", "60", url, "-o", str(out)],
+        ["curl", "-sS", "--fail", "--max-time", "60", url, "-o", str(ensure_parent(out))],
         check=True
     )
     return json.loads(out.read_text(encoding="utf-8"))
 
 categories = curl_json(
-    "http://showtrials.ru/wp-json/wp/v2/categories?per_page=100&page=1",
+    WP_CATEGORIES_ENDPOINT,
     OUT_CATEGORIES_JSON
 )
 
 tags = curl_json(
-    "http://showtrials.ru/wp-json/wp/v2/tags?per_page=100&page=1",
+    WP_TAGS_ENDPOINT,
     OUT_TAGS_JSON
 )
 
@@ -43,7 +57,7 @@ for term_type, items in [("category", categories), ("tag", tags)]:
             "description": t.get("description", ""),
         })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["term_type", "id", "count", "name", "slug", "link", "parent", "description"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -63,7 +77,7 @@ report.append("Tags:")
 for t in sorted(tags, key=lambda x: x.get("count", 0), reverse=True):
     report.append(f"{t.get('count')}\t{t.get('id')}\t{t.get('name')}\t{t.get('slug')}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

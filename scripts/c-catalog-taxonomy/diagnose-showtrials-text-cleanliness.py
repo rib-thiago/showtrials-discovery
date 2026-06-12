@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
-TXT_DIR = BASE / "export-txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_text_cleanliness.tsv"
-OUT_REPORT = BASE / "showtrials_text_cleanliness_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    EXPORT_TXT_DIR,
+    TEXT_CLEANLINESS,
+    TEXT_CLEANLINESS_REPORT,
+    ensure_parent,
+)
+
+TXT_DIR = EXPORT_TXT_DIR
+
+OUT_TSV = TEXT_CLEANLINESS
+OUT_REPORT = TEXT_CLEANLINESS_REPORT
 
 PATTERNS = {
     "html_tag_like": re.compile(r"<[^>\n]+>"),
@@ -46,7 +57,7 @@ for path in sorted(TXT_DIR.glob("*.txt")):
 
     rows.append(row)
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["file", "filename", "chars", "words", "lines"] + list(PATTERNS.keys())
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -83,7 +94,7 @@ for r in sorted(rows, key=lambda x: x["archive_ref"], reverse=True)[:20]:
     if r["archive_ref"]:
         report.append(f"{r['archive_ref']}\t{r['filename']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

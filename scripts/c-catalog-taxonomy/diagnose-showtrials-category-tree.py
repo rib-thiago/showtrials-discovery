@@ -1,13 +1,24 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-TERMS = BASE / "showtrials_taxonomy_terms.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_category_tree.tsv"
-OUT_REPORT = BASE / "showtrials_category_tree_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    CATEGORY_TREE,
+    CATEGORY_TREE_REPORT,
+    TAXONOMY_TERMS,
+    ensure_parent,
+)
+
+TERMS = TAXONOMY_TERMS
+
+OUT_TSV = CATEGORY_TREE
+OUT_REPORT = CATEGORY_TREE_REPORT
 
 categories = []
 with TERMS.open("r", encoding="utf-8", newline="") as f:
@@ -59,7 +70,7 @@ for r in categories:
         "link": r["link"],
     })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["category_id","parent_id","depth","name","slug","count","child_count","path","link"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -91,7 +102,7 @@ report.append("Zero-document categories:")
 for r in zero_doc:
     report.append(f"{r['id']}\t{r['name']}\tparent={r['parent']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

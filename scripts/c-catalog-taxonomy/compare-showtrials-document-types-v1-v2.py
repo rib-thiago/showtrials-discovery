@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-V1 = BASE / "showtrials_document_types.tsv"
-V2 = BASE / "showtrials_document_types_v2.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES,
+    DOCUMENT_TYPES_V2,
+    DOCUMENT_TYPE_V1_V2_CHANGES,
+    DOCUMENT_TYPE_V1_V2_COMPARE_REPORT,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_document_type_v1_v2_changes.tsv"
-REPORT = BASE / "showtrials_document_type_v1_v2_compare_report.txt"
+V1 = DOCUMENT_TYPES
+V2 = DOCUMENT_TYPES_V2
+
+OUT = DOCUMENT_TYPE_V1_V2_CHANGES
+REPORT = DOCUMENT_TYPE_V1_V2_COMPARE_REPORT
 
 def load(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -41,7 +52,7 @@ for doc_id, r1 in v1.items():
             "document_url": r2["document_url"],
         })
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "old_type", "new_type", "document_title",
         "primary_process", "primary_collection", "document_url"
@@ -61,7 +72,7 @@ for (old, new), count in sorted(transition.items(), key=lambda x: (-x[1], x[0]))
     if old != new:
         report.append(f"{count}\t{old}\t→\t{new}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REPORT)

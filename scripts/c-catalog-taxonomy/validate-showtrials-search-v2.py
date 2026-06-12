@@ -4,10 +4,22 @@ import subprocess
 import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-SEARCH = BASE / "showtrials-search-v2.py"
-REPORT = BASE / "showtrials_search_v2_validation_report.txt"
-TSV = BASE / "showtrials_search_v2_validation.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    PROJECT_ROOT,
+    SEARCH_V2_SCRIPT,
+    SEARCH_V2_VALIDATION,
+    SEARCH_V2_VALIDATION_REPORT,
+    ensure_parent,
+)
+
+BASE = PROJECT_ROOT
+SEARCH = SEARCH_V2_SCRIPT
+REPORT = SEARCH_V2_VALIDATION_REPORT
+TSV = SEARCH_V2_VALIDATION
 
 TESTS = [
     {
@@ -95,7 +107,7 @@ for t in TESTS:
         "detail": detail,
     })
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["test", "status", "command", "detail"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -110,7 +122,7 @@ report.append("")
 for r in rows:
     report.append(f"{r['status']}\t{r['test']}\t{r['detail']}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)
