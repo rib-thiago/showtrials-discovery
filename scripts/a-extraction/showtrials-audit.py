@@ -1,15 +1,28 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-TEXT_CLEAN = BASE / "showtrials_text_cleanliness.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_DOCS = BASE / "showtrials_corpus_audit_documents.tsv"
-OUT_SUMMARY = BASE / "showtrials_corpus_audit_summary.tsv"
-OUT_REPORT = BASE / "showtrials_corpus_audit_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    CORPUS_AUDIT_DOCUMENTS,
+    CORPUS_AUDIT_REPORT,
+    CORPUS_AUDIT_SUMMARY,
+    MASTER_CATALOG,
+    TEXT_CLEANLINESS,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+TEXT_CLEAN = TEXT_CLEANLINESS
+
+OUT_DOCS = CORPUS_AUDIT_DOCUMENTS
+OUT_SUMMARY = CORPUS_AUDIT_SUMMARY
+OUT_REPORT = CORPUS_AUDIT_REPORT
 
 def split_pipe(v):
     return [x.strip() for x in (v or "").split(" | ") if x.strip()]
@@ -102,7 +115,7 @@ for d in docs:
         "document_url": d.get("document_url", ""),
     })
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "primary_process", "primary_collection",
@@ -113,7 +126,7 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(audit_rows)
 
-with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_SUMMARY).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["scope", "name", "flag", "count"])
     for flag, count in sorted(summary.items(), key=lambda x: (-x[1], x[0])):
@@ -163,7 +176,7 @@ for r in [x for x in audit_rows if "multi_tag" in x["flags"].split(" | ")][:30]:
         f"{r['document_post_id']}\t{r['document_date']}\t{r['document_title']}"
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOCS)
 print(OUT_SUMMARY)

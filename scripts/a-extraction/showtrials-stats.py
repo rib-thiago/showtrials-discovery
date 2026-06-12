@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 import argparse, csv, statistics
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import MASTER_CATALOG  # noqa: E402
+
+CATALOG = MASTER_CATALOG
 
 def norm(s): return (s or "").casefold().strip()
 def contains(h, n): return not n or norm(n) in norm(h)

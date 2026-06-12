@@ -1,6 +1,6 @@
 script_path	phase	priority	uses_showtrials_paths	tmp_base_refs	srv_base_refs	root_tsv_refs	root_txt_refs	root_json_refs	old_export_dir_refs	path_constructor_refs	open_call_refs	notes
-scripts/a-extraction/showtrials-audit.py	a-extraction	high	no	1	0	4	1	0	0	1	4	needs_path_normalization
-scripts/a-extraction/showtrials-stats.py	a-extraction	high	no	1	0	1	0	0	0	2	1	needs_path_normalization
+scripts/a-extraction/showtrials-audit.py	a-extraction	low	yes	0	0	0	0	0	0	1	4	no_obvious_legacy_paths
+scripts/a-extraction/showtrials-stats.py	a-extraction	low	yes	0	0	0	0	0	0	2	1	no_obvious_legacy_paths
 scripts/b-json-export-search/diagnose-showtrials-search-corpus.py	b-json-export-search	low	yes	0	0	0	0	0	0	1	2	no_obvious_legacy_paths
 scripts/b-json-export-search/search-showtrials.py	b-json-export-search	low	yes	0	0	0	0	0	0	3	3	no_obvious_legacy_paths
 scripts/b-json-export-search/showtrials-doc.py	b-json-export-search	low	yes	0	0	0	0	0	0	6	1	no_obvious_legacy_paths
@@ -100,7 +100,7 @@ scripts/g-glossary/validate-showtrials-translation-glossary-g3.py	g-glossary	low
 scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py	g-glossary	low	yes	0	0	0	0	0	0	1	3	no_obvious_legacy_paths
 scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py	g-glossary	low	yes	0	0	0	0	0	0	1	1	no_obvious_legacy_paths
 scripts/g-glossary/validate-showtrials-translation-glossary-v1.py	g-glossary	low	yes	0	0	0	0	0	0	1	2	no_obvious_legacy_paths
-scripts/lib/showtrials_paths.py	lib	low	no	0	0	79	38	3	6	1	0	no_obvious_legacy_paths
+scripts/lib/showtrials_paths.py	lib	low	no	0	0	81	39	3	6	1	0	no_obvious_legacy_paths
 scripts/r-governance/apply-repo-reorganization-from-map.py	r-governance	low	no	0	0	0	0	0	0	2	2	no_obvious_legacy_paths
 scripts/r-governance/diagnose-repo-file-metadata.py	r-governance	low	no	0	0	0	0	0	0	2	1	no_obvious_legacy_paths
 scripts/r-governance/diagnose-showtrials-path-normalization-readiness.py	r-governance	high	yes	1	1	0	0	0	0	1	1	needs_path_normalization
