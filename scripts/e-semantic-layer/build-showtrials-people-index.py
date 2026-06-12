@@ -1,18 +1,34 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
-CANDIDATES = BASE / "showtrials_entity_candidates.tsv"
-DOC_ENTITIES = BASE / "showtrials_title_document_entities.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-PAIRS = BASE / "showtrials_title_entity_pairs.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_PEOPLE = BASE / "showtrials_people.tsv"
-OUT_PERSON_DOCS = BASE / "showtrials_person_documents.tsv"
-OUT_PERSON_PAIRS = BASE / "showtrials_person_pairs.tsv"
-OUT_REPORT = BASE / "showtrials_people_index_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    ENTITY_CANDIDATES,
+    MASTER_CATALOG,
+    PEOPLE,
+    PEOPLE_INDEX_REPORT,
+    PERSON_DOCUMENTS,
+    PERSON_PAIRS,
+    TITLE_DOCUMENT_ENTITIES,
+    TITLE_ENTITY_PAIRS,
+    ensure_parent,
+)
+
+CANDIDATES = ENTITY_CANDIDATES
+DOC_ENTITIES = TITLE_DOCUMENT_ENTITIES
+CATALOG = MASTER_CATALOG
+PAIRS = TITLE_ENTITY_PAIRS
+
+OUT_PEOPLE = PEOPLE
+OUT_PERSON_DOCS = PERSON_DOCUMENTS
+OUT_PERSON_PAIRS = PERSON_PAIRS
+OUT_REPORT = PEOPLE_INDEX_REPORT
 
 def split_pipe(v):
     return [x.strip() for x in (v or "").split(" | ") if x.strip()]
@@ -54,7 +70,7 @@ with DOC_ENTITIES.open("r", encoding="utf-8", newline="") as f:
             if meta.get("document_date"):
                 person_dates[e].append(meta["document_date"])
 
-with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PEOPLE).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "document_count", "total_words", "first_date", "last_date",
         "process_count", "processes", "collection_count", "collections"
@@ -76,7 +92,7 @@ with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
             "collections": " | ".join(sorted(person_collections[person])),
         })
 
-with OUT_PERSON_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "document_post_id", "document_date", "document_title",
         "primary_process", "primary_collection", "content_words", "document_url"
@@ -98,7 +114,7 @@ with OUT_PERSON_DOCS.open("w", encoding="utf-8", newline="") as f:
                 "document_url": meta.get("document_url", ""),
             })
 
-with OUT_PERSON_PAIRS.open("w", encoding="utf-8", newline="") as f_out, PAIRS.open("r", encoding="utf-8", newline="") as f_in:
+with ensure_parent(OUT_PERSON_PAIRS).open("w", encoding="utf-8", newline="") as f_out, PAIRS.open("r", encoding="utf-8", newline="") as f_in:
     reader = csv.DictReader(f_in, delimiter="\t")
     fields = ["person_a", "person_b", "document_count"]
     w = csv.DictWriter(f_out, fieldnames=fields, delimiter="\t")
@@ -127,7 +143,7 @@ for person, ids in sorted(person_docs.items(), key=lambda x: len(set(x[1])), rev
         f"{len(set(ids))}\t{person_words[person]}\t{dates[0] if dates else ''}\t{dates[-1] if dates else ''}\t{person}"
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PEOPLE)
 print(OUT_PERSON_DOCS)

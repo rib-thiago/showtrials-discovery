@@ -1,18 +1,18 @@
 ShowTrials Path Normalization Readiness Report
 scripts_scanned	109
-uses_showtrials_paths	47
-tmp_base_refs	44
+uses_showtrials_paths	56
+tmp_base_refs	35
 srv_base_refs	4
-root_tsv_refs	338
-root_txt_refs	93
+root_tsv_refs	321
+root_txt_refs	95
 root_json_refs	3
 old_export_dir_refs	9
 
 priority_counts
 critical	7
-high	51
+high	42
 medium	0
-low	51
+low	60
 
 phase_priority_counts
 a-extraction	low	2
@@ -21,7 +21,8 @@ c-catalog-taxonomy	low	26
 d-structural-chunking	critical	1
 d-structural-chunking	high	15
 e-semantic-layer	critical	6
-e-semantic-layer	high	35
+e-semantic-layer	high	26
+e-semantic-layer	low	9
 g-glossary	low	10
 lib	low	1
 r-governance	high	1

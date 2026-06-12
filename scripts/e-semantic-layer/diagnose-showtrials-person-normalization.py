@@ -1,13 +1,22 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-PEOPLE = BASE / "showtrials_people.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_MAP = BASE / "showtrials_person_normalization_candidates.tsv"
-OUT_REPORT = BASE / "showtrials_person_normalization_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    PEOPLE,
+    PERSON_NORMALIZATION_CANDIDATES,
+    PERSON_NORMALIZATION_REPORT,
+    ensure_parent,
+)
+
+OUT_MAP = PERSON_NORMALIZATION_CANDIDATES
+OUT_REPORT = PERSON_NORMALIZATION_REPORT
 
 CANONICAL = {
     "Сталин": ["Сталин", "Сталину", "Сталина", "Сталиным"],
@@ -75,7 +84,7 @@ with PEOPLE.open("r", encoding="utf-8", newline="") as f:
             "collections": r.get("collections", ""),
         })
 
-with OUT_MAP.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_MAP).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "raw_person", "canonical_person", "reason", "confidence",
         "document_count", "total_words", "first_date", "last_date",
@@ -106,7 +115,7 @@ report.append("Low-confidence identity mappings:")
 for r in [x for x in rows if x["confidence"] == "low"][:120]:
     report.append(f"{r['document_count']}\t{r['raw_person']}\t→\t{r['canonical_person']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_MAP)
 print(OUT_REPORT)

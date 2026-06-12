@@ -1,17 +1,29 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from difflib import SequenceMatcher
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PEOPLE = BASE / "showtrials_literal_people.tsv"
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PEOPLE,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    TRUNCATED_PERSON_CANDIDATES,
+    TRUNCATED_PERSON_CANDIDATES_REPORT,
+    ensure_parent,
+)
 
-OUT_TSV = BASE / "showtrials_truncated_person_candidates.tsv"
-OUT_REPORT = BASE / "showtrials_truncated_person_candidates_report.txt"
+PEOPLE = LITERAL_PEOPLE
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+CATALOG = MASTER_CATALOG
+
+OUT_TSV = TRUNCATED_PERSON_CANDIDATES
+OUT_REPORT = TRUNCATED_PERSON_CANDIDATES_REPORT
 
 def norm(s):
     return re.sub(r"\s+", " ", s or "").strip()
@@ -126,7 +138,7 @@ for t in truncated:
                 "suggested_decision": "review_candidate",
             })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "truncated_person", "truncated_raw_forms", "document_count", "total_words",
         "first_date", "last_date", "document_titles",
@@ -156,7 +168,7 @@ for r in rows[:120]:
         f"\tTITLE={r['document_titles'][:160]}"
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

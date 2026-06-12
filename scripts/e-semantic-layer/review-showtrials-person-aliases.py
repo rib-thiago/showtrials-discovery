@@ -1,11 +1,21 @@
 #!/usr/bin/env python3
 import argparse
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-CANDIDATES = BASE / "showtrials_person_merge_candidates.tsv"
-OUT_MANUAL = BASE / "showtrials_person_aliases_manual.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    PERSON_ALIASES_MANUAL,
+    PERSON_MERGE_CANDIDATES,
+    ensure_parent,
+)
+
+CANDIDATES = PERSON_MERGE_CANDIDATES
+OUT_MANUAL = PERSON_ALIASES_MANUAL
 
 FIELDS = [
     "raw_person",
@@ -27,7 +37,7 @@ def load_existing(path):
 
 def append_decision(path, row):
     exists = path.exists()
-    with path.open("a", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("a", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS, delimiter="\t")
         if not exists:
             w.writeheader()

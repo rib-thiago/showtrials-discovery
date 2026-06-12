@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-ALIASES = BASE / "showtrials_person_aliases.tsv"
-PERSON_DOCS = BASE / "showtrials_person_documents.tsv"
-PERSON_PAIRS = BASE / "showtrials_person_pairs.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PEOPLE,
+    LITERAL_PEOPLE_REPORT,
+    LITERAL_PERSON_DOCUMENTS,
+    LITERAL_PERSON_PAIRS,
+    PERSON_ALIASES,
+    PERSON_DOCUMENTS,
+    PERSON_PAIRS as PERSON_PAIRS_PATH,
+    ensure_parent,
+)
 
-OUT_PEOPLE = BASE / "showtrials_literal_people.tsv"
-OUT_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-OUT_PAIRS = BASE / "showtrials_literal_person_pairs.tsv"
-OUT_REPORT = BASE / "showtrials_literal_people_report.txt"
+ALIASES = PERSON_ALIASES
+PERSON_DOCS = PERSON_DOCUMENTS
+PERSON_PAIRS = PERSON_PAIRS_PATH
+
+OUT_PEOPLE = LITERAL_PEOPLE
+OUT_DOCS = LITERAL_PERSON_DOCUMENTS
+OUT_PAIRS = LITERAL_PERSON_PAIRS
+OUT_REPORT = LITERAL_PEOPLE_REPORT
 
 raw_to_canon = {}
 with ALIASES.open("r", encoding="utf-8", newline="") as f:
@@ -45,7 +59,7 @@ for canon, docs in person_docs.items():
         if r.get("primary_collection"):
             person_collections[canon].add(r["primary_collection"])
 
-with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PEOPLE).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "raw_forms", "document_count", "total_words",
         "first_date", "last_date", "process_count", "processes",
@@ -69,7 +83,7 @@ with OUT_PEOPLE.open("w", encoding="utf-8", newline="") as f:
             "collections": " | ".join(sorted(person_collections[person])),
         })
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "raw_person", "document_post_id", "document_date",
         "document_title", "primary_process", "primary_collection",
@@ -102,7 +116,7 @@ with PERSON_PAIRS.open("r", encoding="utf-8", newline="") as f:
             continue
         pair_counts[tuple(sorted([a, b]))] += int(r.get("document_count") or 0)
 
-with OUT_PAIRS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PAIRS).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["person_a", "person_b", "document_count"])
     for (a, b), count in sorted(pair_counts.items(), key=lambda x: x[1], reverse=True):
@@ -120,7 +134,7 @@ for person, docs in sorted(person_docs.items(), key=lambda x: len(x[1]), reverse
         f"{len(docs)}\t{person_words[person]}\t{dates[0] if dates else ''}\t{dates[-1] if dates else ''}\t{person}\tRAW={'; '.join(sorted(raw_forms[person]))}"
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PEOPLE)
 print(OUT_DOCS)

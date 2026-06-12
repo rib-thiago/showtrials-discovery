@@ -1,14 +1,23 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-PEOPLE = BASE / "showtrials_people.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_ALIASES = BASE / "showtrials_person_aliases.tsv"
-OUT_REPORT = BASE / "showtrials_person_aliases_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    PEOPLE,
+    PERSON_ALIASES,
+    PERSON_ALIASES_REPORT,
+    ensure_parent,
+)
+
+OUT_ALIASES = PERSON_ALIASES
+OUT_REPORT = PERSON_ALIASES_REPORT
 
 CASE_ENDINGS = [
     ("ого", ""), ("ему", ""), ("ым", ""), ("ом", ""), ("ой", ""),
@@ -81,7 +90,7 @@ for r in people:
         "collections": r.get("collections", ""),
     })
 
-with OUT_ALIASES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_ALIASES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "raw_person", "canonical_person", "reason", "confidence",
         "document_count", "total_words", "first_date", "last_date",
@@ -111,7 +120,7 @@ for r in rows:
     if r["reason"] == "manual_alias":
         report.append(f"{r['raw_person']}\t→\t{r['canonical_person']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_ALIASES)
 print(OUT_REPORT)

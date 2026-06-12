@@ -1,15 +1,27 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from difflib import SequenceMatcher
 
-BASE = Path("/tmp/showtrials-discovery")
-PEOPLE = BASE / "showtrials_literal_people.tsv"
-ALIASES = BASE / "showtrials_person_aliases.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_person_merge_candidates.tsv"
-OUT_REPORT = BASE / "showtrials_person_merge_candidates_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PEOPLE,
+    PERSON_ALIASES,
+    PERSON_MERGE_CANDIDATES,
+    PERSON_MERGE_CANDIDATES_REPORT,
+    ensure_parent,
+)
+
+PEOPLE = LITERAL_PEOPLE
+ALIASES = PERSON_ALIASES
+
+OUT_TSV = PERSON_MERGE_CANDIDATES
+OUT_REPORT = PERSON_MERGE_CANDIDATES_REPORT
 
 def norm(s):
     return re.sub(r"\s+", " ", s or "").strip()
@@ -142,7 +154,7 @@ rows.sort(key=lambda r: (
     r["candidate_a"],
 ))
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "candidate_a", "candidate_b", "shared_initials",
         "surname_a", "surname_b", "stem_a", "stem_b", "similarity",
@@ -178,7 +190,7 @@ for r in already[:80]:
         f"{r['candidate_a']}\t<->\t{r['candidate_b']}\t{r['reason']}"
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)
