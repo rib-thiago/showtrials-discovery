@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    FAMILY_PROCESS_PROFILES,
+    ORGANIZATION_PROCESS_PROFILES,
+    PERSON_PROCESS_PROFILES,
+    PROCESS_PROFILES_VALIDATION_REPORT,
+    ensure_parent,
+)
 
 FILES = [
-    ("person", BASE / "showtrials_person_process_profiles.tsv"),
-    ("organization", BASE / "showtrials_organization_process_profiles.tsv"),
-    ("organization_family", BASE / "showtrials_family_process_profiles.tsv"),
+    ("person", PERSON_PROCESS_PROFILES),
+    ("organization", ORGANIZATION_PROCESS_PROFILES),
+    ("organization_family", FAMILY_PROCESS_PROFILES),
 ]
 
-REPORT = BASE / "showtrials_process_profiles_validation_report.txt"
+REPORT = PROCESS_PROFILES_VALIDATION_REPORT
 
 failures = []
 warnings = []
@@ -59,5 +70,5 @@ if warnings:
     report.append("Warnings:")
     report.extend(warnings[:80])
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 print(REPORT)

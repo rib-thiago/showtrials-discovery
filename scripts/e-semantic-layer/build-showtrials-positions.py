@@ -3,21 +3,39 @@ import csv
 import json
 import re
 import html
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-POSTS_DIR = BASE / "posts-json"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-PEOPLE_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
-FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_POSITIONS = BASE / "showtrials_positions.tsv"
-OUT_DOCS = BASE / "showtrials_position_documents.tsv"
-OUT_PERSON_POSITIONS = BASE / "showtrials_person_position_pairs.tsv"
-OUT_POSITION_ORGS = BASE / "showtrials_position_organization_pairs.tsv"
-OUT_REPORT = BASE / "showtrials_positions_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    PERSON_POSITION_PAIRS,
+    POSITION_DOCUMENTS,
+    POSITION_ORGANIZATION_PAIRS,
+    POSITIONS,
+    POSITIONS_REPORT,
+    POSTS_JSON_DIR,
+    ensure_parent,
+)
+
+POSTS_DIR = POSTS_JSON_DIR
+CATALOG = MASTER_CATALOG
+PEOPLE_DOCS = LITERAL_PERSON_DOCUMENTS
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+FAMILY_MATRIX = ORGANIZATION_FAMILY_DOCUMENT_MATRIX
+
+OUT_POSITIONS = POSITIONS
+OUT_DOCS = POSITION_DOCUMENTS
+OUT_PERSON_POSITIONS = PERSON_POSITION_PAIRS
+OUT_POSITION_ORGS = POSITION_ORGANIZATION_PAIRS
+OUT_REPORT = POSITIONS_REPORT
 
 PATTERNS = {
     "нарком": r"\bнарком[а-яё]*\b",
@@ -181,7 +199,7 @@ for p in load_posts():
         for rf in raw_forms:
             position_raw[pos][rf] += 1
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "position", "position_family", "document_post_id", "document_date",
         "document_title", "primary_process", "primary_collection",
@@ -192,7 +210,7 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(position_docs, key=lambda r: (r["position"], r["document_date"], r["document_post_id"])))
 
-with OUT_POSITIONS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_POSITIONS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "position", "position_family", "document_count", "total_words",
         "first_date", "last_date", "raw_forms", "processes", "collections"
@@ -231,7 +249,7 @@ for r in position_docs:
         position_org[(pos, org)] += 1
         position_org_docs[(pos, org)].add(doc_id)
 
-with OUT_PERSON_POSITIONS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_POSITIONS).open("w", encoding="utf-8", newline="") as f:
     fields = ["person", "position", "document_count", "documents"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -243,7 +261,7 @@ with OUT_PERSON_POSITIONS.open("w", encoding="utf-8", newline="") as f:
             "documents": " | ".join(sorted(person_position_docs[(person, pos)])),
         })
 
-with OUT_POSITION_ORGS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_POSITION_ORGS).open("w", encoding="utf-8", newline="") as f:
     fields = ["position", "organization", "document_count", "documents"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -273,7 +291,7 @@ report.append(str(OUT_DOCS))
 report.append(str(OUT_PERSON_POSITIONS))
 report.append(str(OUT_POSITION_ORGS))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_POSITIONS)
 print(OUT_DOCS)

@@ -1,17 +1,30 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-PROCESSES = BASE / "showtrials_processes.tsv"
-PROCESS_DOCS = BASE / "showtrials_process_document_matrix.tsv"
-PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
-ORG_PROCESS = BASE / "showtrials_organization_process_matrix.tsv"
-FAMILY_PROCESS = BASE / "showtrials_family_process_matrix.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    FAMILY_PROCESS_MATRIX,
+    MASTER_CATALOG,
+    ORGANIZATION_PROCESS_MATRIX,
+    PERSON_PROCESS_MATRIX,
+    PROCESS_DOCUMENT_MATRIX,
+    PROCESS_LAYER_VALIDATION_REPORT,
+    PROCESSES,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_process_layer_validation_report.txt"
+CATALOG = MASTER_CATALOG
+PROCESS_DOCS = PROCESS_DOCUMENT_MATRIX
+PERSON_PROCESS = PERSON_PROCESS_MATRIX
+ORG_PROCESS = ORGANIZATION_PROCESS_MATRIX
+FAMILY_PROCESS = FAMILY_PROCESS_MATRIX
+
+REPORT = PROCESS_LAYER_VALIDATION_REPORT
 
 def load(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -88,5 +101,5 @@ if warnings:
     report.append("Warnings:")
     report.extend(warnings[:80])
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 print(REPORT)

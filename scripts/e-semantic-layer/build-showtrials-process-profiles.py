@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
-ORG_PROCESS = BASE / "showtrials_organization_process_matrix.tsv"
-FAMILY_PROCESS = BASE / "showtrials_family_process_matrix.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    FAMILY_PROCESS_MATRIX,
+    FAMILY_PROCESS_PROFILES,
+    ORGANIZATION_PROCESS_MATRIX,
+    ORGANIZATION_PROCESS_PROFILES,
+    PERSON_PROCESS_MATRIX,
+    PERSON_PROCESS_PROFILES,
+    PROCESS_PROFILES_REPORT,
+    ensure_parent,
+)
 
-OUT_PERSON = BASE / "showtrials_person_process_profiles.tsv"
-OUT_ORG = BASE / "showtrials_organization_process_profiles.tsv"
-OUT_FAMILY = BASE / "showtrials_family_process_profiles.tsv"
-OUT_REPORT = BASE / "showtrials_process_profiles_report.txt"
+PERSON_PROCESS = PERSON_PROCESS_MATRIX
+ORG_PROCESS = ORGANIZATION_PROCESS_MATRIX
+FAMILY_PROCESS = FAMILY_PROCESS_MATRIX
+
+OUT_PERSON = PERSON_PROCESS_PROFILES
+OUT_ORG = ORGANIZATION_PROCESS_PROFILES
+OUT_FAMILY = FAMILY_PROCESS_PROFILES
+OUT_REPORT = PROCESS_PROFILES_REPORT
 
 def load_tsv(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -64,7 +78,7 @@ org_profiles = build_profiles(org_rows, "organization")
 family_profiles = build_profiles(family_rows, "organization_family")
 
 def write(path, rows, entity_field):
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         fields = [
             entity_field,
             "total_process_documents",
@@ -125,7 +139,7 @@ report.append(str(OUT_PERSON))
 report.append(str(OUT_ORG))
 report.append(str(OUT_FAMILY))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PERSON)
 print(OUT_ORG)

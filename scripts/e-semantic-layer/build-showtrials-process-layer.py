@@ -1,22 +1,40 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    FAMILY_PROCESS_MATRIX,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    ORGANIZATION_PROCESS_MATRIX,
+    PERSON_PROCESS_MATRIX,
+    PROCESS_DOCUMENT_MATRIX,
+    PROCESS_LAYER_REPORT,
+    PROCESSES,
+    ensure_parent,
+)
 
-OUT_PROCESSES = BASE / "showtrials_processes.tsv"
-OUT_PROCESS_DOCS = BASE / "showtrials_process_document_matrix.tsv"
-OUT_PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
-OUT_ORG_PROCESS = BASE / "showtrials_organization_process_matrix.tsv"
-OUT_FAMILY_PROCESS = BASE / "showtrials_family_process_matrix.tsv"
-OUT_REPORT = BASE / "showtrials_process_layer_report.txt"
+CATALOG = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+FAMILY_MATRIX = ORGANIZATION_FAMILY_DOCUMENT_MATRIX
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+
+OUT_PROCESSES = PROCESSES
+OUT_PROCESS_DOCS = PROCESS_DOCUMENT_MATRIX
+OUT_PERSON_PROCESS = PERSON_PROCESS_MATRIX
+OUT_ORG_PROCESS = ORGANIZATION_PROCESS_MATRIX
+OUT_FAMILY_PROCESS = FAMILY_PROCESS_MATRIX
+OUT_REPORT = PROCESS_LAYER_REPORT
 
 PROCESS_KIND_RULES = [
     ("major_show_trial", "ПРОЦЕСС 19-23 АВГУСТА 1936 г."),
@@ -151,7 +169,7 @@ for proc, docs in sorted(process_docs.items()):
         "top_collections": " | ".join(f"{k}:{v}" for k, v in collection_counter.most_common(8)),
     })
 
-with OUT_PROCESSES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PROCESSES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "process", "process_kind", "document_count", "total_words",
         "first_date", "last_date", "person_count", "organization_count",
@@ -163,7 +181,7 @@ with OUT_PROCESSES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(process_rows, key=lambda r: (-int(r["document_count"]), r["process"])))
 
-with OUT_PROCESS_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PROCESS_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "process", "process_kind", "document_post_id", "document_date",
         "document_title", "document_type", "primary_collection",
@@ -174,7 +192,7 @@ with OUT_PROCESS_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(process_doc_rows, key=lambda r: (r["process"], r["document_date"], r["document_post_id"])))
 
-with OUT_PERSON_PROCESS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_PROCESS).open("w", encoding="utf-8", newline="") as f:
     fields = ["person", "process", "process_kind", "document_count", "documents"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -187,7 +205,7 @@ with OUT_PERSON_PROCESS.open("w", encoding="utf-8", newline="") as f:
             "documents": " | ".join(sorted(person_process_docs[(person, proc)])),
         })
 
-with OUT_ORG_PROCESS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_ORG_PROCESS).open("w", encoding="utf-8", newline="") as f:
     fields = ["organization", "process", "process_kind", "document_count", "documents"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -200,7 +218,7 @@ with OUT_ORG_PROCESS.open("w", encoding="utf-8", newline="") as f:
             "documents": " | ".join(sorted(org_process_docs[(org, proc)])),
         })
 
-with OUT_FAMILY_PROCESS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_FAMILY_PROCESS).open("w", encoding="utf-8", newline="") as f:
     fields = ["organization_family", "process", "process_kind", "document_count", "documents"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -240,7 +258,7 @@ report.append(str(OUT_PERSON_PROCESS))
 report.append(str(OUT_ORG_PROCESS))
 report.append(str(OUT_FAMILY_PROCESS))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PROCESSES)
 print(OUT_PROCESS_DOCS)

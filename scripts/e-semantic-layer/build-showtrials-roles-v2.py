@@ -1,16 +1,27 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-POSITIONS = BASE / "showtrials_positions.tsv"
-POSITION_DOCS = BASE / "showtrials_position_documents.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    POSITION_DOCUMENTS,
+    POSITIONS,
+    ROLE_DOCUMENTS_V2,
+    ROLES_V2,
+    ROLES_V2_REPORT,
+    ensure_parent,
+)
 
-OUT_ROLES = BASE / "showtrials_roles_v2.tsv"
-OUT_DOCS = BASE / "showtrials_role_documents_v2.tsv"
-OUT_REPORT = BASE / "showtrials_roles_v2_report.txt"
+POSITION_DOCS = POSITION_DOCUMENTS
+
+OUT_ROLES = ROLES_V2
+OUT_DOCS = ROLE_DOCUMENTS_V2
+OUT_REPORT = ROLES_V2_REPORT
 
 ROLE_CLASS = {
     "нарком": "office_position",
@@ -89,7 +100,7 @@ for r in docs:
         "promote_to_profile_signal": "yes" if role_class in {"office_position", "trial_role"} else "no",
     })
 
-with OUT_ROLES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_ROLES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "role", "role_class", "position_family_v1", "document_count",
         "total_words", "first_date", "last_date", "raw_forms",
@@ -99,7 +110,7 @@ with OUT_ROLES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(role_rows, key=lambda x: (x["role_class"], -int(x["document_count"]), x["role"])))
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = list(doc_rows[0].keys())
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -118,7 +129,7 @@ report.append("Roles:")
 for r in sorted(role_rows, key=lambda x: (x["role_class"], -int(x["document_count"]), x["role"])):
     report.append(f"{r['document_count']}\t{r['role_class']}\t{r['role']}\tsignal={r['promote_to_profile_signal']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_ROLES)
 print(OUT_DOCS)
