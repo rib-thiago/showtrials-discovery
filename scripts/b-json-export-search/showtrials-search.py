@@ -6,8 +6,11 @@ import re
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
-SEARCH_CORPUS = BASE / "showtrials_search_corpus.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import SEARCH_CORPUS, ensure_parent  # noqa: E402
 
 csv.field_size_limit(sys.maxsize)
 
@@ -75,7 +78,7 @@ def main():
 
     if args.export_tsv:
         out = Path(args.export_tsv)
-        with out.open("w", encoding="utf-8", newline="") as f:
+        with ensure_parent(out).open("w", encoding="utf-8", newline="") as f:
             fields = [k for k in results[0].keys() if k != "search_text"] if results else []
             w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
             w.writeheader()

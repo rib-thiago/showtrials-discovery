@@ -5,15 +5,27 @@ import re
 import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-CORPUS = BASE / "showtrials_search_corpus.tsv"
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
-FAMILY_DOCS = BASE / "showtrials_organization_family_document_matrix.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-ROLE_DOCS = BASE / "showtrials_role_documents_v2.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    ROLE_DOCUMENTS_V2,
+    SEARCH_CORPUS,
+)
+
+CATALOG = MASTER_CATALOG
+CORPUS = SEARCH_CORPUS
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+FAMILY_DOCS = ORGANIZATION_FAMILY_DOCUMENT_MATRIX
+DOC_TYPES = DOCUMENT_TYPES_V4
+ROLE_DOCS = ROLE_DOCUMENTS_V2
 
 def field_limit():
     import csv as _csv

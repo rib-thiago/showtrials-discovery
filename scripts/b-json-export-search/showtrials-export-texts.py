@@ -2,9 +2,22 @@
 import argparse, csv, json, re, html
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-INDEX = BASE / "showtrials_document_index.tsv"
+import sys
+
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_INDEX,
+    EXPORT_MD_DIR,
+    EXPORT_TXT_DIR,
+    MASTER_CATALOG,
+    POSTS_JSON_DIR,
+)
+
+CATALOG = MASTER_CATALOG
+INDEX = DOCUMENT_INDEX
 
 def clean_html(s):
     s = s or ""
@@ -26,6 +39,14 @@ def load_tsv(path, key):
     with Path(path).open("r", encoding="utf-8", newline="") as f:
         return {str(r[key]): r for r in csv.DictReader(f, delimiter="\t")}
 
+def local_json_path(value):
+    path = Path(value)
+    if path.exists():
+        return path
+    if POSTS_JSON_DIR.name in path.parts:
+        return POSTS_JSON_DIR / path.name
+    return path
+
 def markdown(meta, text):
     return "\n".join([
         f"# {meta.get('document_title', '')}",
@@ -46,13 +67,13 @@ def markdown(meta, text):
 
 def main():
     p = argparse.ArgumentParser(description="Export local ShowTrials documents to text/markdown.")
-    p.add_argument("--out-dir", default=str(BASE / "export-texts"))
+    p.add_argument("--out-dir")
     p.add_argument("--format", choices=["txt", "md"], default="txt")
     p.add_argument("--limit", type=int)
     p.add_argument("--overwrite", action="store_true")
     args = p.parse_args()
 
-    out_dir = Path(args.out_dir)
+    out_dir = Path(args.out_dir) if args.out_dir else (EXPORT_MD_DIR if args.format == "md" else EXPORT_TXT_DIR)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     index = load_tsv(INDEX, "document_post_id")
@@ -74,7 +95,7 @@ def main():
             skipped += 1
             continue
 
-        data = json.loads(Path(idx["json_file"]).read_text(encoding="utf-8"))
+        data = json.loads(local_json_path(idx["json_file"]).read_text(encoding="utf-8"))
         post = next((p for p in data if str(p.get("id")) == doc_id), None)
         if not post:
             missing += 1

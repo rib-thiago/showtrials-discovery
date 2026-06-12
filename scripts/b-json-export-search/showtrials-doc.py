@@ -2,9 +2,19 @@
 import argparse, csv, json, re, html, sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-INDEX = BASE / "showtrials_document_index.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_INDEX,
+    MASTER_CATALOG,
+    POSTS_JSON_DIR,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+INDEX = DOCUMENT_INDEX
 
 def clean_html(s):
     s = s or ""
@@ -21,12 +31,20 @@ def load_tsv(path, key):
     with Path(path).open("r", encoding="utf-8", newline="") as f:
         return {str(r[key]): r for r in csv.DictReader(f, delimiter="\t")}
 
+def local_json_path(value):
+    path = Path(value)
+    if path.exists():
+        return path
+    if POSTS_JSON_DIR.name in path.parts:
+        return POSTS_JSON_DIR / path.name
+    return path
+
 def load_post(doc_id, index):
     row = index.get(str(doc_id))
     if not row:
         raise SystemExit(f"Document ID not found: {doc_id}")
 
-    path = Path(row["json_file"])
+    path = local_json_path(row["json_file"])
     data = json.loads(path.read_text(encoding="utf-8"))
     for p in data:
         if str(p.get("id")) == str(doc_id):
@@ -73,11 +91,11 @@ def main():
     md = markdown(meta, text)
 
     if args.save_text:
-        Path(args.save_text).write_text(text + "\n", encoding="utf-8")
+        ensure_parent(Path(args.save_text)).write_text(text + "\n", encoding="utf-8")
     if args.save_html:
-        Path(args.save_html).write_text(raw_html + "\n", encoding="utf-8")
+        ensure_parent(Path(args.save_html)).write_text(raw_html + "\n", encoding="utf-8")
     if args.save_markdown:
-        Path(args.save_markdown).write_text(md, encoding="utf-8")
+        ensure_parent(Path(args.save_markdown)).write_text(md, encoding="utf-8")
 
     if args.html:
         print(raw_html)

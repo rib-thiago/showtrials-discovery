@@ -4,14 +4,26 @@ import csv
 import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    ENTITY_CATEGORIES,
+    ENTITY_COLLECTIONS,
+    ENTITY_PROCESSES,
+    ENTITY_TAGS,
+    MASTER_CATALOG,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
 
 ENTITY_FILES = {
-    "processes": BASE / "showtrials_entities_processes.tsv",
-    "collections": BASE / "showtrials_entities_collections.tsv",
-    "categories": BASE / "showtrials_entities_categories.tsv",
-    "tags": BASE / "showtrials_entities_tags.tsv",
+    "processes": ENTITY_PROCESSES,
+    "collections": ENTITY_COLLECTIONS,
+    "categories": ENTITY_CATEGORIES,
+    "tags": ENTITY_TAGS,
 }
 
 def norm(s):
@@ -116,9 +128,9 @@ def print_detail(rows, limit):
 
 def export_tsv(rows, path):
     if not rows:
-        path.write_text("", encoding="utf-8")
+        ensure_parent(path).write_text("", encoding="utf-8")
         return
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         fields = list(rows[0].keys())
         w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
         w.writeheader()
@@ -143,7 +155,7 @@ def main():
         description="Search the local ShowTrials master catalog TSV."
     )
 
-    p.add_argument("--catalog", default=str(CATALOG), help="Path to showtrials_master_catalog.tsv")
+    p.add_argument("--catalog", default=str(CATALOG), help="Path to master catalog TSV")
 
     p.add_argument("--list", choices=["processes", "collections", "categories", "tags"], help="List available entities")
     p.add_argument("--list-filter", help="Filter entity list by name/slug")

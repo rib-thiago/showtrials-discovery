@@ -57,7 +57,10 @@ def main() -> int:
             counts[name] = len(pattern.findall(text))
 
         phase = rel.split("/")[1] if rel.startswith("scripts/") and "/" in rel else "-"
-        priority = classify_priority(counts)
+        if rel.startswith("scripts/lib/"):
+            priority = "low"
+        else:
+            priority = classify_priority(counts)
 
         row = {
             "script_path": rel,

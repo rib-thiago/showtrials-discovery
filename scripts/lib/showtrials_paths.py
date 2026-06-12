@@ -61,3 +61,29 @@ def require_dir(path: Path) -> Path:
     if not path.is_dir():
         raise FileNotFoundError(path)
     return path
+
+# Common artifacts used by B — JSON Corpus, Text Export, And Local Search.
+MASTER_CATALOG = data_path("c", "showtrials_master_catalog.tsv")
+DOCUMENT_INDEX = data_path("c", "showtrials_document_index.tsv")
+DOCUMENT_TYPES_V4 = data_path("c", "showtrials_document_types_v4.tsv")
+
+SEARCH_CORPUS = local_path("showtrials_search_corpus.tsv")
+SEARCH_CORPUS_REPORT = report_path("b", "showtrials_search_corpus_report.txt")
+SEARCH_V2_VALIDATION = data_path("b", "showtrials_search_v2_validation.tsv")
+SEARCH_V2_VALIDATION_REPORT = report_path("b", "showtrials_search_v2_validation_report.txt")
+USERS_JSON = data_path("b", "showtrials_users.json")
+
+EXPORT_TXT_DIR = local_path("export-txt")
+EXPORT_MD_DIR = local_path("export-md")
+PAGES_JSON_DIR = local_path("pages-json")
+POSTS_JSON_DIR = local_path("posts-json")
+POSTS_JSON_EMBED_DIR = local_path("posts-json-embed")
+
+ENTITY_PROCESSES = data_path("e", "showtrials_entities_processes.tsv")
+ENTITY_COLLECTIONS = data_path("e", "showtrials_entities_collections.tsv")
+ENTITY_CATEGORIES = data_path("e", "showtrials_entities_categories.tsv")
+ENTITY_TAGS = data_path("e", "showtrials_entities_tags.tsv")
+LITERAL_PERSON_DOCUMENTS = data_path("e", "showtrials_literal_person_documents.tsv")
+ORGANIZATION_DOCUMENTS = data_path("e", "showtrials_organization_documents.tsv")
+ORGANIZATION_FAMILY_DOCUMENT_MATRIX = data_path("e", "showtrials_organization_family_document_matrix.tsv")
+ROLE_DOCUMENTS_V2 = data_path("e", "showtrials_role_documents_v2.tsv")

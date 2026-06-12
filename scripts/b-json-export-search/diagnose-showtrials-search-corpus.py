@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-TXT_DIR = BASE / "export-txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_search_corpus.tsv"
-OUT_REPORT = BASE / "showtrials_search_corpus_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    EXPORT_TXT_DIR,
+    MASTER_CATALOG,
+    SEARCH_CORPUS,
+    SEARCH_CORPUS_REPORT,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+TXT_DIR = EXPORT_TXT_DIR
+OUT_TSV = SEARCH_CORPUS
+OUT_REPORT = SEARCH_CORPUS_REPORT
 
 def normalize_space(s):
     return re.sub(r"\s+", " ", s or "").strip()
@@ -51,7 +62,7 @@ with CATALOG.open("r", encoding="utf-8", newline="") as f:
             "search_text": search_text,
         })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = list(rows[0].keys())
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -74,7 +85,7 @@ report = [
 for r in sorted(rows, key=lambda x: len(x["search_text"]), reverse=True)[:20]:
     report.append(f"{len(r['search_text'])}\t{r['document_post_id']}\t{r['document_title']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)
