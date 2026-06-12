@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-FAMILIES = BASE / "showtrials_organization_families.tsv"
+from lib.showtrials_paths import ORGANIZATION_FAMILIES  # noqa: E402
+
+FAMILIES = ORGANIZATION_FAMILIES
 
 orgs = Counter()
 docs = Counter()

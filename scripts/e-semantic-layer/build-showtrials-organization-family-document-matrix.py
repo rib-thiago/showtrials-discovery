@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
-FAMILIES = BASE / "showtrials_organization_families.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILIES,
+    ORGANIZATION_FAMILY_CROSSPAIRS,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX_REPORT,
+    ORGANIZATION_FAMILY_DOCUMENT_SUMMARY,
+    ensure_parent,
+)
 
-OUT_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
-OUT_SUMMARY = BASE / "showtrials_organization_family_document_summary.tsv"
-OUT_CROSS = BASE / "showtrials_organization_family_crosspairs.tsv"
-OUT_REPORT = BASE / "showtrials_organization_family_document_matrix_report.txt"
+CATALOG = MASTER_CATALOG
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+FAMILIES = ORGANIZATION_FAMILIES
+
+OUT_MATRIX = ORGANIZATION_FAMILY_DOCUMENT_MATRIX
+OUT_SUMMARY = ORGANIZATION_FAMILY_DOCUMENT_SUMMARY
+OUT_CROSS = ORGANIZATION_FAMILY_CROSSPAIRS
+OUT_REPORT = ORGANIZATION_FAMILY_DOCUMENT_MATRIX_REPORT
 
 def load_tsv(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -63,7 +77,7 @@ for doc_id, meta in sorted(catalog.items(), key=lambda x: (x[1].get("document_da
     }
     matrix_rows.append(row)
 
-with OUT_MATRIX.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_MATRIX).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "primary_process", "primary_collection", "category_names", "tag_names",
@@ -98,7 +112,7 @@ for r in matrix_rows:
         for b in fams[i+1:]:
             crosspairs[(a, b)] += 1
 
-with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_SUMMARY).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["scope", "name", "organization_family", "document_count", "total_words"])
 
@@ -111,7 +125,7 @@ with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
     for (coll, fam), count in sorted(collection_family.items(), key=lambda x: (x[0][0], -x[1], x[0][1])):
         w.writerow(["collection", coll, fam, count, ""])
 
-with OUT_CROSS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_CROSS).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["family_a", "family_b", "document_count"])
 
@@ -141,7 +155,7 @@ report.append(str(OUT_MATRIX))
 report.append(str(OUT_SUMMARY))
 report.append(str(OUT_CROSS))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_MATRIX)
 print(OUT_SUMMARY)

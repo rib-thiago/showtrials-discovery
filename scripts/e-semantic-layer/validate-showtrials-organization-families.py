@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-FILE = BASE / "showtrials_organization_families.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    ORGANIZATION_FAMILIES,
+    ORGANIZATION_FAMILIES_VALIDATION_REPORT,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_organization_families_validation_report.txt"
+FILE = ORGANIZATION_FAMILIES
+
+REPORT = ORGANIZATION_FAMILIES_VALIDATION_REPORT
 
 rows = []
 
@@ -47,7 +56,7 @@ if warnings:
     report.append("Warnings:")
     report.extend(warnings)
 
-Path(REPORT).write_text(
+ensure_parent(REPORT).write_text(
     "\n".join(report) + "\n",
     encoding="utf-8"
 )

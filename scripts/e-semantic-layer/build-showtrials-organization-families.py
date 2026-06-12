@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-ORGS = BASE / "showtrials_organizations.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    ORGANIZATION_FAMILIES,
+    ORGANIZATION_FAMILIES_REPORT,
+    ORGANIZATIONS,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_organization_families.tsv"
-REPORT = BASE / "showtrials_organization_families_report.txt"
+ORGS = ORGANIZATIONS
+
+OUT = ORGANIZATION_FAMILIES
+REPORT = ORGANIZATION_FAMILIES_REPORT
 
 FAMILY_MAP = {
     "ВКП(б)": "party_apparatus",
@@ -71,7 +81,7 @@ for r in orgs:
     family_counter[family] += 1
     family_docs[family] += doc_count
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "organization",
         "organization_kind",
@@ -95,7 +105,7 @@ for fam, count in sorted(family_counter.items(), key=lambda x: (-x[1], x[0])):
         f"{fam}\torganizations={count}\tdocuments={family_docs[fam]}"
     )
 
-Path(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REPORT)

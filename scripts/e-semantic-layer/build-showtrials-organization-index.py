@@ -3,18 +3,33 @@ import csv
 import json
 import re
 import html
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-POSTS_DIR = BASE / "posts-json"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-PEOPLE_DOCS = BASE / "showtrials_literal_person_documents.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_ORGS = BASE / "showtrials_organizations.tsv"
-OUT_DOCS = BASE / "showtrials_organization_documents.tsv"
-OUT_PERSON_ORGS = BASE / "showtrials_person_organization_pairs.tsv"
-OUT_REPORT = BASE / "showtrials_organizations_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATIONS,
+    ORGANIZATIONS_REPORT,
+    PERSON_ORGANIZATION_PAIRS,
+    POSTS_JSON_DIR,
+    ensure_parent,
+)
+
+POSTS_DIR = POSTS_JSON_DIR
+CATALOG = MASTER_CATALOG
+PEOPLE_DOCS = LITERAL_PERSON_DOCUMENTS
+
+OUT_ORGS = ORGANIZATIONS
+OUT_DOCS = ORGANIZATION_DOCUMENTS
+OUT_PERSON_ORGS = PERSON_ORGANIZATION_PAIRS
+OUT_REPORT = ORGANIZATIONS_REPORT
 
 PATTERNS = {
     "НКВД": r"\bНКВД\b",
@@ -161,7 +176,7 @@ for p in load_posts():
         for rf in raw_forms:
             org_raw_hits[canonical][rf] += 1
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "organization", "organization_kind", "document_post_id", "document_date",
         "document_title", "primary_process", "primary_collection",
@@ -172,7 +187,7 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(org_docs, key=lambda r: (r["organization"], r["document_date"], r["document_post_id"])))
 
-with OUT_ORGS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_ORGS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "organization", "organization_kind", "document_count", "total_words",
         "first_date", "last_date", "raw_forms", "processes", "collections"
@@ -203,7 +218,7 @@ for r in org_docs:
         pair_counter[(person, org)] += 1
         pair_docs[(person, org)].add(doc_id)
 
-with OUT_PERSON_ORGS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_ORGS).open("w", encoding="utf-8", newline="") as f:
     fields = ["person", "organization", "document_count", "documents"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -231,7 +246,7 @@ report.append(str(OUT_ORGS))
 report.append(str(OUT_DOCS))
 report.append(str(OUT_PERSON_ORGS))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_ORGS)
 print(OUT_DOCS)

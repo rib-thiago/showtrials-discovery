@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-ORGS = BASE / "showtrials_organizations.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    ORGANIZATION_HIERARCHY,
+    ORGANIZATION_HIERARCHY_REPORT,
+    ORGANIZATION_HIERARCHY_REVIEW,
+    ORGANIZATIONS,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_organization_hierarchy.tsv"
-REVIEW = BASE / "showtrials_organization_hierarchy_review.tsv"
-REPORT = BASE / "showtrials_organization_hierarchy_report.txt"
+ORGS = ORGANIZATIONS
+
+OUT = ORGANIZATION_HIERARCHY
+REVIEW = ORGANIZATION_HIERARCHY_REVIEW
+REPORT = ORGANIZATION_HIERARCHY_REPORT
 
 RULES = [
     {
@@ -122,7 +133,7 @@ for rule in RULES:
     if rule["confidence"] != "high":
         review_rows.append(row)
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "child_organization", "parent_organization", "relation_type",
         "confidence", "reason", "child_kind", "parent_kind",
@@ -133,7 +144,7 @@ with OUT.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(rows)
 
-with REVIEW.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(REVIEW).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "child_organization", "parent_organization", "relation_type",
         "confidence", "reason", "child_kind", "parent_kind",
@@ -172,7 +183,7 @@ if missing:
     for r in missing:
         report.append(f"{r['child']}\t→\t{r['parent']}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REVIEW)

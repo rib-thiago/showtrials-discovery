@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-ORGS = BASE / "showtrials_organizations.tsv"
-HIER = BASE / "showtrials_organization_hierarchy.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    ORGANIZATION_HIERARCHY,
+    ORGANIZATION_HIERARCHY_VALIDATION,
+    ORGANIZATION_HIERARCHY_VALIDATION_REPORT,
+    ORGANIZATIONS,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_organization_hierarchy_validation_report.txt"
-TSV = BASE / "showtrials_organization_hierarchy_validation.tsv"
+ORGS = ORGANIZATIONS
+HIER = ORGANIZATION_HIERARCHY
+
+REPORT = ORGANIZATION_HIERARCHY_VALIDATION_REPORT
+TSV = ORGANIZATION_HIERARCHY_VALIDATION
 
 def load_tsv(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -78,7 +89,7 @@ medium = [r for r in rows if r["confidence"] != "high"]
 if medium:
     warnings.append(("manual_review_recommended", str(len(medium)), ""))
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["level", "check", "subject", "detail"])
     for item in failures:
@@ -105,7 +116,7 @@ if warnings:
     for item in warnings:
         report.append("\t".join(item))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)

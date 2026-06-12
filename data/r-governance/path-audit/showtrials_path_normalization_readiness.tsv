@@ -54,10 +54,10 @@ scripts/e-semantic-layer/apply-showtrials-known-truncated-person-aliases.py	e-se
 scripts/e-semantic-layer/apply-showtrials-person-alias-decisions.py	e-semantic-layer	high	no	1	0	3	1	0	0	1	3	needs_path_normalization
 scripts/e-semantic-layer/build-showtrials-canonical-people.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	7	no_obvious_legacy_paths
 scripts/e-semantic-layer/build-showtrials-literal-people-index.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	7	no_obvious_legacy_paths
-scripts/e-semantic-layer/build-showtrials-organization-families.py	e-semantic-layer	high	no	1	0	2	1	0	0	2	2	needs_path_normalization
-scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py	e-semantic-layer	high	no	1	0	6	1	0	0	1	4	needs_path_normalization
-scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py	e-semantic-layer	high	no	1	0	3	1	0	0	1	3	needs_path_normalization
-scripts/e-semantic-layer/build-showtrials-organization-index.py	e-semantic-layer	high	no	1	0	5	1	0	1	1	5	needs_path_normalization
+scripts/e-semantic-layer/build-showtrials-organization-families.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	2	no_obvious_legacy_paths
+scripts/e-semantic-layer/build-showtrials-organization-family-document-matrix.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	4	no_obvious_legacy_paths
+scripts/e-semantic-layer/build-showtrials-organization-hierarchy.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	3	no_obvious_legacy_paths
+scripts/e-semantic-layer/build-showtrials-organization-index.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	5	no_obvious_legacy_paths
 scripts/e-semantic-layer/build-showtrials-people-index.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	7	no_obvious_legacy_paths
 scripts/e-semantic-layer/build-showtrials-person-centrality.py	e-semantic-layer	high	no	1	0	7	1	0	0	1	2	needs_path_normalization
 scripts/e-semantic-layer/build-showtrials-person-institution-profiles-v2.py	e-semantic-layer	critical	no	1	0	11	1	0	0	1	5	needs_path_normalization
@@ -80,9 +80,9 @@ scripts/e-semantic-layer/diagnose-showtrials-truncated-persons.py	e-semantic-lay
 scripts/e-semantic-layer/diagnose-showtrials-unmerged-persons.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	3	no_obvious_legacy_paths
 scripts/e-semantic-layer/review-showtrials-person-aliases.py	e-semantic-layer	low	yes	0	0	0	0	0	0	5	3	no_obvious_legacy_paths
 scripts/e-semantic-layer/review-showtrials-truncated-persons.py	e-semantic-layer	low	yes	0	0	0	0	0	0	4	2	no_obvious_legacy_paths
-scripts/e-semantic-layer/showtrials-family-stats.py	e-semantic-layer	high	no	1	0	1	0	0	0	1	1	needs_path_normalization
-scripts/e-semantic-layer/validate-showtrials-organization-families.py	e-semantic-layer	high	no	1	0	1	1	0	0	2	1	needs_path_normalization
-scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py	e-semantic-layer	high	no	1	0	3	1	0	0	1	2	needs_path_normalization
+scripts/e-semantic-layer/showtrials-family-stats.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	1	no_obvious_legacy_paths
+scripts/e-semantic-layer/validate-showtrials-organization-families.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	1	no_obvious_legacy_paths
+scripts/e-semantic-layer/validate-showtrials-organization-hierarchy.py	e-semantic-layer	low	yes	0	0	0	0	0	0	1	2	no_obvious_legacy_paths
 scripts/e-semantic-layer/validate-showtrials-person-centrality.py	e-semantic-layer	high	no	1	0	1	1	0	0	1	1	needs_path_normalization
 scripts/e-semantic-layer/validate-showtrials-person-institution-profiles-v2.py	e-semantic-layer	high	no	1	0	1	1	0	0	1	1	needs_path_normalization
 scripts/e-semantic-layer/validate-showtrials-person-organization-matrix.py	e-semantic-layer	high	no	1	0	1	1	0	0	1	1	needs_path_normalization
@@ -100,7 +100,7 @@ scripts/g-glossary/validate-showtrials-translation-glossary-g3.py	g-glossary	low
 scripts/g-glossary/validate-showtrials-translation-glossary-g4-1.py	g-glossary	low	yes	0	0	0	0	0	0	1	3	no_obvious_legacy_paths
 scripts/g-glossary/validate-showtrials-translation-glossary-seeds-v1.py	g-glossary	low	yes	0	0	0	0	0	0	1	1	no_obvious_legacy_paths
 scripts/g-glossary/validate-showtrials-translation-glossary-v1.py	g-glossary	low	yes	0	0	0	0	0	0	1	2	no_obvious_legacy_paths
-scripts/lib/showtrials_paths.py	lib	low	no	0	0	98	48	3	6	1	0	no_obvious_legacy_paths
+scripts/lib/showtrials_paths.py	lib	low	no	0	0	105	54	3	6	1	0	no_obvious_legacy_paths
 scripts/r-governance/apply-repo-reorganization-from-map.py	r-governance	low	no	0	0	0	0	0	0	2	2	no_obvious_legacy_paths
 scripts/r-governance/diagnose-repo-file-metadata.py	r-governance	low	no	0	0	0	0	0	0	2	1	no_obvious_legacy_paths
 scripts/r-governance/diagnose-showtrials-path-normalization-readiness.py	r-governance	high	yes	1	1	0	0	0	0	1	1	needs_path_normalization
