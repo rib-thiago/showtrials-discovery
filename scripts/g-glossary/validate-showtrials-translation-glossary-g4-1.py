@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-G = BASE / "showtrials_translation_glossary_g4_1.tsv"
-GG = BASE / "showtrials_google_translate_glossary_ru_en_v1.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    GOOGLE_TRANSLATE_GLOSSARY_RU_EN_V1,
+    TRANSLATION_GLOSSARY_G4_1,
+    TRANSLATION_GLOSSARY_G4_1_VALIDATION,
+    TRANSLATION_GLOSSARY_G4_1_VALIDATION_REPORT,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_translation_glossary_g4_1_validation_report.txt"
-TSV = BASE / "showtrials_translation_glossary_g4_1_validation.tsv"
+G = TRANSLATION_GLOSSARY_G4_1
+GG = GOOGLE_TRANSLATE_GLOSSARY_RU_EN_V1
+
+REPORT = TRANSLATION_GLOSSARY_G4_1_VALIDATION_REPORT
+TSV = TRANSLATION_GLOSSARY_G4_1_VALIDATION
 
 rows = list(csv.DictReader(G.open("r", encoding="utf-8", newline=""), delimiter="\t"))
 google_rows = list(csv.DictReader(GG.open("r", encoding="utf-8", newline=""), delimiter="\t"))
@@ -68,7 +79,7 @@ for r in google_rows:
 if not checks:
     add("OK", "all_checks", "passed")
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["level", "check", "detail"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -100,7 +111,7 @@ report.append("Validation rows:")
 for c in checks[:120]:
     report.append(f"{c['level']}\t{c['check']}\t{c['detail']}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)

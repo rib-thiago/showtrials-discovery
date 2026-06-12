@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PEOPLE = BASE / "showtrials_literal_people.tsv"
-ORGS = BASE / "showtrials_organizations.tsv"
-ROLES = BASE / "showtrials_roles_v2.tsv"
-PROCESSES = BASE / "showtrials_processes.tsv"
-DOC_TYPES = BASE / "showtrials_translation_profiles_v1.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PEOPLE,
+    ORGANIZATIONS,
+    PROCESSES,
+    ROLES_V2,
+    TRANSLATION_GLOSSARY_SEEDS_V1,
+    TRANSLATION_GLOSSARY_SEEDS_V1_REPORT,
+    TRANSLATION_PROFILES_V1,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_translation_glossary_seeds_v1.tsv"
-REPORT = BASE / "showtrials_translation_glossary_seeds_v1_report.txt"
+PEOPLE = LITERAL_PEOPLE
+ORGS = ORGANIZATIONS
+ROLES = ROLES_V2
+DOC_TYPES = TRANSLATION_PROFILES_V1
+
+OUT = TRANSLATION_GLOSSARY_SEEDS_V1
+REPORT = TRANSLATION_GLOSSARY_SEEDS_V1_REPORT
 
 ORG_CANONICAL = {
     "НКВД": "NKVD",
@@ -232,7 +245,7 @@ rows = sorted(
     )
 )
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "source_ru", "canonical_en", "layer", "glossary_kind",
         "priority", "source_count", "status", "confidence", "notes",
@@ -276,7 +289,7 @@ report.append("")
 report.append("Output:")
 report.append(str(OUT))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REPORT)

@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-SEEDS = BASE / "showtrials_translation_glossary_seeds_v1.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    TRANSLATION_GLOSSARY_SEEDS_V1,
+    TRANSLATION_GLOSSARY_V1,
+    TRANSLATION_GLOSSARY_V1_REPORT,
+    TRANSLATION_GLOSSARY_V1_REVIEW,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_translation_glossary_v1.tsv"
-REVIEW = BASE / "showtrials_translation_glossary_v1_review.tsv"
-REPORT = BASE / "showtrials_translation_glossary_v1_report.txt"
+SEEDS = TRANSLATION_GLOSSARY_SEEDS_V1
+
+OUT = TRANSLATION_GLOSSARY_V1
+REVIEW = TRANSLATION_GLOSSARY_V1_REVIEW
+REPORT = TRANSLATION_GLOSSARY_V1_REPORT
 
 PERSON_CANONICAL = {
     "Сталин": "Joseph Stalin",
@@ -168,12 +179,12 @@ review_rows = sorted(
     )
 )
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(out_rows)
 
-with REVIEW.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(REVIEW).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(review_rows)
@@ -218,7 +229,7 @@ report.append("Outputs:")
 report.append(str(OUT))
 report.append(str(REVIEW))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REVIEW)

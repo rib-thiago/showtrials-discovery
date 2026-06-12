@@ -1,19 +1,33 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-GLOSSARY = BASE / "showtrials_translation_glossary_v1.tsv"
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-PERSON_PROCESS = BASE / "showtrials_person_process_matrix.tsv"
-PERSON_ORG = BASE / "showtrials_person_organization_summary.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    LITERAL_PERSON_DOCUMENTS,
+    PERSON_ORGANIZATION_SUMMARY,
+    PERSON_PROCESS_MATRIX,
+    TRANSLATION_GLOSSARY_G3,
+    TRANSLATION_GLOSSARY_G3_REPORT,
+    TRANSLATION_GLOSSARY_G3_REVIEW,
+    TRANSLATION_GLOSSARY_V1,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_translation_glossary_g3.tsv"
-REVIEW = BASE / "showtrials_translation_glossary_g3_review.tsv"
-REPORT = BASE / "showtrials_translation_glossary_g3_report.txt"
+GLOSSARY = TRANSLATION_GLOSSARY_V1
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+PERSON_PROCESS = PERSON_PROCESS_MATRIX
+PERSON_ORG = PERSON_ORGANIZATION_SUMMARY
+
+OUT = TRANSLATION_GLOSSARY_G3
+REVIEW = TRANSLATION_GLOSSARY_G3_REVIEW
+REPORT = TRANSLATION_GLOSSARY_G3_REPORT
 
 # Mais abrangente que G2: inclui nomes conhecidos + correções morfológicas comuns
 PERSON_CANONICAL_EXTRA = {
@@ -208,12 +222,12 @@ review_rows = sorted(
     )
 )
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(out_rows)
 
-with REVIEW.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(REVIEW).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(review_rows)
@@ -257,7 +271,7 @@ report.append("Outputs:")
 report.append(str(OUT))
 report.append(str(REVIEW))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REVIEW)

@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-G4 = BASE / "showtrials_translation_glossary_g4.tsv"
-REVIEW = BASE / "showtrials_translation_glossary_g4_review.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    TRANSLATION_GLOSSARY_FREEZE_READINESS,
+    TRANSLATION_GLOSSARY_FREEZE_READINESS_REPORT,
+    TRANSLATION_GLOSSARY_G4,
+    TRANSLATION_GLOSSARY_G4_REVIEW,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_translation_glossary_freeze_readiness_report.txt"
-TSV = BASE / "showtrials_translation_glossary_freeze_readiness.tsv"
+G4 = TRANSLATION_GLOSSARY_G4
+REVIEW = TRANSLATION_GLOSSARY_G4_REVIEW
+
+REPORT = TRANSLATION_GLOSSARY_FREEZE_READINESS_REPORT
+TSV = TRANSLATION_GLOSSARY_FREEZE_READINESS
 
 rows = list(csv.DictReader(G4.open("r", encoding="utf-8", newline=""), delimiter="\t"))
 review_rows = list(csv.DictReader(REVIEW.open("r", encoding="utf-8", newline=""), delimiter="\t"))
@@ -96,7 +107,7 @@ if role_semantic_review:
 else:
     add("OK", "semantic_roles", "no semantic role reviews", "freeze role layer")
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     fields = ["level", "check", "detail", "recommendation"]
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -139,7 +150,7 @@ report.append("")
 report.append("Outputs:")
 report.append(str(TSV))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)

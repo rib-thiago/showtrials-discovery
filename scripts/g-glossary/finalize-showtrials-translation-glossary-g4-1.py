@@ -1,16 +1,28 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-G4 = BASE / "showtrials_translation_glossary_g4.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    GOOGLE_TRANSLATE_GLOSSARY_RU_EN_V1,
+    TRANSLATION_GLOSSARY_G4,
+    TRANSLATION_GLOSSARY_G4_1,
+    TRANSLATION_GLOSSARY_G4_1_REPORT,
+    TRANSLATION_GLOSSARY_G4_1_REVIEW,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_translation_glossary_g4_1.tsv"
-REVIEW = BASE / "showtrials_translation_glossary_g4_1_review.tsv"
-GOOGLE_GLOSSARY = BASE / "showtrials_google_translate_glossary_ru_en_v1.tsv"
-REPORT = BASE / "showtrials_translation_glossary_g4_1_report.txt"
+G4 = TRANSLATION_GLOSSARY_G4
+
+OUT = TRANSLATION_GLOSSARY_G4_1
+REVIEW = TRANSLATION_GLOSSARY_G4_1_REVIEW
+GOOGLE_GLOSSARY = GOOGLE_TRANSLATE_GLOSSARY_RU_EN_V1
+REPORT = TRANSLATION_GLOSSARY_G4_1_REPORT
 
 PATCHES = {
     "Е.К. Мухановой": {
@@ -86,12 +98,12 @@ for r in rows:
 
 fields = rows[0].keys()
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(out_rows)
 
-with REVIEW.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(REVIEW).open("w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
     w.writerows(review_rows)
@@ -114,7 +126,7 @@ for r in out_rows:
         "confidence": r["confidence"],
     })
 
-with GOOGLE_GLOSSARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(GOOGLE_GLOSSARY).open("w", encoding="utf-8", newline="") as f:
     fields2 = ["source_ru", "target_en", "layer", "glossary_kind", "confidence"]
     w = csv.DictWriter(f, fieldnames=fields2, delimiter="\t")
     w.writeheader()
@@ -155,7 +167,7 @@ report.append(str(OUT))
 report.append(str(REVIEW))
 report.append(str(GOOGLE_GLOSSARY))
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(REVIEW)
