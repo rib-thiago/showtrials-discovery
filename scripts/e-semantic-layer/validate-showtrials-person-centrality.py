@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-FILE = BASE / "showtrials_person_centrality.tsv"
-REPORT = BASE / "showtrials_person_centrality_validation_report.txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    PERSON_CENTRALITY,
+    PERSON_CENTRALITY_VALIDATION_REPORT,
+    ensure_parent,
+)
+
+FILE = PERSON_CENTRALITY
+REPORT = PERSON_CENTRALITY_VALIDATION_REPORT
 
 rows = list(csv.DictReader(FILE.open("r", encoding="utf-8", newline=""), delimiter="\t"))
 
@@ -41,5 +51,5 @@ if warnings:
     report.append("Warnings:")
     report.extend(warnings[:50])
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 print(REPORT)

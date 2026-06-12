@@ -1,23 +1,42 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PEOPLE = BASE / "showtrials_literal_people.tsv"
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
-FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
-ROLE_DOCS = BASE / "showtrials_role_documents_v2.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    LITERAL_PEOPLE,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    PERSON_FAMILY_PAIRS_V2,
+    PERSON_INSTITUTION_PROFILES_V2,
+    PERSON_INSTITUTION_PROFILES_V2_REPORT,
+    PERSON_ORGANIZATION_PAIRS_V2,
+    PERSON_ROLE_PAIRS_V2,
+    ROLE_DOCUMENTS_V2,
+    ensure_parent,
+)
 
-OUT_PROFILES = BASE / "showtrials_person_institution_profiles_v2.tsv"
-OUT_PERSON_FAMILY = BASE / "showtrials_person_family_pairs_v2.tsv"
-OUT_PERSON_ORG = BASE / "showtrials_person_organization_pairs_v2.tsv"
-OUT_PERSON_ROLE = BASE / "showtrials_person_role_pairs_v2.tsv"
-OUT_REPORT = BASE / "showtrials_person_institution_profiles_v2_report.txt"
+PEOPLE = LITERAL_PEOPLE
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+FAMILY_MATRIX = ORGANIZATION_FAMILY_DOCUMENT_MATRIX
+ROLE_DOCS = ROLE_DOCUMENTS_V2
+DOC_TYPES = DOCUMENT_TYPES_V4
+CATALOG = MASTER_CATALOG
+
+OUT_PROFILES = PERSON_INSTITUTION_PROFILES_V2
+OUT_PERSON_FAMILY = PERSON_FAMILY_PAIRS_V2
+OUT_PERSON_ORG = PERSON_ORGANIZATION_PAIRS_V2
+OUT_PERSON_ROLE = PERSON_ROLE_PAIRS_V2
+OUT_REPORT = PERSON_INSTITUTION_PROFILES_V2_REPORT
 
 KEY_PEOPLE = {
     "Сталин", "Ежов", "Г.Г. Ягода", "А.Я. Вышинский", "Бухарин",
@@ -183,7 +202,7 @@ for person, docs in sorted(person_docs.items()):
 
 profiles = sorted(profiles, key=lambda r: (-int(r["document_count"]), r["person"]))
 
-with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PROFILES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "document_count", "total_words", "first_date", "last_date",
         "profile_tags", "top_families", "top_organizations",
@@ -196,7 +215,7 @@ with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(profiles)
 
-with OUT_PERSON_FAMILY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_FAMILY).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "organization_family", "document_count",
         "person_total_documents", "share_of_person_documents"
@@ -205,7 +224,7 @@ with OUT_PERSON_FAMILY.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(person_family_rows, key=lambda r: (-int(r["document_count"]), r["person"], r["organization_family"])))
 
-with OUT_PERSON_ORG.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_ORG).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "organization", "document_count",
         "person_total_documents", "share_of_person_documents"
@@ -214,7 +233,7 @@ with OUT_PERSON_ORG.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(person_org_rows, key=lambda r: (-int(r["document_count"]), r["person"], r["organization"])))
 
-with OUT_PERSON_ROLE.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_ROLE).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "role", "role_class", "document_count",
         "person_total_documents", "share_of_person_documents"
@@ -263,7 +282,7 @@ report.append(str(OUT_PERSON_FAMILY))
 report.append(str(OUT_PERSON_ORG))
 report.append(str(OUT_PERSON_ROLE))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PROFILES)
 print(OUT_PERSON_FAMILY)

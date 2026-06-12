@@ -1,19 +1,34 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PEOPLE = BASE / "showtrials_literal_people.tsv"
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
-FAMILY_MATRIX = BASE / "showtrials_organization_family_document_matrix.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    LITERAL_PEOPLE,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILY_DOCUMENT_MATRIX,
+    PERSON_CENTRALITY,
+    PERSON_CENTRALITY_REPORT,
+    ensure_parent,
+)
 
-OUT = BASE / "showtrials_person_centrality.tsv"
-OUT_REPORT = BASE / "showtrials_person_centrality_report.txt"
+PEOPLE = LITERAL_PEOPLE
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+FAMILY_MATRIX = ORGANIZATION_FAMILY_DOCUMENT_MATRIX
+DOC_TYPES = DOCUMENT_TYPES_V4
+CATALOG = MASTER_CATALOG
+
+OUT = PERSON_CENTRALITY
+OUT_REPORT = PERSON_CENTRALITY_REPORT
 
 def load_tsv(path):
     if not path.exists():
@@ -130,7 +145,7 @@ for person, docs in person_docs.items():
 
 rows = sorted(rows, key=lambda r: (-r["centrality_score"], -r["document_count"], r["person"]))
 
-with OUT.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "document_count", "total_words", "first_date", "last_date",
         "organization_diversity", "family_diversity", "process_diversity",
@@ -160,7 +175,7 @@ for r in rows[:50]:
         f"\t{r['person']}"
     )
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT)
 print(OUT_REPORT)

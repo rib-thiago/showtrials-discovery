@@ -1,20 +1,36 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict, Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-PERSON_DOCS = BASE / "showtrials_literal_person_documents.tsv"
-ORG_DOCS = BASE / "showtrials_organization_documents.tsv"
-FAMILIES = BASE / "showtrials_organization_families.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    LITERAL_PERSON_DOCUMENTS,
+    MASTER_CATALOG,
+    ORGANIZATION_DOCUMENTS,
+    ORGANIZATION_FAMILIES,
+    ORGANIZATION_PERSON_SUMMARY,
+    PERSON_ORGANIZATION_MATRIX,
+    PERSON_ORGANIZATION_MATRIX_REPORT,
+    PERSON_ORGANIZATION_SUMMARY,
+    ensure_parent,
+)
 
-OUT_MATRIX = BASE / "showtrials_person_organization_matrix.tsv"
-OUT_PERSON_SUMMARY = BASE / "showtrials_person_organization_summary.tsv"
-OUT_ORG_SUMMARY = BASE / "showtrials_organization_person_summary.tsv"
-OUT_REPORT = BASE / "showtrials_person_organization_matrix_report.txt"
+PERSON_DOCS = LITERAL_PERSON_DOCUMENTS
+ORG_DOCS = ORGANIZATION_DOCUMENTS
+FAMILIES = ORGANIZATION_FAMILIES
+CATALOG = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+
+OUT_MATRIX = PERSON_ORGANIZATION_MATRIX
+OUT_PERSON_SUMMARY = PERSON_ORGANIZATION_SUMMARY
+OUT_ORG_SUMMARY = ORGANIZATION_PERSON_SUMMARY
+OUT_REPORT = PERSON_ORGANIZATION_MATRIX_REPORT
 
 def load_tsv(path):
     with path.open("r", encoding="utf-8", newline="") as f:
@@ -99,7 +115,7 @@ matrix_rows = sorted(
     key=lambda r: (-int(r["document_count"]), -float(r["association_weight"]), r["person"], r["organization"])
 )
 
-with OUT_MATRIX.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_MATRIX).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "organization", "organization_family",
         "document_count", "person_total_documents", "organization_total_documents",
@@ -119,7 +135,7 @@ for r in matrix_rows:
     person_summary[r["person"]].append(r)
     org_summary[r["organization"]].append(r)
 
-with OUT_PERSON_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PERSON_SUMMARY).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "person", "organization_count", "top_organizations",
         "top_families", "total_pair_document_sum"
@@ -145,7 +161,7 @@ with OUT_PERSON_SUMMARY.open("w", encoding="utf-8", newline="") as f:
             "total_pair_document_sum": sum(int(r["document_count"]) for r in rows),
         })
 
-with OUT_ORG_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_ORG_SUMMARY).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "organization", "organization_family", "person_count",
         "top_people", "total_pair_document_sum"
@@ -196,7 +212,7 @@ report.append(str(OUT_MATRIX))
 report.append(str(OUT_PERSON_SUMMARY))
 report.append(str(OUT_ORG_SUMMARY))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_MATRIX)
 print(OUT_PERSON_SUMMARY)
