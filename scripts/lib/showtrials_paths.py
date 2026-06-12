@@ -64,8 +64,37 @@ def require_dir(path: Path) -> Path:
 
 # Common artifacts used by B — JSON Corpus, Text Export, And Local Search.
 MASTER_CATALOG = data_path("c", "showtrials_master_catalog.tsv")
+MASTER_CATALOG_REPORT = report_path("c", "showtrials_master_catalog_report.txt")
 DOCUMENT_INDEX = data_path("c", "showtrials_document_index.tsv")
+DOCUMENT_INDEX_REPORT = report_path("c", "showtrials_document_index_report.txt")
+
+DOCUMENT_TYPES = data_path("c", "showtrials_document_types.tsv")
+DOCUMENT_TYPES_REPORT = report_path("c", "showtrials_document_types_report.txt")
+DOCUMENT_TYPE_SUMMARY = data_path("c", "showtrials_document_type_summary.tsv")
+
+DOCUMENT_TYPES_V2 = data_path("c", "showtrials_document_types_v2.tsv")
+DOCUMENT_TYPES_V2_REPORT = report_path("c", "showtrials_document_types_v2_report.txt")
+DOCUMENT_TYPE_SUMMARY_V2 = data_path("c", "showtrials_document_type_summary_v2.tsv")
+DOCUMENT_TYPE_UNKNOWN_PREFIXES_V2 = data_path("c", "showtrials_document_type_unknown_prefixes_v2.tsv")
+DOCUMENT_TYPES_V2_VALIDATION = data_path("c", "showtrials_document_types_v2_validation.tsv")
+DOCUMENT_TYPES_V2_VALIDATION_REPORT = report_path("c", "showtrials_document_types_v2_validation_report.txt")
+
+DOCUMENT_TYPES_V3 = data_path("c", "showtrials_document_types_v3.tsv")
+DOCUMENT_TYPES_V3_REPORT = report_path("c", "showtrials_document_types_v3_report.txt")
+DOCUMENT_TYPE_SUMMARY_V3 = data_path("c", "showtrials_document_type_summary_v3.tsv")
+DOCUMENT_TYPE_UNKNOWN_PREFIXES_V3 = data_path("c", "showtrials_document_type_unknown_prefixes_v3.tsv")
+DOCUMENT_TYPES_V3_VALIDATION = data_path("c", "showtrials_document_types_v3_validation.tsv")
+DOCUMENT_TYPES_V3_VALIDATION_REPORT = report_path("c", "showtrials_document_types_v3_validation_report.txt")
+
 DOCUMENT_TYPES_V4 = data_path("c", "showtrials_document_types_v4.tsv")
+DOCUMENT_TYPES_V4_REPORT = report_path("c", "showtrials_document_types_v4_report.txt")
+DOCUMENT_TYPE_SUMMARY_V4 = data_path("c", "showtrials_document_type_summary_v4.tsv")
+DOCUMENT_TYPE_UNKNOWN_PREFIXES_V4 = data_path("c", "showtrials_document_type_unknown_prefixes_v4.tsv")
+DOCUMENT_TYPES_V4_VALIDATION = data_path("c", "showtrials_document_types_v4_validation.tsv")
+DOCUMENT_TYPES_V4_VALIDATION_REPORT = report_path("c", "showtrials_document_types_v4_validation_report.txt")
+
+TAXONOMY_TERMS = data_path("c", "showtrials_taxonomy_terms.tsv")
+DOCUMENT_COLLECTIONS = data_path("c", "showtrials_document_collections.tsv")
 
 SEARCH_CORPUS = local_path("showtrials_search_corpus.tsv")
 SEARCH_CORPUS_REPORT = report_path("b", "showtrials_search_corpus_report.txt")

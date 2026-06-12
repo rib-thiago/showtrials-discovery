@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 import csv, json, re, html
+import sys
 from pathlib import Path
 
-BASE = Path("/tmp/showtrials-discovery")
-POSTS_DIR = BASE / "posts-json"
-OUT_TSV = BASE / "showtrials_document_index.tsv"
-OUT_REPORT = BASE / "showtrials_document_index_report.txt"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_INDEX,
+    DOCUMENT_INDEX_REPORT,
+    POSTS_JSON_DIR,
+    ensure_parent,
+)
+
+POSTS_DIR = POSTS_JSON_DIR
+OUT_TSV = DOCUMENT_INDEX
+OUT_REPORT = DOCUMENT_INDEX_REPORT
 
 def clean(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
@@ -31,7 +42,7 @@ for path in sorted(POSTS_DIR.glob("posts-page-*.json")):
         })
         seen.add(pid)
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = list(rows[0].keys())
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -48,7 +59,7 @@ report = [
     f"Duplicate IDs: {len(dupes)}",
 ]
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

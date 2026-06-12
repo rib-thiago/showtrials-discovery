@@ -1,16 +1,29 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_DOCS = BASE / "showtrials_document_types_v4.tsv"
-OUT_SUMMARY = BASE / "showtrials_document_type_summary_v4.tsv"
-OUT_UNKNOWN_PREFIXES = BASE / "showtrials_document_type_unknown_prefixes_v4.tsv"
-OUT_REPORT = BASE / "showtrials_document_types_v4_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    DOCUMENT_TYPES_V4_REPORT,
+    DOCUMENT_TYPE_SUMMARY_V4,
+    DOCUMENT_TYPE_UNKNOWN_PREFIXES_V4,
+    MASTER_CATALOG,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+
+OUT_DOCS = DOCUMENT_TYPES_V4
+OUT_SUMMARY = DOCUMENT_TYPE_SUMMARY_V4
+OUT_UNKNOWN_PREFIXES = DOCUMENT_TYPE_UNKNOWN_PREFIXES_V4
+OUT_REPORT = DOCUMENT_TYPES_V4_REPORT
 
 RULES = [
     ("interrogation_extract", r"\bвыписка из протокола допроса\b"),
@@ -98,7 +111,7 @@ for d in docs:
         if len(unknown_examples[prefix]) < 5:
             unknown_examples[prefix].append(d.get("document_title", ""))
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "document_type", "matched_types", "reason",
@@ -110,13 +123,13 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(rows)
 
-with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_SUMMARY).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["document_type", "count"])
     for dtype, count in sorted(summary.items(), key=lambda x: (-x[1], x[0])):
         w.writerow([dtype, count])
 
-with OUT_UNKNOWN_PREFIXES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_UNKNOWN_PREFIXES).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["prefix", "count", "examples"])
     for prefix, count in sorted(unknown_prefixes.items(), key=lambda x: (-x[1], x[0])):
@@ -136,7 +149,7 @@ report.append("Unknown prefixes:")
 for prefix, count in sorted(unknown_prefixes.items(), key=lambda x: (-x[1], x[0]))[:80]:
     report.append(f"{count}\t{prefix}\tEX={unknown_examples[prefix][0] if unknown_examples[prefix] else ''}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOCS)
 print(OUT_SUMMARY)

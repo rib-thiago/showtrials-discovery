@@ -3,17 +3,30 @@ import csv
 import json
 import re
 import html
+import sys
 from pathlib import Path
 from urllib.parse import urlparse
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-POSTS_DIR = BASE / "posts-json"
-TERMS = BASE / "showtrials_taxonomy_terms.tsv"
-COLLECTIONS = BASE / "showtrials_document_collections.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_TSV = BASE / "showtrials_master_catalog.tsv"
-OUT_REPORT = BASE / "showtrials_master_catalog_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_COLLECTIONS,
+    MASTER_CATALOG,
+    MASTER_CATALOG_REPORT,
+    POSTS_JSON_DIR,
+    TAXONOMY_TERMS,
+    ensure_parent,
+)
+
+POSTS_DIR = POSTS_JSON_DIR
+TERMS = TAXONOMY_TERMS
+COLLECTIONS = DOCUMENT_COLLECTIONS
+
+OUT_TSV = MASTER_CATALOG
+OUT_REPORT = MASTER_CATALOG_REPORT
 
 def clean(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
@@ -106,7 +119,7 @@ for p in posts:
         "wp_type": p.get("type", ""),
     })
 
-with OUT_TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_TSV).open("w", encoding="utf-8", newline="") as f:
     fields = list(rows[0].keys())
     w = csv.DictWriter(f, fieldnames=fields, delimiter="\t")
     w.writeheader()
@@ -149,7 +162,7 @@ for r in rows:
 for k, v in sorted(tag_count.items(), key=lambda x: x[1], reverse=True)[:50]:
     report.append(f"{v}\t{k}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_TSV)
 print(OUT_REPORT)

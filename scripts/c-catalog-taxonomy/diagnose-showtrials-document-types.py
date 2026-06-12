@@ -1,15 +1,27 @@
 #!/usr/bin/env python3
 import csv
 import re
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-OUT_DOCS = BASE / "showtrials_document_types.tsv"
-OUT_SUMMARY = BASE / "showtrials_document_type_summary.tsv"
-OUT_REPORT = BASE / "showtrials_document_types_report.txt"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES,
+    DOCUMENT_TYPES_REPORT,
+    DOCUMENT_TYPE_SUMMARY,
+    MASTER_CATALOG,
+    ensure_parent,
+)
+
+CATALOG = MASTER_CATALOG
+
+OUT_DOCS = DOCUMENT_TYPES
+OUT_SUMMARY = DOCUMENT_TYPE_SUMMARY
+OUT_REPORT = DOCUMENT_TYPES_REPORT
 
 RULES = [
     ("interrogation_protocol", r"протокол допроса"),
@@ -69,7 +81,7 @@ for d in docs:
     by_process[d.get("primary_process") or "UNSET"][dtype] += 1
     by_collection[d.get("primary_collection") or "UNSET"][dtype] += 1
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "document_type", "matched_types", "reason",
@@ -81,7 +93,7 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(rows)
 
-with OUT_SUMMARY.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_SUMMARY).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["scope", "name", "document_type", "count"])
     for dtype, count in sorted(summary.items(), key=lambda x: (-x[1], x[0])):
@@ -107,7 +119,7 @@ report.append("Unknown examples:")
 for r in [x for x in rows if x["document_type"] == "unknown"][:80]:
     report.append(f"{r['document_post_id']}\t{r['document_title']}")
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOCS)
 print(OUT_SUMMARY)

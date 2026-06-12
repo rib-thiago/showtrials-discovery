@@ -1,15 +1,26 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import Counter
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-DOCS = BASE / "showtrials_document_types_v4.tsv"
-CATALOG = BASE / "showtrials_master_catalog.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    DOCUMENT_TYPES_V4_VALIDATION,
+    DOCUMENT_TYPES_V4_VALIDATION_REPORT,
+    MASTER_CATALOG,
+    ensure_parent,
+)
 
-REPORT = BASE / "showtrials_document_types_v4_validation_report.txt"
-TSV = BASE / "showtrials_document_types_v4_validation.tsv"
+DOCS = DOCUMENT_TYPES_V4
+CATALOG = MASTER_CATALOG
+
+REPORT = DOCUMENT_TYPES_V4_VALIDATION_REPORT
+TSV = DOCUMENT_TYPES_V4_VALIDATION
 
 failures = []
 warnings = []
@@ -40,7 +51,7 @@ unknown = type_counts.get("unknown", 0)
 if unknown > 0:
     warnings.append(("unknown_remaining", f"unknown={unknown}"))
 
-with TSV.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(TSV).open("w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t")
     w.writerow(["level", "check", "message"])
     for k, msg in failures:
@@ -74,7 +85,7 @@ if warnings:
     for k, msg in warnings:
         report.append(f"{k}\t{msg}")
 
-REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(REPORT)
 print(TSV)
