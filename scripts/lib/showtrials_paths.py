@@ -174,3 +174,11 @@ LITERAL_PERSON_DOCUMENTS = data_path("e", "showtrials_literal_person_documents.t
 ORGANIZATION_DOCUMENTS = data_path("e", "showtrials_organization_documents.tsv")
 ORGANIZATION_FAMILY_DOCUMENT_MATRIX = data_path("e", "showtrials_organization_family_document_matrix.tsv")
 ROLE_DOCUMENTS_V2 = data_path("e", "showtrials_role_documents_v2.tsv")
+
+TRANSLATION_COST_BY_DOCUMENT = data_path("t", "showtrials_translation_cost_by_document.tsv")
+TRANSLATION_COST_BY_DOCUMENT_TYPE = data_path("t", "showtrials_translation_cost_by_document_type.tsv")
+TRANSLATION_COST_BY_PROCESS = data_path("t", "showtrials_translation_cost_by_process.tsv")
+TRANSLATION_COST_REPORT = report_path("t", "showtrials_translation_cost_report.txt")
+TRANSLATION_PROFILES_V1 = data_path("t", "showtrials_translation_profiles_v1.tsv")
+TRANSLATION_PROFILES_V1_REPORT = report_path("t", "showtrials_translation_profiles_v1_report.txt")
+TRANSLATION_GLOSSARY_SEED_PLAN_V1 = data_path("t", "showtrials_translation_glossary_seed_plan_v1.tsv")

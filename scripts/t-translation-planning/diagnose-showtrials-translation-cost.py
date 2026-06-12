@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
 import csv
 import statistics
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-CATALOG = BASE / "showtrials_master_catalog.tsv"
-DOC_TYPES = BASE / "showtrials_document_types_v4.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    MASTER_CATALOG,
+    TRANSLATION_COST_BY_DOCUMENT,
+    TRANSLATION_COST_BY_DOCUMENT_TYPE,
+    TRANSLATION_COST_BY_PROCESS,
+    TRANSLATION_COST_REPORT,
+    ensure_parent,
+)
 
-OUT_DOCS = BASE / "showtrials_translation_cost_by_document.tsv"
-OUT_PROCESS = BASE / "showtrials_translation_cost_by_process.tsv"
-OUT_DOCTYPE = BASE / "showtrials_translation_cost_by_document_type.tsv"
-OUT_REPORT = BASE / "showtrials_translation_cost_report.txt"
+CATALOG = MASTER_CATALOG
+DOC_TYPES = DOCUMENT_TYPES_V4
+
+OUT_DOCS = TRANSLATION_COST_BY_DOCUMENT
+OUT_PROCESS = TRANSLATION_COST_BY_PROCESS
+OUT_DOCTYPE = TRANSLATION_COST_BY_DOCUMENT_TYPE
+OUT_REPORT = TRANSLATION_COST_REPORT
 
 FREE_CHARS_MONTHLY = 500_000
 NMT_USD_PER_MILLION = 20.0
@@ -73,7 +86,7 @@ for r in catalog:
         "document_url": r.get("document_url", ""),
     })
 
-with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_DOCS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_post_id", "document_date", "document_title",
         "primary_process", "primary_collection", "document_type",
@@ -86,7 +99,7 @@ with OUT_DOCS.open("w", encoding="utf-8", newline="") as f:
     w.writerows(sorted(doc_rows, key=lambda x: (-int(x["content_chars"]), x["document_post_id"])))
 
 def write_group(path, rows, key_name):
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with ensure_parent(path).open("w", encoding="utf-8", newline="") as f:
         fields = [
             key_name, "documents", "chars", "words",
             "avg_chars_per_doc", "estimated_nmt_ru_en_usd",
@@ -155,7 +168,7 @@ report.append(str(OUT_DOCS))
 report.append(str(OUT_PROCESS))
 report.append(str(OUT_DOCTYPE))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_DOCS)
 print(OUT_PROCESS)

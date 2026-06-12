@@ -1,15 +1,27 @@
 #!/usr/bin/env python3
 import csv
+import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/tmp/showtrials-discovery")
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
-DOCTYPE_COST = BASE / "showtrials_translation_cost_by_document_type.tsv"
+from lib.showtrials_paths import (  # noqa: E402
+    DOCUMENT_TYPES_V4,
+    TRANSLATION_COST_BY_DOCUMENT_TYPE,
+    TRANSLATION_GLOSSARY_SEED_PLAN_V1,
+    TRANSLATION_PROFILES_V1,
+    TRANSLATION_PROFILES_V1_REPORT,
+    ensure_parent,
+)
 
-OUT_PROFILES = BASE / "showtrials_translation_profiles_v1.tsv"
-OUT_GLOSSARY_SEEDS = BASE / "showtrials_translation_glossary_seed_plan_v1.tsv"
-OUT_REPORT = BASE / "showtrials_translation_profiles_v1_report.txt"
+DOCTYPE_COST = TRANSLATION_COST_BY_DOCUMENT_TYPE
+
+OUT_PROFILES = TRANSLATION_PROFILES_V1
+OUT_GLOSSARY_SEEDS = TRANSLATION_GLOSSARY_SEED_PLAN_V1
+OUT_REPORT = TRANSLATION_PROFILES_V1_REPORT
 
 PROFILE_RULES = {
     "interrogation_protocol": {
@@ -359,7 +371,7 @@ GLOSSARY_SEED_LAYERS = [
     },
     {
         "layer": "document_types",
-        "source_file": "showtrials_document_types_v4.tsv",
+        "source_file": DOCUMENT_TYPES_V4.name,
         "source_field": "document_type",
         "glossary_kind": "internal_document_type",
         "priority": "low",
@@ -407,7 +419,7 @@ for r in doctype_rows:
         "manual_review_required": "yes" if dt in {"poem", "biographical_article", "indictment", "verdict_or_sentence"} else "no",
     })
 
-with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_PROFILES).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "document_type", "documents", "chars", "estimated_nmt_ru_en_usd",
         "segmentation_strategy", "segment_kinds",
@@ -419,7 +431,7 @@ with OUT_PROFILES.open("w", encoding="utf-8", newline="") as f:
     w.writeheader()
     w.writerows(sorted(profiles, key=lambda x: (-int(x["chars"]), x["document_type"])))
 
-with OUT_GLOSSARY_SEEDS.open("w", encoding="utf-8", newline="") as f:
+with ensure_parent(OUT_GLOSSARY_SEEDS).open("w", encoding="utf-8", newline="") as f:
     fields = [
         "layer", "source_file", "source_field", "glossary_kind",
         "priority", "translation_policy", "notes",
@@ -478,7 +490,7 @@ report.append(str(OUT_PROFILES))
 report.append(str(OUT_GLOSSARY_SEEDS))
 report.append(str(OUT_REPORT))
 
-OUT_REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")
+ensure_parent(OUT_REPORT).write_text("\n".join(report) + "\n", encoding="utf-8")
 
 print(OUT_PROFILES)
 print(OUT_GLOSSARY_SEEDS)
