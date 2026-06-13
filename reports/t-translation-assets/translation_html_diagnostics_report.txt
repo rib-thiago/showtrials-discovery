@@ -1,0 +1,8 @@
+Translation HTML Diagnostics Report
+pages_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_pages.tsv
+links_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_links.tsv
+pages	2
+links	43
+
+mia_1936_trotskyite_zinovievite_index	links=38	html=38	relative=37	title=Moscow Trials: Court Proceedings
+mia_1938_bukharin_case_index	links=5	html=5	relative=5	title=The Case of Bukharin - from the Moscow Trials
