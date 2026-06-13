@@ -1,0 +1,7 @@
+Translation HTML Extraction Report
+documents_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_documents.tsv
+search_corpus_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_search_corpus.tsv
+text_dir	/srv/toolbox/shared/showtrials-review/translation-assets/extracted-text/mia/en-txt
+documents	38
+total_chars	529046
+total_words	88287

@@ -1,0 +1,7 @@
+Translation HTML Fetch Report
+links_input	/srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_links.tsv
+fetch_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_fetch.tsv
+payload_dir	/srv/toolbox/shared/showtrials-review/translation-assets/source-documents/mia/html-pages
+planned	38
+ok_or_exists	38
+errors	0
