@@ -1,0 +1,9 @@
+Ezhov Parallel HTML Extraction Report
+documents_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/ezhov_parallel_documents.tsv
+search_corpus_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/ezhov_parallel_search_corpus.tsv
+text_dir	/srv/toolbox/shared/showtrials-review/translation-assets/extracted-text/ezhov
+documents	50
+en_documents	25
+en_chars	98149
+ru_documents	25
+ru_chars	87291

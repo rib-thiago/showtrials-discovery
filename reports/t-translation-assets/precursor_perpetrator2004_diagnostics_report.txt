@@ -1,0 +1,12 @@
+Perpetrator2004 Precursor Diagnostics Report
+source_file	/srv/toolbox/shared/showtrials-review/translation-assets/source-documents/precursor-sites/perpetrator2004/html-samples/perpetrator2004-index-sample.html
+title	
+bytes	98149
+links	113
+html_links	13
+chars_clean_text	17589
+words_clean_text	2747
+contains_ucoz_scripts	yes
+contains_word_html	yes
+links_tsv	/srv/projects/showtrials-discovery/data/t-translation-assets/precursor_perpetrator2004_links.tsv
+text_file	/srv/toolbox/shared/showtrials-review/translation-assets/extracted-text/precursor-sites/perpetrator2004/perpetrator2004-index-sample.txt
