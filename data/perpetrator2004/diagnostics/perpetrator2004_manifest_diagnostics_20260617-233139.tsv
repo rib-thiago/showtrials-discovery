@@ -1,0 +1,933 @@
+level	item_id	field	problem	value
+ERROR	P2004-0001	target_path	blank_target_path	
+ERROR	P2004-0001	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0002	target_path	blank_target_path	
+ERROR	P2004-0002	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0003	target_path	blank_target_path	
+ERROR	P2004-0003	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0004	target_path	blank_target_path	
+ERROR	P2004-0004	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0005	target_path	blank_target_path	
+ERROR	P2004-0005	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0006	target_path	blank_target_path	
+ERROR	P2004-0006	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0007	target_path	blank_target_path	
+ERROR	P2004-0007	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0008	target_path	blank_target_path	
+ERROR	P2004-0008	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0009	target_path	blank_target_path	
+ERROR	P2004-0009	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0010	target_path	blank_target_path	
+ERROR	P2004-0010	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0011	target_path	blank_target_path	
+ERROR	P2004-0011	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0012	target_path	blank_target_path	
+ERROR	P2004-0012	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0013	target_path	blank_target_path	
+ERROR	P2004-0013	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0014	target_path	blank_target_path	
+ERROR	P2004-0014	source_class	invalid_source_class_expected_internal_external	
+WARN	P2004-0014	target_path	external_target_not_under_external_mirror	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0015	target_path	blank_target_path	
+ERROR	P2004-0015	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0015	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Bukharin/Serovs_Letter_re_Bukharin_Trial.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0016	target_path	blank_target_path	
+ERROR	P2004-0016	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0017	target_path	blank_target_path	
+ERROR	P2004-0017	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0018	target_path	blank_target_path	
+ERROR	P2004-0018	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0019	target_path	blank_target_path	
+ERROR	P2004-0019	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0020	target_path	blank_target_path	
+ERROR	P2004-0020	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0021	target_path	blank_target_path	
+ERROR	P2004-0021	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0022	target_path	blank_target_path	
+ERROR	P2004-0022	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0023	target_path	blank_target_path	
+ERROR	P2004-0023	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0024	target_path	blank_target_path	
+ERROR	P2004-0024	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0025	target_path	blank_target_path	
+ERROR	P2004-0025	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0026	target_path	blank_target_path	
+ERROR	P2004-0026	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0027	target_path	blank_target_path	
+ERROR	P2004-0027	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0028	target_path	blank_target_path	
+ERROR	P2004-0028	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0029	target_path	blank_target_path	
+ERROR	P2004-0029	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0030	target_path	blank_target_path	
+ERROR	P2004-0030	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0031	target_path	blank_target_path	
+ERROR	P2004-0031	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0032	target_path	blank_target_path	
+ERROR	P2004-0032	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0033	target_path	blank_target_path	
+ERROR	P2004-0033	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0034	target_path	blank_target_path	
+ERROR	P2004-0034	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0035	target_path	blank_target_path	
+ERROR	P2004-0035	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0036	target_path	blank_target_path	
+ERROR	P2004-0036	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0037	target_path	blank_target_path	
+ERROR	P2004-0037	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0038	target_path	blank_target_path	
+ERROR	P2004-0038	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0039	target_path	blank_target_path	
+ERROR	P2004-0039	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0040	target_path	blank_target_path	
+ERROR	P2004-0040	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0041	target_path	blank_target_path	
+ERROR	P2004-0041	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0042	target_path	blank_target_path	
+ERROR	P2004-0042	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0043	target_path	blank_target_path	
+ERROR	P2004-0043	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0044	target_path	blank_target_path	
+ERROR	P2004-0044	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0045	target_path	blank_target_path	
+ERROR	P2004-0045	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0046	target_path	blank_target_path	
+ERROR	P2004-0046	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0047	target_path	blank_target_path	
+ERROR	P2004-0047	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0048	target_path	blank_target_path	
+ERROR	P2004-0048	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0049	target_path	blank_target_path	
+ERROR	P2004-0049	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0050	target_path	blank_target_path	
+ERROR	P2004-0050	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0051	target_path	blank_target_path	
+ERROR	P2004-0051	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0052	target_path	blank_target_path	
+ERROR	P2004-0052	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0053	target_path	blank_target_path	
+ERROR	P2004-0053	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0054	target_path	blank_target_path	
+ERROR	P2004-0054	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0055	target_path	blank_target_path	
+ERROR	P2004-0055	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0056	target_path	blank_target_path	
+ERROR	P2004-0056	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0057	target_path	blank_target_path	
+ERROR	P2004-0057	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0058	target_path	blank_target_path	
+ERROR	P2004-0058	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0059	target_path	blank_target_path	
+ERROR	P2004-0059	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0060	target_path	blank_target_path	
+ERROR	P2004-0060	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0061	target_path	blank_target_path	
+ERROR	P2004-0061	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0062	target_path	blank_target_path	
+ERROR	P2004-0062	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0063	target_path	blank_target_path	
+ERROR	P2004-0063	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0064	target_path	blank_target_path	
+ERROR	P2004-0064	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0065	target_path	blank_target_path	
+ERROR	P2004-0065	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0066	target_path	blank_target_path	
+ERROR	P2004-0066	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0067	target_path	blank_target_path	
+ERROR	P2004-0067	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0068	target_path	blank_target_path	
+ERROR	P2004-0068	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0069	target_path	blank_target_path	
+ERROR	P2004-0069	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0070	target_path	blank_target_path	
+ERROR	P2004-0070	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0071	target_path	blank_target_path	
+ERROR	P2004-0071	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0072	target_path	blank_target_path	
+ERROR	P2004-0072	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0073	target_path	blank_target_path	
+ERROR	P2004-0073	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0074	target_path	blank_target_path	
+ERROR	P2004-0074	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0075	target_path	blank_target_path	
+ERROR	P2004-0075	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0076	target_path	blank_target_path	
+ERROR	P2004-0076	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0077	target_path	blank_target_path	
+ERROR	P2004-0077	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0078	target_path	blank_target_path	
+ERROR	P2004-0078	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0079	target_path	blank_target_path	
+ERROR	P2004-0079	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0080	target_path	blank_target_path	
+ERROR	P2004-0080	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0081	target_path	blank_target_path	
+ERROR	P2004-0081	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0082	target_path	blank_target_path	
+ERROR	P2004-0082	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0083	target_path	blank_target_path	
+ERROR	P2004-0083	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0084	target_path	blank_target_path	
+ERROR	P2004-0084	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0085	target_path	blank_target_path	
+ERROR	P2004-0085	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0086	target_path	blank_target_path	
+ERROR	P2004-0086	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0087	target_path	blank_target_path	
+ERROR	P2004-0087	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0088	target_path	blank_target_path	
+ERROR	P2004-0088	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0089	target_path	blank_target_path	
+ERROR	P2004-0089	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0090	target_path	blank_target_path	
+ERROR	P2004-0090	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0091	target_path	blank_target_path	
+ERROR	P2004-0091	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0092	target_path	blank_target_path	
+ERROR	P2004-0092	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0093	target_path	blank_target_path	
+ERROR	P2004-0093	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0094	target_path	blank_target_path	
+ERROR	P2004-0094	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0095	target_path	blank_target_path	
+ERROR	P2004-0095	source_class	invalid_source_class_expected_internal_external	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0096	target_path	blank_target_path	
+ERROR	P2004-0096	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0096	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Search_Record.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0097	target_path	blank_target_path	
+ERROR	P2004-0097	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0097	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Interrogation_Records.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0098	target_path	blank_target_path	
+ERROR	P2004-0098	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0098	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Confrontation_Records.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0099	target_path	blank_target_path	
+ERROR	P2004-0099	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0099	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Prosecutors_Interrogation_Record.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0100	target_path	blank_target_path	
+ERROR	P2004-0100	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0100	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Kirshon_s_Report_on_Yagoda_s_Behavior_in_Prison.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0101	target_path	blank_target_path	
+ERROR	P2004-0101	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0101	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Shothand_Record_of_Closed_Session.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0102	target_path	blank_target_path	
+ERROR	P2004-0102	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0102	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/picb_621.gif
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0103	target_path	blank_target_path	
+ERROR	P2004-0103	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0103	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Khanik_Documents_Records.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0104	target_path	blank_target_path	
+ERROR	P2004-0104	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0104	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Kotolynov_Interrogation_Record.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0105	target_path	blank_target_path	
+ERROR	P2004-0105	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0105	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Kotolynov_s_Statement_re_Indictment.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0106	target_path	blank_target_path	
+ERROR	P2004-0106	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0106	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Khanik_Documents_Records.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0107	target_path	blank_target_path	
+ERROR	P2004-0107	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0107	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Professor_Dembo_s_Letter.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0108	target_path	blank_target_path	
+ERROR	P2004-0108	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0108	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Salkov_Statement.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0109	target_path	blank_target_path	
+ERROR	P2004-0109	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0109	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Trial_Record_Kotolynov_et_al.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0110	target_path	blank_target_path	
+ERROR	P2004-0110	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0110	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Trial_Record_Khanik.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0111	target_path	blank_target_path	
+ERROR	P2004-0111	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0111	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Special_Reports_to_Yagoda.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0112	target_path	blank_target_path	
+ERROR	P2004-0112	source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0112	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Volkova_s_Letter_Verification.doc
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+ERROR	P2004-0113	target_path	blank_target_path	
+WARN	P2004-0113	label	blank_label	
+ERROR	P2004-0113	source_class	invalid_source_class_expected_internal_external	
+WARN	P2004-0113	target_path	external_target_not_under_external_mirror	
+ERROR	__blank__	item_id	blank_item_id	
+ERROR		target_path	blank_target_path	
+WARN		label	blank_label	
+ERROR		is_html	invalid_boolean_expected_yes_no	
+ERROR		is_external	invalid_boolean_expected_yes_no	
+ERROR		source_class	invalid_source_class_expected_internal_external	
+WARN	__multi__	href	duplicate_href	"internal	113"
+WARN	__multi__	href	duplicate_href	"documents/Great_Terror/Operative_Order_00486.doc	2"
+WARN	__multi__	href	duplicate_href	"http://perpetrator2004.narod.ru/documents/kirov/Khanik_Documents_Records.doc	2"
+WARN	__multi__	resolved_url	duplicate_resolved_url	"http://perpetrator2004.narod.ru/documents/Great_Terror/Operative_Order_00486.doc	2"
+WARN	__multi__	resolved_url	duplicate_resolved_url	"data/perpetrator2004/raw/mirror/documents/Great_Terror/Operative_Order_00486.doc	2"
+WARN	__multi__	resolved_url	duplicate_resolved_url	"http://perpetrator2004.narod.ru/documents/kirov/Khanik_Documents_Records.doc	2"
+WARN	__multi__	resolved_url	duplicate_resolved_url	"data/perpetrator2004/raw/mirror/documents/kirov/Khanik_Documents_Records.doc	2"

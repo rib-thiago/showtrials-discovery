@@ -1,0 +1,8 @@
+metric	value
+manifest	/srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.tsv
+problems_total	226
+errors	226
+header_status	ok
+diagnostics_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_diagnostics_v2_20260617-235035.tsv
+summary_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_summary_v2_20260617-235035.tsv
+normalized_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.normalized_20260617-235035.tsv

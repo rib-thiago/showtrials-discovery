@@ -1,0 +1,15 @@
+Perpetrator2004 Manifest Diagnostics v2
+manifest	/srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.tsv
+diagnostics_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_diagnostics_v2_20260618-005336.tsv
+summary_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_summary_v2_20260618-005336.tsv
+normalized_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.normalized_20260618-005336.tsv
+
+Summary
+rows	111
+problems_total	0
+errors	0
+warnings	0
+infos	1
+
+Top diagnostics
+INFO	P2004-0113	label	blank_or_dash_label_accepted_for_external		112

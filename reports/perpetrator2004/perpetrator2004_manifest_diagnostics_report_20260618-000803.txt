@@ -1,0 +1,62 @@
+Perpetrator2004 Manifest Diagnostics
+manifest	/srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.tsv
+diagnostics_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_diagnostics_20260618-000803.tsv
+summary_tsv	/srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_summary_20260618-000803.tsv
+
+Summary
+manifest	/srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.tsv
+rows_without_header	111
+problems_total	35
+errors	34
+warnings	1
+source_class.external	19
+source_class.internal	92
+is_html.no	98
+is_html.yes	13
+is_external.no	92
+is_external.yes	19
+extension..doc	93
+extension..gif	1
+extension..htm	13
+extension..rar	2
+extension.__no_ext__	2
+domain.perpetrator2004.narod.ru	109
+domain.www.showtrials.ru	1
+domain.www.ucoz.ru	1
+
+Problems
+ERROR	P2004-0015	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Bukharin/Serovs_Letter_re_Bukharin_Trial.doc
+ERROR	P2004-0015	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Bukharin/Serovs_Letter_re_Bukharin_Trial.doc
+ERROR	P2004-0096	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Search_Record.doc
+ERROR	P2004-0096	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Search_Record.doc
+ERROR	P2004-0097	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Interrogation_Records.doc
+ERROR	P2004-0097	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Interrogation_Records.doc
+ERROR	P2004-0098	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Confrontation_Records.doc
+ERROR	P2004-0098	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Yagoda/Yagoda_Confrontation_Records.doc
+ERROR	P2004-0099	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Prosecutors_Interrogation_Record.doc
+ERROR	P2004-0099	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Yagoda/Prosecutors_Interrogation_Record.doc
+ERROR	P2004-0100	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Kirshon_s_Report_on_Yagoda_s_Behavior_in_Prison.doc
+ERROR	P2004-0100	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Yagoda/Kirshon_s_Report_on_Yagoda_s_Behavior_in_Prison.doc
+ERROR	P2004-0101	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/Yagoda/Shothand_Record_of_Closed_Session.doc
+ERROR	P2004-0101	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/Yagoda/Shothand_Record_of_Closed_Session.doc
+ERROR	P2004-0102	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/picb_621.gif
+ERROR	P2004-0102	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/picb_621.gif
+ERROR	P2004-0103	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Khanik_Documents_Records.doc
+ERROR	P2004-0103	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Khanik_Documents_Records.doc
+ERROR	P2004-0104	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Kotolynov_Interrogation_Record.doc
+ERROR	P2004-0104	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Kotolynov_Interrogation_Record.doc
+ERROR	P2004-0105	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Kotolynov_s_Statement_re_Indictment.doc
+ERROR	P2004-0105	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Kotolynov_s_Statement_re_Indictment.doc
+ERROR	P2004-0107	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Professor_Dembo_s_Letter.doc
+ERROR	P2004-0107	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Professor_Dembo_s_Letter.doc
+ERROR	P2004-0108	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Salkov_Statement.doc
+ERROR	P2004-0108	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Salkov_Statement.doc
+ERROR	P2004-0109	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Trial_Record_Kotolynov_et_al.doc
+ERROR	P2004-0109	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Trial_Record_Kotolynov_et_al.doc
+ERROR	P2004-0110	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Trial_Record_Khanik.doc
+ERROR	P2004-0110	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Trial_Record_Khanik.doc
+ERROR	P2004-0111	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Special_Reports_to_Yagoda.doc
+ERROR	P2004-0111	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Special_Reports_to_Yagoda.doc
+ERROR	P2004-0112	is_external	external_flag_mismatch_expected_no	http://perpetrator2004.narod.ru/documents/kirov/Volkova_s_Letter_Verification.doc
+ERROR	P2004-0112	source_class	source_class_mismatch_expected_internal	http://perpetrator2004.narod.ru/documents/kirov/Volkova_s_Letter_Verification.doc
+WARN	P2004-0113	label	blank_label	

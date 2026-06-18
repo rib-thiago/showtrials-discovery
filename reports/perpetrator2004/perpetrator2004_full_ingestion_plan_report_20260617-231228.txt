@@ -1,0 +1,10 @@
+Perpetrator2004 Full Ingestion Plan
+root        /srv/projects/showtrials-discovery
+source_tsv  /srv/projects/showtrials-discovery/data/t-translation-assets/precursor_perpetrator2004_links.tsv
+manifest    /srv/projects/showtrials-discovery/data/perpetrator2004/manifests/perpetrator2004_full_ingestion_manifest.tsv
+
+Counts:
+manifest_rows_without_header	113
+html_rows	13
+non_html_rows	100
+external_rows	0
