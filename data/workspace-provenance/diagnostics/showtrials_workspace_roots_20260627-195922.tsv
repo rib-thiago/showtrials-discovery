@@ -1,0 +1,15 @@
+root_label	root_path	exists	git_root	is_git_repo	ignored_by_showtrials_git	file_count	total_bytes	inferred_role	notes
+showtrials_project	/srv/projects/showtrials-discovery	yes	/srv/projects/showtrials-discovery	yes	no	5174	411649448	showtrials_core	main showtrials-discovery repository
+russian_archives_discovery	/srv/projects/russian-archives-discovery	yes	/srv/projects/russian-archives-discovery	yes	not_applicable	46	389584	external_discovery	separate multi-source discovery/deduplication project
+local_process_dossiers	/srv/projects/showtrials-discovery/local/process-dossiers	yes	/srv/projects/showtrials-discovery	yes	yes	93	3626605	legacy_snapshot	gitignored local/process-dossiers snapshot
+data_t_translation_assets	/srv/projects/showtrials-discovery/data/t-translation-assets	yes	/srv/projects/showtrials-discovery	yes	no	8	895586	translation_asset	translation-assets project area
+reports_t_translation_assets	/srv/projects/showtrials-discovery/reports/t-translation-assets	yes	/srv/projects/showtrials-discovery	yes	no	5	2242	translation_asset	translation-assets project area
+scripts_t_translation_assets	/srv/projects/showtrials-discovery/scripts/t-translation-assets	yes	/srv/projects/showtrials-discovery	yes	no	8	33681	translation_asset	translation-assets project area
+data_perpetrator2004	/srv/projects/showtrials-discovery/data/perpetrator2004	yes	/srv/projects/showtrials-discovery	yes	no	130	20939885	perpetrator2004_source	autonomous perpetrator2004 corpus area
+reports_perpetrator2004	/srv/projects/showtrials-discovery/reports/perpetrator2004	yes	/srv/projects/showtrials-discovery	yes	no	8	89510	perpetrator2004_source	autonomous perpetrator2004 corpus area
+scripts_perpetrator2004	/srv/projects/showtrials-discovery/scripts/perpetrator2004	yes	/srv/projects/showtrials-discovery	yes	no	9	51904	perpetrator2004_source	autonomous perpetrator2004 corpus area
+data_process_dossiers	/srv/projects/showtrials-discovery/data/process-dossiers	yes	/srv/projects/showtrials-discovery	yes	no	5	591607	process_dossier	process dossier diagnostics/reports/scripts area
+reports_process_dossiers	/srv/projects/showtrials-discovery/reports/process-dossiers	yes	/srv/projects/showtrials-discovery	yes	no	1	6077	process_dossier	process dossier diagnostics/reports/scripts area
+scripts_process_dossiers	/srv/projects/showtrials-discovery/scripts/process-dossiers	yes	/srv/projects/showtrials-discovery	yes	no	2	25932	process_dossier	process dossier diagnostics/reports/scripts area
+toolbox_shared_showtrials	/srv/toolbox/shared/showtrials	yes		no	not_applicable	17	17731642	structural_review	historical shared showtrials front; likely selected structural review batches/checkpoints
+toolbox_shared_showtrials_review	/srv/toolbox/shared/showtrials-review	yes		no	not_applicable	216	263480057	translation_asset	broader shared review workspace with Moscow Trials, extracted text, reports, and translation-assets

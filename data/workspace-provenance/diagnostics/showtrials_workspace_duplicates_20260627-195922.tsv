@@ -1,0 +1,5 @@
+duplicate_group	sha256	basename	root_label	relpath	abs_path	size_bytes	roots_seen
+dup_00001	01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	.gitkeep	russian_archives_discovery	data/cache/.gitkeep	/srv/projects/russian-archives-discovery/data/cache/.gitkeep	1	russian_archives_discovery
+dup_00001	01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	.gitkeep	russian_archives_discovery	data/pdf/.gitkeep	/srv/projects/russian-archives-discovery/data/pdf/.gitkeep	1	russian_archives_discovery
+dup_00001	01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	.gitkeep	russian_archives_discovery	data/raw/.gitkeep	/srv/projects/russian-archives-discovery/data/raw/.gitkeep	1	russian_archives_discovery
+dup_00001	01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	.gitkeep	russian_archives_discovery	data/text/.gitkeep	/srv/projects/russian-archives-discovery/data/text/.gitkeep	1	russian_archives_discovery

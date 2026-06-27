@@ -1,0 +1,147 @@
+ShowTrials Workspace Provenance Diagnostic Report
+Generated from /srv/projects/showtrials-discovery
+
+Resumo executivo
+- Inventory rows: 638 across 14 roots.
+- Duplicate hash+basename rows: 4.
+- Name conflict rows: 58.
+- Git evidence rows: 27.
+- This is diagnostic only: no files were moved, copied, deleted, reclassified in place, committed, or ignored.
+- Current evidence supports treating process dossiers, translation assets, perpetrator2004, and russian-archives-discovery as related but distinct provenance classes until human review.
+
+O que é /srv/toolbox/shared/showtrials
+- Root evidence: yes; files=17; role=structural_review; historical shared showtrials front; likely selected structural review batches/checkpoints.
+- Inference: likely an earlier structural review / selected batch workspace. The presence of checkpoints and showtrials naming indicates historical review material rather than the canonical current corpus.
+
+O que é /srv/toolbox/shared/showtrials-review
+- Root evidence: yes; files=216; role=translation_asset; broader shared review workspace with Moscow Trials, extracted text, reports, and translation-assets.
+- Inference: broader and later review/extraction/curation workspace. Moscow Trials PDFs/text/reports and translation-assets point to mixed corpus support and review activity.
+
+O que é translation-assets
+- Related roots: yes; files=8; role=translation_asset; translation-assets project area | yes; files=5; role=translation_asset; translation-assets project area | yes; files=8; role=translation_asset; translation-assets project area.
+- Inference: translation-assets is a control/parallel corpus and auxiliary-source area, including Moscow Trials EN, Ezhov-related assets, MIA/precursor sites, extraction targets, and reports/scripts.
+
+O que são os dossiês markdown
+- Inference: markdown dossiers are a study/interpretive process-dossier layer, not primary translation assets. Same-name markdown conflicts, especially resumo.md or numbered dossiers if present, require review before any consolidation.
+
+O que é local/process-dossiers
+- Root evidence: yes; files=93; role=legacy_snapshot; gitignored local/process-dossiers snapshot.
+- Gitignore evidence: yes for local/process-dossiers.
+- Inference: legacy local snapshot under gitignored local/. It should be treated as provenance evidence and not as canonical tracked data without manual review.
+
+O que é perpetrator2004 dentro de showtrials-discovery
+- Related roots: yes; files=130; role=perpetrator2004_source; autonomous perpetrator2004 corpus area | yes; files=8; role=perpetrator2004_source; autonomous perpetrator2004 corpus area | yes; files=9; role=perpetrator2004_source; autonomous perpetrator2004 corpus area.
+- Inference: perpetrator2004 may have begun as a precursor/translation asset, but current repository organization supports treating it as an autonomous source corpus with its own data, reports, and scripts.
+
+Relação com russian-archives-discovery
+- Root evidence: yes; files=46; role=external_discovery; separate multi-source discovery/deduplication project.
+- Inference: russian-archives-discovery is a separate discovery/deduplication project. It can provide external comparison evidence, but should not become the canonical storage place for ShowTrials corpus payloads or study dossiers.
+
+Materiais possivelmente redundantes
+- Duplicate rows are listed in data/workspace-provenance/diagnostics/showtrials_workspace_duplicates_20260627-195922.tsv.
+- Name conflicts are listed in data/workspace-provenance/diagnostics/showtrials_workspace_name_conflicts_20260627-195922.tsv.
+- Redundancy should be evaluated by hash, basename, root role, and mtime together. Equal hashes are overlap evidence, not a deletion instruction.
+
+Materiais que não devem ser movidos ainda
+- Anything under local/process-dossiers, toolbox shared roots, translation-assets, perpetrator2004, and russian-archives-discovery should remain in place until a human validates the inferred role and conflict TSVs.
+- READMEs, reports, scripts, logs, and manifests are provenance evidence and should not be discarded during early cleanup.
+
+Proposta de taxonomia canônica futura
+- showtrials_core: canonical tracked ShowTrials corpus/project material.
+- translation_asset: parallel/control translation corpora and auxiliary precursor sources.
+- process_dossier: markdown study dossiers and derived dossier text.
+- perpetrator2004_source: autonomous perpetrator2004 source corpus, manifests, mirror diagnostics, and reports.
+- external_discovery: separate discovery/deduplication projects such as russian-archives-discovery.
+- structural_review, semantic_layer, chunkbuilder_related: analytical layers with separate ownership from source payloads.
+
+Riscos de migração
+- Same basenames with different hashes can represent revisions, unrelated files, or divergent dossier drafts.
+- local/ is intentionally ignored; promoting files from it may add stale snapshots if not compared against shared and tracked outputs.
+- Shared workspaces may contain mixed-purpose materials; directory ancestry alone is insufficient for final classification.
+- Git history can show naming and timing but does not prove conceptual ownership without content review.
+
+Próximos passos recomendados
+- Review this report and the four diagnostic TSVs manually.
+- Inspect name conflicts first, then duplicate groups that cross root boundaries.
+- Compare READMEs/reports/scripts with Git evidence to identify authoritative generation paths.
+- Decide canonical taxonomy and migration rules only after review; this script intentionally does not implement migration.
+
+Class counts
+- external_discovery: 25
+- legacy_snapshot: 97
+- perpetrator2004_source: 166
+- process_dossier: 51
+- report: 26
+- script: 49
+- showtrials_core: 1
+- structural_review: 28
+- temporary_or_log: 2
+- translation_asset: 193
+
+Root role counts
+- external_discovery: 1
+- legacy_snapshot: 1
+- perpetrator2004_source: 3
+- process_dossier: 3
+- showtrials_core: 1
+- structural_review: 1
+- translation_asset: 4
+
+Representative examples
+- external_discovery:
+  - /srv/projects/russian-archives-discovery/.gitignore
+  - /srv/projects/russian-archives-discovery/pyproject.toml
+  - /srv/projects/russian-archives-discovery/config/sources.yml
+  - /srv/projects/russian-archives-discovery/config/search_profiles/safarov.yml
+  - /srv/projects/russian-archives-discovery/config/terms/archive_refs.yml
+- legacy_snapshot:
+  - /srv/projects/showtrials-discovery/local/process-dossiers/1934_leningrad_center.txt
+  - /srv/projects/showtrials-discovery/local/process-dossiers/1934_leningrad_center_hod_processa_ru_combined.txt
+  - /srv/projects/showtrials-discovery/local/process-dossiers/1935_moscow_center.txt
+  - /srv/projects/showtrials-discovery/local/process-dossiers/1935_moscow_center_hod_processa_ru_combined.txt
+  - /srv/projects/showtrials-discovery/local/process-dossiers/1936_moscow_trial.txt
+- perpetrator2004_source:
+  - /srv/projects/showtrials-discovery/data/t-translation-assets/precursor_perpetrator2004_links.tsv
+  - /srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_full_mirror_apply_20260618-010512.tsv
+  - /srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_diagnostics_20260617-233139.tsv
+  - /srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_diagnostics_20260618-000803.tsv
+  - /srv/projects/showtrials-discovery/data/perpetrator2004/diagnostics/perpetrator2004_manifest_diagnostics_v2_20260617-235035.tsv
+- process_dossier:
+  - /srv/projects/showtrials-discovery/data/process-dossiers/diagnostics/process_dossier_files_20260627-192803.tsv
+  - /srv/projects/showtrials-discovery/data/process-dossiers/diagnostics/process_dossier_name_conflicts_20260627-192803.tsv
+  - /srv/projects/showtrials-discovery/data/process-dossiers/diagnostics/process_dossier_newer_shared_candidates_20260627-192803.tsv
+  - /srv/projects/showtrials-discovery/data/process-dossiers/diagnostics/process_dossier_workspaces_20260627-192803.tsv
+  - /srv/toolbox/shared/showtrials-review/resumo.md
+- report:
+  - /srv/projects/russian-archives-discovery/README.md
+  - /srv/projects/russian-archives-discovery/reports/catalog_diagnosis.md
+  - /srv/projects/russian-archives-discovery/reports/missing_documents_queue.md
+  - /srv/projects/russian-archives-discovery/reports/safarov_external_discovery.md
+  - /srv/projects/russian-archives-discovery/reports/search_queries.md
+- script:
+  - /srv/projects/russian-archives-discovery/russian_archives_discovery/__init__.py
+  - /srv/projects/russian-archives-discovery/russian_archives_discovery/archive_refs.py
+  - /srv/projects/russian-archives-discovery/russian_archives_discovery/catalog.py
+  - /srv/projects/russian-archives-discovery/russian_archives_discovery/classify.py
+  - /srv/projects/russian-archives-discovery/russian_archives_discovery/config.py
+- structural_review:
+  - /srv/toolbox/shared/showtrials/structural-review-selected-batch-1/conversation_recording/02_8355_-87.txt
+  - /srv/toolbox/shared/showtrials/structural-review-selected-batch-1/conversation_recording/05_8430_-87.txt
+  - /srv/toolbox/shared/showtrials/structural-review-selected-batch-1/conversation_recording/06_8422_-87.txt
+  - /srv/toolbox/shared/showtrials/structural-review-selected-batch-1/conversation_recording/08_8407_-87.txt
+  - /srv/toolbox/shared/showtrials/structural-review-selected-batch-1/interrogation_protocol/03_3959_._..txt
+- temporary_or_log:
+  - /srv/toolbox/shared/showtrials/checkpoints/showtrials-discovery-D1-D4-20260610-003217.tar.gz
+- translation_asset:
+  - /srv/projects/russian-archives-discovery/data/catalog/discovery.tsv
+  - /srv/projects/russian-archives-discovery/data/catalog/showtrials_baseline.tsv
+  - /srv/projects/showtrials-discovery/data/t-translation-assets/ezhov_parallel_documents.tsv
+  - /srv/projects/showtrials-discovery/data/t-translation-assets/ezhov_parallel_search_corpus.tsv
+  - /srv/projects/showtrials-discovery/data/t-translation-assets/translation_html_documents.tsv
+
+Artifacts
+- data/workspace-provenance/diagnostics/showtrials_workspace_inventory_20260627-195922.tsv
+- data/workspace-provenance/diagnostics/showtrials_workspace_roots_20260627-195922.tsv
+- data/workspace-provenance/diagnostics/showtrials_workspace_duplicates_20260627-195922.tsv
+- data/workspace-provenance/diagnostics/showtrials_workspace_name_conflicts_20260627-195922.tsv
+- data/workspace-provenance/diagnostics/showtrials_workspace_git_evidence_20260627-195922.tsv
